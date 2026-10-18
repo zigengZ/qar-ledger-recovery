@@ -1,0 +1,12 @@
+{
+  "name": "qar-repro",
+  "private": true,
+  "type": "module",
+  "description": "Reproduce the qAR tail ledger from public Arweave gateways.",
+  "engines": {
+    "node": "22.22.0"
+  },
+  "dependencies": {
+    "@permaweb/ao-loader": "0.0.44"
+  }
+}

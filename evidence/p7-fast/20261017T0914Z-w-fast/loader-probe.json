@@ -1,0 +1,83 @@
+{
+  "loader_version": "0.0.44",
+  "node": "v22.22.0",
+  "claim": "快速估计准备。probe 不是 P7 正式结果。",
+  "checkpoint_bytes": 428146688,
+  "checkpoint_sha256": "fbb8172e8879c5d27b3bc4b00de5a150a027d575a9faf511f3cd0747b949ce26",
+  "buffer_from_ms": 300,
+  "sha256_ms": 0,
+  "copy_matches": true,
+  "wasm_sha256": "164c0859e796d30f682944be8bdd544a1292e9140f6f2998ce5ef93e2184a8c8",
+  "first_handle_ms": 555.4,
+  "input_untouched": true,
+  "result_is_distinct": true,
+  "second_handle_ms": 345.1,
+  "first_output_stable": true,
+  "first_error": null,
+  "one_cron_balance_diff": {
+    "left_addresses": 7614,
+    "right_addresses": 7614,
+    "changed": 0,
+    "sample": []
+  },
+  "one_cron_sum": "189487568412204611",
+  "safe10_ms": 3251.2,
+  "safe10_sha256": "4e341435f023aa41f27fc2b1dbb764c14c30ca39b13f14a02704bac722562960",
+  "bufferfrom10_ms": 6412.8,
+  "bufferfrom10_sha256": "4e341435f023aa41f27fc2b1dbb764c14c30ca39b13f14a02704bac722562960",
+  "bufferfrom_matches_safe10": true,
+  "loader_patch": {
+    "path": "<repo>/data/raw/fast/ao-loader-inplace.cjs",
+    "bytes": 1032617,
+    "sha256": "9aa824b7b27303e641daa285b3c8c1c7642e950e2c591698234f4cd439c6270c",
+    "source_sha256": "5f8acd8e8fa582f65aa085a6c74c56b7e18db985cb5556dcae2aedd3a530d167"
+  },
+  "inplace10_ms": 362.5,
+  "inplace10_sha256": "4e341435f023aa41f27fc2b1dbb764c14c30ca39b13f14a02704bac722562960",
+  "inplace_matches_safe10": true,
+  "prefix_through_second_assignment_ms": 599.7,
+  "assignment_prefix": {
+    "first_index": 40,
+    "first_nonce": 2074519,
+    "first_action": "Transfer",
+    "second_index": 42,
+    "second_nonce": 2074520,
+    "second_action": "Event",
+    "items_with_crons": 43,
+    "balance_diff_against_assignment_only": {
+      "left_addresses": 7614,
+      "right_addresses": 7614,
+      "changed": 0,
+      "sample": []
+    }
+  },
+  "safe10_items_per_min": 184.55,
+  "inplace10_items_per_min": 1655.17,
+  "inplace_over_safe": 8.969,
+  "stream": {
+    "step_lines": 398,
+    "mismatches": 0,
+    "items": 39065
+  },
+  "summary": {
+    "height_source": "gateway block timestamps, cronsBetween from recovery/p6/replay.mjs",
+    "from_nonce": 2074518,
+    "to_nonce": 2075923,
+    "messages": 39065,
+    "crons": 37660,
+    "assignments": 1405,
+    "first": {
+      "kind": "cron",
+      "timestamp": 1771847983094,
+      "height": 1863436,
+      "nonce": null
+    },
+    "last": {
+      "kind": "assignment",
+      "nonce": 2075923,
+      "timestamp": 1783145995380,
+      "action": "Eval"
+    },
+    "build_ms": 1512
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "missing_count": 0,
+  "missing_ranges": [],
+  "note": "The GraphQL hole 5770..5793 was present in the raw bundle.",
+  "range_inclusive": [
+    0,
+    49999
+  ],
+  "run_id": "20261016T192515Z-p4-gapfill",
+  "status": "no_gap"
+}

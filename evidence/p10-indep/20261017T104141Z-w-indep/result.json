@@ -1,0 +1,47 @@
+{
+  "equal": true,
+  "start_nonce": 2074518,
+  "end_nonce": 2075923,
+  "assignments": 1405,
+  "flags": {
+    "IS_STOPPED": false,
+    "TRANSFERS_ENABLED": true,
+    "DEPOSITS_ENABLED": false,
+    "WITHDRAWALS_ENABLED": false
+  },
+  "transfers_ok": 703,
+  "transfers_rejected": 0,
+  "events_ignored": 701,
+  "eval": {
+    "nonce": 2075923,
+    "message_id": "wEP24VhCVebi9GrE1bsUn0DCiJ0uKBuju1qBm4VYqNQ",
+    "from": "6I6ePxxK19g00lsgihn9T84URrBdNbBaRtSGw_qq9es",
+    "bytes": 131,
+    "body": "table.insert(ao.authorities, 'CCcVUmUBl6scmH2a8thOqXjW9kmPVtf6bEDeP4Edw9c'); table.remove(ao.authorities, 1); print(ao.authorities)",
+    "mentions_balances": false,
+    "applied_to_balances": false,
+    "reason": "The Eval inserts one ao.authorities entry and removes index 1. It does not read or write Balances."
+  },
+  "other_actions": {},
+  "rows": 7615,
+  "sum_raw": "189487568412204611",
+  "fast_rows": 7615,
+  "fast_sum_raw": "189487568412204611",
+  "sum_equals_fast_sum": true,
+  "created_recipients": [
+    {
+      "nonce": 2075709,
+      "recipient": "wjoJOfqq-JpsBLU196R4K-Fhj1ZQSnNkBqhTWc4ADl4",
+      "quantity": "561743870384",
+      "from": "F9dWqoqSMzC3oyigfhezyT0fzc5BjhIYVSqcQWOgDq8"
+    }
+  ],
+  "comparison": {
+    "equal": true,
+    "only_independent": [],
+    "only_fast": [],
+    "changed": [],
+    "only_independent_nonces": {},
+    "only_fast_nonces": {}
+  }
+}

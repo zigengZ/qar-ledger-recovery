@@ -1,0 +1,11 @@
+{
+  "endpoint": "https://arweave.net/graphql",
+  "query": "recovery.assignments.EXACT_NONCE_QUERY",
+  "variables": {
+    "after": null,
+    "first": 5,
+    "nonces": [
+      "97956"
+    ]
+  }
+}

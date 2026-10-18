@@ -1,0 +1,144 @@
+{
+  "run_id": "20261017T105845Z-w-unwrap",
+  "process_id": "NG-0lVX882MG5nhARrSzyprEK6ejonHpdUmaaMPsHE8",
+  "evaluator": "@permaweb/ao-loader@0.0.44",
+  "wasm_sha256": "164c0859e796d30f682944be8bdd544a1292e9140f6f2998ce5ef93e2184a8c8",
+  "probe": "Action=Eval, From=process owner, expression require('json').encode(...)",
+  "chain_cross_check": false,
+  "owed_csv": false,
+  "tail": {
+    "nonce": 2075923,
+    "memory_sha256": "25e629fd58413416511208b7fd5886b17ab971c705fd4f06430b1745814a018a",
+    "memory_bytes": 428146688,
+    "copy_unchanged": true,
+    "balances": {
+      "before_sha256": "be644d459f76edc2ac325ed65831ef7369fbedc9b85d84cadbfdbe4e36081f91",
+      "after_sha256": "be644d459f76edc2ac325ed65831ef7369fbedc9b85d84cadbfdbe4e36081f91",
+      "before_bytes": 402362,
+      "unchanged": true,
+      "error": null
+    },
+    "stats": {
+      "deposits_completed": {
+        "unsummed_by_status": [],
+        "quantity_types": {
+          "string": 40,
+          "integer": 4324
+        },
+        "lua_type": "table",
+        "field_names": [
+          "id",
+          "owner",
+          "quantity",
+          "request_id",
+          "status",
+          "transfer_id"
+        ],
+        "sum_by_status": {
+          "completed": "462464606831828283"
+        },
+        "rows": 4364,
+        "by_status": {
+          "completed": 4364
+        }
+      },
+      "deposits": {
+        "unsummed_by_status": [],
+        "quantity_types": [],
+        "lua_type": "table",
+        "field_names": [],
+        "sum_by_status": [],
+        "rows": 0,
+        "by_status": []
+      },
+      "flags": {
+        "TRANSFERS_ENABLED": {
+          "type": "boolean",
+          "value": true
+        },
+        "WITHDRAWALS_ENABLED": {
+          "type": "boolean",
+          "value": "false"
+        },
+        "IS_STOPPED": {
+          "type": "boolean",
+          "value": "false"
+        },
+        "DEPOSITS_ENABLED": {
+          "type": "boolean",
+          "value": "false"
+        }
+      },
+      "unwraps": {
+        "unsummed_by_status": [],
+        "quantity_types": [],
+        "lua_type": "table",
+        "field_names": [],
+        "sum_by_status": [],
+        "rows": 0,
+        "by_status": []
+      },
+      "unwraps_completed": {
+        "unsummed_by_status": {
+          "completed": 36
+        },
+        "quantity_types": {
+          "string": 2198,
+          "table": 36
+        },
+        "lua_type": "table",
+        "field_names": [
+          "id",
+          "owner",
+          "quantity",
+          "request_id",
+          "status",
+          "transfer_id"
+        ],
+        "sum_by_status": {
+          "completed": "272924788419623672"
+        },
+        "rows": 2234,
+        "by_status": {
+          "completed": 2234
+        }
+      },
+      "withdrawals_completed": "nil",
+      "withdrawals": "nil"
+    }
+  },
+  "checkpoint": {
+    "nonce": 2074518,
+    "memory_sha256": "fbb8172e8879c5d27b3bc4b00de5a150a027d575a9faf511f3cd0747b949ce26",
+    "memory_bytes": 428146688,
+    "copy_unchanged": true,
+    "balances": {
+      "before_sha256": "e8637b0e4af3fae0837fdde365c17997bbd6a715c76750d31783b201b2bc0967",
+      "after_sha256": "e8637b0e4af3fae0837fdde365c17997bbd6a715c76750d31783b201b2bc0967",
+      "before_bytes": 402335,
+      "unchanged": true,
+      "error": null
+    },
+    "stats_equal_to_tail": true
+  },
+  "bint_quantities": {
+    "table": "UnwrapsCompleted",
+    "rows": 36,
+    "tostring_all_decimal": true,
+    "raw_sum": "52250000000000",
+    "field_shapes": {
+      "owner,quantity,status": 21,
+      "owner,quantity,request_id,status,transfer_id": 15
+    },
+    "included_in_completed_total": true
+  },
+  "totals": {
+    "unwraps_completed_raw": "272977038419623672",
+    "unwraps_completed_string_rows_raw": "272924788419623672",
+    "unwraps_completed_bint_rows_raw": "52250000000000",
+    "deposits_completed_raw": "462464606831828283",
+    "denomination": 12,
+    "unwraps_completed_human": "272977.038419623672",
+    "deposits_completed_human": "462464.606831828283"
+  }
+}

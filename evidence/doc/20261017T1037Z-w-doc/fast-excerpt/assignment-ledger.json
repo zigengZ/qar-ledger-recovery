@@ -1,0 +1,103 @@
+{
+  "label": "\u5feb\u901f\u4f30\u8ba1\uff0c\u975e P7 \u6b63\u5f0f\u7ed3\u679c",
+  "fast_estimate": true,
+  "official_p7": false,
+  "assignments": 1405,
+  "applied": 1405,
+  "handler_errors": 0,
+  "actions": {
+    "Transfer": 703,
+    "Event": 701,
+    "Eval": 1
+  },
+  "addresses": 7615,
+  "total_supply": "189487568412204611",
+  "balance_sum": "189487568412204611",
+  "sum_equals_supply": true,
+  "opening_sum": "189487568412204611",
+  "opening_addresses": 7614,
+  "changed_addresses": 11,
+  "diff_from_checkpoint": {
+    "left_addresses": 7614,
+    "right_addresses": 7615,
+    "changed": 11,
+    "sample": [
+      {
+        "address": "3biQvRjIp_9Qz1L9D3SJ9laK4akCkP-8bvAo3pQ6jVI",
+        "left": "3003053338103",
+        "right": "2602630141925"
+      },
+      {
+        "address": "AxpxHZmHQhF25FkVSVX0T877PP2WUi7I46nmQaECUHI",
+        "left": "0",
+        "right": "31129166766473"
+      },
+      {
+        "address": "Bv5mfnx5Ln2BU60inXPnMOGMwecJXadV4oqw7iwjzSk",
+        "left": "320089670049015",
+        "right": "312546942799043"
+      },
+      {
+        "address": "BzZ5t7E0BxYXzKDJoy8DBUDyseK84ODWgk0z9Ra-948",
+        "left": "56636111316938",
+        "right": "123291631310116"
+      },
+      {
+        "address": "cjp59bXFj6GL8ja200hnjfkGsXQrSG095SlyFH39-U8",
+        "left": "180243716191492791",
+        "right": "180398401009414645"
+      },
+      {
+        "address": "F9dWqoqSMzC3oyigfhezyT0fzc5BjhIYVSqcQWOgDq8",
+        "left": "561743870384",
+        "right": "0"
+      },
+      {
+        "address": "MmhScGp35v-9veB1ufbXRDoaDleTi_z3V_vZTjA8bnU",
+        "left": "4725068954918",
+        "right": "0"
+      },
+      {
+        "address": "wjoJOfqq-JpsBLU196R4K-Fhj1ZQSnNkBqhTWc4ADl4",
+        "left": null,
+        "right": "561743870384"
+      },
+      {
+        "address": "wTIpisZKMtG5WsLFqQBdoJEObyyeoJQmwWFm1h462D4",
+        "left": "381553671374914",
+        "right": "291712135061413"
+      },
+      {
+        "address": "wWq05ZZX6Jj2p9wW59oZ6lMF_KdW754zywqLa9n8INA",
+        "left": "149454420015180",
+        "right": "0"
+      },
+      {
+        "address": "yEGUy_Dl229kp8cDtJ8wxekm0cqe2t68PhLrHPoHWQY",
+        "left": "505328951756",
+        "right": "0"
+      }
+    ]
+  },
+  "memory_sha256": "c328ab18354b7325050285a8b09e9de5e83a42d048653670cbc990d80fc7d3a7",
+  "memory_bytes": 428146688,
+  "memory_path": "data/raw/fast/assignments-only/memory.bin",
+  "memory_file_sha256": "c328ab18354b7325050285a8b09e9de5e83a42d048653670cbc990d80fc7d3a7",
+  "memory_file_bytes": 428146688,
+  "items_per_min": 165.37,
+  "elapsed_ms": 509753.3,
+  "files": {
+    "assignment-balances.json": {
+      "bytes": 402362,
+      "sha256": "c1f5493442ce03708d7e9833940f80bc6274880cf9332f6e7ea4223c4a7f5d15"
+    },
+    "assignment-balances.csv": {
+      "bytes": 412418,
+      "sha256": "a667a9218b43a348dfc1c6f4a9374866ae39b54404ca69847926d91e336c41c4"
+    },
+    "assignment-report.json": {
+      "bytes": 3329,
+      "sha256": "5564fa37cea6fa1e9d1b8e28064a9c5c59898729a7fa2b616631b81100363b98"
+    }
+  }
+}

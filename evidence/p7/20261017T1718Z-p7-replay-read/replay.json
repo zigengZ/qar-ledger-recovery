@@ -1,0 +1,32 @@
+{
+  "run_id": "20261017T1718Z-p7-replay-read",
+  "balances_written": true,
+  "from_nonce": 2074518,
+  "to_nonce": 2075923,
+  "last": {
+    "kind": "assignment",
+    "nonce": 2075923,
+    "timestamp": 1783145995380
+  },
+  "applied": 39065,
+  "handler_errors": 0,
+  "messages": 39065,
+  "assignments": 1405,
+  "crons": 37660,
+  "memory_sha256": "25e629fd58413416511208b7fd5886b17ab971c705fd4f06430b1745814a018a",
+  "memory_bytes": 428146688,
+  "memory_sha_matches_fast_and_clean_clone": true,
+  "balance_value_diff_vs_fast": 0,
+  "balance_addresses": 7615,
+  "balance_sum": "189487568412204611",
+  "total_supply_data": "189487568412204611",
+  "full_safe_mode_ran": false,
+  "goal_complete": false,
+  "publish_claims": false,
+  "shutdown_claim": false,
+  "sources": {
+    "local_report": "recovery/p7/data/raw/p7/tail-2074518/report.json",
+    "local_report_sha256": "ace1fc9df483e10a445e41eecb3a4db2e29942b474a71fe0b8ab9f128eac32b1",
+    "crosscheck": "evidence/p7/20261017T1708Z-p7-main-tail-crosscheck/crosscheck.json"
+  }
+}

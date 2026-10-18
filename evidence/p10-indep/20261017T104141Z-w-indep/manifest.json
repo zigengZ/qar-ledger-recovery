@@ -1,0 +1,40 @@
+{
+  "run_id": "20261017T104141Z",
+  "files": [
+    {
+      "path": "evidence/p10-indep/20261017T104141Z-w-indep/start.json",
+      "bytes": 964,
+      "sha256": "70886535848b20247b60154a8a5f70a938a38d66b9d2fb349a5d33d699cd5e50"
+    },
+    {
+      "path": "evidence/p10-indep/20261017T104141Z-w-indep/result.json",
+      "bytes": 1380,
+      "sha256": "ff043fe70a26e3cb6b0aa1ecb790bf83f6b69b8b8b1adfd7edff98da468492a9"
+    },
+    {
+      "path": "evidence/p10-indep/20261017T104141Z-w-indep/transfers.jsonl",
+      "bytes": 336898,
+      "sha256": "df510f45f15158961fe652a0ed7eeb70ac977af62ce28cbe9c3294bf37f68c0d"
+    },
+    {
+      "path": "<repo>/data/raw/indep/20261017T104141Z-w-indep/balances.json",
+      "bytes": 402362,
+      "sha256": "80508d6785a97ef877dc07ad46da63f5cd5625d77456e1f4c4b0e08ccf757c16"
+    },
+    {
+      "path": "<repo>/data/raw/src/20261017T051439Z-w-src/checkpoint/ffGXsmlki22rK3C5Waxie6Ux3IpVFaxgFYZeuMpjnMk.mem",
+      "bytes": 428146688,
+      "sha256": "fbb8172e8879c5d27b3bc4b00de5a150a027d575a9faf511f3cd0747b949ce26"
+    },
+    {
+      "path": "<repo>/data/raw/eval/20261017T052333Z-w-eval/semantic/gate-B-balances-checkpoint.json",
+      "bytes": 402335,
+      "sha256": "e8637b0e4af3fae0837fdde365c17997bbd6a715c76750d31783b201b2bc0967"
+    },
+    {
+      "path": "<repo>/data/raw/fast/tail/balances.json",
+      "bytes": 402362,
+      "sha256": "c1f5493442ce03708d7e9833940f80bc6274880cf9332f6e7ea4223c4a7f5d15"
+    }
+  ]
+}

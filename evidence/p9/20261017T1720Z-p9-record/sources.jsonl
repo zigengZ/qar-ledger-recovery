@@ -1,0 +1,6 @@
+{"id": "p9-collat-summary", "path": "evidence/p9/20261017T090508Z-w-collat/SUMMARY.md", "says": "Asset is native AR. Holder is not one wallet. Separable raw amount is null."}
+{"id": "p9-collat-json", "path": "evidence/p9/20261017T090508Z-w-collat/collateral.json", "says": "raw_amount_at_tail and raw_amount_now are null. Custody wallet balance is a whole-wallet figure."}
+{"id": "p9-recon", "path": "evidence/p9/20261017T090508Z-w-collat/reconciliation.json", "says": "collateral_gap_at_tail_raw is null. Minted and burned totals are null."}
+{"id": "p9-handlers", "path": "evidence/p9-prep/20261017T051439Z-w-src/handlers.md", "says": "Mint uses message quantity. The handler does not name an asset id."}
+{"id": "p9-unwrap", "path": "evidence/p9-unwrap/20261017T105845Z-w-unwrap/SUMMARY.md", "says": "Open Unwraps and Deposits tables have 0 rows. Completed sums are not collateral held."}
+{"id": "p1-tail", "path": "evidence/p1-tail.json", "says": "Tail time point is nonce 2075923, block 1951869."}

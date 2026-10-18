@@ -1,0 +1,8 @@
+{
+  "total_supply_raw": "189487568412204611",
+  "source": "data/raw/fast/tail/report.json ledger.total_supply_data",
+  "memory_sha256": "25e629fd58413416511208b7fd5886b17ab971c705fd4f06430b1745814a018a",
+  "balances_sha256": "c1f5493442ce03708d7e9833940f80bc6274880cf9332f6e7ea4223c4a7f5d15",
+  "independently_summed": true,
+  "note": "Read from the fast replay Messages data. Not copied from the balance sum."
+}

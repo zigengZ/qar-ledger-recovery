@@ -1,0 +1,127 @@
+{
+  "run_id": "20261017T034025Z-p4-50000-nonbinary",
+  "range_inclusive": [
+    50000,
+    99999
+  ],
+  "complete": false,
+  "goal_complete": false,
+  "module_executed": false,
+  "inserted": 0,
+  "unique_nonces_in_range": 49868,
+  "still_missing": 132,
+  "method": "Chunk-scan every transaction in the hole-neighbor blocks whose Bundle-Format tag is not binary and whose data size is at least 1. The same paired nonce rule was used. The GraphQL page for each window ended with hasNextPage false.",
+  "queue_finished": true,
+  "transactions_scanned": 459,
+  "bytes_read": 517774891,
+  "fully_read": 459,
+  "unclosed": 0,
+  "process_hit_count": 0,
+  "paired_wanted_nonces": 0,
+  "result": "Every one of these 459 transactions was fully read. None contains this process id, so none contains a wanted nonce of this process. Nothing was inserted. This does not close the 132 holes. Those nonces can still sit in unread chunk gaps of the binary bundles already scanned.",
+  "ao_bundles_still_unclosed_in_hole_windows": [
+    {
+      "block": 1551416,
+      "id": "iCo0fdk5dSFNKQzcfDDWmmzV5_Xey19YdpEuM_7x7uA",
+      "bytes_read": 43476290,
+      "bundle_size": 50816322,
+      "gap_count": 25,
+      "process_hit_count": 24,
+      "paired_wanted_nonces_in_readable_bytes": 0,
+      "bundle_closed": false,
+      "first_gap": [
+        786432,
+        1048576
+      ]
+    },
+    {
+      "block": 1551519,
+      "id": "vaJwSINpg1xR0JvUbJjivcl3P8htEy9H1LMUP7I5T1I",
+      "bytes_read": 229460361,
+      "bundle_size": 286345609,
+      "gap_count": 89,
+      "process_hit_count": 40,
+      "paired_wanted_nonces_in_readable_bytes": 0,
+      "bundle_closed": false,
+      "first_gap": [
+        6815744,
+        7077888
+      ]
+    },
+    {
+      "block": 1551522,
+      "id": "bIsbbJGjA_-_sHgFoA-9X3SyU_8O54wjVMofOKA679M",
+      "bytes_read": 1590726883,
+      "bundle_size": 1658360035,
+      "gap_count": 183,
+      "process_hit_count": 16,
+      "paired_wanted_nonces_in_readable_bytes": 0,
+      "bundle_closed": false,
+      "first_gap": [
+        1048576,
+        1572864
+      ]
+    },
+    {
+      "block": 1551728,
+      "id": "mL9yvfMLzZy74NXfJyraGKK45FDE8q9_tOZqFahRwHQ",
+      "bytes_read": 1034420224,
+      "bundle_size": 2443046059,
+      "gap_count": 903,
+      "process_hit_count": 132,
+      "paired_wanted_nonces_in_readable_bytes": 31,
+      "bundle_closed": false,
+      "first_gap": [
+        278396928,
+        278659072
+      ],
+      "hit_note": "The 31 paired nonces are 90879..90909, already recovered and linked. The remaining gaps in this bundle are not a new hole."
+    },
+    {
+      "block": 1551961,
+      "id": "glr7pOXTBRwk6luSIXPYzoKuKNF3PviP0cBot8P_uQs",
+      "bytes_read": 2513436672,
+      "bundle_size": 3209925259,
+      "gap_count": 1213,
+      "process_hit_count": 200,
+      "paired_wanted_nonces_in_readable_bytes": 0,
+      "bundle_closed": false,
+      "first_gap": [
+        786432,
+        1048576
+      ]
+    },
+    {
+      "block": 1552178,
+      "id": "heiqNVDCZihkPzpjdZhru_Cdyl-9hCuE60C2pXpAJ08",
+      "bytes_read": 1462875722,
+      "bundle_size": 1505343050,
+      "gap_count": 93,
+      "process_hit_count": 60,
+      "paired_wanted_nonces_in_readable_bytes": 6,
+      "bundle_closed": false,
+      "first_gap": [
+        524288,
+        786432
+      ],
+      "hit_note": "The 6 paired nonces are tags 95463, 95465, 95469, 95473, 95481, and 95485. The header is unreadable, so they stay unparsed and uninserted."
+    },
+    {
+      "block": 1552451,
+      "id": "QCanjfosATSuFwJTEczxk4s_dfyr_xjlaHjv8owoIxM",
+      "bytes_read": 40632320,
+      "bundle_size": 198234558,
+      "gap_count": 127,
+      "process_hit_count": 3,
+      "paired_wanted_nonces_in_readable_bytes": 2,
+      "bundle_closed": false,
+      "first_gap": [
+        1048576,
+        1835008
+      ],
+      "hit_note": "The 2 paired nonces are tags 97965 and 97970. The header is unreadable, so they stay unparsed and uninserted."
+    }
+  ],
+  "recovery_condition": "Re-read the unread chunk gaps of the unclosed AO and non-AO bundles named in evidence/p4/20261017T023731Z-p4-50000-ao-queue/finding.json and evidence/p4/20261017T033409Z-p4-50000-non-ao/finding.json. A 404 is still a hole. Parse and insert a nonce only when its item bytes and the bundle header are readable and the hash-chain link to a present neighbor matches. Do not fill unread bytes. Do not open nonce 100000 or start P5 while any nonce in 50000..99999 is missing.",
+  "note": "Sampled header and gap chunks still return HTTP 404 from arweave.net and turbo-gateway.com. Direct transaction data for QfLTzjBiHDlrM0J7g4Of4ZzCReixsIc5-cue-9NVyCA also returned HTTP 404."
+}

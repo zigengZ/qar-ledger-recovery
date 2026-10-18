@@ -1,0 +1,24 @@
+{
+  "block": 1924100,
+  "bundle_bytes": 16216,
+  "bundle_id": "MguGot_xwUfDFlazB62Vcq7QRlrR_anfyXK8HeEx3eA",
+  "bundle_path": "<repo>/data/raw/tail-2074400/20261017T052614Z/gap-messages/block-1924100/MguGot_xwUfDFlazB62Vcq7QRlrR_anfyXK8HeEx3eA.bin",
+  "bundle_sha256": "23dd9311d048c45796bb3ff7e90f6e30d821558f726f03e2aa726351ea4297e5",
+  "graphql_data_url": "404 for both message ids",
+  "messages": [
+    {
+      "bytes": 1710,
+      "message_id": "VsMhQeocKCWuqgZk1DB0gzOaDyqJhQb25ELdJ_NSPwA",
+      "nonce": 2075899,
+      "sha256": "807de8e206379cfdfff2e60dde0adf12715ade1bc10f92ff0561923c34b3e018",
+      "signature_valid": true
+    },
+    {
+      "bytes": 1606,
+      "message_id": "iiEldOzPeB91Mvt1H7McJq2yP9z0QDkKVSb_DMQgpgw",
+      "nonce": 2075900,
+      "sha256": "4b7505fa6b0e6879c42e1d635b287f6bbdc4c0d378124c6c1157a2b2e280fb42",
+      "signature_valid": true
+    }
+  ]
+}

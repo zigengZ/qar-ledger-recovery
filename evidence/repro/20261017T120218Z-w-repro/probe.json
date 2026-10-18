@@ -1,0 +1,10 @@
+{
+  "items": 10,
+  "safe_sha256": "4e341435f023aa41f27fc2b1dbb764c14c30ca39b13f14a02704bac722562960",
+  "inplace_sha256": "4e341435f023aa41f27fc2b1dbb764c14c30ca39b13f14a02704bac722562960",
+  "match": true,
+  "safe_ms": 5078,
+  "inplace_ms": 1774,
+  "loader_source_sha256": "5f8acd8e8fa582f65aa085a6c74c56b7e18db985cb5556dcae2aedd3a530d167",
+  "loader_patch_sha256": "9aa824b7b27303e641daa285b3c8c1c7642e950e2c591698234f4cd439c6270c"
+}

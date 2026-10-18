@@ -1,0 +1,18 @@
+{
+  "actual_delta": null,
+  "assignment_id": null,
+  "goal_complete": false,
+  "last_good_point": {
+    "prior_recorded_hole": 88875,
+    "source": "evidence/p4/20261017T1739Z-p4-hole-after-88872/finding.json"
+  },
+  "missing_range": [
+    88876,
+    88876
+  ],
+  "raw_amount": null,
+  "recovery_condition": "A later readable bundle item that pairs this nonce with process NG-0lVX882MG5nhARrSzyprEK6ejonHpdUmaaMPsHE8, then a hash-chain link. This exact query does not close the hole when its edge list is empty or the page did not close.",
+  "reproducible_failure": "The exact query closed with an empty edge list. That is not proof the nonce was never published. Nothing was inserted.",
+  "run_id": "20261017T1740Z-p4-hole-after-88875",
+  "status": "blocked"
+}

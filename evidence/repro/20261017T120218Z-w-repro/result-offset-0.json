@@ -1,0 +1,40 @@
+{
+  "mode": "inplace",
+  "cron_height_offset": 0,
+  "height_source": "CU gateway block timestamps",
+  "node": "v22.22.0",
+  "evaluator": "@permaweb/ao-loader@0.0.44",
+  "hash_chain_links": 1405,
+  "stream": {
+    "items": 39065,
+    "crons": 37660,
+    "assignments": 1405,
+    "first": {
+      "kind": "cron",
+      "timestamp": 1771847983094,
+      "height": 1863436
+    },
+    "last": {
+      "kind": "assignment",
+      "nonce": 2075923,
+      "timestamp": 1783145995380
+    }
+  },
+  "handler_errors": 0,
+  "applied": 39065,
+  "memory_sha256": "25e629fd58413416511208b7fd5886b17ab971c705fd4f06430b1745814a018a",
+  "memory_bytes": 428146688,
+  "canonical_balances_sha256": "0c9fb668c34002db79e4f8a008bfafb2e34103fa4df34220a51f837c6110acca",
+  "canonical_address_count": 2239,
+  "raw_address_count": 7615,
+  "total_supply": "189487568412204611",
+  "balance_sum": "189487568412204611",
+  "sum_equals_total_supply": true,
+  "elapsed_ms": 618282,
+  "replay_ms": 601869,
+  "loader_patch": {
+    "bytes": 1032617,
+    "sha256": "9aa824b7b27303e641daa285b3c8c1c7642e950e2c591698234f4cd439c6270c",
+    "source_sha256": "5f8acd8e8fa582f65aa085a6c74c56b7e18db985cb5556dcae2aedd3a530d167"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "asset": "AR",
+  "unit": "winston",
+  "holder": null,
+  "holder_is_single_wallet": false,
+  "original_custody_wallet": "nLVp9CqNi3JQjtQuZidQdUFd-RGULF8WtI0s50WV94c",
+  "raw_amount_at_tail": null,
+  "raw_amount_at_tail_block": 1951869,
+  "raw_amount_at_tail_reason": "Every resolved deposit pays the original custody wallet, and that wallet's ar-io.dev history closes to its gateway balance. Before the tail, untagged transfers moved the bulk through other wallets. The last concentrated recipient also holds other AR, and the inbound amount then went out to many addresses. Those wallet balances are reported individually. They are not added into one collateral amount.",
+  "raw_amount_now": null,
+  "raw_amount_now_reason": "Every resolved deposit pays the original custody wallet, and that wallet's ar-io.dev history closes to its gateway balance. Before the tail, untagged transfers moved the bulk through other wallets. The last concentrated recipient also holds other AR, and the inbound amount then went out to many addresses. Those wallet balances are reported individually. They are not added into one collateral amount.",
+  "wallets": [
+    {
+      "address": "nLVp9CqNi3JQjtQuZidQdUFd-RGULF8WtI0s50WV94c",
+      "role": "original_custody",
+      "raw_amount_at_checkpoint": "978114007970",
+      "raw_amount_at_tail": "978114007970",
+      "raw_amount_now": "978114007970",
+      "reconstruction_matches_gateway": true,
+      "gateway_height": 2023096,
+      "value_txs_after_tail": 0
+    },
+    {
+      "address": "11c550AqWT74EvGJ6oYBwCYqHDWSZ41tnympN_lYNx0",
+      "role": "untagged_forward",
+      "raw_amount_at_checkpoint": "6000000000000",
+      "raw_amount_at_tail": "6000000000000",
+      "raw_amount_now": "6000000000000",
+      "reconstruction_matches_gateway": true,
+      "gateway_height": 2023132,
+      "value_txs_after_tail": 0
+    },
+    {
+      "address": "qmg-WUYiCHqhnx_kv4zx2zedssosU1is9Td2UWGfI5g",
+      "role": "untagged_forward",
+      "raw_amount_at_checkpoint": "1546659611671199",
+      "raw_amount_at_tail": "1661515914915635",
+      "raw_amount_now": "1661515914915635",
+      "reconstruction_matches_gateway": true,
+      "gateway_height": 2023133,
+      "value_txs_after_tail": 0
+    },
+    {
+      "address": "uXBWmzYSA-yjkGm-cYMN_fl1R__USQLFORskGXGxdW0",
+      "role": "untagged_forward",
+      "raw_amount_at_checkpoint": "33212493375455601",
+      "raw_amount_at_tail": "33212493375455601",
+      "raw_amount_now": "33212493375455601",
+      "reconstruction_matches_gateway": true,
+      "gateway_height": 2023133,
+      "value_txs_after_tail": 0
+    },
+    {
+      "address": "cjp59bXFj6GL8ja200hnjfkGsXQrSG095SlyFH39-U8",
+      "role": "untagged_forward",
+      "raw_amount_at_checkpoint": "99925730950",
+      "raw_amount_at_tail": "99925730950",
+      "raw_amount_now": "99925730950",
+      "reconstruction_matches_gateway": true,
+      "gateway_height": null,
+      "value_txs_after_tail": 0
+    },
+    {
+      "address": "AKQcAkNtnNXmEWBMMxfJ08oeoHP3RLs2jshRGnje1ow",
+      "role": "mixed_after_forward",
+      "raw_amount_at_checkpoint": "138721299168711687",
+      "raw_amount_at_tail": "123199764772062513",
+      "raw_amount_now": "123454235289151276",
+      "reconstruction_matches_gateway": true,
+      "gateway_height": 2023136,
+      "value_txs_after_tail": 8
+    },
+    {
+      "address": "mizBOKEIkpih0qAI-giz_kJrcfcQs5eZvqeUZHUD50E",
+      "role": "side_branch",
+      "raw_amount_at_checkpoint": "0",
+      "raw_amount_at_tail": "0",
+      "raw_amount_now": "0",
+      "reconstruction_matches_gateway": true,
+      "gateway_height": null,
+      "value_txs_after_tail": 0
+    },
+    {
+      "address": "4JOmaT9fFe2ojFJEls3Zow5UKO2CBOk7lOirbPTtX1o",
+      "role": "side_branch",
+      "raw_amount_at_checkpoint": "47717442407",
+      "raw_amount_at_tail": "147717442407",
+      "raw_amount_now": "147717442407",
+      "reconstruction_matches_gateway": true,
+      "gateway_height": 2023142,
+      "value_txs_after_tail": 0
+    }
+  ],
+  "source": [
+    "evidence/p9-prep/20261017T051439Z-w-src/handlers.md",
+    "data/raw/collat/20261017T090508Z/gql/messages.jsonl",
+    "data/raw/collat/20261017T090508Z/txs/gql/",
+    "data/raw/collat/20261017T090508Z/txs/gql-added/",
+    "data/raw/collat/20261017T090508Z/txs/http/",
+    "data/raw/collat/20261017T090508Z/wallet/"
+  ],
+  "conclusion": "The layer-1 asset in the deposit and withdraw transactions is native AR, in winston. The handler mints data.quantity one-for-one into qAR and does not name that asset. Every resolved deposit pays `nLVp9CqNi3JQjtQuZidQdUFd-RGULF8WtI0s50WV94c`, the original custody wallet. Its ar-io.dev history closes to the gateway balance, so at tail block 1951869 and now it holds 978114007970 winston. Before the tail, untagged transfers moved the bulk from that wallet through 11c550, qmg, uXBW, and cjp59 into AKQc. AKQc received 176000000000000000 winston from cjp59 across heights 1665001\u20131804219, while it already held 265960818776783497 winston. From that arrival through the tail it paid 803 recipients. A separate 20000 AR branch went from uXBW through miz into 4JOma at height 1729976. miz's tail balance is zero. 4JOma then paid 147 recipients 16369665321330000000 winston before the tail, far more than that inbound transfer. Those wallets are mixed with other AR, so there is no single holder and no single raw collateral amount. The wallet figures are not summed, and none of the gaps below is written back into a balance."
+}

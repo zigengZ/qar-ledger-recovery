@@ -1,0 +1,120 @@
+{
+  "process_id": "NG-0lVX882MG5nhARrSzyprEK6ejonHpdUmaaMPsHE8",
+  "live_source": {
+    "message_id": "eFbNdlgikglktPipxZy8E6fCujVbtx3sdUHZPTFK_HA",
+    "nonce": 1977055,
+    "sha256": "9529bc2252ee45f255c6e286129ab0cbc6e638cb34935bf1e6b702997565a903",
+    "app_version": "0.16.0"
+  },
+  "collateral_asset_id": "unknown",
+  "collateral_holder": "unknown",
+  "collateral_raw_amount": "unknown",
+  "lock_addresses": [],
+  "note": "Roles come from the last handler registration or from one checkpoint message. A swap counterparty is not a classified pool. Local DEX configs are not in this repository.",
+  "addresses": [
+    {
+      "address": "NG-0lVX882MG5nhARrSzyprEK6ejonHpdUmaaMPsHE8",
+      "role": "token_process",
+      "also": ["authorized_minter", "authorized_deposit_confirmer", "authorized_withdrawal_confirmer", "authorized_stopper", "authorized_restarter"],
+      "source": "process id; ao.id inside configs_production_qar_token of message eFbNdlgikglktPipxZy8E6fCujVbtx3sdUHZPTFK_HA nonce 1977055",
+      "confidence": "high"
+    },
+    {
+      "address": "6I6ePxxK19g00lsgihn9T84URrBdNbBaRtSGw_qq9es",
+      "role": "process_owner",
+      "source": "owner of the process transaction and of 277 Eval messages",
+      "confidence": "high",
+      "not": "the handler does not name this address as minter, pool, lock, bridge, or collateral holder"
+    },
+    {
+      "address": "nLVp9CqNi3JQjtQuZidQdUFd-RGULF8WtI0s50WV94c",
+      "role": "bridge_attestor",
+      "also": ["authorized_minter", "authorized_deposit_confirmer", "authorized_withdrawal_confirmer", "ao_reward_watch_wallet"],
+      "source": "mpcWalletAddress in eFbNdlgikglktPipxZy8E6fCujVbtx3sdUHZPTFK_HA configs_production_qar_token; same literal in nonce 0 message GBPuvd6zc47A8PFiD7PGmZXcZPZF-DDWcdEg4tzXC3g war_root_configs",
+      "confidence": "high",
+      "not": "not shown holding the external asset; AR_WALLETS value in source is bint 0 and is an AO balance cache"
+    },
+    {
+      "address": "S_0fyWQknosQ57QWd0iuWl84EYmoi5qCyDai-LYHuhg",
+      "role": "bridge_attestor",
+      "also": ["authorized_minter", "authorized_deposit_confirmer", "authorized_withdrawal_confirmer", "cron_process"],
+      "source": "cronProcessId in eFbNdlgikglktPipxZy8E6fCujVbtx3sdUHZPTFK_HA",
+      "confidence": "high",
+      "not": "not shown holding the external asset"
+    },
+    {
+      "address": "1OEAToQGhSKV76oa1MFIGZ9bYxCJoxpXqtksApDdcu8",
+      "role": "ao_reward_token",
+      "source": "AO_TOKEN_PROCESS_ID in eFbNdlgikglktPipxZy8E6fCujVbtx3sdUHZPTFK_HA; Cron and BalanceResponse use it",
+      "confidence": "high",
+      "not": "not the qAR mint collateral"
+    },
+    {
+      "address": "m3PaWzK4PTG9lAaqYQPaPdOcXdO8hYqi5Fe9NWqXd0w",
+      "role": "superseded_ao_reward_token",
+      "source": "AO_TOKEN_PROCESS_ID in nonce 0 message GBPuvd6zc47A8PFiD7PGmZXcZPZF-DDWcdEg4tzXC3g",
+      "confidence": "high",
+      "not": "replaced when handlers.add updated the action closures at nonce 1977055"
+    },
+    {
+      "address": "93L5bm5NRSiwkMFbjrn9HkAWblV6__LJoMfiGlgSQU0",
+      "role": "transfer_review_entry_inactive",
+      "source": "review table in eFbNdlgikglktPipxZy8E6fCujVbtx3sdUHZPTFK_HA transfer handler, value false",
+      "confidence": "high",
+      "not": "the check does not reject this address"
+    },
+    {
+      "address": "26yDr08SuwvNQ4VnhAfV4IjJcOOlQ4tAQLc1ggrCPu0",
+      "role": "logo_transaction",
+      "source": "nonce 11 Eval uZBbfUvDn548GptKcDPbaJ2I0ewxpwDdPtYa6Sp5tfk sets Logo to this id; the same id is inside swap-notice token metadata in checkpoint memory",
+      "confidence": "high",
+      "not": "not an account"
+    },
+    {
+      "address": "vOYSBRYMv2S5l1Zv50Z3_Yv-zTIaNzZgXx9WkgP-Rh4",
+      "role": "pool_candidate",
+      "provider": "Botega",
+      "source": "checkpoint memory offset 214475082, Credit-Notice / Debit-Notice tags X-Provider=Botega; this address is the qAR sender whose raw balance moves from 276820576545058 to 278766297997351",
+      "confidence": "low",
+      "not": "one retained notice, not a handler registry and not a complete pool list"
+    },
+    {
+      "address": "KQhYTVaQ5tXcOQ3SrJiIt60_mdO0zAGUnT4snNwQs9U",
+      "role": "pool_candidate",
+      "provider": "Permaswap",
+      "source": "checkpoint memory offset 230180022, X-Provider=Permaswap; this address is the qAR sender on that notice",
+      "confidence": "low",
+      "not": "one retained notice, not a handler registry and not a complete pool list"
+    },
+    {
+      "address": "xU9zFkq3X2ZQ6olwNVvr1vUWIjc3kXTWr7xKQD6dh10",
+      "role": "swap_counter_asset",
+      "ticker_in_that_notice": "wAR",
+      "source": "X-Token-Out processId on the Permaswap notice at checkpoint memory offset 230180022",
+      "confidence": "low",
+      "not": "the mint handler does not reference this id"
+    },
+    {
+      "address": "0syT13r0s0tgPmIed95bJnuSqaD29HQNN8D3ElLSrsc",
+      "role": "swap_counter_asset",
+      "ticker_in_that_notice": "AO",
+      "source": "X-Token-Out processId on the Botega notice at checkpoint memory offset 214475082",
+      "confidence": "low",
+      "not": "different from the live AO_TOKEN_PROCESS_ID; not the mint collateral"
+    },
+    {
+      "address": "CCcVUmUBl6scmH2a8thOqXjW9kmPVtf6bEDeP4Edw9c",
+      "role": "tail_authority_argument",
+      "source": "nonce 2075923 message wEP24VhCVebi9GrE1bsUn0DCiJ0uKBuju1qBm4VYqNQ inserts this id into ao.authorities and then table.remove(..., 1)",
+      "confidence": "high",
+      "not": "not a pool, lock, bridge, or balance holder; on an empty authority list the remove deletes the id just inserted; the eval was not executed"
+    },
+    {
+      "address": "fcoN_xJeisVsPXA-trzVAuIiqO3ydLQxM-L4XbrQKzY",
+      "role": "tail_eval_owner",
+      "source": "owner of nonce 2075923; From-Process tag on that message is 6I6ePxxK19g00lsgihn9T84URrBdNbBaRtSGw_qq9es",
+      "confidence": "high",
+      "not": "not named by the token handlers"
+    }
+  ]
+}

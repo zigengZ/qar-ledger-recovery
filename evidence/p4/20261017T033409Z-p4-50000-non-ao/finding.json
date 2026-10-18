@@ -1,0 +1,221 @@
+{
+  "run_id": "20261017T033409Z-p4-50000-non-ao",
+  "range_inclusive": [
+    50000,
+    99999
+  ],
+  "complete": false,
+  "goal_complete": false,
+  "module_executed": false,
+  "inserted": 0,
+  "unique_nonces_in_range": 49868,
+  "still_missing": 132,
+  "method": "Paired chunk scan of every non-AO Bundle-Format=binary transaction in the hole-neighbor blocks. A nonce counts only when process NG-0lVX882MG5nhARrSzyprEK6ejonHpdUmaaMPsHE8 sits within 80 bytes before the tag. closed is true only when every file byte was read.",
+  "queue_finished": true,
+  "bundles_scanned": 1361,
+  "fully_read_without_wanted_nonce": 1355,
+  "unclosed_bundles": [
+    {
+      "block": 1551734,
+      "id": "v11vDqsgF9rd55xYXS49RYocPY3VC47yytqBWgc6Kt8",
+      "bytes_read": 16918819,
+      "bundle_size": 42750535,
+      "gap_count": 38,
+      "process_hit_count": 0,
+      "paired_wanted_nonces": 0,
+      "bundle_closed": false,
+      "first_gap": [
+        262144,
+        786432
+      ],
+      "last_gap": [
+        42467328,
+        42608932
+      ],
+      "error": "unreadable chunk gap"
+    },
+    {
+      "block": 1552449,
+      "id": "AO06WWUJCVZWkl2Ku9AeCcj84C_Vt9SRclWoslmt0zc",
+      "bytes_read": 56745209,
+      "bundle_size": 57007353,
+      "gap_count": 1,
+      "process_hit_count": 0,
+      "paired_wanted_nonces": 0,
+      "bundle_closed": false,
+      "first_gap": [
+        30146560,
+        30408704
+      ],
+      "last_gap": [
+        30146560,
+        30408704
+      ],
+      "error": "unreadable chunk gap"
+    },
+    {
+      "block": 1552453,
+      "id": "QfLTzjBiHDlrM0J7g4Of4ZzCReixsIc5-cue-9NVyCA",
+      "bytes_read": 786432,
+      "bundle_size": 5123823,
+      "gap_count": 3,
+      "process_hit_count": 0,
+      "paired_wanted_nonces": 0,
+      "bundle_closed": false,
+      "first_gap": [
+        2883584,
+        3407872
+      ],
+      "last_gap": [
+        3932160,
+        5123823
+      ],
+      "error": "unreadable chunk gap"
+    },
+    {
+      "block": 1552455,
+      "id": "efpN1MZOQhxcndzCsWYsHrg1pMYfiXIFvnGAOk3b-fg",
+      "bytes_read": 9175040,
+      "bundle_size": 23952329,
+      "gap_count": 24,
+      "process_hit_count": 0,
+      "paired_wanted_nonces": 0,
+      "bundle_closed": false,
+      "first_gap": [
+        786432,
+        1310720
+      ],
+      "last_gap": [
+        22806528,
+        23952329
+      ],
+      "error": "unreadable chunk gap"
+    },
+    {
+      "block": 1552455,
+      "id": "JGjWadocEVYBgWGQS6YticmaIx1VyQV3j0Tih8OqxW8",
+      "bytes_read": 5767168,
+      "bundle_size": 7763314,
+      "gap_count": 7,
+      "process_hit_count": 0,
+      "paired_wanted_nonces": 0,
+      "bundle_closed": false,
+      "first_gap": [
+        3145728,
+        3407872
+      ],
+      "last_gap": [
+        7602176,
+        7763314
+      ],
+      "error": "unreadable chunk gap"
+    },
+    {
+      "block": 1552455,
+      "id": "5osgd4PUT3PevzsrPOyNdrb1JgpjpZB3jj5hdu_ePdI",
+      "bytes_read": 23855104,
+      "bundle_size": 42699817,
+      "gap_count": 46,
+      "process_hit_count": 0,
+      "paired_wanted_nonces": 0,
+      "bundle_closed": false,
+      "first_gap": [
+        524288,
+        1048576
+      ],
+      "last_gap": [
+        42467328,
+        42699817
+      ],
+      "error": "unreadable chunk gap"
+    }
+  ],
+  "windows": [
+    {
+      "window": "87659-cluster",
+      "blocks": [
+        1551411,
+        1551416
+      ],
+      "non_ao_bundles": 29,
+      "fully_read_without_wanted_nonce": 29,
+      "unclosed": 0
+    },
+    {
+      "window": "88824-cluster",
+      "blocks": [
+        1551519,
+        1551525
+      ],
+      "non_ao_bundles": 48,
+      "fully_read_without_wanted_nonce": 48,
+      "unclosed": 0
+    },
+    {
+      "window": "90879-90909",
+      "blocks": [
+        1551728,
+        1551734
+      ],
+      "non_ao_bundles": 28,
+      "fully_read_without_wanted_nonce": 27,
+      "unclosed": 1
+    },
+    {
+      "window": "93058-93110",
+      "blocks": [
+        1551954,
+        1551961
+      ],
+      "non_ao_bundles": 47,
+      "fully_read_without_wanted_nonce": 47,
+      "unclosed": 0
+    },
+    {
+      "window": "95460-95486",
+      "blocks": [
+        1552177,
+        1552178
+      ],
+      "non_ao_bundles": 67,
+      "fully_read_without_wanted_nonce": 67,
+      "unclosed": 0
+    },
+    {
+      "window": "97950-97975",
+      "blocks": [
+        1552449,
+        1552455
+      ],
+      "non_ao_bundles": 1142,
+      "fully_read_without_wanted_nonce": 1137,
+      "unclosed": 5
+    }
+  ],
+  "result": "No wanted missing nonce was paired with this process. Fully read bundles do not contain those tags. The six unclosed bundles still have unread chunk gaps; those bytes were not filled and were not treated as empty. Nothing was inserted.",
+  "gateway_retry": {
+    "utc": "2026-10-17T03:34:09Z",
+    "hosts": [
+      "https://arweave.net",
+      "https://turbo-gateway.com"
+    ],
+    "chunks": [
+      {
+        "purpose": "QCanjfos header",
+        "offset": 234559633924343,
+        "result": "HTTP 404 on both hosts"
+      },
+      {
+        "purpose": "heiqNVDC header",
+        "offset": 234433829970167,
+        "result": "HTTP 404 on both hosts"
+      },
+      {
+        "purpose": "iCo0fdk5 first gap",
+        "offset": 234060519612663,
+        "result": "HTTP 404 on both hosts"
+      }
+    ]
+  },
+  "note": "132 nonces remain missing. Tags 97965, 97970, and the six tags inside 95460..95486 stay unparsed. Holes 87659-cluster, 88824-cluster, and 93058..93110 were absent from every fully read non-AO bundle in their neighbor blocks; their remaining candidate bytes are the unread gaps of the AO bundles already scanned. Do not open nonce 100000 or start P5."
+}

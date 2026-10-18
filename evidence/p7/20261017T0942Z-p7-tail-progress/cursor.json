@@ -1,0 +1,26 @@
+{
+  "run_id": "20261017T0942Z-p7-tail-progress",
+  "process": "still running; do not start a second replay",
+  "pid_seen": 3393681,
+  "cursor_path": "recovery/p7/data/raw/p7/tail-2074518/cursor.json",
+  "next_index": 9600,
+  "applied": 9600,
+  "handler_errors": 0,
+  "memory_bytes": 428146688,
+  "memory_sha256": "5df6a04898f2369dc732db9b1e237749dccb1fb7b2fec59ddd877083c94ebd7a",
+  "memory_file_matches_hash": true,
+  "height_source": "gateway block timestamps, cronsBetween from recovery/p6/replay.mjs",
+  "last_assignment_inside_save": {
+    "index": 9004,
+    "nonce": 2075064,
+    "sha256": "dc25e7d6f30723b0fff0205eb99cd88abd5adee04d283527ee18e3086dbb449d",
+    "applied": true,
+    "error": null
+  },
+  "stream_total": 39065,
+  "tail_nonce": 2075923,
+  "supersedes_progress": "evidence/p7/20261017T0913Z-p7-tail-progress/cursor.json",
+  "wfast_note": "Uncommitted w-fast verify-480.json reports 47/47 sha matches from index 8000 through 8480, and save sha 78fc3856ea0e4dc6e195463e18a3e6f5810c4c39febcdbc4fc9a0f181a224bfb equals this replay's logged row at index 8399. The tail sha is not cross-checked yet.",
+  "balances_written": false,
+  "goal_complete": false
+}

@@ -1,0 +1,117 @@
+{
+  "dry_run": true,
+  "files": [
+    {
+      "bytes": 1544591,
+      "path": "evidence/p10-dryrun/20261017T091010Z-w-report/ledger.csv",
+      "sha256": "084ffef250002b5f59708d5614b2fc3205de9d16430bee2b32d4dfd5c8bf5c92"
+    },
+    {
+      "bytes": 43108,
+      "path": "evidence/p10-dryrun/20261017T091010Z-w-report/reconciliation.json",
+      "sha256": "7996d8f6b6b0abb464df8edf8f97243d9cabab92631d03f0b57019599b2625bd"
+    },
+    {
+      "bytes": 5441,
+      "path": "evidence/p10-dryrun/20261017T091010Z-w-report/REPORT.md",
+      "sha256": "93f67372c0f15a2c321ff3e4bb7f293a26362acfb526e8747d24e2b7b2911fff"
+    },
+    {
+      "bytes": 4010,
+      "path": "evidence/p10-dryrun/20261017T091010Z-w-report/SUMMARY.md",
+      "sha256": "ec47617866017493371a3745ab00f616cb5decb5d25579c30a22896797303cb4"
+    },
+    {
+      "bytes": 2079,
+      "path": "evidence/p10-dryrun/20261017T091010Z-w-report/test-result.txt",
+      "sha256": "a2314e56ee0be3fa5d468283542fe7ed47667a07af6aab35a5794d680db63f54"
+    },
+    {
+      "bytes": 145,
+      "path": "evidence/p10-dryrun/20261017T091010Z-w-report/test-result.json",
+      "sha256": "2aa72e67bb1cc74f389614f32997aa7675f6700bb9134255832fe18893e707f1"
+    }
+  ],
+  "goal_complete": false,
+  "inputs": [
+    {
+      "bytes": 402335,
+      "label": "balances",
+      "path": "<repo>/data/raw/eval/20261017T052333Z-w-eval/semantic/gate-B-balances-checkpoint.json",
+      "sha256": "e8637b0e4af3fae0837fdde365c17997bbd6a715c76750d31783b201b2bc0967"
+    },
+    {
+      "bytes": 2773,
+      "label": "p1",
+      "path": "evidence/p1-tail.json",
+      "sha256": "bafbca307ecf881bc716422bb4fe75506e433b9331c8e2d1e03eb6b0c4babe1f"
+    },
+    {
+      "bytes": 1435,
+      "label": "p5",
+      "path": "evidence/p5/20261017T053304Z-p5-checkpoints/replay-start.json",
+      "sha256": "3f181c88f46549a7a29aa8631cc70aeea05fea4d1131c2e2263513dc0f5bdce3"
+    },
+    {
+      "bytes": 1905,
+      "label": "p2",
+      "path": "evidence/p2/20261017T1645Z-p2a/module.json",
+      "sha256": "b28ed3aa62560024318ea37f28866c58917f546d82d406b56fec42911e93caea"
+    },
+    {
+      "bytes": 1494,
+      "label": "acceptance",
+      "path": "evidence/p6/20261017T0715Z-p6-checkpoint-accepted/acceptance.json",
+      "sha256": "dffec5063b94ce927472a648fedccfe10d7f19ed2a11eb636c9eb94dc98578a3"
+    },
+    {
+      "bytes": 1034,
+      "label": "replay",
+      "path": "evidence/p7/20261017T0812Z-p7-tail-progress/cursor.json",
+      "sha256": "27fe5be83ac8247ac06ea078eb8a012370dd9754abd53d6000fbad2773b2368e"
+    },
+    {
+      "bytes": 10408,
+      "label": "supply_source",
+      "path": "<repo>/data/raw/eval/20261017T052333Z-w-eval/semantic/gate-B.json",
+      "sha256": "ddaec852665c0764adae71f054674bd80397e196ff4ba8718e416584ef7a2775"
+    },
+    {
+      "bytes": 119958,
+      "label": "range",
+      "path": "evidence/p4/20261017T043721Z-p4-50000-gaps-blocked/finding.json",
+      "sha256": "62741c3f5ad08866db3bf1ba9fb7004a3d23036ce13225d717fe0071b23990df"
+    },
+    {
+      "bytes": 1851,
+      "label": "range",
+      "path": "evidence/p4/20261017T043811Z-p4-100000-149999/gaps.json",
+      "sha256": "3a8d24dc6e0fd8bd5fd97194b7bbacf0f10c4d0609618c33e522c75c9a32de1a"
+    },
+    {
+      "bytes": 1356,
+      "label": "range",
+      "path": "evidence/p4/20261016T193039Z-p4-0-49999-closed/range-manifest.json",
+      "sha256": "596b601def373d68172705c49ce911458c409ca5a6dc98ddfa907c1e141cc439"
+    },
+    {
+      "bytes": 116357,
+      "label": "p4_tail",
+      "path": "evidence/p4-tail/20261017T052614Z-w-tail/range-manifest.json",
+      "sha256": "dbc3123a5f771431d8209049950d5787447932b2fcf1dc46b25369f117df7ef2"
+    },
+    {
+      "bytes": 2444,
+      "label": "evaluator.json",
+      "path": "evidence/p6/20261017T052333Z-w-eval/evaluator.json",
+      "sha256": "2ea96c6f4d5cf50aa44c5b199531fc080e6f965b9f6726ecc4ff95a48383fe31"
+    },
+    {
+      "bytes": 4812,
+      "label": "semantic.json",
+      "path": "evidence/p6/20261017T052333Z-w-eval/semantic.json",
+      "sha256": "9a469c29d0c5bd09fba06375bfbec0bc81f046669b07865d65d557f637ddb770"
+    }
+  ],
+  "label": "试运行，不是最终结果"
+}

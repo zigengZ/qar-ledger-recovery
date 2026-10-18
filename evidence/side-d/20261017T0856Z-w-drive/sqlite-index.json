@@ -1,0 +1,89 @@
+{
+  "path": "<repo>/data/raw/drive-cu/tree/ao-cache.sqlite",
+  "bytes": 921600,
+  "opened": "file:...?mode=ro",
+  "wal_bytes": 12392,
+  "shm_bytes": 32768,
+  "tables": {
+    "processes": 0,
+    "blocks": 0,
+    "modules": 23,
+    "evaluations": 0,
+    "messages": 0,
+    "checkpoints": 0,
+    "checkpoint_files": 1008
+  },
+  "checkpoint_files": {
+    "distinct_process_ids": 1008,
+    "state_timestamp_min": "2024-06-24T03:59:12Z",
+    "state_timestamp_max": "2026-08-25T19:53:19Z",
+    "cached_at": [
+      "2026-10-06T19:13:17Z",
+      "2026-10-07T16:56:41Z"
+    ],
+    "drive_bins": 1012,
+    "drive_bins_absent_from_index": 4,
+    "index_files_absent_from_drive": 0
+  },
+  "named_process_rows": {
+    "NG-0lVX882MG5nhARrSzyprEK6ejonHpdUmaaMPsHE8": 0,
+    "mqBYxpDsolZmJyBdTK8TJp_ftOuIUXVYcSQ8MYZdJg0": 0,
+    "vOYSBRYMv2S5l1Zv50Z3_Yv-zTIaNzZgXx9WkgP-Rh4": 0,
+    "KQhYTVaQ5tXcOQ3SrJiIt60_mdO0zAGUnT4snNwQs9U": 0,
+    "nLVp9CqNi3JQjtQuZidQdUFd-RGULF8WtI0s50WV94c": 0,
+    "S_0fyWQknosQ57QWd0iuWl84EYmoi5qCyDai-LYHuhg": 0
+  },
+  "qar_module_id_in_modules": true,
+  "qar_module_id": "1PdCJiXhNafpJbvC-sjxWTeNzbf9Q_RfUNs84GYoPm0",
+  "modules_owner": "One distinct owner value. The column is a JWK-shaped object. The key was not copied into this evidence.",
+  "local_pools_in_checkpoint_files": [
+    {
+      "processId": "_laMMu5weQgrtDhKjd4dIOZDej7XKwXcaHJmgOcPvK4",
+      "moduleId": "Do_Uc2Sju_ffp6Ev0AnLVdPtot15rvMjP-a9VVaA5fM",
+      "timestamp": 1783146116188,
+      "timestamp_utc": "2026-07-04T06:21:56Z",
+      "epoch": 0,
+      "nonce": 247049,
+      "blockHeight": 1951866,
+      "ordinate": "247049",
+      "hashChain": "GEad0d_8WunWzX1dxQIbZRf_66Vc64sgEdsNIQodRD4",
+      "file": "_laMMu5weQgrtDhKjd4dIOZDej7XKwXcaHJmgOcPvK4_ts-1783146116188_ord-247049_bh-1951866.bin"
+    },
+    {
+      "processId": "Eb87m8cazuCnf7BtYk3gQO6kiuhEZwPNL1iTJnR1MdQ",
+      "moduleId": "Do_Uc2Sju_ffp6Ev0AnLVdPtot15rvMjP-a9VVaA5fM",
+      "timestamp": 1783146121245,
+      "timestamp_utc": "2026-07-04T06:22:01Z",
+      "epoch": 0,
+      "nonce": 294830,
+      "blockHeight": 1951866,
+      "ordinate": "294830",
+      "hashChain": "hNzNZ-Cl_f6Z6bj4XVrua9iLfCxMHJdynW1kWffDPJk",
+      "file": "Eb87m8cazuCnf7BtYk3gQO6kiuhEZwPNL1iTJnR1MdQ_ts-1783146121245_ord-294830_bh-1951866.bin"
+    },
+    {
+      "processId": "Bv5mfnx5Ln2BU60inXPnMOGMwecJXadV4oqw7iwjzSk",
+      "moduleId": "G991Xp6Kh28k8_AZcnwaqJ6LZcHlsZcMkrH1mJoAy84",
+      "timestamp": 1782869015577,
+      "timestamp_utc": "2026-07-01T01:23:35Z",
+      "epoch": 0,
+      "nonce": 914387,
+      "blockHeight": 1949705,
+      "ordinate": "914387",
+      "hashChain": "-50bCgvoAa4ydkwl-hIkvGGKg7EbC8Heag1zJ0j2sAI",
+      "file": "Bv5mfnx5Ln2BU60inXPnMOGMwecJXadV4oqw7iwjzSk_ts-1782869015577_ord-914387_bh-1949705.bin"
+    },
+    {
+      "processId": "fNFUX58BiHeBhB2D4EJsu88IeAHtJhugHSP__U6Y9dk",
+      "moduleId": "Do_Uc2Sju_ffp6Ev0AnLVdPtot15rvMjP-a9VVaA5fM",
+      "timestamp": 1771728317183,
+      "timestamp_utc": "2026-02-22T02:45:17Z",
+      "epoch": 0,
+      "nonce": 188466,
+      "blockHeight": 1862495,
+      "ordinate": "188466",
+      "hashChain": "Ht6hxFUT-m9Y6DHIiD4oESeWHcbzfGsMnfEmt-dofGw",
+      "file": "fNFUX58BiHeBhB2D4EJsu88IeAHtJhugHSP__U6Y9dk_ts-1771728317183_ord-188466_bh-1862495.bin"
+    }
+  ]
+}

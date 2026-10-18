@@ -1,0 +1,28 @@
+{
+  "asset": "AR",
+  "network": "arweave",
+  "asset_id": "AR",
+  "unit": "winston",
+  "decimals": 12,
+  "holder": null,
+  "holder_is_single_wallet": false,
+  "original_custody_wallet": "nLVp9CqNi3JQjtQuZidQdUFd-RGULF8WtI0s50WV94c",
+  "original_custody_wallet_is_eligible_collateral": false,
+  "time_point_tail": {
+    "epoch": 0,
+    "nonce": 2075923,
+    "block_height": 1951869,
+    "timestamp": "2026-07-04T06:19:55.380Z",
+    "assignment": "MZa2GSyyT6V1i_hIZYDumeJFAYPUdvgzGo19RJCIcWs"
+  },
+  "time_point_now": {
+    "note": "Gateway wallet balances observed after block 1951869 are whole-wallet balances, not eligible qAR collateral."
+  },
+  "raw_amount_at_tail": null,
+  "raw_amount_now": null,
+  "eligible_held_raw": null,
+  "source": "evidence/p9/20261017T090508Z-w-collat/collateral.json",
+  "collateral_sourced": false,
+  "collateral_reconciled": false,
+  "goal_complete": false
+}

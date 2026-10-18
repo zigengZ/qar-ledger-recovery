@@ -1,0 +1,176 @@
+{
+  "complete": false,
+  "coverage": {
+    "complete": false,
+    "conflict_count": 0,
+    "conflicts": {},
+    "end": 49999,
+    "expected_count": 50000,
+    "missing_count": 24,
+    "missing_ranges": [
+      [
+        5770,
+        5793
+      ]
+    ],
+    "outside_range_nonce_count": 627,
+    "start": 0,
+    "unique_count": 49976
+  },
+  "cursor": {
+    "next_height": 1547630,
+    "updated_at": "2026-10-16T18:24:09Z",
+    "windows": 409
+  },
+  "endpoint": "https://arweave.net/graphql",
+  "executed_module": false,
+  "finished_at": "2026-10-16T18:31:19Z",
+  "gap_attempts": {
+    "epoch_probe": {
+      "nonce_5769_without_epoch_filter": "present epoch 0",
+      "nonce_5770_and_5793_without_epoch_filter": "absent",
+      "nonce_5770_epoch_1": "absent"
+    },
+    "exact_found": 0,
+    "exact_nonce_batches": [
+      {
+        "closed": true,
+        "error": null,
+        "http": [
+          200
+        ],
+        "ms": [
+          5639
+        ],
+        "nonces": [
+          5770,
+          5771,
+          5772,
+          5773,
+          5774
+        ],
+        "rows": 0
+      },
+      {
+        "closed": true,
+        "error": null,
+        "http": [
+          200
+        ],
+        "ms": [
+          9711
+        ],
+        "nonces": [
+          5775,
+          5776,
+          5777,
+          5778,
+          5779
+        ],
+        "rows": 0
+      },
+      {
+        "closed": true,
+        "error": null,
+        "http": [
+          200
+        ],
+        "ms": [
+          7883
+        ],
+        "nonces": [
+          5780,
+          5781,
+          5782,
+          5783,
+          5784
+        ],
+        "rows": 0
+      },
+      {
+        "closed": true,
+        "error": null,
+        "http": [
+          200
+        ],
+        "ms": [
+          7150
+        ],
+        "nonces": [
+          5785,
+          5786,
+          5787,
+          5788,
+          5789
+        ],
+        "rows": 0
+      },
+      {
+        "closed": true,
+        "error": null,
+        "http": [
+          200
+        ],
+        "ms": [
+          7671
+        ],
+        "nonces": [
+          5790,
+          5791,
+          5792,
+          5793
+        ],
+        "rows": 0
+      }
+    ],
+    "tight_block_window_1543160_1543170": {
+      "closed": true,
+      "error": null,
+      "gap_nonces": [],
+      "max_nonce": 5841,
+      "min_nonce": 5698,
+      "rows": 120
+    }
+  },
+  "hash_chain": {
+    "links_checked": 49974,
+    "links_matched": 49974,
+    "links_mismatched": 0,
+    "mismatch_sample": [],
+    "note": "A matching pair does not cross the unresolved hole. The range is not fully chained.",
+    "skipped_because_previous_nonce_absent": [
+      5794
+    ],
+    "verified_on_present_consecutive_pairs": true
+  },
+  "identity": {
+    "nonce_0": [
+      "o6ia7Yi1ijVV0lXM75qK1DM2Alhk4JcdFOd6jnq2pTY"
+    ],
+    "nonce_0_matches_p3": true,
+    "nonce_2": [
+      "vjIZKJmbEt903EgiW1u7boJcTkyKWRLqhNaHqZgS3ZI"
+    ],
+    "nonce_2_matches_p1": true
+  },
+  "pages_json": {
+    "bytes": 271153,
+    "committed": false,
+    "path": "data/raw/p4/0-49999/20261016T175757Z-p4-0-49999/pages.json",
+    "sha256": "8a9503a05da928bb054d014ba90c87e180d23e0c5c8083f7012a36fef8fb7d83"
+  },
+  "phase": "P4",
+  "process_id": "NG-0lVX882MG5nhARrSzyprEK6ejonHpdUmaaMPsHE8",
+  "range_inclusive": [
+    0,
+    49999
+  ],
+  "rebuild": "Forward inclusion-block scan from 1505290, then exact Nonce queries for the set difference. Do not treat row count as coverage.",
+  "run_id": "20261016T175757Z-p4-0-49999",
+  "sqlite": {
+    "bytes": 15097856,
+    "committed": false,
+    "path": "data/raw/p4/0-49999/20261016T175757Z-p4-0-49999/assignments.sqlite",
+    "sha256": "4fc843926349e6013f52384d0e1d1128837844194e1a0d7dd3f786fe5a56586f"
+  }
+}

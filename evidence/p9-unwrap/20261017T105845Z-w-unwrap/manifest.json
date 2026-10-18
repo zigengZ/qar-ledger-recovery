@@ -1,0 +1,62 @@
+{
+  "run_id": "20261017T105845Z-w-unwrap",
+  "evaluator": "@permaweb/ao-loader@0.0.44",
+  "node": "v22.22.0",
+  "wasm": {
+    "path": "<repo>/data/raw/modules/1PdCJiXhNafpJbvC-sjxWTeNzbf9Q_RfUNs84GYoPm0.wasm",
+    "sha256": "164c0859e796d30f682944be8bdd544a1292e9140f6f2998ce5ef93e2184a8c8"
+  },
+  "files": [
+    {
+      "path": "<repo>/data/raw/unwrap/20261017T105845Z-w-unwrap/tail-memory.bin",
+      "bytes": 428146688,
+      "sha256": "25e629fd58413416511208b7fd5886b17ab971c705fd4f06430b1745814a018a"
+    },
+    {
+      "path": "<repo>/data/raw/unwrap/20261017T105845Z-w-unwrap/checkpoint-2074518.mem",
+      "bytes": 428146688,
+      "sha256": "fbb8172e8879c5d27b3bc4b00de5a150a027d575a9faf511f3cd0747b949ce26"
+    },
+    {
+      "path": "<repo>/data/raw/unwrap/20261017T105845Z-w-unwrap/tail-2075923-stats.json",
+      "bytes": 2637,
+      "sha256": "202e98056756d4fa863ec18306b1a1d4126e583c21184e2e64bd761371bb79d7"
+    },
+    {
+      "path": "<repo>/data/raw/unwrap/20261017T105845Z-w-unwrap/tail-2075923-eval-output.txt",
+      "bytes": 1118,
+      "sha256": "54caf1803971002059de781f5e83a3f5d5cf4fd207f0c778840ff259fe55a816"
+    },
+    {
+      "path": "<repo>/data/raw/unwrap/20261017T105845Z-w-unwrap/tail-2075923-gaps.json",
+      "bytes": 12836,
+      "sha256": "7cefbbf2c6849b7305cb949c82482cc99451ea80ee35325303e47a0e7665e27b"
+    },
+    {
+      "path": "<repo>/data/raw/unwrap/20261017T105845Z-w-unwrap/tail-2075923-gaps-output.txt",
+      "bytes": 9057,
+      "sha256": "1d78f5abdccb39cf66ab09220f25b6d35e928e47acc0389c8e8543f2f305355f"
+    },
+    {
+      "path": "<repo>/data/raw/unwrap/20261017T105845Z-w-unwrap/tail-2075923-keys.json",
+      "bytes": 14768,
+      "sha256": "c4e83ec3859dcac9e9dcc8566ee17e391544bc1d1be7877eadff181486c92c16"
+    },
+    {
+      "path": "<repo>/data/raw/unwrap/20261017T105845Z-w-unwrap/tail-2075923-keys-output.txt",
+      "bytes": 6669,
+      "sha256": "abbae6dd4dd8bb6425b7777e3387417a132f89429811ad01908e9ec32005698d"
+    },
+    {
+      "path": "<repo>/data/raw/unwrap/20261017T105845Z-w-unwrap/checkpoint-2074518-stats.json",
+      "bytes": 2650,
+      "sha256": "0d3746a4e90596427f2d10a78f3e213e275074e663c8a82d3d7d909cc83e2d46"
+    },
+    {
+      "path": "<repo>/data/raw/unwrap/20261017T105845Z-w-unwrap/checkpoint-2074518-stats-output.txt",
+      "bytes": 1118,
+      "sha256": "54caf1803971002059de781f5e83a3f5d5cf4fd207f0c778840ff259fe55a816"
+    }
+  ],
+  "note": "Probes read copies under data/raw/unwrap. The copies' sha256 matched after the calls. The original fast-tail memory.bin and the checkpoint file were not opened for write."
+}

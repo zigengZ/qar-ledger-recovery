@@ -1,0 +1,7 @@
+{
+  "command": "python3 -m unittest tests.test_build_report -v",
+  "exit_code": 0,
+  "result": "OK",
+  "tests": 12,
+  "log": "test-result.txt"
+}

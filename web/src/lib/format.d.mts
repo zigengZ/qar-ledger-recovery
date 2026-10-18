@@ -1,0 +1,13 @@
+export function assertRaw(raw: string): void;
+export function formatRaw(raw: string, decimals?: number): string;
+export function formatGrouped(human: string): string;
+export function formatRawGrouped(raw: string, decimals?: number): string;
+export function formatRawRounded(raw: string, places?: number, decimals?: number): string;
+export function formatFraction(raw: string, supply: string, places?: number): string;
+export function formatPercent(raw: string, supply: string): string;
+export function formatPercentFixed(raw: string, supply: string, places?: number): string;
+export function sharePercentNumber(raw: string, supply: string, digits?: number): number;
+export function cmpRaw(a: string, b: string): -1 | 0 | 1;
+export function formatRawDisplay(raw: string, decimals?: number): string;
+export function formatCount(value: number): string;
+export function shortHash(hex: string): string;

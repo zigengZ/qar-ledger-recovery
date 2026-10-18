@@ -1,0 +1,79 @@
+{
+  "anchor": "",
+  "data": {
+    "size": "145634952"
+  },
+  "id": "ffGXsmlki22rK3C5Waxie6Ux3IpVFaxgFYZeuMpjnMk",
+  "owner": {
+    "address": "WjnS-s03HWsDSdMnyTdzB1eHZB2QheUWP_FVRVYxkXk",
+    "key": "ob4AEChvLVZFE-K0pzC2ugElgitw3Y7kXAYCyeyDiYxbXz_9msH29GfhnoO3KMTA_FSrGGAckzPx2S0ZzCjuGX6R3nQpJg6gpZeySwQGjcRIMlKtJBGMrn12Dr9w1fzQao7o7DDrc1NTCSpj4gguZoRdTaVW0Nwxt8BQpJJ0fi_IvAlE3YnNjPP8g5XMHLlvlmdOgKC33EpJB096UBvUrgTRZICMTXSZUQM4SqtlpXdhlrleffDsz5yBA8nySGV-8eyNN_1O-ntJ1fgRf8dLlzZqOaQ5OYN-Fdb5KHKoNl8XmWUBCi4ZNLiNRHq-KrahQISr1WNR1_z1d9N1acsmi9oIadlRUkTW28hRZ9cZPZ9v7SetC3a606avwneXPT8hwMo-Ot59MbfeUi9HABmUVYOmj77iT6pSqoVEmAXh1V8Grp6Afsi3RRTYuzVxjcLIpRqj9EORFGwgC4gjJcoAwWaR6e0gcK1SxKqkk7YAARLxsou1gAYrHP0Vet3CAtKkSN_UC0VOUpTkDrW1FvZC-JyrFa9lMwGADCVnSNtx-du7RmxigQX68C40mJWc8TYF9pNfEjJJcILWGHSoujBUD-EE_jXB5AZzXsSpn2H0CUIXunEyQ-SiSRjKmi6-ZtQ3EMFE4yJ__Q7e64i9NXAAvzOov1_OFdE5HZaoAj8XUOs"
+  },
+  "recipient": "",
+  "signature": "d6HAqnDYzvdrU61tzkVSakMUjcEThf3vXfzB-tvQp3x7haSMQRGIzuE0eoBHcaWim8ywGtXDGkklHrSWukdyV1EBs958Benvc0K_IFdMoxIzkF_slxtBA3pX-2pt0igpaUCPICJTt-vPqIvo2r-GR7kjkz0k9ewKcI8lxAMdLJOM8yvobkblLhQpbM8oWluXkwklCeo1YkB9HjDMeOQTALabdJJU2dNVfavWWtj-TSz60k0qxlYroiz7TgHr3iaXBmgLobB-E0dowsYXAjsOne6lZaaLHQYP1rxxopDvMqfA9-lXmouDYIJKCRhQeh7zhwLzB8GC4aknWVcosXzu_Y-3avXnQHA2QsFxqqBF_FhiW3rl0LboeRlCGWa1IEc-R7fVxvqK_o2r7PeWLxTTSChK-5tw9U-n5j89YZAieSqFI2BEbyVCAP072uoNpYx-y9jUWKyLJgi7pPya2WCmMaMWo7uC1-71tK2WL3F15iNbdUNrnK2sOiElsa9XfZ_b2sdtc-8aZRfWkakx-HNHKx5w78zr-52BJTpJQwiV1B7ekFh--pv8fzGQdNjpM3pp_OoLt4adFAHsaRbxp3v_yKK5p4umAia1RHhnRDZ63dXaZdoFw8HY2iWMYotGJk38z55lo0QzlMZ4m_eG_XH8IWV_9X8zNS5Pc1bMkJwo7Oc",
+  "tags": [
+    {
+      "name": "Data-Protocol",
+      "value": "ao"
+    },
+    {
+      "name": "Variant",
+      "value": "ao.TN.1"
+    },
+    {
+      "name": "Type",
+      "value": "Checkpoint"
+    },
+    {
+      "name": "Module",
+      "value": "1PdCJiXhNafpJbvC-sjxWTeNzbf9Q_RfUNs84GYoPm0"
+    },
+    {
+      "name": "Process",
+      "value": "NG-0lVX882MG5nhARrSzyprEK6ejonHpdUmaaMPsHE8"
+    },
+    {
+      "name": "Nonce",
+      "value": "2074518"
+    },
+    {
+      "name": "Timestamp",
+      "value": "1771847683094"
+    },
+    {
+      "name": "Block-Height",
+      "value": "1863436"
+    },
+    {
+      "name": "Content-Type",
+      "value": "application/octet-stream"
+    },
+    {
+      "name": "SHA-256",
+      "value": "fbb8172e8879c5d27b3bc4b00de5a150a027d575a9faf511f3cd0747b949ce26"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Unit-Identifier",
+      "value": "d916ab5d-f859-4fc6-ad45-550502fd2b25"
+    },
+    {
+      "name": "Ordinate",
+      "value": "2074518"
+    },
+    {
+      "name": "Assignment",
+      "value": "yy7ipxqxntq_9yTDaEvEW92CLrUqDssgN-RXYUQAHNA"
+    },
+    {
+      "name": "Hash-Chain",
+      "value": "W4h2kwRezDwtQtvxQ9Ssivujj3k2CZolEhKCblKrnTg"
+    },
+    {
+      "name": "Cron-Interval",
+      "value": "0-5-minutes"
+    }
+  ]
+}

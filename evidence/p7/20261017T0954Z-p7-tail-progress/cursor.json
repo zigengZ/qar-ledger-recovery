@@ -1,0 +1,27 @@
+{
+  "run_id": "20261017T0954Z-p7-tail-progress",
+  "process": "still running; do not start a second replay",
+  "pid_seen": 3393681,
+  "cursor_path": "recovery/p7/data/raw/p7/tail-2074518/cursor.json",
+  "next_index": 10400,
+  "applied": 10400,
+  "handler_errors": 0,
+  "memory_bytes": 428146688,
+  "memory_sha256": "b3bd4ffd310420c737ee9140a8c265a386629dae1fe041b917cb3dd2db0980af",
+  "memory_file_matches_hash": true,
+  "height_source": "gateway block timestamps, cronsBetween from recovery/p6/replay.mjs",
+  "last_assignment_inside_save": {
+    "index": 9834,
+    "nonce": 2075073,
+    "sha256": "513b00528c7e6262daef3fe09bf54246fbf07ce87819760ea0e92242ffc7f6a9",
+    "applied": true,
+    "error": null
+  },
+  "stream_total": 39065,
+  "tail_nonce": 2075923,
+  "supersedes_progress": "evidence/p7/20261017T0942Z-p7-tail-progress/cursor.json",
+  "fast_tail_memory_sha256": "25e629fd58413416511208b7fd5886b17ab971c705fd4f06430b1745814a018a",
+  "fast_tail_sha_crosscheck": "not done",
+  "balances_written": false,
+  "goal_complete": false
+}

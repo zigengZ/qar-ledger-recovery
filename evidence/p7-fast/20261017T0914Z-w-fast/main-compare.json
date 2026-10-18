@@ -1,0 +1,15 @@
+{
+  "matched": 1090,
+  "pending": 0,
+  "mismatches": [],
+  "mismatch_count": 0,
+  "main_max_index": 39064,
+  "main_next_index": 39065,
+  "main_memory_sha256": "25e629fd58413416511208b7fd5886b17ab971c705fd4f06430b1745814a018a",
+  "main_handler_errors": 0,
+  "main_memory_file_sha256": "25e629fd58413416511208b7fd5886b17ab971c705fd4f06430b1745814a018a",
+  "our_final_sha256": "25e629fd58413416511208b7fd5886b17ab971c705fd4f06430b1745814a018a",
+  "final_sha_equal": true,
+  "main_alive": false,
+  "result": "match"
+}

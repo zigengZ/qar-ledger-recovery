@@ -1,0 +1,88 @@
+{
+  "run": "20261017T052333Z-w-eval",
+  "pass": true,
+  "exactGate": "failed",
+  "byteGate": "未通过",
+  "semanticGate": "passed",
+  "gates": [
+    {
+      "name": "A",
+      "fromNonce": 2074508,
+      "toNonce": 2074510,
+      "startCheckpoint": "EwP2h48RouEL0WaTT2Auj5w-PBC8TOOr8sBNFSZGtkk",
+      "endCheckpoint": "lETwgVJ4Enqa_YdUv2IynHNfl940PTDZ7dLdDUc4Arg",
+      "messages": 115,
+      "crons": 113,
+      "assignments": 2,
+      "heightOverrides": 0,
+      "bytes": 428146688,
+      "errors": 0,
+      "gas": "65411620650",
+      "elapsed_ms": 66843,
+      "gotSha256": "6ea2c0646d295040de6045475faa1b947fa3de09ecf8d6c5a810e038af75a890",
+      "expectedSha256": "b4805ec77e3b53d0362a1e3b3932ec86b94a6fdbaacdcccf32b74ab29ff829a1",
+      "bytePass": false,
+      "addresses": 7614,
+      "addressDiffs": 0,
+      "totalSupply": "189487568412204611",
+      "sumEqualsSupply": true,
+      "semanticPass": true
+    },
+    {
+      "name": "B",
+      "fromNonce": 2074510,
+      "toNonce": 2074518,
+      "startCheckpoint": "lETwgVJ4Enqa_YdUv2IynHNfl940PTDZ7dLdDUc4Arg",
+      "endCheckpoint": "ffGXsmlki22rK3C5Waxie6Ux3IpVFaxgFYZeuMpjnMk",
+      "messages": 108,
+      "crons": 100,
+      "assignments": 8,
+      "heightOverrides": 0,
+      "bytes": 428146688,
+      "errors": 0,
+      "gas": "63963313680",
+      "elapsed_ms": 63772,
+      "gotSha256": "08b33bd914ffd015fff0e0349ab279ed064eaa44dd79a35e3cfb26a7abd32baa",
+      "expectedSha256": "fbb8172e8879c5d27b3bc4b00de5a150a027d575a9faf511f3cd0747b949ce26",
+      "bytePass": false,
+      "addresses": 7614,
+      "addressDiffs": 0,
+      "totalSupply": "189487568412204611",
+      "sumEqualsSupply": true,
+      "semanticPass": true
+    }
+  ],
+  "attempts": [
+    {
+      "n": 1,
+      "change": "Gateway block heights and the first message shape (Anchor empty string, key order not the CU schema).",
+      "A": { "pass": false, "gotSha256": "56780bac01c78999f58e466d8c86cedaabb4d96b69da4d0c4016ce004fa2b2f2" },
+      "B": { "pass": false, "gotSha256": "6447ef270bd1ecb3677b40e748d7413e7e8cdb75fc13eb2209f4edb02cdfe1ba" }
+    },
+    {
+      "n": 2,
+      "change": "CU messageSchema key order, empty Anchor as null, and the 9 recorded cron heights. Event anchors were still GraphQL base64.",
+      "A": { "pass": false, "gotSha256": "a8b3e843cf8cedf920a70867ac20273fefe9e014e97ab93ed0edadaf1df87fb3" }
+    },
+    {
+      "n": 3,
+      "change": "Decode 32-byte anchors from base64 to the ASCII Ref_ string stored on the checkpoint, and keep the 9 recorded cron heights. This byte match copies those heights from the target checkpoint. It is not an independent byte gate.",
+      "A": { "pass": true, "gotSha256": "b4805ec77e3b53d0362a1e3b3932ec86b94a6fdbaacdcccf32b74ab29ff829a1" },
+      "B": { "pass": true, "gotSha256": "fbb8172e8879c5d27b3bc4b00de5a150a027d575a9faf511f3cd0747b949ce26" }
+    },
+    {
+      "n": 4,
+      "change": "Same message shape as attempt 3, but cron Block-Heights from the current gateway only. Gate A only.",
+      "A": { "pass": false, "gotSha256": "6ea2c0646d295040de6045475faa1b947fa3de09ecf8d6c5a810e038af75a890" }
+    },
+    {
+      "n": 5,
+      "change": "Independent gateway-height replay of both gates, memories saved, then the semantic balance read.",
+      "A": { "bytePass": false, "gotSha256": "6ea2c0646d295040de6045475faa1b947fa3de09ecf8d6c5a810e038af75a890", "semanticPass": true },
+      "B": { "bytePass": false, "gotSha256": "08b33bd914ffd015fff0e0349ab279ed064eaa44dd79a35e3cfb26a7abd32baa", "semanticPass": true }
+    }
+  ],
+  "heightOverrideNote": "Each gate has 9 cron timestamps whose Block-Height on the message retained in the target checkpoint is 1 to 3 blocks lower than the height implied by current arweave.net block timestamps. Attempt 3 uses those retained heights and then the memory hash matches. The independent gateway-height replay does not. Timestamps and the final checkpoint height already matched the gateway.",
+  "semanticNote": "Full Balances maps from Messages[].Data are identical on both gates (7614 addresses, zero diffs). Total-Supply is 189487568412204611 on the replay and the checkpoint. sum(Balances) equals Total-Supply on all four memories. See semantic.json.",
+  "notRun": "Replay did not continue to the tail."
+}

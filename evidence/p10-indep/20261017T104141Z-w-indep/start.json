@@ -1,0 +1,34 @@
+{
+  "memory_path": "<repo>/data/raw/src/20261017T051439Z-w-src/checkpoint/ffGXsmlki22rK3C5Waxie6Ux3IpVFaxgFYZeuMpjnMk.mem",
+  "memory_bytes": 428146688,
+  "memory_sha256": "fbb8172e8879c5d27b3bc4b00de5a150a027d575a9faf511f3cd0747b949ce26",
+  "memory_sha256_matches_checkpoint_tag": true,
+  "gate_b": "<repo>/data/raw/eval/20261017T052333Z-w-eval/semantic/gate-B-balances-checkpoint.json",
+  "reader": {
+    "table": 6162392,
+    "slots": 8192,
+    "lsizenode": 13,
+    "rows": 7614,
+    "odd_values": 0,
+    "metatables": {
+      "6388136": 7614
+    },
+    "globals_table": 5573232,
+    "flags": {
+      "IS_STOPPED": false,
+      "TRANSFERS_ENABLED": true,
+      "DEPOSITS_ENABLED": false,
+      "WITHDRAWALS_ENABLED": false
+    }
+  },
+  "sum_parsed": "189487568412204611",
+  "sum_gate_b": "189487568412204611",
+  "comparison": {
+    "equal": true,
+    "left_rows": 7614,
+    "right_rows": 7614,
+    "only_left": [],
+    "only_right": [],
+    "changed": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "run_id": "20261017T054635Z-p6-gate",
+  "name": "@permaweb/ao-loader",
+  "version": "0.0.44",
+  "node": "v22.22.0",
+  "node_path": "/opt/node-v22.22.0/bin/node",
+  "package_json": "recovery/p6/package.json",
+  "package_lock_sha256": "e5a7d53067caca949e1095dd7f52c81d79c4d30d2ed1746de11cc6c1c352b27f",
+  "cu_semantics_commit": "0db88a45aabeb5e88471e5c263790fa51a563461",
+  "cu_semantics_path": "servers/cu/src/domain/lib/loadMessages.js",
+  "module_id": "1PdCJiXhNafpJbvC-sjxWTeNzbf9Q_RfUNs84GYoPm0",
+  "module_sha256": "164c0859e796d30f682944be8bdd544a1292e9140f6f2998ce5ef93e2184a8c8",
+  "module_format": "wasm32-unknown-emscripten",
+  "memory_limit_tag": "500-mb",
+  "memory_limit_bytes": 524288000,
+  "compute_limit": "9000000000000",
+  "extensions": [],
+  "command": "node --max-old-space-size=8192 recovery/p6/gate.mjs",
+  "module_executed": true
+}

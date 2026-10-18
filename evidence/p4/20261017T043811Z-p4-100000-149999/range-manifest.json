@@ -1,0 +1,5168 @@
+{
+  "complete": false,
+  "coverage": {
+    "complete": false,
+    "conflict_count": 0,
+    "conflicts": {},
+    "end": 149999,
+    "expected_count": 50000,
+    "missing_count": 627,
+    "missing_ranges": [
+      [
+        106947,
+        106971
+      ],
+      [
+        108876,
+        108907
+      ],
+      [
+        108956,
+        108980
+      ],
+      [
+        113739,
+        113762
+      ],
+      [
+        115509,
+        115532
+      ],
+      [
+        115808,
+        115834
+      ],
+      [
+        116749,
+        116776
+      ],
+      [
+        121292,
+        121319
+      ],
+      [
+        124354,
+        124377
+      ],
+      [
+        124604,
+        124627
+      ],
+      [
+        124730,
+        124731
+      ],
+      [
+        124735,
+        124736
+      ],
+      [
+        124745,
+        124745
+      ],
+      [
+        124772,
+        124795
+      ],
+      [
+        127291,
+        127314
+      ],
+      [
+        127453,
+        127481
+      ],
+      [
+        127512,
+        127512
+      ],
+      [
+        127516,
+        127516
+      ],
+      [
+        127520,
+        127520
+      ],
+      [
+        127528,
+        127528
+      ],
+      [
+        127532,
+        127532
+      ],
+      [
+        128222,
+        128250
+      ],
+      [
+        128552,
+        128552
+      ],
+      [
+        129789,
+        129812
+      ],
+      [
+        130238,
+        130261
+      ],
+      [
+        130550,
+        130573
+      ],
+      [
+        130652,
+        130675
+      ],
+      [
+        131210,
+        131233
+      ],
+      [
+        132894,
+        132917
+      ],
+      [
+        139153,
+        139176
+      ],
+      [
+        139398,
+        139421
+      ],
+      [
+        142555,
+        142578
+      ],
+      [
+        144363,
+        144363
+      ],
+      [
+        144367,
+        144367
+      ],
+      [
+        144371,
+        144371
+      ],
+      [
+        144375,
+        144375
+      ],
+      [
+        144379,
+        144379
+      ],
+      [
+        144383,
+        144383
+      ],
+      [
+        145350,
+        145374
+      ],
+      [
+        148413,
+        148414
+      ]
+    ],
+    "outside_range_nonce_count": 228,
+    "start": 100000,
+    "unique_count": 49373
+  },
+  "endpoint": "https://arweave.net/graphql",
+  "executed_module": false,
+  "finished_at": "2026-10-17T04:57:38Z",
+  "gap_fill": [],
+  "hash_chain": {
+    "links_checked": 49332,
+    "links_matched": 49332,
+    "links_mismatched": 0,
+    "mismatch_sample": [],
+    "verified": true
+  },
+  "identity": {
+    "nonce_0": null,
+    "nonce_0_matches_p3": null,
+    "nonce_2": null,
+    "nonce_2_matches_p1": null
+  },
+  "phase": "P4",
+  "process_id": "NG-0lVX882MG5nhARrSzyprEK6ejonHpdUmaaMPsHE8",
+  "range_inclusive": [
+    100000,
+    149999
+  ],
+  "raw_page_count": 619,
+  "raw_pages": [
+    {
+      "bytes": 64969,
+      "elapsed_ms": 3264,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00001-h1552710.body",
+      "sha256": "c0c6528bac8957c1386be27b2f842073918d46686404192d9d9932c7776c8e63"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2815,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00002-h1552710.body",
+      "sha256": "14fb9c2e3161266c774e03d254cebba1b91831371d213176487caa9d9c09464c"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2453,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00003-h1552710.body",
+      "sha256": "762534c1cf771fe045eb47c8a2b9cbfd165943bbb0eeb1339d8e45ab04b0484a"
+    },
+    {
+      "bytes": 31222,
+      "elapsed_ms": 862,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00004-h1552710.body",
+      "sha256": "f465a28cfdbdb8d7391c5bdd207b103d400d3186308d5a8bf90bf7dd28118970"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2258,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00005-h1552750.body",
+      "sha256": "adc51f9a26bab663820cb51b76051ac520b9c5352709fd7e435a827059614c2b"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1958,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00006-h1552750.body",
+      "sha256": "8f4baeca03cbbe5803d358600e25da7c00654694d5f3bad3de8209f14b49a2a0"
+    },
+    {
+      "bytes": 61076,
+      "elapsed_ms": 1759,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00007-h1552750.body",
+      "sha256": "41c8bb42012ac0241cba23c60c8f9ca81588873436cd67cbc9e7e66fb4b336d9"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1943,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00008-h1552790.body",
+      "sha256": "0aec5740838e91342d2430ab79816a65cf47ad7a028def2de0ebd69cb52d3b06"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1538,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00009-h1552790.body",
+      "sha256": "5a1c25f34d3f519adf2e20cc0dbc823c62f00064f6654c2e9678fef40b19110b"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 3808,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00010-h1552790.body",
+      "sha256": "bd80a967d7ee7808d23e28196dd19bb3f2bd3a19177c5dc16170c237020b091c"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1976,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00011-h1552790.body",
+      "sha256": "b1a54d6912c3a6d2b6ac2509447111aa1f5fffade1af1e5dca46b60d70e0454d"
+    },
+    {
+      "bytes": 47447,
+      "elapsed_ms": 996,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00012-h1552790.body",
+      "sha256": "f5b683e50c2800f3d374ee715c2ab71272b2bbbfc26fd68e43eff1a739146fc7"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1975,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00013-h1552830.body",
+      "sha256": "ab3ae4e30125962bb29ab5d3fd1d66f4f0606989a55698a8aa7f6eb636c27cda"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1312,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00014-h1552830.body",
+      "sha256": "da1533f5b07bb9923d9453b39b4ee6d53b9cfe92002b6598b42851e36a1e1555"
+    },
+    {
+      "bytes": 63672,
+      "elapsed_ms": 1469,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00015-h1552830.body",
+      "sha256": "db2cffd4070bf8f026abf3ac91369c9854a146a98e6447b1dce5c9a8ad9912d7"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1931,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00016-h1552870.body",
+      "sha256": "c3a12d83dae70d783eded9151de48eb63d9c2ebf3aca73a1f3e9ccd0b3e07ee4"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1571,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00017-h1552870.body",
+      "sha256": "db17aa717c96e9ef49ab2c8b6c5faaa583752651534d759afbebfef15992e5c8"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1359,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00018-h1552870.body",
+      "sha256": "8eb1a74535a08577191cdbd58e584a4a7527a3d58d5e7150911e4a17de60fda6"
+    },
+    {
+      "bytes": 42904,
+      "elapsed_ms": 1146,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00019-h1552870.body",
+      "sha256": "4d5edad3204bf8a3cde0017a0b9fbedc711fd4abb79bbd1af76a66837acb75f3"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1580,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00020-h1552910.body",
+      "sha256": "bb5370da94dd18c6f4b6be4b9f76eef61dea78896c279a8fcc8a8fc564c856e7"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2495,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00021-h1552910.body",
+      "sha256": "f41fb98f889334f6e7242f52975f71228ac32c8a2847883adbc34543137fa17c"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1688,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00022-h1552910.body",
+      "sha256": "2eb3b1256412284e09dfdb955c591c48bcd63e9b29fdb12ae5732bae1dbe8ec5"
+    },
+    {
+      "bytes": 13699,
+      "elapsed_ms": 431,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00023-h1552910.body",
+      "sha256": "68168a971cfe50af2ac088847c2ec93c49b4d331c97824813e75b925e1a41513"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1610,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00024-h1552950.body",
+      "sha256": "395471498078d54c667d58b55374c4d6f8990703ce5ee085e9f25ad6dc78e506"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1961,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00025-h1552950.body",
+      "sha256": "ed696b4ea1cfccf0b381990b74d3e18d450d3643a7cf1fec34be7cf60dbd334d"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1460,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00026-h1552950.body",
+      "sha256": "564b4ac1c5b439487465f5bdab55dc1aad9e8bd68a8e8ec44ee665f9e5c7a23f"
+    },
+    {
+      "bytes": 26030,
+      "elapsed_ms": 551,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00027-h1552950.body",
+      "sha256": "a6b007d0303e4ef163a2ed9eb86ec64d32b52256e6f19de3976aa63aeec525a6"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1812,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00028-h1552990.body",
+      "sha256": "71c9e0fa5c1a4aec911e1fec7ca11e125b7c8e79e45f474bf6ea13440f898406"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1481,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00029-h1552990.body",
+      "sha256": "6829d4592c83d49bb6631ded13d207cee3f0814e533c878a5aa6b8e969648b3d"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1985,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00030-h1552990.body",
+      "sha256": "3b966f7726f7e14148deaa216d74ed8fab7af18d1c775e0101bd916b525f6a34"
+    },
+    {
+      "bytes": 13699,
+      "elapsed_ms": 364,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00031-h1552990.body",
+      "sha256": "64e7f0e838837bf2a2c30db97c295f6dce92e73dae5cb08cc0554a541a9e59b2"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1821,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00032-h1553030.body",
+      "sha256": "12e61817d219ca5f6d7fab3f4fcddf174cc426376f226283ae0379563a085b9e"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1652,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00033-h1553030.body",
+      "sha256": "a08f6bc2eb0f50c8d8be4709e259cdb821d5efb267df76e0d187bf0b63f6ce72"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2334,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00034-h1553030.body",
+      "sha256": "90b1c1038a05c4e5daef16b2753133ee2e556c37b4e5fc4c903cfd4b148672a2"
+    },
+    {
+      "bytes": 48745,
+      "elapsed_ms": 1686,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00035-h1553030.body",
+      "sha256": "4ce009b20f813079d3199e433eccbc2c8ab8a323e9047207223d6115ca1ecf6d"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2023,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00036-h1553070.body",
+      "sha256": "72448212beaf34ef04ca1ba8f1d97dd58ce1c66100cd53c94009b9d0acc32a60"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1935,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00037-h1553070.body",
+      "sha256": "6468946b50fd9460f276910476f0134acd5b1d4e3708615ab4cd1acb0894ea9d"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1698,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00038-h1553070.body",
+      "sha256": "7e84a435df440fcd77d5c486f0c5bbd3b7e14664a37a53898f1246dc0380de0d"
+    },
+    {
+      "bytes": 48745,
+      "elapsed_ms": 1668,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00039-h1553070.body",
+      "sha256": "f42676153802a976b4bb2041a2c440701ee9b3c88fa0c3635c8c9bdbe6675aa7"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1829,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00040-h1553110.body",
+      "sha256": "66fae3ac9ff58b9ad8d524ba29a3f3a1d669ab428d978986fa4fd478a8831771"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1906,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00041-h1553110.body",
+      "sha256": "a12e87f69c7cf349d06df793a12485693785f54d8ac252929a9458ab72176baf"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1869,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00042-h1553110.body",
+      "sha256": "c1a891879aec51f5169e1c96c65a0b0936c4d906a5615550aaf627883a69897b"
+    },
+    {
+      "bytes": 24083,
+      "elapsed_ms": 1128,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00043-h1553110.body",
+      "sha256": "54710c4acf8c2e9a27e4b26a328faa8e69d5c9830a4b479df038eb05bf15ed77"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1924,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00044-h1553150.body",
+      "sha256": "f1d4fa96696a80264a2868830b0ee7b8cb59a1364a0711adebfc1d4561ddc0de"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1489,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00045-h1553150.body",
+      "sha256": "c1bd86a37684c8a5b675aa62af596b386bd0c9be7cf727d366956d4b0845b216"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1752,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00046-h1553150.body",
+      "sha256": "2b6a3a50dd4dd9b5c7f1738537a01ddc077fce35be7a9600e759d82ffc2a8694"
+    },
+    {
+      "bytes": 29924,
+      "elapsed_ms": 811,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00047-h1553150.body",
+      "sha256": "fe6998113dd9187152fc9972715677ab4832271505f84ed64fd4ac6c0fbe3e17"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1912,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00048-h1553190.body",
+      "sha256": "114095737cfe31d5838143c7f8f1b0828d58f3187021b301222139ea3256d834"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1984,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00049-h1553190.body",
+      "sha256": "426af759573dec6befa9dc3a9fa108bb16fc602b6eba500ce5d2a66964593002"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2221,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00050-h1553190.body",
+      "sha256": "df413dd52680cc3fc0e2c9daa494f5704f91b80752cf758e9024898005942b2f"
+    },
+    {
+      "bytes": 22136,
+      "elapsed_ms": 710,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00051-h1553190.body",
+      "sha256": "a3b7e5cee65ae8aa80866a1f75c69a288032cd5d5fa4d2ef86c4eac5521a8a99"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2332,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00052-h1553230.body",
+      "sha256": "3f156300bc742107c310750b53fbdc90035c38fdf7923e09d40b09a28f742203"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1833,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00053-h1553230.body",
+      "sha256": "566ee8b837b904889f2df2d8c86a190f747422bd4265f6297ddfe76a4a99b075"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1853,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00054-h1553230.body",
+      "sha256": "fbf228450b0f32ff68a4ad9953f50d3a94f50f4fa762e3eb3463f615415085a9"
+    },
+    {
+      "bytes": 17593,
+      "elapsed_ms": 1136,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00055-h1553230.body",
+      "sha256": "89286ebaed6ad6b62cd0904788434920df9463e9d1dace74cf14e6539ed79c5b"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1711,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00056-h1553270.body",
+      "sha256": "ff3a01ff16c5bde96bfa8af2c037d81246d3bb9c9dd3ae82f065dd8fde156bf4"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1652,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00057-h1553270.body",
+      "sha256": "8d95c5c435a69f10a8986efff0f89f8e8a4401a0fdc9e36211559d7dabef3b4f"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1667,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00058-h1553270.body",
+      "sha256": "dd58454d760c881b47bb4ba64c006bb1be1ec74d2e5b5498473574dc2ecf2e6f"
+    },
+    {
+      "bytes": 53288,
+      "elapsed_ms": 1387,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00059-h1553270.body",
+      "sha256": "8780efb048d6761763e4b2c838ace31804e748a8de6d08bc9f7d47b50f0f36f9"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1817,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00060-h1553310.body",
+      "sha256": "bf6d722949265cd3fe6e5799ae525013e451f691c5630a2efed2fb66c0b02379"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2501,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00061-h1553310.body",
+      "sha256": "6ba1dd9ffbab73da03e33d0e477a4f6b9c79a4ff37b1e93bf91feafe68cf426d"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1426,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00062-h1553310.body",
+      "sha256": "f08d0abba08b8460bf7729e0bf41d7aa0d6a4ea02424b065bc579fe949f469ca"
+    },
+    {
+      "bytes": 20838,
+      "elapsed_ms": 834,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00063-h1553310.body",
+      "sha256": "e369eee9f9d3286645a0960b0c69129b5102c7c976cfdc8d077580ac183b2744"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2016,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00064-h1553350.body",
+      "sha256": "6e715d3b23ac779c8073413c9fab09659fdc199c0f8d64a346d8c13cd777c9d1"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1428,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00065-h1553350.body",
+      "sha256": "c2e1b4b19f8e24e87fc097df8c15a2fb4367af8a5df56d62c82acad973acf981"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2009,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00066-h1553350.body",
+      "sha256": "b117b50fbea99303299225108c027efc7639eae84442b118bd57a69ffa787213"
+    },
+    {
+      "bytes": 63672,
+      "elapsed_ms": 1406,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00067-h1553350.body",
+      "sha256": "574b22d0573a749b1c5fb2367b7bdb3049bdfe8439778e85229216de0e3f5347"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2366,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00068-h1553390.body",
+      "sha256": "e9a316bcf65fd97e68721d0e016111b2f2ad5c6d251a6c8514b0e1bfbe8c02b2"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1427,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00069-h1553390.body",
+      "sha256": "46c74cc59787a6345085aea20a49b54ba91481b0251122b7f5d49d49c232f7d4"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1488,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00070-h1553390.body",
+      "sha256": "e3904d1284cc9b7f9c9ab0a4acd81755f51938e951306c5f318a8fb97e5ced33"
+    },
+    {
+      "bytes": 54586,
+      "elapsed_ms": 1261,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00071-h1553390.body",
+      "sha256": "575ca044a498755c9d89ed7143482d439abb6dcd6cd2ce957a4df23437e4d110"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2001,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00072-h1553430.body",
+      "sha256": "966bc89f17a2749ddcc46ee244206aee5f2de65c1555db932477519a1a6b49e6"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1809,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00073-h1553430.body",
+      "sha256": "394686488e7d4de9cca5473da50cdf022034a202fafadbd04a08b6f8ab7daf5e"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1958,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00074-h1553430.body",
+      "sha256": "3ba0f711d85b5d46680894236aede81feac07d9c8d093adda538edb47fc854e6"
+    },
+    {
+      "bytes": 7858,
+      "elapsed_ms": 325,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00075-h1553430.body",
+      "sha256": "b150fda8ae38cf21c6b4bba16cd804b8d1d0a961cb0f3fdd6c10a47c4508f87e"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1718,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00076-h1553470.body",
+      "sha256": "c81c2a02fad1bda7f668a6c2634e85113aadc312a47ed9c27f03046a14c36b88"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1292,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00077-h1553470.body",
+      "sha256": "2c2569823b46c879ad5ad185b08be8c3b22b0b15a657d44b9ea9bb06b4bb80b3"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2684,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00078-h1553470.body",
+      "sha256": "1d5ea6b2f5fbc9d42ba2cd8c4f6e24b58ed77c3cb2fafbb391cce2e49626e11b"
+    },
+    {
+      "bytes": 52639,
+      "elapsed_ms": 1603,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00079-h1553470.body",
+      "sha256": "995405b93d3a3d4fbf2149e229b88554ece686ab6ccd9be7e946d255f7b30c5e"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1673,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00080-h1553510.body",
+      "sha256": "7bd664177c6d43ebdfc7cbc4503f0aaa51aed13511bf4c07ec9e7355fe85e4fc"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1272,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00081-h1553510.body",
+      "sha256": "9d78591585e6963c0e836490eb202907c290273a6b6d237f63546b8c4531b4ff"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1851,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00082-h1553510.body",
+      "sha256": "aafde9dd0c2c23109182677c5c396c62893a38013651b3201da59f9820ae32e4"
+    },
+    {
+      "bytes": 24083,
+      "elapsed_ms": 504,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00083-h1553510.body",
+      "sha256": "88aea020200c238fc61c27dd9419cdabc2c01b7d37457b6524eca56ca62494ad"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2703,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00084-h1553550.body",
+      "sha256": "58de810f5144b0babd699cfc725eecdb3350e21c764d1b85bc15eccf3c9b1f95"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2305,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00085-h1553550.body",
+      "sha256": "1296cb94fc826ef1a6c976eaf1214f70c4efa7a2ac4a6d99126fd0945bcc9f9c"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1576,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00086-h1553550.body",
+      "sha256": "bdd252354adfc0fae4933fc881f5a90c165310baf2096e20f95799c5c511b040"
+    },
+    {
+      "bytes": 30573,
+      "elapsed_ms": 1191,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00087-h1553550.body",
+      "sha256": "61788cdac592c806676799f83a8d2d7528c81933e1964889781abe98aca3c2cf"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1963,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00088-h1553590.body",
+      "sha256": "cfec3449b9e9bf5d879487b58d2db8554ed7c81fdb21bc40804b891392c1a2f6"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 3230,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00089-h1553590.body",
+      "sha256": "90c4c3424cdeb83dbcfd77627092302481ec231cbb1ba9fdc43d988cee5b1ec6"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1714,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00090-h1553590.body",
+      "sha256": "01f9dcbe0b7cf27a87debf24e5559b8dfd83bb76ceb332656200df602c6e564b"
+    },
+    {
+      "bytes": 31871,
+      "elapsed_ms": 817,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00091-h1553590.body",
+      "sha256": "50d76d63d90a39c9598038eae36d382f1047561849e936f40174d6f8f6042a23"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1898,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00092-h1553630.body",
+      "sha256": "478abc0f8de03e2a543cb807ce32903c29d82452bf4a932b00f64b83ba04a340"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1981,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00093-h1553630.body",
+      "sha256": "746fae139e3dec7da6c69773005da8abaf93d1904a9b125babf4a94ef8c10fc2"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1476,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00094-h1553630.body",
+      "sha256": "de143a6480b17665250f14606a0a96acdac8c9293767036dfb4cdfa02bc72b29"
+    },
+    {
+      "bytes": 24732,
+      "elapsed_ms": 641,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00095-h1553630.body",
+      "sha256": "5cccd9b8aa984667c0591cc93bbfe9eed9ed54e1406b67d78d2b03d98be4ab82"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2058,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00096-h1553670.body",
+      "sha256": "a45295a254df16b93e0e94d250b303ee4a0386d0210314786741ad31efa7cb03"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1520,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00097-h1553670.body",
+      "sha256": "4762c0a091d02669b0acfe701031079405bc2edc8fc833b815347f2a84ef53c7"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1774,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00098-h1553670.body",
+      "sha256": "b225a6110c78628bffa632e3fcb8430111f75846c08738666a11e5eea757db65"
+    },
+    {
+      "bytes": 21487,
+      "elapsed_ms": 620,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00099-h1553670.body",
+      "sha256": "80a5be3376c16484bb94394bbca6732f04a852a10159613f69c6256fa002bce2"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2688,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00100-h1553710.body",
+      "sha256": "8f0677b8bf74092c2cc12ff4e9c66f571059dd1090a96d75ec23ffb4bc0a6839"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1834,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00101-h1553710.body",
+      "sha256": "56b399f70424031a47ff08192c201b23d4bec3834d98b1488e3a72e9b6b9b15e"
+    },
+    {
+      "bytes": 51990,
+      "elapsed_ms": 1960,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00102-h1553710.body",
+      "sha256": "1439007661a0b26297aa4b4ad7b37f7342e095e944f7ee4dfa2bec707b1b1b1a"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 3381,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00103-h1553750.body",
+      "sha256": "e7d6737fc56b37ce5947a129be73b90a6bc11e80f896829b8a5454e97aaca203"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2100,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00104-h1553750.body",
+      "sha256": "6f30f5a62b144edd5c4bd30d801da4715c30a5c5c6338d1e8743a64f6a2dec2f"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2536,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00105-h1553750.body",
+      "sha256": "28dea439952e7e0be7a2d6f292310f43afc5b87a9bae65a978aae651b75f6d92"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2451,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00106-h1553750.body",
+      "sha256": "387f0b2a85b7072c5a987c609a69252ead1d047937a468f9093e27887fc7496a"
+    },
+    {
+      "bytes": 11103,
+      "elapsed_ms": 531,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00107-h1553750.body",
+      "sha256": "d5f052381966759646309d3ec66ad6a7a355b7ba58e6b1b444ee5b67106969bc"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1773,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00108-h1553790.body",
+      "sha256": "13b07023bba2f3a9095677f44ee206c2e3dccce42d246fc0b62370b32c63d9cb"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1498,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00109-h1553790.body",
+      "sha256": "b3343d218f25955eac8e05897017b73e524758f2194f8f46b25a9736a3c658f3"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 3540,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00110-h1553790.body",
+      "sha256": "6187dcbdf764afd8435af78364323776767586a7fcb2e3dffef0cbc9502f7fc5"
+    },
+    {
+      "bytes": 37712,
+      "elapsed_ms": 921,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00111-h1553790.body",
+      "sha256": "b5cfe8519cd31c185289e343604c013952eed1af4b6a673e66d413f205cd36df"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 3949,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00112-h1553830.body",
+      "sha256": "1dc9a2a580b889cc2340922e48f179a9c559dbc20c929d6cf34b93fdb5fd7a50"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1790,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00113-h1553830.body",
+      "sha256": "2edfcf344a8d4a942910284082f057548bf2e2ea5ec66071a665be6b6d54c42e"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2039,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00114-h1553830.body",
+      "sha256": "3458eb2a43360f60a618563aa1f297b950aa380562dcfe8fc471cac0cff48587"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1656,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00115-h1553830.body",
+      "sha256": "399fbf9d6a70d5dbe724269da28de3d10b36bd6080de1971e4f540069d62774a"
+    },
+    {
+      "bytes": 9156,
+      "elapsed_ms": 437,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00116-h1553830.body",
+      "sha256": "d2a8c69b7bca26fdb3174262e84b8d36b5779e1b8f03dc521cd5a5de23b1b962"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1844,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00117-h1553870.body",
+      "sha256": "be71741f08cdcd3724c0764d65354749ce8288af42491a635821d7c19443122b"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1872,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00118-h1553870.body",
+      "sha256": "7154ace7a12c4a8ad7b226dd59945d8c58510be630a881cb80581e2ee5c3a251"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1661,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00119-h1553870.body",
+      "sha256": "d81723982f4a92ec4d7bfb2e4e93bac3b2d3f09ca7347e58581ce2fe5df1c134"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1834,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00120-h1553870.body",
+      "sha256": "a658dd7522ea55f7f5251d69986d0f30f7a3d0d74af90a674e732ebc026bd7e4"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1411,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00121-h1553870.body",
+      "sha256": "f350d3230bb48361b684b4294360452e114ddd79f4279c4283bb036fa241cc57"
+    },
+    {
+      "bytes": 32520,
+      "elapsed_ms": 827,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00122-h1553870.body",
+      "sha256": "1600d4f1fbed7346d5de61571d64948d49ced94baed89acb9670a67c089eeaa2"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1805,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00123-h1553910.body",
+      "sha256": "6246ccf6a9f872b6ac2ee50b5d13e22468eb48435d468e280fce70780de9c641"
+    },
+    {
+      "bytes": 2666,
+      "elapsed_ms": 105,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00124-h1553910.body",
+      "sha256": "79980f5851dc7c5b06d5e777d04c8c7f77596e32669c1e4edc09d71c6e5f86a5"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1893,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00125-h1553930.body",
+      "sha256": "29d75923be6cf3188e66a72835aa712e524b9928b3b796745307b062d5ebde30"
+    },
+    {
+      "bytes": 37712,
+      "elapsed_ms": 1837,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00126-h1553930.body",
+      "sha256": "ec8dda0a14cf0a3fc36257ff377d0384c3425a4995877ce3b248c6ab43a00662"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1767,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00127-h1553950.body",
+      "sha256": "3de8c22b166ce0e3731f7db47125d171ecf3a572fd52e43e5f0ad3bb062dcddd"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1754,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00128-h1553950.body",
+      "sha256": "a0e32b9ca716da943eaa4e11a1393c35cf7b8d10cea406b6f9112358227999d6"
+    },
+    {
+      "bytes": 1368,
+      "elapsed_ms": 124,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00129-h1553950.body",
+      "sha256": "9c1c92bf5b3ea248310d9ab14f8829386f40e934514439f95dbca59c85bebc3f"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1771,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00130-h1553970.body",
+      "sha256": "e2e7767499d4e2e73241dfeb9bbbdfc3807d01a510ffcbab3d6ed6c7900bb456"
+    },
+    {
+      "bytes": 44851,
+      "elapsed_ms": 981,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00131-h1553970.body",
+      "sha256": "e63aed906bc68cc7cdcb3c96caa5a4616dd55603cabfa516f07d635d6def873a"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1821,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00132-h1553990.body",
+      "sha256": "5732e060f087ca79fbc55d02e49858ba42feca0389dc9732f6883a03f73a6fa3"
+    },
+    {
+      "bytes": 45500,
+      "elapsed_ms": 1331,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00133-h1553990.body",
+      "sha256": "0b920859f520589d6f358420cc61d75bb3e37503b77801fa0bf9c00a40a148e2"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1639,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00134-h1554010.body",
+      "sha256": "0894713f95a4767700ebc984746246a658319439b9692d47539b1e8c97792bfb"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1802,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00135-h1554010.body",
+      "sha256": "8f4e002b11567839c29e3f513139680c972a3f3d1953093555fa086039c64878"
+    },
+    {
+      "bytes": 37063,
+      "elapsed_ms": 1039,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00136-h1554010.body",
+      "sha256": "8ef95d5afe61c6b2b07b89dc293b0aef87bd506476bc1d0f58425ac328a211e3"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2261,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00137-h1554030.body",
+      "sha256": "0bb23a50db500a3e92956ead54e2376cb4b0a170945d26bece1ee15ad31993b4"
+    },
+    {
+      "bytes": 16944,
+      "elapsed_ms": 507,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00138-h1554030.body",
+      "sha256": "d493b608ff3372899d7cefcc46c87521e7a562e3e355690707ab0276bb6fc00e"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1773,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00139-h1554050.body",
+      "sha256": "5f4af229233ee3a1eee976ff22c7ce3b89cd66aaa8595cf4032931466a01c346"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1326,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00140-h1554050.body",
+      "sha256": "b82ae0e4f079f8af554ea109f81cfffe94df4c603cf6251f0345acabe36d287f"
+    },
+    {
+      "bytes": 13699,
+      "elapsed_ms": 288,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00141-h1554050.body",
+      "sha256": "a4f1a20d40d80a714916bb3343546265cbc152196fa39e688705b164cda6cec6"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1803,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00142-h1554070.body",
+      "sha256": "3b9ac8c16fcc6f7682aee4a4bfacfce5be429efc1041be19fc65b4fd63647e21"
+    },
+    {
+      "bytes": 34467,
+      "elapsed_ms": 984,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00143-h1554070.body",
+      "sha256": "c0d8373f9260b9d0c7d31c208efe8216d7f94cd92ea4973633e81402144b91ca"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1894,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00144-h1554090.body",
+      "sha256": "7342d1a189312770b96337f8bab7437cf905ccdb68110268531320f6907e25ed"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1485,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00145-h1554090.body",
+      "sha256": "061a91f527f53f4d176a21792c7bd33a20f8b8584db3d7e15a6f0e17147ae6ae"
+    },
+    {
+      "bytes": 11752,
+      "elapsed_ms": 708,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00146-h1554090.body",
+      "sha256": "50357076acb15b6e8bcef7c3df9def7eb3c4ac994be5d7c1423d5ceb31e3e0a3"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1796,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00147-h1554110.body",
+      "sha256": "626b1fc350e381b4631f560ffe01397a458a453900531d63a949dabe046d2553"
+    },
+    {
+      "bytes": 16944,
+      "elapsed_ms": 683,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00148-h1554110.body",
+      "sha256": "bd80d92f70fc930e16e660e04cf0ee0ee398158355268b7d21a7981471efbd0b"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1726,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00149-h1554130.body",
+      "sha256": "affc9531e9c796d2f4dcaabee7b19ffb3b7332690d0ef5734f9d3c43e0db32ab"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1352,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00150-h1554130.body",
+      "sha256": "865696dda59daa1d8c8663863315d3ca49b5f792df1ce078bd0cb74bbcce499e"
+    },
+    {
+      "bytes": 7858,
+      "elapsed_ms": 731,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00151-h1554130.body",
+      "sha256": "198706fa4387b104ede288626ec076579b87497ac76dcff3af54ffdb77ba31a0"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1992,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00152-h1554150.body",
+      "sha256": "d633cb4cc90e6e5e2151a9c97d03fe3582e47e8b60db47d989a45c0bee143245"
+    },
+    {
+      "bytes": 31871,
+      "elapsed_ms": 864,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00153-h1554150.body",
+      "sha256": "19eed41a665e7a5dcdc3ddac53f87e3562761b1ffe2e29c912c4d9545ae41cdd"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1985,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00154-h1554170.body",
+      "sha256": "998308da14145e4557a0a2f153bcc1b3e6782e76d90330ac1bd67d0707b780b1"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1480,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00155-h1554170.body",
+      "sha256": "a253a42b88ce9990be94af5640467fad43ac4a676bfd1cf0162cf7d2b24752c4"
+    },
+    {
+      "bytes": 28626,
+      "elapsed_ms": 532,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00156-h1554170.body",
+      "sha256": "b9bb406fd9c3841a6d62e9fbc915c3439a5bfe6e7b7807f2833bbf5c4ee67c08"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1920,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00157-h1554190.body",
+      "sha256": "cecd9f9fe20a4727422617eaa9f2318ab88295ff15b7b6a5a25ac1ae6a96909c"
+    },
+    {
+      "bytes": 14348,
+      "elapsed_ms": 344,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00158-h1554190.body",
+      "sha256": "131fdec680070aea925b0c64d6a14b6f505284efbddac3de1bce126bde3f0763"
+    },
+    {
+      "bytes": 64970,
+      "elapsed_ms": 1822,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00159-h1554210.body",
+      "sha256": "6c54695912efe5b2380eb55224a23faf962caa83673e62e6cebe3facbe5306aa"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1734,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00160-h1554230.body",
+      "sha256": "888772bb698e9b5c8bd454c6edd0a1c81ec3a21992823568124174d6dfc7a4d6"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1458,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00161-h1554230.body",
+      "sha256": "bdffd3cd0c0926abc36423e5fb6c2bf0fd511b84dc558baf9aab91d4bc10db4a"
+    },
+    {
+      "bytes": 29275,
+      "elapsed_ms": 603,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00162-h1554230.body",
+      "sha256": "837e8007041a1760fcda9451443880c57e0e7423f7e5524adf0173e76478f4da"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1861,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00163-h1554250.body",
+      "sha256": "32cd2eed33a99a9860fe439d7f545489df3c8c35f84cf16b553f1ae29f13a4a9"
+    },
+    {
+      "bytes": 29924,
+      "elapsed_ms": 993,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00164-h1554250.body",
+      "sha256": "5584010c8cc7e49d8c777cdbfdf4eabd0da3bd2bdf6817cf1b59540ecae39fa6"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1757,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00165-h1554270.body",
+      "sha256": "e680b8e42b811860a3c1be8c41150a03fb23ea41fc64091c2ce029513a1feaf5"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1532,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00166-h1554270.body",
+      "sha256": "747dc080efb88b36bdb001c9c107a84a449e46ca24c420374920b9098a6c1185"
+    },
+    {
+      "bytes": 13050,
+      "elapsed_ms": 323,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00167-h1554270.body",
+      "sha256": "64b98255faa1b87ae83637d1a8d0e284db54ca0feba11c78d2bb9fda568db4e4"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1942,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00168-h1554290.body",
+      "sha256": "bded09e98fc8c603f3c8b8c0de92f6da24bf80823ca4560d7e8e6dee968b92ef"
+    },
+    {
+      "bytes": 31222,
+      "elapsed_ms": 729,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00169-h1554290.body",
+      "sha256": "9f1dd9956d4b070c960dd0dca41395e6fd7b7ee66194529a9bd86bc03359b5a2"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1828,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00170-h1554310.body",
+      "sha256": "54020f4448f2f503d09785d8f08909f8c912e45adcd40570d5981890a4f8992f"
+    },
+    {
+      "bytes": 16295,
+      "elapsed_ms": 463,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00171-h1554310.body",
+      "sha256": "2828479e702341007186c34db613c0a0da9ea0d0be6a78419404a4b82e918a8d"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1973,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00172-h1554330.body",
+      "sha256": "e769e0765f17bf03999530e9f33653d8b8f3dc1e7115bff695ecf9547ed699f5"
+    },
+    {
+      "bytes": 61725,
+      "elapsed_ms": 1343,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00173-h1554330.body",
+      "sha256": "4c96c42e5f3239739ba635fc11498159a4c7f4791099df9b61554bbc5e1f5eb0"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1655,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00174-h1554350.body",
+      "sha256": "adc822953149cc8a474de525185b333f14a082ce8294622afb16669557db866f"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1273,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00175-h1554350.body",
+      "sha256": "a3adb90ca05daf8f1b21feee8d03b201fc5f4ade9482cbaa70264af95cad53ea"
+    },
+    {
+      "bytes": 8507,
+      "elapsed_ms": 524,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00176-h1554350.body",
+      "sha256": "91443e59b9612687e00e03f2aaf873cce916402c4bd506a145b7f0e365e7bacd"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1653,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00177-h1554370.body",
+      "sha256": "02c62b5d64424326120d17210303102e6c2d1c18019939236aa944268afa2179"
+    },
+    {
+      "bytes": 31871,
+      "elapsed_ms": 1316,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00178-h1554370.body",
+      "sha256": "51d7048188d171eda881bfd9d4c5165c57ede7d0db549a380905320ea6a6a8e2"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1946,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00179-h1554390.body",
+      "sha256": "655a6c277b9806ccdb02e0f79778474588565248af1160c7294b7c0e7f6460b6"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1228,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00180-h1554390.body",
+      "sha256": "90c5b84503932d58591a928e622656dad5824a119c1fa6427259da5b37284aeb"
+    },
+    {
+      "bytes": 3315,
+      "elapsed_ms": 149,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00181-h1554390.body",
+      "sha256": "0d0ca45ddc0b2eadd604c660bf54b1a966e17a88a628ffd18036aa8f39a78710"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1855,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00182-h1554410.body",
+      "sha256": "ec780e1270a1625a056b244607f8b7b872b7167f756b9b20f0163fbbe60a0e8d"
+    },
+    {
+      "bytes": 33169,
+      "elapsed_ms": 1050,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00183-h1554410.body",
+      "sha256": "ed0feb423a19e6a823ef1348e7f61424b5785758efb3d80c5cf0c9931836f5a6"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1655,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00184-h1554430.body",
+      "sha256": "9d86d0f3c968856976a8e2d9f0d6156600410072895e8a9c59470232ebd76ade"
+    },
+    {
+      "bytes": 31222,
+      "elapsed_ms": 1045,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00185-h1554430.body",
+      "sha256": "9d14bb48abb7943e7e5a206a75c5e9826ffa5cda5e8e3e9762fd4c5bca9dddb3"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1795,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00186-h1554450.body",
+      "sha256": "dafefd0c38a043a80112c1f5b4ae6ed57f038fd3a4658671bec9ebd2c9b549de"
+    },
+    {
+      "bytes": 35116,
+      "elapsed_ms": 893,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00187-h1554450.body",
+      "sha256": "9797fd9c923b704c24ba3a24c3b26e5d641afbf9e2b0acd04a63e763dd0fea34"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1676,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00188-h1554470.body",
+      "sha256": "937d5f407224227ab61ced64ef68bd2e77f9b3c2566e2e3fb60099f19c27498f"
+    },
+    {
+      "bytes": 13050,
+      "elapsed_ms": 600,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00189-h1554470.body",
+      "sha256": "384cbc3e74c9bb38f660f472a97e424915ac2810e5e9e1c7cadfa691b0d5d177"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1818,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00190-h1554490.body",
+      "sha256": "e1ccf5af13921de4ba2d06ea67020a86f2cd057723266a40f47b562f87e0899e"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2062,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00191-h1554490.body",
+      "sha256": "5d1e712fa980455748320350092099547c1d8b08f02dcddbfa8d76ea6ef4362c"
+    },
+    {
+      "bytes": 719,
+      "elapsed_ms": 415,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00192-h1554490.body",
+      "sha256": "724f1867fccf07ca0799555b4a1913645baeb87e0f301f53a9b1eb343e9e9ac4"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1947,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00193-h1554510.body",
+      "sha256": "7c11fc644a5341fd9792e8966490d92d5fd96c64584d4b55b0613d59cb27d3c7"
+    },
+    {
+      "bytes": 45500,
+      "elapsed_ms": 899,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00194-h1554510.body",
+      "sha256": "cb7f518918142633d9d0d1303242cfea081a7a83b4b54d95ef30edf083f4302c"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2496,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00195-h1554530.body",
+      "sha256": "61fbaf933b75546b07f8e149fcf93bb555598e0783ac98d70576847ef4103c24"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2118,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00196-h1554530.body",
+      "sha256": "385112a7ef303fcecb16fca816cca50be1926e760a6b768bcbdcbbad3710b2d7"
+    },
+    {
+      "bytes": 44851,
+      "elapsed_ms": 920,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00197-h1554530.body",
+      "sha256": "cab755431ef9e36cb910e7377d16bb3ed3b1d2c3c8461961670d965ab80923e2"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2428,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00198-h1554550.body",
+      "sha256": "35f11c7db6b78c8e3c1d4fc5a5e5fac4306528623f1892d581e8f6680f965610"
+    },
+    {
+      "bytes": 2017,
+      "elapsed_ms": 351,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00199-h1554550.body",
+      "sha256": "0e162d67c3e518c35af5e030a729430d3335533c12bb9e94655d38066838a74c"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 9939,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00200-h1554570.body",
+      "sha256": "40868886cba51ef89111fd6b771223a316bfc94300f03904095e6a87d1ab6a86"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1922,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00201-h1554570.body",
+      "sha256": "33f9e1846a16fdfaeb039c9c3072a455152ff4e8e938a559d761384f3f0143fb"
+    },
+    {
+      "bytes": 31871,
+      "elapsed_ms": 1246,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00202-h1554570.body",
+      "sha256": "499b439d6a9407ef2f60a6e870d5633dca12d3558f45d059d00b26823142e050"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1954,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00203-h1554590.body",
+      "sha256": "859f762a50717a97fb6c2c80d9bef7c87f44b59ba87504074cc018b19efb16a3"
+    },
+    {
+      "bytes": 3315,
+      "elapsed_ms": 434,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00204-h1554590.body",
+      "sha256": "3b9aaab5b123c025407babcaee54c4966e9cc777db0dbb38ba92da1ac45ae885"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1642,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00205-h1554610.body",
+      "sha256": "4b1e5fa14d93ac455c2d16b36f3549cf9f83a1eb91461c7c9eb62bd31593f8af"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2034,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00206-h1554610.body",
+      "sha256": "4dc56125a0512cef7a2e5b0cb966e04dfddc564b0f2004b917161bdf5b5285a7"
+    },
+    {
+      "bytes": 19540,
+      "elapsed_ms": 557,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00207-h1554610.body",
+      "sha256": "9455e3e2cda176e5a9622f89a103372f2581cbf42a76525ead8133d770de5d62"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1818,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00208-h1554630.body",
+      "sha256": "35e677296a388f515b5f11695b3a1b2d43fde94f4593823c8a0563fde881d0e8"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2104,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00209-h1554630.body",
+      "sha256": "8508d3d0ebbc9dfe15a39540fff9ee98521c53fcef3a8962002dd0d6caa9597c"
+    },
+    {
+      "bytes": 6560,
+      "elapsed_ms": 371,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00210-h1554630.body",
+      "sha256": "8668ded7ebe2fad43554267166063075eb7567716573d71443c80010a581d661"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1705,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00211-h1554650.body",
+      "sha256": "74b920df519b3784948438cd5fed530a0e097560cbe2bb3377859cdbad22088e"
+    },
+    {
+      "bytes": 37712,
+      "elapsed_ms": 930,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00212-h1554650.body",
+      "sha256": "23fe663b6e0aa18d203d90916c759bf88afd5291c1071d40e5f01c3534488d73"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1693,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00213-h1554670.body",
+      "sha256": "2fbcb2b1d3c6475028c809516ccb459a0825a9a449f41cba6401e5978d182f32"
+    },
+    {
+      "bytes": 50692,
+      "elapsed_ms": 1730,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00214-h1554670.body",
+      "sha256": "c729454d55cd06923c543c9fd044e319598599ba87eef130c0dc12d61120a712"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1735,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00215-h1554690.body",
+      "sha256": "6b7e1d968ccf4a74c64b6aa368cbb0f9084ccf3e7bab6c5e264c3129f0066d46"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1723,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00216-h1554690.body",
+      "sha256": "a3ea0132821f8a04f20ec28a3d2d5b9b54606371ac6561432754e550272f825f"
+    },
+    {
+      "bytes": 11752,
+      "elapsed_ms": 235,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00217-h1554690.body",
+      "sha256": "4078f3bd685d3cdf6351376c7589091f747b977eb768e36972f0b4f109e2f2b2"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1924,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00218-h1554710.body",
+      "sha256": "cd3a3c1cf7069b19f04525a4b560e9e0cfd255d6a77ba3ad940a9bbf8aca3cbe"
+    },
+    {
+      "bytes": 45500,
+      "elapsed_ms": 4611,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00219-h1554710.body",
+      "sha256": "82c142650943661d3c3a7c363178af4ef96abd6d27df94083698f8a9c818799b"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1922,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00220-h1554730.body",
+      "sha256": "deb60227cb3d1e73e1de22de0911afc4627c9ca72ed7bf92f44a7d2ec4e06f27"
+    },
+    {
+      "bytes": 16944,
+      "elapsed_ms": 357,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00221-h1554730.body",
+      "sha256": "f8a9c53d41d5a37cdcabf0d1dd879e1997f6ddbcb82ac7d2f71a05c8d09fb883"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1695,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00222-h1554750.body",
+      "sha256": "f0c08f0ebb7c4a600674abff0e0a99fa83d77b7c2e35a499c35eadaf97aeac3c"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1602,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00223-h1554750.body",
+      "sha256": "64750c207ce074ab5fd4f4bbf2ec152295c6ed96be34f0b10b926399a508d7e1"
+    },
+    {
+      "bytes": 5262,
+      "elapsed_ms": 148,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00224-h1554750.body",
+      "sha256": "f60631145adc58b5a08a8cb0db55b61f6a59fff5ebb34c1fe5352a85668e9036"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1949,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00225-h1554770.body",
+      "sha256": "1be48a73dc7ec54e19882adeac6b7c386f5ed362bf791583a0381f39396d55ca"
+    },
+    {
+      "bytes": 46798,
+      "elapsed_ms": 1523,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00226-h1554770.body",
+      "sha256": "70a6fba67adc324548fb2578198c8b4ae5debd90a2bb021355bb208698df65c4"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1683,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00227-h1554790.body",
+      "sha256": "f907d4d20d60639ace506671d0d78a03528650c4f512de404ec4ad360694a43f"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1425,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00228-h1554790.body",
+      "sha256": "fa4632c8bd5b73f1e44407be223aac1ac279aa8fffe4f5ad4fc3dae30afbfcf7"
+    },
+    {
+      "bytes": 5911,
+      "elapsed_ms": 504,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00229-h1554790.body",
+      "sha256": "0f5fff384719c13879e5ffa25ec0e24792bf062f7a587ba4fd194336976aa1ac"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2211,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00230-h1554810.body",
+      "sha256": "929f9458a2196811f07de948a8907403f2ce924ab2a7a184dbd7ecd2eb93dda2"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1620,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00231-h1554810.body",
+      "sha256": "e15aa7076c4acf8569c4ca19fbba9dea044e03745ea703a8f9c9e7d80280710f"
+    },
+    {
+      "bytes": 12401,
+      "elapsed_ms": 305,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00232-h1554810.body",
+      "sha256": "983a675be1ccfc4188ede68d3b6b29e3004f3e9d245db03942209ec9a0729747"
+    },
+    {
+      "bytes": 46798,
+      "elapsed_ms": 2342,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00233-h1554830.body",
+      "sha256": "777987c8c0544255c38b2097f0874776821c44e26da69c339cb11fecde5d2d73"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2346,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00234-h1554850.body",
+      "sha256": "a21f992b3f22f72c1a934aa6a6d548f152e57a9249706083439165ad8dac0d4b"
+    },
+    {
+      "bytes": 49394,
+      "elapsed_ms": 3806,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00235-h1554850.body",
+      "sha256": "9103b93b0bceddb7dfc4398eb257c83d386943d34bf553761523d57d23fd5822"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2858,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00236-h1554870.body",
+      "sha256": "23e01de8a3712168b756d4bbd74d405b1bd506bde5b983f3f52c7c41f71c64f3"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 5443,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00237-h1554870.body",
+      "sha256": "fd6ba51f74900410be541dd671d279baf7fea698ce49cd1b35b1f9de7a6459bf"
+    },
+    {
+      "bytes": 11103,
+      "elapsed_ms": 374,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00238-h1554870.body",
+      "sha256": "313c4fba04ac2c46e8c4ea314a9a3f1cfb3b9913c0274f3ab9374dfe2e52368d"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1823,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00239-h1554890.body",
+      "sha256": "4750769244356964c4baa17ec990a9ff686032ab94e0953881af839b08d917b9"
+    },
+    {
+      "bytes": 44202,
+      "elapsed_ms": 3326,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00240-h1554890.body",
+      "sha256": "3a0618d07e5f73cc9fceae7ab4640069fa0100a5d464306e43af73cb0e7fb7fd"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2138,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00241-h1554910.body",
+      "sha256": "0b6f2ddb1dfd3ec0facdf2668ebc38035abb8ca2524cff32abfb7ac0ab1f5a6f"
+    },
+    {
+      "bytes": 14348,
+      "elapsed_ms": 1325,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00242-h1554910.body",
+      "sha256": "f46b906d31ebfbf4f5c84e2058dcbf9579594356ad773c349eede032e1314848"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 3413,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00243-h1554930.body",
+      "sha256": "fed68cdb7ff968919b8af94e2e7c4a50cd454a526a5acbda8703a93724c5a922"
+    },
+    {
+      "bytes": 61076,
+      "elapsed_ms": 1834,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00244-h1554930.body",
+      "sha256": "387f00274457b726f813a936e1d9e93b9786e85020df1039f83592709c93772d"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2014,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00245-h1554950.body",
+      "sha256": "0effe080736fce0529eaeba3db81d983b50359ff5e69294b89967e0d9906b8c6"
+    },
+    {
+      "bytes": 41606,
+      "elapsed_ms": 2007,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00246-h1554950.body",
+      "sha256": "9f60829c9060958cb7d175576594acaa97b5a5f14a039959e34a6b23e59bcad0"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1903,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00247-h1554970.body",
+      "sha256": "5521bd299fd3152dcdc31007dae036112af0c301aeea4d99e161d0c9ca816945"
+    },
+    {
+      "bytes": 49394,
+      "elapsed_ms": 1076,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00248-h1554970.body",
+      "sha256": "3fff6eaa57f36c7c76f9c427a2deccce614951d4b15af5980c92be4e941456ea"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1967,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00249-h1554990.body",
+      "sha256": "342434b18808bc6e8eb6bff7c8ed153ca76651b31c3211b7f595481e70ffec7c"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2414,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00250-h1554990.body",
+      "sha256": "4bc9e33a7d304c4b1fb1a5f54968bffd445d07b21ea617c34f558325d6047d37"
+    },
+    {
+      "bytes": 2017,
+      "elapsed_ms": 140,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00251-h1554990.body",
+      "sha256": "b2bec16e611e5c503795c11a17faef690c745354e0b8d78fa5171416c4ee1180"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1836,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00252-h1555010.body",
+      "sha256": "29d659a47c182e5f8b2a8542d149b00ced957ed496c4d4c3cdb33c4541d93d58"
+    },
+    {
+      "bytes": 48745,
+      "elapsed_ms": 1567,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00253-h1555010.body",
+      "sha256": "0294967aa9cab5c5c0cfeb20429172b56a7a1682805d665e0ef56fdb56bc29a2"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1844,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00254-h1555030.body",
+      "sha256": "9d4d9fe6a1b689f6505d36c65713d48d5ed247126f588f0a6b959ae32597a7df"
+    },
+    {
+      "bytes": 44851,
+      "elapsed_ms": 1442,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00255-h1555030.body",
+      "sha256": "f99f82a07dab2c7588c6fe8f256a39c9961ad99cfafd77cefe755b3e251fbac8"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2018,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00256-h1555050.body",
+      "sha256": "5cce6759a13e7a90c5b2d5fefbc270ae22060a04c76bde5027c3d47ef6b442f2"
+    },
+    {
+      "bytes": 48096,
+      "elapsed_ms": 5209,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00257-h1555050.body",
+      "sha256": "b523a7b7bc2cf0e8586387ed0f02c33d01daf6180bc2b4cc4666ace14219cffa"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2055,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00258-h1555070.body",
+      "sha256": "e2ca517a8312737b009354e87a638890775661aa6c22336d181bf13dfa90b5ff"
+    },
+    {
+      "bytes": 47447,
+      "elapsed_ms": 1083,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00259-h1555070.body",
+      "sha256": "216503a9ef33b21844969caec5501f8ddbc143c0e0f41d3975ec568301720f5f"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1893,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00260-h1555090.body",
+      "sha256": "b8fd7c79d4a9326b153397f8b82a292e4a9566954ef8609df54c990b1a7fbed3"
+    },
+    {
+      "bytes": 13050,
+      "elapsed_ms": 280,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00261-h1555090.body",
+      "sha256": "bb7b39bb9ebf2a5aef67ca242254ce93a2c6eb7d8ddc5927ac207dc2c611a035"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1802,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00262-h1555110.body",
+      "sha256": "611940d96000a090bfeb721a245a27e45dd5c25a8fbf71ba62c7645afa95848a"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1272,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00263-h1555110.body",
+      "sha256": "bfe1f5bf8c6b4b271d8a597a6bf1a5410ae31c1f9ffa4e119a584b4d28565435"
+    },
+    {
+      "bytes": 14997,
+      "elapsed_ms": 586,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00264-h1555110.body",
+      "sha256": "97d95e2c8229c3ed4bfc1148bf50fb849cb84646d749508c71d11a03dc092a79"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1980,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00265-h1555130.body",
+      "sha256": "f79065db2c600a06ab18b58bef481bd54b9e2b4c82f85bd92ae350da7440c2bc"
+    },
+    {
+      "bytes": 47447,
+      "elapsed_ms": 708,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00266-h1555130.body",
+      "sha256": "990154676ba59cb542818810f29ea0a0cbf77c441d68973e711f8e4faf7f308c"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2061,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00267-h1555150.body",
+      "sha256": "42fb09fa3f40f06ea064b086db5cf2c2ff2af525316be6cf8c5a96a8dc0f6916"
+    },
+    {
+      "bytes": 46149,
+      "elapsed_ms": 891,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00268-h1555150.body",
+      "sha256": "00d5a6fc0186e3670d9d921ff13276c6d6a53dbaef0fbb959c4306f128c1a179"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1527,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00269-h1555170.body",
+      "sha256": "332554352c38c4f7a27ad98dec0a0b91eaa618848fa0ab76fa82f191f9577fd3"
+    },
+    {
+      "bytes": 16944,
+      "elapsed_ms": 827,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00270-h1555170.body",
+      "sha256": "bc31b97254e1263cdd058de7073a551d65664959960232ed2fc4440d2725b761"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2042,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00271-h1555190.body",
+      "sha256": "34de76a61a2678844743acf25a98c77890ec669c892fe5462243ab6ddf9f90fc"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1791,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00272-h1555190.body",
+      "sha256": "02c99996288da8c388daedf42c7bb577b606d564412ec579325f11d8b89a74cd"
+    },
+    {
+      "bytes": 58480,
+      "elapsed_ms": 1373,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00273-h1555190.body",
+      "sha256": "28a0c675f74eaf06fb9e21a700f1afe02ed46a63b2bb94a5aea06481acd39a1c"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2018,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00274-h1555210.body",
+      "sha256": "bad18bd05ba50981241f8f7899b1a9b7351147480a6477cef20cb160998395dc"
+    },
+    {
+      "bytes": 28626,
+      "elapsed_ms": 715,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00275-h1555210.body",
+      "sha256": "0493b0e1e672f16999d8d20ab94efa0fc137c4c0b6d69b199955729db3e9cb55"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1993,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00276-h1555230.body",
+      "sha256": "a0b69ca9862b2df5d356bc3af7a84f9a5954f2b76fece1ea2f61c536077de6a8"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2085,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00277-h1555230.body",
+      "sha256": "f9ebd3b1fbaf54d06a7ade218833c2962d1d756b43328e81670a4b1fd485036c"
+    },
+    {
+      "bytes": 20189,
+      "elapsed_ms": 683,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00278-h1555230.body",
+      "sha256": "2f3e301eac5d2fa2be517bbd6b56e6ca4cca087d4c57f866352f7a6a276f9ce8"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1660,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00279-h1555250.body",
+      "sha256": "fc90e884381b03c30231b001bbeffaba70cee2fa53c36fcdd6a5fa88edb67242"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1524,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00280-h1555250.body",
+      "sha256": "21f92504c067db7cb8d6088fc24d08b7b611d6ea53de430d6f335ccd36a7b989"
+    },
+    {
+      "bytes": 6560,
+      "elapsed_ms": 214,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00281-h1555250.body",
+      "sha256": "81a497afc50f7a69092e5053a40b1eb798320f0b625a102a8acead49a56ca351"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2441,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00282-h1555270.body",
+      "sha256": "759bf84423571d265080d59f8fdc1902af20577aabc8a5ddac87de6c6d7423f6"
+    },
+    {
+      "bytes": 47447,
+      "elapsed_ms": 1346,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00283-h1555270.body",
+      "sha256": "4f5227392fa646e9c8576f0baff3bdda18af57278dd0f597a0be910623bc5ab2"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2009,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00284-h1555290.body",
+      "sha256": "f5741db963e6bed83efcc79ad75836eb353cf5b471f36da7f40eff3290ba3b32"
+    },
+    {
+      "bytes": 58480,
+      "elapsed_ms": 1731,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00285-h1555290.body",
+      "sha256": "bda4434cb3ad9382c3574dd0d83d5f3add4758cd84aeb9942013fe4ae9f9d174"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2022,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00286-h1555310.body",
+      "sha256": "5266f69e120326e3800cff648e3262e452a232da9075e7f13a90cce2a681e6c1"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2168,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00287-h1555310.body",
+      "sha256": "4b9bb48375110b86ad23dd5d04fb651aa81917d66287bbce6ca9fbc4a3eec96c"
+    },
+    {
+      "bytes": 2666,
+      "elapsed_ms": 166,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00288-h1555310.body",
+      "sha256": "cc6b7f791a81569fa3c3e8c93446e81d611672dc4f13caff023b1ea0b4ea0537"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2328,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00289-h1555330.body",
+      "sha256": "95a9a2861e8c272cc96cfe8e2971ab6c2893f5da18b8df5cfee296f061f76b97"
+    },
+    {
+      "bytes": 22785,
+      "elapsed_ms": 1072,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00290-h1555330.body",
+      "sha256": "a8fd8fcd2cf97ead121f00d12fe6c4d9afb6e41d6a415a94b9cb3003c6544c31"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2239,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00291-h1555350.body",
+      "sha256": "93a6a68bdf6370e7fe0f5929991b2c2295324cb49bd38962687ab76f67be9b56"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1829,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00292-h1555350.body",
+      "sha256": "97700b0678ece3fd5232cc5cb4ef6fb640a4d19b4b0d9dbb6ee6271e0b7fc33e"
+    },
+    {
+      "bytes": 16944,
+      "elapsed_ms": 838,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00293-h1555350.body",
+      "sha256": "1a2434419737e1e67f4e6cb447f0137bf24f89db68d11be5c99821a210b129dc"
+    },
+    {
+      "bytes": 33169,
+      "elapsed_ms": 1201,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00294-h1555370.body",
+      "sha256": "067ef114dae22b824e83bb0919f98bdb7769e6ba6c530b262a1d3388e91849d1"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1911,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00295-h1555390.body",
+      "sha256": "20cda773b705978e14d8910234df9832f38bf6f00f5a59fdb744092c31bea99b"
+    },
+    {
+      "bytes": 28626,
+      "elapsed_ms": 579,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00296-h1555390.body",
+      "sha256": "5950d8cdfc120c4497d5683462a17a1bc5c651431dd72a06c90208c631b70f07"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2214,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00297-h1555410.body",
+      "sha256": "b2cf916dcf986c1aaae8eec627e58ff1584aa4f0ad95a66dd9a890927af4446d"
+    },
+    {
+      "bytes": 49394,
+      "elapsed_ms": 1158,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00298-h1555410.body",
+      "sha256": "82f5963adad4c04c1692c3a1b4a9286331252f921f90a27965e29b6763db901a"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 3228,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00299-h1555430.body",
+      "sha256": "299f49b1a38c59571ed2f65ec65d7e4fab4e876e1ba3d3164689516190156c2f"
+    },
+    {
+      "bytes": 45500,
+      "elapsed_ms": 984,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00300-h1555430.body",
+      "sha256": "ac0ff6df79db5d8ab12987b5b6ef0631df885b63eed55f92ebba689f89e2fe2a"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2142,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00301-h1555450.body",
+      "sha256": "bfaa9c1d372227dd9b6b4f0ec67d3d74649473d27c74a4f7279890cbab9b2cf0"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1598,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00302-h1555450.body",
+      "sha256": "9e4db013b99339f3ef10f0d9d8cfe8442b9ff36cf72aea7ce55396d69b1ad7ae"
+    },
+    {
+      "bytes": 9156,
+      "elapsed_ms": 792,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00303-h1555450.body",
+      "sha256": "7b1b49a8e68830d5375da5bfe7a8c08c972f2b7c23699e11528e6ad1f84b6334"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1622,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00304-h1555470.body",
+      "sha256": "35e2ad5fb063fc1e2334133e67f9777b59f21da96d26c1f2ef29defdc7ac6124"
+    },
+    {
+      "bytes": 47447,
+      "elapsed_ms": 1443,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00305-h1555470.body",
+      "sha256": "708a750e9d7c1adc7948624b7cfd87e0756ec6243d121c6e87e8bd566163b0cc"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1975,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00306-h1555490.body",
+      "sha256": "7ac4a9b3c94302fad43490af1abb3c5e2044537e0a4439f9769d67f404e35c74"
+    },
+    {
+      "bytes": 59778,
+      "elapsed_ms": 1272,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00307-h1555490.body",
+      "sha256": "1863b1c9c175217e8887257d0889baf3036444ded1a087ea63886c699a530888"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1779,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00308-h1555510.body",
+      "sha256": "e989cdd206d9dfc20e09664e6a4c075e188b869178bbcedd66284f95698c1abd"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1789,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00309-h1555510.body",
+      "sha256": "7342229be8fc88f4186faf648cfd53e901c4de397ed4653ef931bf97f88c97e8"
+    },
+    {
+      "bytes": 15646,
+      "elapsed_ms": 873,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00310-h1555510.body",
+      "sha256": "a65c549d9536fbabd3d0ec9c95f399db1107f59f39c664d49f7e5d2c9a40c54b"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1724,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00311-h1555530.body",
+      "sha256": "7371fb18cd3042ebbc11a878afa25e57d2e03c0dd84d558bf6590d3b165272e5"
+    },
+    {
+      "bytes": 57182,
+      "elapsed_ms": 1185,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00312-h1555530.body",
+      "sha256": "6c056c6f7f810f0d2cfb434c1ea5a4a26472c262b74f08ad8b15a1a01e5805b5"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1960,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00313-h1555550.body",
+      "sha256": "cc7dbd4f0a851c22cfa5c6a4497110486d26d60b2edf30c38fd66ef9aba52e4f"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1314,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00314-h1555550.body",
+      "sha256": "555b424e6161ec29b24d1f2c2f901eb971f7c2d21c5c7699db462b841489dac7"
+    },
+    {
+      "bytes": 17593,
+      "elapsed_ms": 508,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00315-h1555550.body",
+      "sha256": "bc8620cdcb75c04eb06e140c08ff546c6cb8afd1de4f034918a5a77c6b6a8478"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1715,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00316-h1555570.body",
+      "sha256": "87030e609d92de1cd1cf1bab85fcf1058b1f217b315e55e6fc59ad584cef6cfe"
+    },
+    {
+      "bytes": 50043,
+      "elapsed_ms": 1129,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00317-h1555570.body",
+      "sha256": "745a4bcb835632edc89a8d5a4d4ce48efea3974f815224d154971733e41ffff5"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1825,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00318-h1555590.body",
+      "sha256": "c459e9829ada56f0806be30ddb97b00b6308d9b1d1b054eabb0e29c3c32871c0"
+    },
+    {
+      "bytes": 61076,
+      "elapsed_ms": 2054,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00319-h1555590.body",
+      "sha256": "67cf15dc6976cf102757823a13855af673fc1e17a7456ae730072ec95659503b"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1765,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00320-h1555610.body",
+      "sha256": "0a0539693726ff9ef59d21437cdedd4bb6e6a95627b7f06b25141ffe5c208be5"
+    },
+    {
+      "bytes": 17593,
+      "elapsed_ms": 818,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00321-h1555610.body",
+      "sha256": "d3d137c1ce6f8a4ce9acc764563dac2662af669bea5274f11ce3cbcd5806425d"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2410,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00322-h1555630.body",
+      "sha256": "0902b86c8c9759732d574d10e56f55a80c2113013041b7f243f093b6f5df2737"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1794,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00323-h1555630.body",
+      "sha256": "475450cf199bd55aa7694a8d71df335ac015edb541b95de2f37970c5674c5f37"
+    },
+    {
+      "bytes": 1368,
+      "elapsed_ms": 610,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00324-h1555630.body",
+      "sha256": "f0958756287327cbf5d226441cc8885612b5e04e479cfd3c788a995494418830"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1637,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00325-h1555650.body",
+      "sha256": "cf14d4c6cd3f3097ef8d73d8d4a89f53799ba1122ef616b0d0b2f260acc21897"
+    },
+    {
+      "bytes": 30573,
+      "elapsed_ms": 1166,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00326-h1555650.body",
+      "sha256": "5426617d22793360aae63a9d5b14bdccce434c9dde097f2ede6e4d26804b79b6"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1834,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00327-h1555670.body",
+      "sha256": "80d82a116fe68ee48b67cbb00618fcc1760296bc5f28dd386bc0df7aea72291a"
+    },
+    {
+      "bytes": 63672,
+      "elapsed_ms": 1835,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00328-h1555670.body",
+      "sha256": "f988c99ff1485801d00827dd120a67cccdbdb4b8d6ad1febf43331a0415bf9da"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1724,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00329-h1555690.body",
+      "sha256": "324acfe1756ba4ac75096ac789c2fd142be67d3957063c50ee69942713a8fef3"
+    },
+    {
+      "bytes": 50692,
+      "elapsed_ms": 1259,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00330-h1555690.body",
+      "sha256": "6bb2845e2f80613078e8be1238e92b3c82524ea1281d2e5e325bbfefba10833d"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2141,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00331-h1555710.body",
+      "sha256": "5da4fd0309eae141bdd4fa5b963cbb567612736e9a02c26f326a01dd906c2a34"
+    },
+    {
+      "bytes": 35765,
+      "elapsed_ms": 1484,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00332-h1555710.body",
+      "sha256": "0d13f222e7d6dc6d2fd4b684b9d07fcee552481aa2658bce775c8216bab4f662"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1862,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00333-h1555730.body",
+      "sha256": "72ed910b47502de2d5304a2d50cd54e5c081512bf974ff656c677a427f4f3b39"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1694,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00334-h1555730.body",
+      "sha256": "7d9613e133730fc3a7133bf2317cd3b4a737fee80df063500cb469239bf26e6e"
+    },
+    {
+      "bytes": 27977,
+      "elapsed_ms": 939,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00335-h1555730.body",
+      "sha256": "b2be018f130097effae5858c68a64f6baaaa8665d22d22e2e678218f847c2818"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1648,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00336-h1555750.body",
+      "sha256": "8e708eed055fa40ab4ae4694e023a00a2e4c9b5d9a491d749da2cdeb4e7a6963"
+    },
+    {
+      "bytes": 31871,
+      "elapsed_ms": 654,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00337-h1555750.body",
+      "sha256": "48ece85d72b5ecdfb6eb1f7b91d649df124104fc7514bc085e85ad5c2395b346"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1724,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00338-h1555770.body",
+      "sha256": "77dbdbaa25b6558c1c52a934ee09a25c5f44edde0a813bfb97a1a8960d9d48a8"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1224,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00339-h1555770.body",
+      "sha256": "e915c5fce8fdabc05ffe91959959bba058bebd6064356a808c3ee03554767c35"
+    },
+    {
+      "bytes": 7209,
+      "elapsed_ms": 195,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00340-h1555770.body",
+      "sha256": "718f8ca184d6396fd50b1bd9c30f86fdf6663bd2c8e9f22132d4b5671a5dde4f"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1733,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00341-h1555790.body",
+      "sha256": "d22bd8a85ab069eb7590ed6e7efe00bc92d4e8410f7fbe6376b0056ab61ef609"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1339,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00342-h1555790.body",
+      "sha256": "1854dcb103da98f2d2b5b693a5b8287fbafa7c971bc1d304c9f9fc4ee304aa26"
+    },
+    {
+      "bytes": 10454,
+      "elapsed_ms": 612,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00343-h1555790.body",
+      "sha256": "4bd154bd5fd8e774d2f417485a492f1aaa86035accf32b6435cdccc0b9795646"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1644,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00344-h1555810.body",
+      "sha256": "10cc023b989c714c9c03b8a26a1b26b1e4c431f40ed845a38d0610b2667f0f7f"
+    },
+    {
+      "bytes": 45500,
+      "elapsed_ms": 1100,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00345-h1555810.body",
+      "sha256": "24f7ce5ff6599fa74b63982621b7d78dcf9fffc9d884de7e442a3ae1f6f147c6"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1990,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00346-h1555830.body",
+      "sha256": "8fe93b9bf31301eb576333622a14492ff83f4a114b6724b531e6ded458ebc778"
+    },
+    {
+      "bytes": 46798,
+      "elapsed_ms": 1084,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00347-h1555830.body",
+      "sha256": "5076b8bfceacdb327ad169e301ce4505ad55066138fc0021aa93f25246eeba26"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1897,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00348-h1555850.body",
+      "sha256": "35d7ff6c5cf92fc165c328c37dcad1f46585fe80a468020e862dc7f82f859a35"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2074,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00349-h1555850.body",
+      "sha256": "2a0df5e3a44b06337f057ad363ec6ff4bf2b1ad6d4acc73efdf94b529be70e25"
+    },
+    {
+      "bytes": 1368,
+      "elapsed_ms": 283,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00350-h1555850.body",
+      "sha256": "71986fefd82aeb1e8d08fad3c1a3328316264dc67781f34c128229c5c638bd85"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2206,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00351-h1555870.body",
+      "sha256": "ed6e92ae077e6ec51c2a623928b797b14aa5d74d2c87c72e9e3b8b6df1f9ad70"
+    },
+    {
+      "bytes": 55235,
+      "elapsed_ms": 2340,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00352-h1555870.body",
+      "sha256": "9fe8aa103caf3278938dae1fe25831b45883ae38fb735fb4693c1f8d2487ca83"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 3995,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00353-h1555890.body",
+      "sha256": "da95f139be40a9c345c40c1d13a5c47f4c3a404e57b1e6c02aec170a12f256c9"
+    },
+    {
+      "bytes": 36414,
+      "elapsed_ms": 1177,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00354-h1555890.body",
+      "sha256": "ebed6a19e9ff512fd51007d8d8da5c6f77c34e687a352c9b217c003c73477d75"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1692,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00355-h1555910.body",
+      "sha256": "1b097f2b6f30504085b38c7b7eff3d7da637011551c8001fbea101ef4661d2f0"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1518,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00356-h1555910.body",
+      "sha256": "63e4659b1b5ff846e4b89d3c6c0336b115e70bd127f4a106cbd966321438411d"
+    },
+    {
+      "bytes": 15646,
+      "elapsed_ms": 518,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00357-h1555910.body",
+      "sha256": "a1c1f2632ed5550373c230daede10274f76dbd1fe6c6006a28bda56d5d6110ad"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1759,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00358-h1555930.body",
+      "sha256": "cca6bdf9b12c8c13f14103d78dc57dc85ca09b1af1015ebdccdcb87b5b80aaa3"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1938,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00359-h1555930.body",
+      "sha256": "4a494a4de4ed86ef29fee30744f23b80e8c40b5e3587b2310517202ed34d2378"
+    },
+    {
+      "bytes": 5262,
+      "elapsed_ms": 144,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00360-h1555930.body",
+      "sha256": "25e45cb6b6ffe04a366547ead070d30ed9dfe2e0708c0697954aa0d7e9db7347"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1726,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00361-h1555950.body",
+      "sha256": "f342331bb80cfbe6d03350af33882924a11af4512e7059806dbe882b9c07f67c"
+    },
+    {
+      "bytes": 44202,
+      "elapsed_ms": 1532,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00362-h1555950.body",
+      "sha256": "4a51b27f60630a217abe871a42f75d543e3b29e3f3a1b061ca264c6bcd63ab7f"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1730,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00363-h1555970.body",
+      "sha256": "1fbb5d80679dd6ec6c6139d9dc89865bec043c5c370a058eee9983fb0da8feed"
+    },
+    {
+      "bytes": 14348,
+      "elapsed_ms": 660,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00364-h1555970.body",
+      "sha256": "3e46fc71b94258cce096ddd998eac856c84b5b0a4171a8d1721f68945b33364f"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1925,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00365-h1555990.body",
+      "sha256": "66930f9cc3e1505d9ab716ef801908fe4635ce67eef7379345add32e9775eb56"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1425,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00366-h1555990.body",
+      "sha256": "8457d5f987c8f4138d37d4ee1d9091310eb609433761dc97502d395e6ed49462"
+    },
+    {
+      "bytes": 15646,
+      "elapsed_ms": 379,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00367-h1555990.body",
+      "sha256": "33902924be3ffc90069505a580dc8d8aa6cd46d2a725e7d02934cd5cd3dd3770"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1788,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00368-h1556010.body",
+      "sha256": "ff4aa5688bec3c88a259c920e7571930f17b8c176a0a0f638dcd2c6df0756174"
+    },
+    {
+      "bytes": 64321,
+      "elapsed_ms": 2007,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00369-h1556010.body",
+      "sha256": "ecbfc8448394e3edc38ea2f61dec0f6bf7ec3bc1c30ec6aaad12520211a9bc65"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2641,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00370-h1556030.body",
+      "sha256": "8a08e82ea9b90297ae48dab3e81d4408a81584f0333e8c6abae4448274a7500f"
+    },
+    {
+      "bytes": 44202,
+      "elapsed_ms": 991,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00371-h1556030.body",
+      "sha256": "cf730875081ab42bb7f5c419cdc606d09ad48c79daa6e82b4d9f6146f186fd61"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2235,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00372-h1556050.body",
+      "sha256": "75cda06cece2c6909adf90c0d22859d2ab3bd02b94b16136d7537879bf3eca61"
+    },
+    {
+      "bytes": 1368,
+      "elapsed_ms": 158,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00373-h1556050.body",
+      "sha256": "5c0c136d00f717b191ce9c321ca9959f6355e70d357bf4ab868673f591b10da7"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2039,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00374-h1556070.body",
+      "sha256": "181d1e250746f0954f31c0399213fd4e29b38e33d1f4e4577be52504cd452cd4"
+    },
+    {
+      "bytes": 46798,
+      "elapsed_ms": 1215,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00375-h1556070.body",
+      "sha256": "352f47ef3d44a1a04a2047c7e47d27212d6302a21918decff6dc57d67ec357e0"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1917,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00376-h1556090.body",
+      "sha256": "520f95e5238ded8dab20bf4e423273133facaa475b40d6ba3c0d4fd9a550e1ab"
+    },
+    {
+      "bytes": 45500,
+      "elapsed_ms": 1251,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00377-h1556090.body",
+      "sha256": "f80875be916b975d75b7ecf22f40740268487534ce024ac0a077cb11a6a37afd"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1860,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00378-h1556110.body",
+      "sha256": "21d56a9eef7965265a2d0c7ae6bf7c8a7b19659fcf446dccf00440645f5511fa"
+    },
+    {
+      "bytes": 59778,
+      "elapsed_ms": 2008,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00379-h1556110.body",
+      "sha256": "2b3f87bd4091a28f2ee9d462bc584838d21de0e687a1814f5f9421d4be9b3c2d"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2069,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00380-h1556130.body",
+      "sha256": "ce303a49b73a7c0bfad33d6fcca7cbec6eb8ca66eece35b1d0d20e3e07ffd309"
+    },
+    {
+      "bytes": 13050,
+      "elapsed_ms": 1062,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00381-h1556130.body",
+      "sha256": "c249eb872360fe73ca465aa64e5388b80d20daa9a3f01291801d668cfe9c1d09"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1949,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00382-h1556150.body",
+      "sha256": "8ec8c609df6002f54c1576aa693d3321890ca2b61e95857a0a16a138f66c0628"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1590,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00383-h1556150.body",
+      "sha256": "f52acdc3c89e3ea1153973ac060f2d02fc2972cc9f151b2c94ca8830c0516b67"
+    },
+    {
+      "bytes": 2666,
+      "elapsed_ms": 117,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00384-h1556150.body",
+      "sha256": "52a2e2fc6463bed83c6296f104c2fc57f9fb946dbccdea07d08b1db9128f9ce2"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2040,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00385-h1556170.body",
+      "sha256": "6fb09430caf5702a6280f7226b3e127e0af551b938ad6054ae9d5fc70f758694"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1893,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00386-h1556170.body",
+      "sha256": "469d68121d50c42b7123c34c0ac843acbe8c9d06e6e245f7fa282aa1efdf504e"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1388,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00387-h1556170.body",
+      "sha256": "d8253581de0c9605c3dae8a5d6502e6e4b628379f00ddda66f5e6b4e0e1a5ea2"
+    },
+    {
+      "bytes": 18891,
+      "elapsed_ms": 519,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00388-h1556170.body",
+      "sha256": "84f3b79f575036bcc0e7a6747f138924fc50e7496523edb8f822d85710744617"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2135,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00389-h1556190.body",
+      "sha256": "89fd63705633fa3a5dd2b7d4a07515ed4594c81bb3e886a674e82a818d5ccf25"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1438,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00390-h1556190.body",
+      "sha256": "56151c969f69ccd2e6b13684315adb076d86aeef8ff486eae5ce30c24430b347"
+    },
+    {
+      "bytes": 13699,
+      "elapsed_ms": 708,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00391-h1556190.body",
+      "sha256": "65340380cbb894af0a42f37c91381e1073c1eb1043dd3ad677e592f3c1e2e65b"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1967,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00392-h1556210.body",
+      "sha256": "7d5b0047c50f45a9dc4546a591015423ace9905ca72ce37fa2989251e25f61a5"
+    },
+    {
+      "bytes": 45500,
+      "elapsed_ms": 1192,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00393-h1556210.body",
+      "sha256": "166e4f28dd6f25566f41b826509525e01cb322f61f62edbe3b3b6444015c3a68"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1807,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00394-h1556230.body",
+      "sha256": "92a83c2df2555296fbdf0d38a2475c399ce455a8ac0531ad3e76f94bb44bae2d"
+    },
+    {
+      "bytes": 26679,
+      "elapsed_ms": 595,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00395-h1556230.body",
+      "sha256": "0d236c6fb91169066a05292df2243fd701a59e4f518d0ae86bb2b5b03dee082e"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1923,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00396-h1556250.body",
+      "sha256": "4343e0bb7910bf9794c8f0d524bb7c7371758b9de4f2565470254a7f3c0df8e4"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1616,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00397-h1556250.body",
+      "sha256": "25b27873a0827aef64d3565c93c9453b485c07749fe2fa61ac82e0f273f6dbed"
+    },
+    {
+      "bytes": 3964,
+      "elapsed_ms": 140,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00398-h1556250.body",
+      "sha256": "550bb2eb6f3cf3163a38f636ae126d5e0096be058bb4c3537e48a0b2d1488050"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1900,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00399-h1556270.body",
+      "sha256": "2959006d137e2759653318077cc35df97973245fb55e9ab553ca1610e1223506"
+    },
+    {
+      "bytes": 61725,
+      "elapsed_ms": 1815,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00400-h1556270.body",
+      "sha256": "b7545c36ff9c533e737bb63cf1fd0ba67ae29cfc927c1c6422c80df0409352e1"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2275,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00401-h1556290.body",
+      "sha256": "2b53be9ab338c0e6b6a7316b2fab3554040adf6d8fdb9bbdf8debe6b8fb1107c"
+    },
+    {
+      "bytes": 14997,
+      "elapsed_ms": 691,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00402-h1556290.body",
+      "sha256": "3c0d9230dcef6341e5f9649b0128939053ff6b6c72f4258d2c4ae70b8cc44ce8"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2072,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00403-h1556310.body",
+      "sha256": "968caaba35169e5118eb905757a030284e56183f61e725c43f013388ed49380c"
+    },
+    {
+      "bytes": 32520,
+      "elapsed_ms": 1218,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00404-h1556310.body",
+      "sha256": "44580cee2c1db36d17dbad94ab44388df106a6f08545839ca4007aa33e03da19"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2314,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00405-h1556330.body",
+      "sha256": "078c7d939e161b184db6fb3bd88b62fb093519a0f7c5003403042d8a900047e9"
+    },
+    {
+      "bytes": 54586,
+      "elapsed_ms": 2698,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00406-h1556330.body",
+      "sha256": "19c9103d8a538ae4089e5875ac40e9fe477ce159c04111b2389693e5101b93cc"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2036,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00407-h1556350.body",
+      "sha256": "8a4bf6753022ab17585b7ccc09e42b76ab44c9f3266f6cda98010cde1c530da9"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2672,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00408-h1556350.body",
+      "sha256": "a08f634f1a27c3dc9567fa94e5705b628df2a6728243b704dc1cd79604cd2798"
+    },
+    {
+      "bytes": 4613,
+      "elapsed_ms": 176,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00409-h1556350.body",
+      "sha256": "48fa48d8caafd949f73044a4dd38d6af92d095a1842696ac3b070268ba710234"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1970,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00410-h1556370.body",
+      "sha256": "0286fc930cb030164a885a63ef3b060929e5c8be6d7b4f0e9882745d5ebe7d2f"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2578,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00411-h1556370.body",
+      "sha256": "1d268c293e603a25db9e7766c8b8a6d615896b7778e4ceb84addd94206fc9b77"
+    },
+    {
+      "bytes": 1368,
+      "elapsed_ms": 212,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00412-h1556370.body",
+      "sha256": "948a426360e35f8c97358fcf263ef55b7dd360350452cb91292480e40fd83fc3"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1868,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00413-h1556390.body",
+      "sha256": "695fe6f00563f0f818dd48e3a6621f100858da9e60b9f68dc94426340497a3f4"
+    },
+    {
+      "bytes": 20189,
+      "elapsed_ms": 1388,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00414-h1556390.body",
+      "sha256": "5c2fffeac9afaa168ed1ab4d82fe9f8e12dcf438810563e97e269ce8aa478a74"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2460,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00415-h1556410.body",
+      "sha256": "b2b984081d4c03c854a98e7425532a4ae24236aab4feb00d45a3190b86cbf5ae"
+    },
+    {
+      "bytes": 48096,
+      "elapsed_ms": 1594,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00416-h1556410.body",
+      "sha256": "b6c57159dce2ca3d4ccc8cbd15243a0dca0ae0346a50af2fe9b6b1e40b97fe98"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1934,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00417-h1556430.body",
+      "sha256": "a0666413c87e29e90ec2570a605a69e89c2cb16cc161b4c1f109b800cb696f7a"
+    },
+    {
+      "bytes": 44851,
+      "elapsed_ms": 1749,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00418-h1556430.body",
+      "sha256": "d7fa1a966222dc574f8dfb55323f5c6f3714fa92f46139e88c83ce5480d54c22"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2139,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00419-h1556450.body",
+      "sha256": "2e9e5bd80df9ceed477c31108f4e3b6999a17770d9f388ea7728d31e1ca8cbb2"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1850,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00420-h1556450.body",
+      "sha256": "cde4ce31be4020c4e9b778592ed5d5904248e9f7955f29933fdd3577dcb09bb0"
+    },
+    {
+      "bytes": 2666,
+      "elapsed_ms": 580,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00421-h1556450.body",
+      "sha256": "68bfb27335c2b8129e55ba8d6bb1c8722464f1ba185a8963cfef1ce835e39486"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1856,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00422-h1556470.body",
+      "sha256": "742bb3808d94035e733fe1d75b2e58b19760190558ed1d5c3534579014b9da41"
+    },
+    {
+      "bytes": 30573,
+      "elapsed_ms": 976,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00423-h1556470.body",
+      "sha256": "b9514d52e5d06d3f477dca4b4fa35bb9be90e56bc78840373302af0fcd29ad56"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1849,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00424-h1556490.body",
+      "sha256": "d3794312bc4341e05abdd5f69f6d1a7d38599e7e668aeb8e57137ac853188774"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 3621,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00425-h1556490.body",
+      "sha256": "48519559ca8a23d7e2b62426bf3f3038ceec5ecd881dfcb79fc160dfa1b86e7e"
+    },
+    {
+      "bytes": 4613,
+      "elapsed_ms": 214,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00426-h1556490.body",
+      "sha256": "0de685baacccd07811c1dee4a554db38ce2e72af914067bd066e1d23905c6ee4"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1528,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00427-h1556510.body",
+      "sha256": "b6ef3d5c01345d84b1b58591f7647e8aa5388652a19ef730e61621947174db87"
+    },
+    {
+      "bytes": 18891,
+      "elapsed_ms": 867,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00428-h1556510.body",
+      "sha256": "bcd59d2eaa7ec9304dcf5b11020c95349fd60b2453015e539a7bae018e8ba303"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1728,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00429-h1556530.body",
+      "sha256": "a0500ff867a9264ddf9cbed21f749d2361a827ea352b1f5b1e2d7bae8101b4be"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2185,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00430-h1556530.body",
+      "sha256": "f8b1dfdf688d690775203cfa84b86724068ef36bbd32673ceafa68cc4a3fe61c"
+    },
+    {
+      "bytes": 57182,
+      "elapsed_ms": 1379,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00431-h1556530.body",
+      "sha256": "2fb7d2ce34e9241ce9c389dd0e6f7b7e3e7badf7841947700da15e5fff226a5c"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1593,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00432-h1556550.body",
+      "sha256": "9c30fde54e0e4042ed9cfbc4c5a088967950d40ecb91e28884e7f0b22ac02d79"
+    },
+    {
+      "bytes": 51990,
+      "elapsed_ms": 1555,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00433-h1556550.body",
+      "sha256": "b42d5d952c9437563be80cd502eb724c7dd50f79ad1aa3cb72951ab8e9367c06"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1984,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00434-h1556570.body",
+      "sha256": "354b80c51b70fc3032cdf928aa5f2b2143f74c6dc37e676ec6c7f973ad379c88"
+    },
+    {
+      "bytes": 18242,
+      "elapsed_ms": 517,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00435-h1556570.body",
+      "sha256": "a8b2bc03b01985ac400a4990fd746e61acf698e6cacb73323eb5e5eddd9da806"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1839,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00436-h1556590.body",
+      "sha256": "90a62f98a7cfcbddc8f1e9b09c1d2c5b25a722280522699f72cf49bb1cfcbf85"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 3142,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00437-h1556590.body",
+      "sha256": "9a1022e99ccefd027dc70c0c0c971f04ce02d4142e7ebce93f15c0d519589a06"
+    },
+    {
+      "bytes": 3964,
+      "elapsed_ms": 266,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00438-h1556590.body",
+      "sha256": "e0e4a7c516bddc7abcb16a8c1e4fa131b4f46cd8b135d026a1f15df290bf85b2"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2656,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00439-h1556610.body",
+      "sha256": "e673a208092f38a81839557c49c11002b2003857dced40e363b456cc1bf3ae06"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2457,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00440-h1556610.body",
+      "sha256": "06b9d8472a840a7f17cffd202c11dcff869cdfdd0ec5e2e15cf4bdbf802db724"
+    },
+    {
+      "bytes": 26030,
+      "elapsed_ms": 684,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00441-h1556610.body",
+      "sha256": "f82e4ab640f9b18245a36768cb04a375c1ec90201d706bdd5086b9ed15b75c16"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2895,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00442-h1556630.body",
+      "sha256": "d50d166ef0320229c412aa7c18014c2fd5ea7408aa9a5413e3f1274cadd62b0d"
+    },
+    {
+      "bytes": 63672,
+      "elapsed_ms": 2544,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00443-h1556630.body",
+      "sha256": "cf9161f593708b2303ffa0cbb7c38694920398bd7814fc9ded3fa61a22a30eb4"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2305,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00444-h1556650.body",
+      "sha256": "79e4a958b901a3d636dca768b0739e3042eb98a70c771e5631470236f205080c"
+    },
+    {
+      "bytes": 28626,
+      "elapsed_ms": 593,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00445-h1556650.body",
+      "sha256": "a53c335d925d7b7fa2d096343565cf12b3ec6a5300136fe85f6ed21128fbbea1"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 3973,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00446-h1556670.body",
+      "sha256": "774e0915aa4ae052d0f3389033f317c028b0f54a197ec2b151fcded117c0fb50"
+    },
+    {
+      "bytes": 44202,
+      "elapsed_ms": 1675,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00447-h1556670.body",
+      "sha256": "8b7435850658da1ee9013a119e709a61252fedf9f49ab7a6ccaabfa56b74d370"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2513,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00448-h1556690.body",
+      "sha256": "a43b1b40c98f53683c8fa1624e3dccc2ae3e67c19e823675867b8fd702d2a601"
+    },
+    {
+      "bytes": 46149,
+      "elapsed_ms": 1375,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00449-h1556690.body",
+      "sha256": "32752f486d07decdb514ab7792de306952958b86eb3b33b4586ada455d31619c"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2299,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00450-h1556710.body",
+      "sha256": "7433df4e219229f7a2f0c5efebb7c95d5b5e5a1ea7cec0d93a5ebc0d914b0800"
+    },
+    {
+      "bytes": 28626,
+      "elapsed_ms": 1608,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00451-h1556710.body",
+      "sha256": "1c1fb2c6d52d442408ecebd7750fcbec4b8bba978bf882524abe8721ec2633ea"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2732,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00452-h1556730.body",
+      "sha256": "9cc340b91df212518cad243dad22d7fe3244a72142dcd99e31cffd4063d1b596"
+    },
+    {
+      "bytes": 28626,
+      "elapsed_ms": 1240,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00453-h1556730.body",
+      "sha256": "82cf3407fe6bef244ae9573fe91ca5c5016cd22357911519f5971c2d3241adf7"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2318,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00454-h1556750.body",
+      "sha256": "4bea5f9d0ae113e6e094e05cd5ed1d092b9d8c259cf70a7458b43efc7fad9568"
+    },
+    {
+      "bytes": 61725,
+      "elapsed_ms": 1776,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00455-h1556750.body",
+      "sha256": "890332676b0800a40039ee15ba07338a2de90eb942b03ce703436a0fa46613b4"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2125,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00456-h1556770.body",
+      "sha256": "427f4c767fe982d5f35ea0dd46782d853eada20939e0913b676d08e46e55fada"
+    },
+    {
+      "bytes": 61725,
+      "elapsed_ms": 1628,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00457-h1556770.body",
+      "sha256": "eb02eeaf4db9a7e22ef580211754b0817bed31c7037d3c8e86fd5ea724df5540"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2248,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00458-h1556790.body",
+      "sha256": "176ee1e99b1c4a0bcd40452e6b7b01f6f0059c5e439e36e822d25f88deacc4ca"
+    },
+    {
+      "bytes": 59778,
+      "elapsed_ms": 1589,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00459-h1556790.body",
+      "sha256": "96be2a1b07e1301c2254f2c3d9dcd40f1a1b3f31fc4c4a6a702df652c081d94b"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2372,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00460-h1556810.body",
+      "sha256": "57a0680a695457e8a4b87db2694d062d13c818b653dd7dd3b7a8e3a41f22869a"
+    },
+    {
+      "bytes": 14997,
+      "elapsed_ms": 1040,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00461-h1556810.body",
+      "sha256": "50bedff9c86bb7987f20dfba0d7731c606566f6917193380207888cf8a160ce7"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2793,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00462-h1556830.body",
+      "sha256": "5dc5e204476604ce6a1808c7b48c85ac2960984d56830cfd637400dbffcd684f"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1919,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00463-h1556830.body",
+      "sha256": "70a971eecbeffae8025ab93d622a8d00b4be07d1da9c1ae82cd920f48efd5e5e"
+    },
+    {
+      "bytes": 46798,
+      "elapsed_ms": 1614,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00464-h1556830.body",
+      "sha256": "bca74a9b5072aa41031631267df7249fac6dd8e0a7513886ad58c9e4d227abd4"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2826,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00465-h1556850.body",
+      "sha256": "8ab08b60180b9ad51f948b360adcba02a2654d0b10c641aa4365b4559c8fdc2b"
+    },
+    {
+      "bytes": 15646,
+      "elapsed_ms": 647,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00466-h1556850.body",
+      "sha256": "5c8df379e7dfdf392780fe0806137b3ee69c1b265b4eb4564858b4e16350668c"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1925,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00467-h1556870.body",
+      "sha256": "4afd74cca2fc74889f5c28d8b1f6b9f0bfc639ca335c0cd81cae0b7dc5bf9a20"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2905,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00468-h1556870.body",
+      "sha256": "c8b20ec17e0855d6fbc18efae9a50703c3f7c7219a58872b0d8b7406e5ec6b9e"
+    },
+    {
+      "bytes": 29275,
+      "elapsed_ms": 1213,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00469-h1556870.body",
+      "sha256": "028a81fd5cf8c9adfd0b56e38cf521ce19135089a7572b8631281e9291183d56"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 5181,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00470-h1556890.body",
+      "sha256": "e9a39171708f1f2c4614ff9c18d4f07ebf70f4b25bd67378df762bcb13529992"
+    },
+    {
+      "bytes": 46149,
+      "elapsed_ms": 2887,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00471-h1556890.body",
+      "sha256": "42cdd647cbd9dd2a95f1f186326a421023e9445cf2f6590e3086c59ef76ea504"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 6736,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00472-h1556910.body",
+      "sha256": "a6704886581b3769bb57161b682dc5a31dc4bb1f87d8e051836545b6a92e71ff"
+    },
+    {
+      "bytes": 61725,
+      "elapsed_ms": 4306,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00473-h1556910.body",
+      "sha256": "ea480b0c0a3fe2dc07a60a99281d7635342b357f7ad988c487b94ee31bd57936"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 6363,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00474-h1556930.body",
+      "sha256": "6bc19717a5db29b5f5f8ff1d3d3ae78a6a3758f52ad069ffd1553a42f9c3777f"
+    },
+    {
+      "bytes": 61725,
+      "elapsed_ms": 4275,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00475-h1556930.body",
+      "sha256": "25d09f7008bcaee57fbd551527c568df6eee40b0fafc5f1946e4f796765d2b73"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 5717,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00476-h1556950.body",
+      "sha256": "a392b83e4dfef84118ed7faede797934cf7bf47c8fdb7e1e08440b42a4d80d7d"
+    },
+    {
+      "bytes": 28626,
+      "elapsed_ms": 2729,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00477-h1556950.body",
+      "sha256": "6467d0b62ec2dcb0e5772325b14e8fa54deeb81775aed7bc20f3821763f29ead"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 6193,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00478-h1556970.body",
+      "sha256": "6e3e22829ade70fd4a5dc79c1034a41d0aac12cb1948d5f98f260cc9b80e00fa"
+    },
+    {
+      "bytes": 30573,
+      "elapsed_ms": 2619,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00479-h1556970.body",
+      "sha256": "848f8e3d65a339c76f3cb020109faca953ccc599655b18b63a5b82e39509cf8a"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 3329,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00480-h1556990.body",
+      "sha256": "2e08f1e980b13e2bfa8f59a3690f09a3d8cea46180c2175978365d9894d83648"
+    },
+    {
+      "bytes": 32520,
+      "elapsed_ms": 2540,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00481-h1556990.body",
+      "sha256": "e107670a9449ae4cc49ba07dd147ff04a02a65504874da9937386a93ab879530"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 4203,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00482-h1557010.body",
+      "sha256": "3f86753e9242dbef4c32be5f5608ff04d6de938dcc55445e6236541d0106cadb"
+    },
+    {
+      "bytes": 44202,
+      "elapsed_ms": 3041,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00483-h1557010.body",
+      "sha256": "1615658d55c3f4ddb1d8153d5a48cf33c71de9e4987f825964c5b5e2c96f1796"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 4889,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00484-h1557030.body",
+      "sha256": "f2ee07d0b1f861102d7dfdcfa4c0db8bd103077cfe917f985659400537226b01"
+    },
+    {
+      "bytes": 46149,
+      "elapsed_ms": 2885,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00485-h1557030.body",
+      "sha256": "16dd4131e923409cb3e85d371fa7e797d1e2a4003caa94841eeaf8f95e49c10b"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 3260,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00486-h1557050.body",
+      "sha256": "6bc6369040fd343249f6d12aedbf79d9249fbfab627001b9af64d3736f5a316d"
+    },
+    {
+      "bytes": 30573,
+      "elapsed_ms": 1329,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00487-h1557050.body",
+      "sha256": "f268b320c2ac071b200133b02d7f1144e3f3358a765433b0fe68a537fb6bb01e"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2772,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00488-h1557070.body",
+      "sha256": "afcaa213fbfab6349736e371f9ccd426d9b6ddf2746eea374582c01dafa44584"
+    },
+    {
+      "bytes": 44202,
+      "elapsed_ms": 2426,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00489-h1557070.body",
+      "sha256": "6a7a587ad5e00e70c919d66d8e00b14d77c0ad0bf7d200261459a32d18eceda5"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2556,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00490-h1557090.body",
+      "sha256": "4628bb4e60bacc74a0aab8e7541aec5fa1acd1d63cb149bf6a29e4d086e4af61"
+    },
+    {
+      "bytes": 47447,
+      "elapsed_ms": 1290,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00491-h1557090.body",
+      "sha256": "b9d459df8dd1d8ce1ce62cc87c78d02731581768d6ef8da0e4436dac74e4568e"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 4477,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00492-h1557110.body",
+      "sha256": "499a61726ffdd7e491f9ea7a914ffaa9de08a23f488cc218e3f48a5cc167b4d4"
+    },
+    {
+      "bytes": 28626,
+      "elapsed_ms": 2066,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00493-h1557110.body",
+      "sha256": "9a4b9f686071adc88d5f05a516423a663623e42959f397072813cedc2e4cb97f"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 5070,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00494-h1557130.body",
+      "sha256": "f063354d952869f3effa13131d705f9694242d8fe5b6d5e78d0fdc29df4a1767"
+    },
+    {
+      "bytes": 33818,
+      "elapsed_ms": 1373,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00495-h1557130.body",
+      "sha256": "e1b9a6ca6e9483ee45c8e529161a2bc7345d7105361c32bbaa19c284bdd8b659"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 4524,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00496-h1557150.body",
+      "sha256": "425e1bbe5eeab487016465b88000b19eb3fb41dc491e4b289e792de51bcdb777"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 3918,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00497-h1557150.body",
+      "sha256": "d96dec80a1f0da07f87055745c8613a919455cc50937e3aef94417ba5df79b96"
+    },
+    {
+      "bytes": 61076,
+      "elapsed_ms": 2030,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00498-h1557150.body",
+      "sha256": "b00261cf503cc102f961763dfc0b9507e91b6dd144d2bd656079c5d43e3d036e"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 3629,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00499-h1557170.body",
+      "sha256": "44d9d4c8794ce9793c9ce36707cdb83bcbcd6e4529be4467b5e74e5f8035210f"
+    },
+    {
+      "bytes": 44202,
+      "elapsed_ms": 1623,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00500-h1557170.body",
+      "sha256": "1ed07f9c884708ac9bc25fdfd907ff70209889810ba594c5bbbe719aa0c59ca8"
+    },
+    {
+      "bytes": 64321,
+      "elapsed_ms": 2476,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00501-h1557190.body",
+      "sha256": "124c78d3fca406ff34611ac25f89c64117fe82f4d45ecf6ea574a6eddf79465c"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2881,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00502-h1557210.body",
+      "sha256": "ee4bad0d3dbc3cab3b9e9e60ae14b0a25bc90659c9f88a6c4b5d554957a8275b"
+    },
+    {
+      "bytes": 62374,
+      "elapsed_ms": 3003,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00503-h1557210.body",
+      "sha256": "96ae524cea67b81c02e3ca793cfa9ae71a10427ba1398457f63c074693b69e78"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 3637,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00504-h1557230.body",
+      "sha256": "bae83dfc0e15659327da6defc4342351e37a21fd7e084530bf1783677b941b0d"
+    },
+    {
+      "bytes": 36414,
+      "elapsed_ms": 1038,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00505-h1557230.body",
+      "sha256": "5a227cf0c60a55de3ff08ff8366b369d3c8688b68638c8fa6d0ea43e37543155"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2357,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00506-h1557250.body",
+      "sha256": "8bc1e0daac9918c6bdc6e8918ca42dcd927d63f90e61cc4b63df3378d3ad6669"
+    },
+    {
+      "bytes": 28626,
+      "elapsed_ms": 960,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00507-h1557250.body",
+      "sha256": "8ebcb3ec1aee6c2085371b37b651d0bf00c68373684b772dd5252441c11b9b67"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2429,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00508-h1557270.body",
+      "sha256": "3d1260e3c2a54cfa6c3bb3ee3ab8d58abc11a806ffef3c946a3e954341b68645"
+    },
+    {
+      "bytes": 64321,
+      "elapsed_ms": 2718,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00509-h1557270.body",
+      "sha256": "2da0823d9aa1451611da28e1aefecbfc0b6a0f52b1fb8c6854464f5d24927e68"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2459,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00510-h1557290.body",
+      "sha256": "98acf3ba804385c0e0843140f8d8c9ef98820125d5570f7cd3f96a0b26848c9a"
+    },
+    {
+      "bytes": 48096,
+      "elapsed_ms": 2321,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00511-h1557290.body",
+      "sha256": "6234dba19eaa86d98663b720a72ee865b9a37905961770f2649b352f5fcf9206"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2709,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00512-h1557310.body",
+      "sha256": "c1b40b84103a691e48201ecc9207734d39aa5e6a1c4ab940dcdb71012fbdf6a7"
+    },
+    {
+      "bytes": 44202,
+      "elapsed_ms": 1648,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00513-h1557310.body",
+      "sha256": "724720efc08e8d57fb3a98800c2e30b17ebddedbf4c85ea6981fa6857d3925f9"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 3197,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00514-h1557330.body",
+      "sha256": "0370da973eaaf6480d7cbfbad51ce22bcf31ca01fe8d71a663b0f24074934ec3"
+    },
+    {
+      "bytes": 15646,
+      "elapsed_ms": 535,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00515-h1557330.body",
+      "sha256": "6b4aeda7e2bcb098444bbefa290f9dd396e817680f0116ce0ff3522df0a5e4ad"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 3287,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00516-h1557350.body",
+      "sha256": "847f6e9e0af19b7f8a244ab09da9a77da898469fffda528ba254f26a5e035f50"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 3485,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00517-h1557350.body",
+      "sha256": "d2a092d9531667babfe0443180ac99478c02775ef1025ecde8c6dd020e19c4ad"
+    },
+    {
+      "bytes": 12401,
+      "elapsed_ms": 626,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00518-h1557350.body",
+      "sha256": "8b2103d3f4b0b420f3968d9e4257382e66073f481c962338fda3f0315a801195"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2677,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00519-h1557370.body",
+      "sha256": "4938c0d34acefe03f1f836edfda9f1cc68177aedc7d1f5bf431ac6b6040f0c13"
+    },
+    {
+      "bytes": 31871,
+      "elapsed_ms": 1239,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00520-h1557370.body",
+      "sha256": "1f7d91870f28699b8675812a5b19b219370a768cd09b986d92b6e2495b61660e"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2634,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00521-h1557390.body",
+      "sha256": "88430c8540fc3c3743f5653dcec0faec728a36b54830dc30efef18f5562d6087"
+    },
+    {
+      "bytes": 23434,
+      "elapsed_ms": 728,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00522-h1557390.body",
+      "sha256": "4577e0aa5c811033f81c80688b77a73d23f0bb5670698fc09bd0ff14077814d5"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2563,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00523-h1557410.body",
+      "sha256": "97db1ce73af566dda4db5656fc1cbb485fc24d7fea983b60e454ffbe45ab7620"
+    },
+    {
+      "bytes": 28626,
+      "elapsed_ms": 1583,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00524-h1557410.body",
+      "sha256": "40c29947276a39ad54b3291dd6529730ed63cffbc200de7b247cf4a6add597e4"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2925,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00525-h1557430.body",
+      "sha256": "4c85606515a00b9cc00d88c928b9bed35c1059073779c1c458f706e592d117b8"
+    },
+    {
+      "bytes": 46149,
+      "elapsed_ms": 1768,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00526-h1557430.body",
+      "sha256": "96b90151a65e7822fafb031ad29711139d9a44baa6e7e0a1ba281343506d060f"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 4087,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00527-h1557450.body",
+      "sha256": "4a95fd3974bfd0041971b0320b81e73628e73ab39757a231861b76994b40b087"
+    },
+    {
+      "bytes": 44202,
+      "elapsed_ms": 2571,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00528-h1557450.body",
+      "sha256": "d1550e08b01e5f89675cfbbe68a8d082bed6cd82492bdb18c57c1a733d45f846"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 3095,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00529-h1557470.body",
+      "sha256": "ef26029e0f6024f682ec6dc18b17a1a0063740530882632a71dc7f0508ae58be"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 4078,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00530-h1557470.body",
+      "sha256": "3073f168786ffbb30df665a2016af646ccb863f8492d896538a669d1d5076fb7"
+    },
+    {
+      "bytes": 11752,
+      "elapsed_ms": 747,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00531-h1557470.body",
+      "sha256": "9d6d3dadc4e96c0d16921fe91979211391ca4288ec209a13d5fb8a3dac14e172"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 3055,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00532-h1557490.body",
+      "sha256": "e3904d73fe734fb2ce3686ac5351546ea91188b7cafdf3e5894d7159fc2b6960"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1739,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00533-h1557490.body",
+      "sha256": "28d9fc056bf5d5f064817147c889948ecfca0aad394200fcfed70db9f67e5a24"
+    },
+    {
+      "bytes": 13699,
+      "elapsed_ms": 928,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00534-h1557490.body",
+      "sha256": "069d31ca78a1324d9e878e4789380b21d600892697bc984e5b1ed0a425a802a6"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 3121,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00535-h1557510.body",
+      "sha256": "d5809312aa0027c4eab60510b3f4bb207c0cb8473b8dbe3cdf6de6a5bc8736a8"
+    },
+    {
+      "bytes": 51341,
+      "elapsed_ms": 2384,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00536-h1557510.body",
+      "sha256": "01cc8828297822d6fdecaadf4d9144653e648e5464bd69cfe86f0fcd8e092f8d"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 3292,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00537-h1557530.body",
+      "sha256": "6b7c537e3a5940849ec4d33a503ce631047513d1d70cfbd780d1f899de918874"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2267,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00538-h1557530.body",
+      "sha256": "eb98835ede68fc6852e79320008c6accee6f57e0eed02c734dd25e0ddc67a7a6"
+    },
+    {
+      "bytes": 11752,
+      "elapsed_ms": 843,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00539-h1557530.body",
+      "sha256": "975b010040ce3c1238c2344a0fbdd6e427549a8d50cc73d7e9c6c4dacd516566"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2707,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00540-h1557550.body",
+      "sha256": "175c14251c03aa88340be842565c5c57ecc8a11b6bad338e3a837d53e013b80b"
+    },
+    {
+      "bytes": 32520,
+      "elapsed_ms": 1587,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00541-h1557550.body",
+      "sha256": "d82b96c7a61d2b521e2073a87c57f262d264fee3c4db358fa642e08ba35bddac"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 3146,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00542-h1557570.body",
+      "sha256": "8ff4f27a44789c1d8a45176f5ea2ee2916295882c7cede138dcae5c90a1245cd"
+    },
+    {
+      "bytes": 13050,
+      "elapsed_ms": 1626,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00543-h1557570.body",
+      "sha256": "e71470263e29dca40cbfa2ea7b2ebdc6cc0df38ef54df10b933aefc03b208848"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 3745,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00544-h1557590.body",
+      "sha256": "9ece4bbe549461053a0e4d3a021c86d799ba29d401794cd0d2f9d25afb25c2e6"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 3178,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00545-h1557590.body",
+      "sha256": "5efc506bd8c7254c7d172773524b31ce05039402e2e151dc80d8ef89f0007c3a"
+    },
+    {
+      "bytes": 25381,
+      "elapsed_ms": 2064,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00546-h1557590.body",
+      "sha256": "613537e53a76ebe154f93b21705a235ec2fb04b5039d1496c4bcf52a10aac257"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2944,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00547-h1557610.body",
+      "sha256": "e6b7eb2901ea9181458baab5c802317a6d68dae740eca3cce9897fd7228a4eb4"
+    },
+    {
+      "bytes": 28626,
+      "elapsed_ms": 1336,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00548-h1557610.body",
+      "sha256": "0aeb690eca0453480078dae4e5f82300917485ede487e0ba354acf4a697c0486"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 3045,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00549-h1557630.body",
+      "sha256": "d9c5a49a0711b7233e7d759c77ac0921b019049a005c0f03be9249f4461bd8d7"
+    },
+    {
+      "bytes": 16295,
+      "elapsed_ms": 1004,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00550-h1557630.body",
+      "sha256": "f1599b7f43ebdfb348ba2a5d0ac3ccb35c29c561b7ef21d55fe4b8a936f1f273"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 3750,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00551-h1557650.body",
+      "sha256": "e262b0b2d1d1cfc28295016d4afd94dbb8b054c23b1f8b8015753f6afcd839df"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2944,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00552-h1557650.body",
+      "sha256": "0ddf1d3eed84f46e94c0deec1556e18c0e8556b24b815ba9a63061391c36171c"
+    },
+    {
+      "bytes": 17593,
+      "elapsed_ms": 858,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00553-h1557650.body",
+      "sha256": "562be91059df8e7292f9366c42e77f001b60713102b89a6707425e017d90c124"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2492,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00554-h1557670.body",
+      "sha256": "7b7059ab7b28ace00cb6a2af4a2dd58e257c551785a03872c0d82fdcaddc847b"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2160,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00555-h1557670.body",
+      "sha256": "679c49df20952f6c3ce8c33bf3d5496a33c7a51e204ac60d003262095aec1c74"
+    },
+    {
+      "bytes": 2017,
+      "elapsed_ms": 178,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00556-h1557670.body",
+      "sha256": "3841aec09d4ace7d335147d78b0902da16dce3576dde71e212eeed1552568b94"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2631,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00557-h1557690.body",
+      "sha256": "e514545564032150419b392d819280e685ea7090395fabfa26052dd8ef5df701"
+    },
+    {
+      "bytes": 27328,
+      "elapsed_ms": 823,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00558-h1557690.body",
+      "sha256": "3fb617465ba10eec75a9d7e6d450d35af7f23f448bd68578c9d3326521393f0b"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2214,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00559-h1557710.body",
+      "sha256": "9da5f153bb6f2ecbc0cafca5fa31551c2fed4a8edeb6d11dbb2eb4ee64b48c9d"
+    },
+    {
+      "bytes": 36414,
+      "elapsed_ms": 2117,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00560-h1557710.body",
+      "sha256": "b616f242dd0d8b1ab788cbd7100c73d2c53190008d2fb5b7c11ccdd2989cc0c8"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2787,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00561-h1557730.body",
+      "sha256": "c9a627626d6b3e8e7807c1c7acc5091f0a000c3f1f794ec8cb2bfddf830c3cde"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 3187,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00562-h1557730.body",
+      "sha256": "8a1854c04d51d937671c0f5c8f375fef928a8e5dc85556637da475056b39f24c"
+    },
+    {
+      "bytes": 42904,
+      "elapsed_ms": 1730,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00563-h1557730.body",
+      "sha256": "7b3f140bc1242e9a398746b2a7bc93c5d9d47f1cecc9946c1a6845eeb4a0bf5b"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 4388,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00564-h1557750.body",
+      "sha256": "b2fe1b0539f4c1d772d81659d19b23d623488e197d6a0a6a7a83bb36f4c1a1b2"
+    },
+    {
+      "bytes": 31871,
+      "elapsed_ms": 1946,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00565-h1557750.body",
+      "sha256": "f050a57e36b369b1b46b1d34f5901992cec57c433b1dc44fc928bfba61168366"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 4001,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00566-h1557770.body",
+      "sha256": "38ffdf2116349e910afe0cf24a5f9e182163db4f392a943bba1634e58632bcb4"
+    },
+    {
+      "bytes": 37712,
+      "elapsed_ms": 2235,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00567-h1557770.body",
+      "sha256": "7587b94dc42da61f7a840561e1545ec098a1cd0988bcbb3ae05d07878427a639"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 3262,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00568-h1557790.body",
+      "sha256": "9802879833420e73a3b5a820820d82a6f6cb2f6ca68c055acac1199afc50ad3c"
+    },
+    {
+      "bytes": 46149,
+      "elapsed_ms": 2237,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00569-h1557790.body",
+      "sha256": "5c22ba21967614fd38bedf5460f167c089813362ee87a61f390345fa88e26529"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 3186,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00570-h1557810.body",
+      "sha256": "3946f0d24acdb0ff36f095705169be31b6c12dff87057b0fb2279f8dd152ad90"
+    },
+    {
+      "bytes": 26030,
+      "elapsed_ms": 876,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00571-h1557810.body",
+      "sha256": "d75c2530376502ab6dadcad6a2ccd05684f983e64aeb797a74213bcd666823da"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 5206,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00572-h1557830.body",
+      "sha256": "9bdcbae58f6d94ce635d227507e480c9808b9f54d9c89caf49a167f17a9a0416"
+    },
+    {
+      "bytes": 46798,
+      "elapsed_ms": 2405,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00573-h1557830.body",
+      "sha256": "2e6e49d2bf6a825700973370cde58150c9a8918ae84ed896f5ee6d3cdf55d0e2"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 5598,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00574-h1557850.body",
+      "sha256": "52af718ea3e106274affd4e48e11dfe36847655c513edbd9a769d016d8cdca15"
+    },
+    {
+      "bytes": 52639,
+      "elapsed_ms": 2339,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00575-h1557850.body",
+      "sha256": "8135bd41acc8557795e2c7ea1344106dccb51f1360f9c7dfbe91789f5e01af6b"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2999,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00576-h1557870.body",
+      "sha256": "db51a8f1001afadcd6fd6b3f4d4910db0925ee2ea30ce4fd2ae31d1efe1a4f49"
+    },
+    {
+      "bytes": 53288,
+      "elapsed_ms": 3555,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00577-h1557870.body",
+      "sha256": "01347d0c2a6fae8ca3129575bd47bce2ad9dd6ba2b31e1cdd54e2455a6d94393"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 3782,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00578-h1557890.body",
+      "sha256": "0a391a636c0d02ba9261484eff44ad3b71e30ccc7d150bb9000f1c40630ca976"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1936,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00579-h1557890.body",
+      "sha256": "7eec62a63fd50f2d78a76c34907363175b2a1d76f98c29978f1ea559ac3f30cc"
+    },
+    {
+      "bytes": 46798,
+      "elapsed_ms": 1429,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00580-h1557890.body",
+      "sha256": "a477dee0ad80305fd70ee176d9ac1b8baf7cd04652b5206dd650f665dca890cd"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2958,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00581-h1557910.body",
+      "sha256": "bb3a8d9ab2b1405f13c4275fbe8f022b666f82304919eb4076c0c3786ed55d73"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 3239,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00582-h1557910.body",
+      "sha256": "521cae5308ee44d4313cfb37b8af19b976ca53bb220b2e493aae91b798f555bd"
+    },
+    {
+      "bytes": 4613,
+      "elapsed_ms": 382,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00583-h1557910.body",
+      "sha256": "2e8e82434c2d341a727651a2875a49cc6b5d8b5f3bfaab324570b7f970669c5d"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2503,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00584-h1557930.body",
+      "sha256": "6c57f8bb7aa5449422b9e9b2b8ea5127d5d1bec9723691ab099a11e28a36b9d6"
+    },
+    {
+      "bytes": 37712,
+      "elapsed_ms": 2195,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00585-h1557930.body",
+      "sha256": "f51af4ac7d92c6172db29ce1423b82b0fed512d7f9bd383372a5f3f60c781cfe"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 3722,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00586-h1557950.body",
+      "sha256": "e2de5c7db7a33263045e2657db1360d553114f942de3b0634f6a25280588ae7b"
+    },
+    {
+      "bytes": 32520,
+      "elapsed_ms": 852,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00587-h1557950.body",
+      "sha256": "0b949d91e64b310a424aac7f9ae014128daa647900bc3848cdba08b263d153f7"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2459,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00588-h1557970.body",
+      "sha256": "e0aaf08d00535b3ce32aae31613b0b5da7dce3b6f336d68ce5ca5fa9766b2aae"
+    },
+    {
+      "bytes": 51341,
+      "elapsed_ms": 1955,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00589-h1557970.body",
+      "sha256": "f35ada9cd5bfa924e16992ed2817a6e87f08a27c7bbf7bb45224e4e65e3d24ae"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2428,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00590-h1557990.body",
+      "sha256": "39412c1d11a43518fac25e62c3e993fbe68e604776d0d43b9d8d4d977f1263c0"
+    },
+    {
+      "bytes": 35116,
+      "elapsed_ms": 3760,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00591-h1557990.body",
+      "sha256": "62c7e68b3971431df792ac0b1a576ec26dff6685bd2d323181381b721864f079"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 3285,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00592-h1558010.body",
+      "sha256": "60a5604821c76a7e63a532dec3b5ac76f8084453d677eb3f1552fa0e06a98d59"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2846,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00593-h1558010.body",
+      "sha256": "02038d4cacfddb260908dded88849753d84aa47b11ffe15824eb4eb8e2cc60f5"
+    },
+    {
+      "bytes": 16944,
+      "elapsed_ms": 584,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00594-h1558010.body",
+      "sha256": "f18b120c961b1296e81a4e9fe789435af47ddcc6f50c8b6d01c5054210add4fb"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2266,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00595-h1558030.body",
+      "sha256": "b2c29ad761a627be93bdbceee011354e88fa1d2bfa212eaa3e29072c94ea778b"
+    },
+    {
+      "bytes": 34467,
+      "elapsed_ms": 1038,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00596-h1558030.body",
+      "sha256": "f66f91a80851ebc37147e61ace5c537357be960a43c7ded0bad06d4b2e8a5849"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 3955,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00597-h1558050.body",
+      "sha256": "164c5253009f892dd4b876861ef6bcb7baca528b10d7013caf25b4f9fc0c3faa"
+    },
+    {
+      "bytes": 42904,
+      "elapsed_ms": 1688,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00598-h1558050.body",
+      "sha256": "f7312318bb35d25acea54cc6d6a948bb7001fcbeedb7f0e4ae5bfa4dfbda11c0"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2213,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00599-h1558070.body",
+      "sha256": "f266c84647da75c160fe9ecdf36a19ac807b5cad6cca224571c49375418952f8"
+    },
+    {
+      "bytes": 15646,
+      "elapsed_ms": 505,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00600-h1558070.body",
+      "sha256": "174736b25deb6c319d6156d0e99a13e547d182e2693b17bddc3c152af2b0a0c1"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2024,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00601-h1558090.body",
+      "sha256": "a344aeb1ac10443c6096f0d75b425a3781331330796aed705553bf43f72196cc"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 1884,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00602-h1558090.body",
+      "sha256": "b13e2555cd2cc09adb879accaf5d8dbf8b58824bd36ba5a7619a21abbcee0968"
+    },
+    {
+      "bytes": 27977,
+      "elapsed_ms": 790,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00603-h1558090.body",
+      "sha256": "c93e832ca393422366bb057ab1db80af00364fb63fc37e7ac93cfaddd48a0ad5"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2486,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00604-h1558110.body",
+      "sha256": "ae971920f584ff8bffd143f049dc3fe213bd753cf5061ee55720a202885dcf1d"
+    },
+    {
+      "bytes": 29924,
+      "elapsed_ms": 1771,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00605-h1558110.body",
+      "sha256": "b392940a08f35a19d87ed5e2c058349747d49e4fa06f307316be2d804def03b5"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2009,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00606-h1558130.body",
+      "sha256": "4ab5ed6ef626bbc6dcf235a2f0b4cd8501616e33ea1d020c1338b55d2c80e3bd"
+    },
+    {
+      "bytes": 13050,
+      "elapsed_ms": 506,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00607-h1558130.body",
+      "sha256": "cb021f26d3a383e72cbfaf23af2ddec45ac9ddf0149e998ceadcf3fbe95b30c3"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 4393,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00608-h1558150.body",
+      "sha256": "88d647fa41c3bc21cde8a89b4e4921c8831f4caa70bb44c5acf982d513ba51a6"
+    },
+    {
+      "bytes": 59778,
+      "elapsed_ms": 3053,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00609-h1558150.body",
+      "sha256": "51eb17094e1b364450cb34ac0b79133664ed5218076a7d5bba0b5fec73935b4e"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2831,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00610-h1558170.body",
+      "sha256": "19756eaa9ab7766dcd721072aaf200fdba18aa7e8ab1614124ed2840297bd4c0"
+    },
+    {
+      "bytes": 28626,
+      "elapsed_ms": 1093,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00611-h1558170.body",
+      "sha256": "e80a5e1806d280bfa8bcf62b3938dd074042eddb402b87772cf9b7bfe712c048"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2575,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00612-h1558190.body",
+      "sha256": "0c02fa94c98a639777b072e828f0a44a11088cf92e608966e018cfb1d1ca593b"
+    },
+    {
+      "bytes": 63023,
+      "elapsed_ms": 2947,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00613-h1558190.body",
+      "sha256": "aefa3f730845f1d6b5304a6b347d5e180f380e25d6ba07fe35781b8ad92820c5"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2383,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00614-h1558210.body",
+      "sha256": "3a29de6b6b0c02094e9b885cc9fbe27bb423646623329a2080aba9b442b32adf"
+    },
+    {
+      "bytes": 52639,
+      "elapsed_ms": 1760,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00615-h1558210.body",
+      "sha256": "2c412d7608be383f53cf2acd4c0874513e8de28c70cc25f3df1d4e0e5e889edb"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2541,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00616-h1558230.body",
+      "sha256": "155951c1781e3c9e59c7b55c544514d34ddbe1a55167985b4e7645e91112e4aa"
+    },
+    {
+      "bytes": 44202,
+      "elapsed_ms": 1205,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00617-h1558230.body",
+      "sha256": "fb63ac8c5560f699d396e5d84c4e5b8234352d7db902fbb190d7b2378ba05d5a"
+    },
+    {
+      "bytes": 64969,
+      "elapsed_ms": 2513,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00618-h1558250.body",
+      "sha256": "b1f44249fdf57e6c16a356d80506029e7761f59116683c54fda4077ecfd39cf9"
+    },
+    {
+      "bytes": 28626,
+      "elapsed_ms": 1517,
+      "error": null,
+      "http_status": 200,
+      "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/00619-h1558250.body",
+      "sha256": "8cca33f9e1615858228c018a8194fb470e32701fe6a277784eda891aa6fcbd1f"
+    }
+  ],
+  "rebuild": "Re-walk inclusion heights from block 1505290 with the P3 block-window query until the window's minimum nonce exceeds the range end, then set-difference the integer nonces. Do not treat row count as coverage.",
+  "run_id": "20261017T043811Z-p4-100000-149999",
+  "sqlite": {
+    "bytes": 15523840,
+    "committed": false,
+    "path": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/assignments.sqlite",
+    "sha256": "d9bb96169fde658261596f495ca893f7bd8a0e912c8fc038f0c6a877202ba690"
+  },
+  "started_height": 1505290,
+  "stopped": {
+    "next_height": 1558270,
+    "reason": "window_min_nonce_past_range_end"
+  },
+  "windows": 248
+}

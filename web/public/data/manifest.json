@@ -1,0 +1,223 @@
+{
+  "generated_at": "2026-10-18T04:58:20.181Z",
+  "data_status": {
+    "balances": "ready",
+    "ledger": "evidence/p10/20261017T1954Z-gate-recompute-amended/run-2/ledger.csv",
+    "sum_equals_supply": true,
+    "classification": "tail",
+    "classification_nonce": 2075923,
+    "classification_run": "20261017T1031Z-w-p8-tail",
+    "tail_reclassification": "done",
+    "canonical_balances": "ready",
+    "canonical_balances_sha256": "0c9fb668c34002db79e4f8a008bfafb2e34103fa4df34220a51f837c6110acca",
+    "methodology_en": "ready",
+    "methodology_zh": "ready",
+    "independent_sha_review": "matched",
+    "independent_nowasm": "7615/7615",
+    "assignment_only": "matched",
+    "from_scratch": "matched",
+    "cron_height_pm3": "unchanged",
+    "cron_vs_assignment": "zero_diff",
+    "raw_crosscheck": "match",
+    "goal_complete": true,
+    "not_a_claim_list": true,
+    "dry_run": false
+  },
+  "selected": {
+    "ledger": "evidence/p10/20261017T1954Z-gate-recompute-amended/run-2/ledger.csv",
+    "holders": "evidence/p8/20261017T1031Z-w-p8-tail/holders-classified.json",
+    "pools": "evidence/p8/20261017T1031Z-w-p8-tail/pools-locks-bridges.json",
+    "supply": "evidence/p10/20261017T1047Z-fast-tail-inputs/supply.json",
+    "p10": "evidence/p10/20261017T1954Z-gate-recompute-amended/run-2/reconciliation.json",
+    "semantic": "evidence/p6/20261017T052333Z-w-eval/semantic.json",
+    "checkpoint": "evidence/p5/20261017T053304Z-p5-checkpoints/replay-start.json",
+    "p7_cursor": "evidence/p7/20261017T1718Z-p7-replay-read/replay.json",
+    "independent": "evidence/p10-indep/20261017T104141Z-w-indep/result.json",
+    "from_scratch": "evidence/repro/20261017T120218Z-w-repro/result-offset-0.json",
+    "collateral": "evidence/p9/20261017T090508Z-w-collat/collateral.json",
+    "unwrap": "evidence/p9-unwrap/20261017T105845Z-w-unwrap/results.json"
+  },
+  "checks": {
+    "balance_sum_raw": "189487568412204611",
+    "total_supply_raw": "189487568412204611",
+    "sum_equals_supply": true,
+    "address_count": 7615,
+    "nonzero": 2239,
+    "canonical_nonzero": 2239,
+    "canonical_balances_sha256": "0c9fb668c34002db79e4f8a008bfafb2e34103fa4df34220a51f837c6110acca",
+    "canonical_computed_sha256": "0c9fb668c34002db79e4f8a008bfafb2e34103fa4df34220a51f837c6110acca",
+    "category_sum_equals_supply": true,
+    "balance_drift": 10,
+    "unclassified": 0,
+    "pool_role_conflicts": 0,
+    "raw_crosscheck": "match",
+    "cron_vs_assignment": "zero_diff",
+    "independent_rows": "7615/7615"
+  },
+  "sources": [
+    {
+      "path": "evidence/p10/20261017T1954Z-gate-recompute-amended/run-2/ledger.csv",
+      "sha256": "ca8d1bc3ed9163609a4ee2a7152aa1ed07ce3ccbfc4b2e2fc621d32f58733e4c",
+      "bytes": 4068032,
+      "role": "ledger"
+    },
+    {
+      "path": "evidence/p8/20261017T1031Z-w-p8-tail/holders-classified.json",
+      "sha256": "eedd1fbf0b2bb98fbe0cc31516326e68e14826009b84196e1c036359eda5d95b",
+      "bytes": 7927333,
+      "role": "holders"
+    },
+    {
+      "path": "evidence/p8/20261017T1031Z-w-p8-tail/pools-locks-bridges.json",
+      "sha256": "785c7a1d8557ca1f9155aebefb1f8e8a32ae22ededf594328592cd485a2f1345",
+      "bytes": 3268221,
+      "role": "pools"
+    },
+    {
+      "path": "evidence/p10/20261017T1047Z-fast-tail-inputs/supply.json",
+      "sha256": "0a92e154063267a8ebc1df009864618b19aa3a826f49b6166b7c98ef954416f1",
+      "bytes": 326,
+      "role": "supply.json"
+    },
+    {
+      "path": "evidence/p10/20261017T1954Z-gate-recompute-amended/run-2/reconciliation.json",
+      "sha256": "407b097094f02c175314e7ccd646362954bef8a1dc91b57b096ac2df79eb341e",
+      "bytes": 45365,
+      "role": "reconciliation.json"
+    },
+    {
+      "path": "evidence/p6/20261017T052333Z-w-eval/semantic.json",
+      "sha256": "9a469c29d0c5bd09fba06375bfbec0bc81f046669b07865d65d557f637ddb770",
+      "bytes": 4812,
+      "role": "semantic.json"
+    },
+    {
+      "path": "evidence/p5/20261017T053304Z-p5-checkpoints/replay-start.json",
+      "sha256": "3f181c88f46549a7a29aa8631cc70aeea05fea4d1131c2e2263513dc0f5bdce3",
+      "bytes": 1435,
+      "role": "replay-start.json"
+    },
+    {
+      "path": "evidence/p7/20261017T1115Z-p7-tail-progress/cursor.json",
+      "sha256": "e2e96d50e89b638b24d69d1b5f2db2ea053ddd4616716cb16dfed3b8da8dff00",
+      "bytes": 798,
+      "role": "cursor.json"
+    },
+    {
+      "path": "evidence/p7/20261017T1718Z-p7-replay-read/replay.json",
+      "sha256": "322267d559f6ac0fa941aee175c684327741331acd5f54e357d806360ded0841",
+      "bytes": 1025,
+      "role": "replay.json"
+    },
+    {
+      "path": "evidence/p1-tail.json",
+      "sha256": "bafbca307ecf881bc716422bb4fe75506e433b9331c8e2d1e03eb6b0c4babe1f",
+      "bytes": 2773,
+      "role": "p1-tail.json"
+    },
+    {
+      "path": "evidence/p6/20261017T052333Z-w-eval/SUMMARY.md",
+      "sha256": "a38081ff4cb0cbc98a1537d66016983eb6aa8c50a456a89df39a07150ee6a1d7",
+      "bytes": 4968,
+      "role": "SUMMARY.md"
+    },
+    {
+      "path": "evidence/p8/20261017T1031Z-w-p8-tail/diff-2074518.json",
+      "sha256": "97c75d63e48e6b72dbfcf5490988c4aa949d9e2624004b008ad09588a3a424a9",
+      "bytes": 7115,
+      "role": "diff-2074518.json"
+    },
+    {
+      "path": "evidence/doc/20261017T1037Z-w-doc/fast-excerpt/exact-ledger.json",
+      "sha256": "20d7dcd5b846947bb285ab92e7e1bc77ec933d9dfbf90ae58fee31983ec843e7",
+      "bytes": 1268,
+      "role": "exact-ledger.json"
+    },
+    {
+      "path": "evidence/doc/20261017T1037Z-w-doc/fast-excerpt/assignment-ledger.json",
+      "sha256": "924823316b126d02fa905ae3578430f08498363f0f2f1eeea8556635bcb2c91a",
+      "bytes": 3021,
+      "role": "assignment-ledger.json"
+    },
+    {
+      "path": "evidence/p10-indep/20261017T104141Z-w-indep/result.json",
+      "sha256": "ff043fe70a26e3cb6b0aa1ecb790bf83f6b69b8b8b1adfd7edff98da468492a9",
+      "bytes": 1380,
+      "role": "result.json"
+    },
+    {
+      "path": "evidence/p9/20261017T090508Z-w-collat/collateral.json",
+      "sha256": "732f632b9184bb4c09501b4dd2b388dc57444c83cbd1b864b43ab9ece1db77ad",
+      "bytes": 5486,
+      "role": "collateral.json"
+    },
+    {
+      "path": "evidence/p9-unwrap/20261017T105845Z-w-unwrap/results.json",
+      "sha256": "49ae753ea72e2b547b3d45f9fa057111071a90d16550019374e65103441fd61e",
+      "bytes": 4028,
+      "role": "results.json"
+    },
+    {
+      "path": "evidence/p6/20261017T102111Z-w-eval/SUMMARY.md",
+      "sha256": "0d08dda5b97e2ac3a900281ff222189fafca19563c4bf89d8f40f440dbe7a821",
+      "bytes": 3793,
+      "role": "SUMMARY.md"
+    },
+    {
+      "path": "evidence/repro/20261017T120218Z-w-repro/result-offset-0.json",
+      "sha256": "a463c9d9c90c5fe66d8a70a08fde627d6f68301544678e58556a0620cbdbaa96",
+      "bytes": 1187,
+      "role": "result-offset-0.json"
+    },
+    {
+      "path": "evidence/repro/20261017T120218Z-w-repro/result-offset-plus-3.json",
+      "sha256": "53b7457f565476d9b827556906a2805a456d15f760bf801aefa900420f5ed787",
+      "bytes": 1187,
+      "role": "result-offset-plus-3.json"
+    },
+    {
+      "path": "evidence/repro/20261017T120218Z-w-repro/result-offset-minus-3.json",
+      "sha256": "700822fe9dfcfc0d6a55e2fe27217439193a65c59d6ee9f3d56a9af2793d2a8c",
+      "bytes": 1188,
+      "role": "result-offset-minus-3.json"
+    },
+    {
+      "path": "data/raw/fast/tail/balances.json",
+      "sha256": "c1f5493442ce03708d7e9833940f80bc6274880cf9332f6e7ea4223c4a7f5d15",
+      "bytes": 402362,
+      "role": "balances-crosscheck",
+      "gitignored": true
+    },
+    {
+      "path": "data/raw/fast/tail/report.json",
+      "sha256": "cd3cbe1ce96cb243377590ad9994de4e79283ffcb1a9b0527a48388206d71e99",
+      "bytes": 1945,
+      "role": "report-crosscheck",
+      "gitignored": true
+    },
+    {
+      "path": "evidence/p7-fast/20261017T0914Z-w-fast/assignment-balances.json",
+      "sha256": "c1f5493442ce03708d7e9833940f80bc6274880cf9332f6e7ea4223c4a7f5d15",
+      "bytes": 402362,
+      "role": "assignment-balances-crosscheck"
+    },
+    {
+      "path": "docs/RECOVERY.md",
+      "sha256": "be853f9a241b508896eb6d431cfbdf153817221144d573957e2b5fa68f238cb6",
+      "bytes": 55761,
+      "role": "RECOVERY.md"
+    },
+    {
+      "path": "docs/RECOVERY.zh.md",
+      "sha256": "356371e5a5ba6ade8a08be284f11c8096b71a9d38c28e18148da709657c70a5e",
+      "bytes": 53850,
+      "role": "RECOVERY.zh.md"
+    },
+    {
+      "path": "repro/EXPECTED.json",
+      "sha256": "a324d9f710c1286f99784ddd9acb1112523fd4bc90fb0d8a340d7bab2c22bdab",
+      "bytes": 3029,
+      "role": "EXPECTED.json"
+    }
+  ]
+}

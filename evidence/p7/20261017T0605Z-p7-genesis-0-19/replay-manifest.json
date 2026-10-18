@@ -1,0 +1,53 @@
+{
+  "run_id": "20261017T0605Z-p7-genesis-0-19",
+  "phase": "P7",
+  "start": "genesis boot",
+  "segment_inclusive": [
+    0,
+    19
+  ],
+  "segment_replay_complete": true,
+  "terminal_state": false,
+  "evaluator_crash": null,
+  "next_nonce": 20,
+  "nonce_0": {
+    "action": "Eval",
+    "message_id": "GBPuvd6zc47A8PFiD7PGmZXcZPZF-DDWcdEg4tzXC3g",
+    "eval_applied": false,
+    "handler_error": "[string \".handlers\"]:335: error loading module 'arweave.types.type' from file '/usr/local/share/lua/5.3/arweave/types/type.lua':\n\tcannot read /usr/local/share/lua/5.3/arweave/types/type.lua: Function not implemented",
+    "memory_sha256_after": "72db7b1e8806d7621fe1d2fe8a3274f0cbef2105da5facb7da94c3141ba2d5ac",
+    "why_not_mounted": "The module format wasm32-unknown-emscripten in @permaweb/ao-loader, including 0.0.44 and the glue at permaweb/ao 63bbd35 (2024-03-28) and eb92015 (2024-05-23), implements ___syscall_openat as an empty function and _fd_read as a constant return of 52 (ENOSYS). A file placed on the host at /usr/local/share/lua/5.3/arweave/types/type.lua is not read. The nonce 0 Eval bundle does not assign package.loaded['arweave.types.type'] before it requires that module. Patching fd_read to serve a guessed Lua file would not be the CU that published the later checkpoints. The CU worker at 0db88a45 keeps the previous memory when Error is set. This error is the handler result and is not a successful Eval."
+  },
+  "nonce_1": {
+    "action": "Eval",
+    "message_id": "Jj_HBAJiulZFqAvS-gH66ZsuuBfAhYP6p_SuIWaZmZI",
+    "eval_applied": true,
+    "memory_sha256_after": "b71f8f3148ba790d4c280f5dbf907b3738e4555fd3bf4cc6331fdbc66eb6ab31",
+    "note": "This Eval assigns package.loaded['arweave.types.type'] and package.loaded['arweave.types.validator'] from source inside the message, then the token module requires those names. The filesystem is not used for that require."
+  },
+  "assignments_evaluated": 20,
+  "assignments_applied": 19,
+  "assignments_handler_errors": 1,
+  "cron_applied": 226,
+  "cron_handler_errors": 0,
+  "boot_sha256": "72db7b1e8806d7621fe1d2fe8a3274f0cbef2105da5facb7da94c3141ba2d5ac",
+  "boot_bytes": 7602176,
+  "memory_path": "data/raw/p7/0-19/20261017T0605Z-p7-genesis-0-19/memory.bin",
+  "memory_bytes": 11010048,
+  "memory_sha256": "04c4d2c5dbf7f396de286718b565b7a78424e50b53bb363d06806585471eaf01",
+  "memory_committed_in_git": false,
+  "total_supply_read_after_nonce_19": "{\"data\":\"10000000000\",\"prompt\":\"aos> \",\"print\":true}",
+  "total_supply_is_shutdown_balance": false,
+  "shutdown_supply": "unknown",
+  "balances_written": false,
+  "evaluator": {
+    "name": "@permaweb/ao-loader",
+    "version": "0.0.44",
+    "node": "v22.22.0",
+    "format": "wasm32-unknown-emscripten",
+    "cu_semantics_commit": "0db88a45aabeb5e88471e5c263790fa51a563461",
+    "module_sha256": "164c0859e796d30f682944be8bdd544a1292e9140f6f2998ce5ef93e2184a8c8",
+    "fold": "recovery/p7/cu-fold.mjs"
+  },
+  "goal_complete": false
+}

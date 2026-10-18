@@ -1,0 +1,66 @@
+{
+  "run_id": "20261017T054635Z-p6-gate",
+  "exact_memory_gate": false,
+  "replay_start_accepted": false,
+  "from_checkpoint": "EwP2h48RouEL0WaTT2Auj5w-PBC8TOOr8sBNFSZGtkk",
+  "from_nonce": 2074508,
+  "to_nonce": 2074518,
+  "also_checked_nonce": 2074510,
+  "with_cu_5_minute_crons": {
+    "start_sha256": "50d6b10a056a00e0db01dfcb5cfc9153b141d204b5a558d5e70391100137717e",
+    "cron_count": 300,
+    "scheduled_count": 10,
+    "checks": [
+      {
+        "nonce": 2074510,
+        "sha256": "1c8603c202ad7ca587220c36cbe4d0fc516c2ade08896705855ae759779f70ab",
+        "expected": "b4805ec77e3b53d0362a1e3b3932ec86b94a6fdbaacdcccf32b74ab29ff829a1",
+        "match": false,
+        "memory_bytes": 428146688,
+        "error": null
+      },
+      {
+        "nonce": 2074518,
+        "sha256": "227e720e7b9cd3e6f3df2ce2a83c830ba91dc3752d176054b0fc088eb8771dd2",
+        "expected": "fbb8172e8879c5d27b3bc4b00de5a150a027d575a9faf511f3cd0747b949ce26",
+        "match": false,
+        "memory_bytes": 428146688,
+        "error": null
+      }
+    ]
+  },
+  "assignments_only": {
+    "start_sha256": "50d6b10a056a00e0db01dfcb5cfc9153b141d204b5a558d5e70391100137717e",
+    "cron_count": 0,
+    "scheduled_count": 10,
+    "checks": [
+      {
+        "nonce": 2074510,
+        "sha256": "79f1eba1fe55f0a57de4961619c59c8cc39720317aa2d2d77ffc5e770b27c696",
+        "expected": "b4805ec77e3b53d0362a1e3b3932ec86b94a6fdbaacdcccf32b74ab29ff829a1",
+        "match": false,
+        "memory_bytes": 428146688,
+        "error": null
+      },
+      {
+        "nonce": 2074518,
+        "sha256": "16a7e58e1d90d8d79618e21ba2d693bbf20d5eb2890814afbc4e8a65158f2583",
+        "expected": "fbb8172e8879c5d27b3bc4b00de5a150a027d575a9faf511f3cd0747b949ce26",
+        "match": false,
+        "memory_bytes": 428146688,
+        "error": null
+      }
+    ]
+  },
+  "read_only_views": {
+    "Info_match": true,
+    "Total-Supply_match": true,
+    "Balances_match": true,
+    "Total-Supply_output_head": "{\"data\":\"189487568412204611\",\"prompt\":\"aos> \",\"print\":true}",
+    "Balances_output_head": "[]",
+    "note": "Balances returned an empty list on both memories, so that match is not evidence the balance map is equal. Total-Supply and Info matched between the assignments-only replay and the real nonce 2074518 checkpoint."
+  },
+  "decision": "Reject nonce 2074518 as an effective replay start. The memory SHA-256 after replaying 2074509..2074518 does not equal the checkpoint tag, with the CU 5-minute crons and without them. No evaluation error was returned. A read-only Total-Supply on both memories returned the same integer string.",
+  "module_executed": true,
+  "goal_complete": false
+}

@@ -1,0 +1,67 @@
+{
+  "height_source": "gateway block timestamps, cronsBetween from recovery/p6/replay.mjs",
+  "from_nonce": 2074518,
+  "to_nonce": 2075923,
+  "messages": 39065,
+  "crons": 37660,
+  "assignments": 1405,
+  "first": {
+    "kind": "cron",
+    "timestamp": 1771847983094,
+    "height": 1863436,
+    "nonce": null
+  },
+  "last": {
+    "kind": "assignment",
+    "nonce": 2075923,
+    "timestamp": 1783145995380,
+    "action": "Eval"
+  },
+  "build_ms": 1949.6,
+  "mode": "inplace",
+  "dir": "<repo>/data/raw/fast/tail",
+  "start_index": 8400,
+  "end_index": 39065,
+  "applied": 39065,
+  "handler_errors": 0,
+  "memory_sha256": "25e629fd58413416511208b7fd5886b17ab971c705fd4f06430b1745814a018a",
+  "memory_bytes": 428146688,
+  "comparison": {
+    "compared": 171,
+    "pending": 919,
+    "mismatches": [],
+    "note": "Snapshot when this process exited, while the main cursor was still behind. The completed comparison is main-compare.json."
+  },
+  "final_main_comparison": {
+    "result": "match",
+    "matched_rows": 1090,
+    "pending_rows": 0,
+    "sha_mismatches": 0,
+    "main_next_index": 39065,
+    "memory_sha256": "25e629fd58413416511208b7fd5886b17ab971c705fd4f06430b1745814a018a"
+  },
+  "loader_patch": {
+    "path": "<repo>/data/raw/fast/ao-loader-inplace.cjs",
+    "bytes": 1032617,
+    "sha256": "9aa824b7b27303e641daa285b3c8c1c7642e950e2c591698234f4cd439c6270c",
+    "source_sha256": "5f8acd8e8fa582f65aa085a6c74c56b7e18db985cb5556dcae2aedd3a530d167"
+  },
+  "replay_ms": 1721770.3,
+  "elapsed_ms": 1731436.8,
+  "items_per_min": 1068.61,
+  "ledger": {
+    "total_supply_data": "189487568412204611",
+    "total_supply_error": null,
+    "total_supply_output": "{\"data\":\"189487568412204611\",\"prompt\":\"aos> \",\"print\":true}",
+    "balance_sum": "189487568412204611",
+    "sum_equals_supply": true,
+    "balance_output": "[]",
+    "balances_json": "<repo>/data/raw/fast/tail/balances.json",
+    "balances_csv": "<repo>/data/raw/fast/tail/balances.csv",
+    "balances_json_sha256": "c1f5493442ce03708d7e9833940f80bc6274880cf9332f6e7ea4223c4a7f5d15",
+    "balances_csv_sha256": "a667a9218b43a348dfc1c6f4a9374866ae39b54404ca69847926d91e336c41c4",
+    "addresses": 7615
+  },
+  "fast_estimate": false,
+  "goal_complete": false
+}

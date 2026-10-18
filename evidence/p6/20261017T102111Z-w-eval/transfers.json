@@ -1,0 +1,132 @@
+{
+  "run": "20261017T102111Z-w-eval",
+  "dataEmptyOnArweaveNetRaw": true,
+  "secondGatewayReturnedTheItem": false,
+  "inTailNonceRange": [],
+  "tailRange": "2074519..2075923",
+  "emptySha256Base64": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+  "handler": {
+    "message": "eFbNdlgikglktPipxZy8E6fCujVbtx3sdUHZPTFK_HA",
+    "nonce": 1977055,
+    "bytes": 83536,
+    "sha256": "9529bc2252ee45f255c6e286129ab0cbc6e638cb34935bf1e6b702997565a903",
+    "path": "<repo>/data/raw/src/20261017T051439Z-w-src/messages/eFbNdlgikglktPipxZy8E6fCujVbtx3sdUHZPTFK_HA.body",
+    "quantitySource": "Tags.Quantity",
+    "readsData": false,
+    "effectOfEmptyData": "None. Transfer does not read Data. Balances move by Tags.Quantity from Caller to Tags.Recipient. Empty Data is not treated as quantity 0."
+  },
+  "transfers": [
+    {
+      "id": "4abmavZXf81Y-UheWFraPxmUubZni_XgdmF_tckrg9Y",
+      "nonce": 2074509,
+      "assignment": "cFC4GNil9paaj7Jvof3Zb7vYkarGFytGGDdHKYZLMRg",
+      "inTail": false,
+      "owner": "BzZ5t7E0BxYXzKDJoy8DBUDyseK84ODWgk0z9Ra-948",
+      "recipient": "wTIpisZKMtG5WsLFqQBdoJEObyyeoJQmwWFm1h462D4",
+      "quantity": "940193118330",
+      "graphqlDataSize": "0",
+      "arweaveNetRaw": {
+        "status": 200,
+        "bodyBytes": 0,
+        "contentLength": 0,
+        "contentDigest": "sha-256=:47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=:",
+        "offset": 384341002210148,
+        "dataOffset": 384341002211446,
+        "headerLength": 1298
+      }
+    },
+    {
+      "id": "ziTv11hf6H9_9iiWEeeIGSsGo9iB036CYWT_S5F3jyw",
+      "nonce": 2074511,
+      "assignment": "fZ8kmhRma6ZZg4O4t4vEPGDsV-bEHQ2g8IiXrohO1sQ",
+      "inTail": false,
+      "owner": "BzZ5t7E0BxYXzKDJoy8DBUDyseK84ODWgk0z9Ra-948",
+      "recipient": "wTIpisZKMtG5WsLFqQBdoJEObyyeoJQmwWFm1h462D4",
+      "quantity": "189406046916",
+      "graphqlDataSize": "0",
+      "firstRawStatus": 429,
+      "arweaveNetRaw": {
+        "status": 200,
+        "bodyBytes": 0,
+        "contentLength": 0,
+        "contentDigest": "sha-256=:47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=:",
+        "offset": 384361092391506,
+        "dataOffset": 384361092392804,
+        "headerLength": 1298,
+        "file": "ziTv11hf6H9_9iiWEeeIGSsGo9iB036CYWT_S5F3jyw.retry.headers"
+      }
+    },
+    {
+      "id": "iSSX3aBndOHhOReGvcEY-tU_oDi0BsxgKajE5TwqTmY",
+      "nonce": 2074513,
+      "assignment": "t0x1cytOFAawXnvr9Dncb6Rt3yPlp7Iy0j5vVjSia1Q",
+      "inTail": false,
+      "owner": "BzZ5t7E0BxYXzKDJoy8DBUDyseK84ODWgk0z9Ra-948",
+      "recipient": "wTIpisZKMtG5WsLFqQBdoJEObyyeoJQmwWFm1h462D4",
+      "quantity": "822375701087",
+      "graphqlDataSize": "0",
+      "firstRawStatus": 429,
+      "arweaveNetRaw": {
+        "status": 200,
+        "bodyBytes": 0,
+        "contentLength": 0,
+        "contentDigest": "sha-256=:47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=:",
+        "offset": 384361092484321,
+        "dataOffset": 384361092485619,
+        "headerLength": 1298,
+        "file": "iSSX3aBndOHhOReGvcEY-tU_oDi0BsxgKajE5TwqTmY.retry.headers"
+      }
+    },
+    {
+      "id": "0EA0BJGA2eP79w5Zply6VYuEop7SMrYkuzo_tCYdIYw",
+      "nonce": 2074515,
+      "assignment": "HQCtzSXYiEi1IspKR_agSPu0Idelt0SUS63WnW81hRw",
+      "inTail": false,
+      "owner": "BzZ5t7E0BxYXzKDJoy8DBUDyseK84ODWgk0z9Ra-948",
+      "recipient": "wTIpisZKMtG5WsLFqQBdoJEObyyeoJQmwWFm1h462D4",
+      "quantity": "2009265632204",
+      "graphqlDataSize": "0",
+      "arweaveNetRaw": {
+        "status": 200,
+        "bodyBytes": 0,
+        "contentLength": 0,
+        "contentDigest": "sha-256=:47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=:",
+        "offset": 384365004019289,
+        "dataOffset": 384365004020588,
+        "headerLength": 1299
+      }
+    },
+    {
+      "id": "OZYnrr04Q8WU9Fr-GNDcnm407F-jM0MSC6EdgSgaL8Q",
+      "nonce": 2074517,
+      "assignment": "zW1DVIpqZEAu8ac1OAUt0jOTa_lQwbkylxP3M5q76KA",
+      "inTail": false,
+      "owner": "BzZ5t7E0BxYXzKDJoy8DBUDyseK84ODWgk0z9Ra-948",
+      "recipient": "wTIpisZKMtG5WsLFqQBdoJEObyyeoJQmwWFm1h462D4",
+      "quantity": "576448605054",
+      "graphqlDataSize": "0",
+      "arweaveNetRaw": {
+        "status": 200,
+        "bodyBytes": 0,
+        "contentLength": 0,
+        "contentDigest": "sha-256=:47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=:",
+        "offset": 384375155937885,
+        "dataOffset": 384375155939183,
+        "headerLength": 1298
+      }
+    }
+  ],
+  "otherGateways": {
+    "arweave.net/tx": "HTTP 404, body 'Not Found.' These ids are not L1 transactions, so /tx has no data_size field.",
+    "ar-io.dev/raw": "First pass HTTP 504 body 'upstream request timeout', three tries each. A later single retry of the first id was HTTP 404 body 'Not found'.",
+    "ar-io.dev/tx": "HTTP 404, body 'Not Found.'",
+    "ar-io.dev/{id}": "HTTP 302 to the id sandbox, then HTTP 404. Not a /raw or /tx path. Recorded because /raw did not return the item.",
+    "turbo-gateway.com/raw": "HTTP 404, body 'Not found'.",
+    "turbo-gateway.com/tx": "HTTP 404.",
+    "turbo-gateway.com/{id}": "HTTP 302 then HTTP 404.",
+    "vilenarios.com/raw": "HTTP 404, body 'Not found'.",
+    "vilenarios.com/tx": "HTTP 404.",
+    "vilenarios.com/{id}": "HTTP 302, then the sandbox read timed out after 40s with 0 bytes. One id only.",
+    "arweave-search.goldsky.com/raw and /tx": "HTTP 307 to https://arweave.net/graphql for all five ids. Not followed. Goldsky does not serve the data item."
+  }
+}

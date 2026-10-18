@@ -1,0 +1,66 @@
+{
+  "run_id": "20261017T023731Z-p4-50000-ao-queue",
+  "range_inclusive": [
+    50000,
+    99999
+  ],
+  "complete": false,
+  "goal_complete": false,
+  "module_executed": false,
+  "inserted": 0,
+  "unique_nonces_in_range": 49868,
+  "still_missing": 132,
+  "sqlite_sha256": "560d1d4e81a702522776ffb0cc39399aed733b2bf5141b4986f78aa7dd0f9db0",
+  "sqlite_committed": false,
+  "method": "Paired chunk scan of every Bundle-Format=binary transaction whose tags name the AO bundler, in the blocks that hold the 50000..99999 holes. A nonce counts only when process NG-0lVX882MG5nhARrSzyprEK6ejonHpdUmaaMPsHE8 sits within 80 bytes before the tag. A 404 chunk is a gap. closed is true only when every file byte was read.",
+  "queue_finished": true,
+  "ao_bundle_count": 35,
+  "result": "The queue printed ALL DONE. No new assignment row was inserted from this pass. Readable bytes of glr7 held none of the still-missing nonces. Unread gap bytes were not filled and were not treated as empty.",
+  "glr7": {
+    "bundle_id": "glr7pOXTBRwk6luSIXPYzoKuKNF3PviP0cBot8P_uQs",
+    "inclusion_block": 1551961,
+    "bundle_closed": false,
+    "bytes_read": 2513436672,
+    "bundle_size": 3209925259,
+    "gap_count": 1213,
+    "first_gap": [
+      786432,
+      1048576
+    ],
+    "last_gap": [
+      3209691136,
+      3209925259
+    ],
+    "process_hit_count": 200,
+    "paired_wanted_nonces": 0,
+    "parsed": false,
+    "reason": "Readable chunks contain this process, but no wanted missing-nonce tag paired with it. 1213 chunk gaps remain, including a tail gap, so the missing nonces 93058..93110 are not proven absent."
+  },
+  "headers_still_unreadable": [
+    {
+      "bundle_id": "QCanjfosATSuFwJTEczxk4s_dfyr_xjlaHjv8owoIxM",
+      "nonces": [
+        97965,
+        97970
+      ],
+      "probed_utc": "2026-10-17T00:42:51Z",
+      "header_chunk": "https://arweave.net/chunk/234559633924343",
+      "result": "HTTP 404"
+    },
+    {
+      "bundle_id": "heiqNVDCZihkPzpjdZhru_Cdyl-9hCuE60C2pXpAJ08",
+      "nonces": [
+        95463,
+        95465,
+        95469,
+        95473,
+        95481,
+        95485
+      ],
+      "probed_utc": "2026-10-17T00:42:51Z",
+      "header_chunk": "https://arweave.net/chunk/234433829970167",
+      "result": "HTTP 404"
+    }
+  ],
+  "note": "132 nonces in 50000..99999 remain missing. Tags 97965, 97970, and the six tags inside 95460..95486 stay unparsed. The next search is the non-AO binary bundles in the same hole-neighbor blocks. Do not open nonce 100000 or start P5."
+}

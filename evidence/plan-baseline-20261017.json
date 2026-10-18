@@ -1,0 +1,68 @@
+{
+  "record_type": "documentation_baseline_not_new_chain_evidence",
+  "recorded_on": "2026-10-17",
+  "repository": {
+    "full_name": "zigengZ/qar-ledger-recovery",
+    "id": "1422407689",
+    "visibility_observed": "private",
+    "default_branch": "main",
+    "permissions_observed": {
+      "pull": true,
+      "push": true
+    },
+    "identity_source": "GitHub repository metadata via authenticated connector"
+  },
+  "base": {
+    "ref": "refs/heads/main",
+    "commit": "12ccc532ae997d8a87de006542875c54c9fa77ba",
+    "tree": "37e75e351dc05b1e698ef5c0c316da080be1d755",
+    "tree_listing_truncated": false,
+    "tracked_file_count": 7
+  },
+  "transport": {
+    "git_clone_succeeded": false,
+    "git_error": "Could not resolve host: github.com",
+    "read_method": "Authenticated GitHub API: main ref, files pinned to base commit, recursive tree, commit metadata",
+    "write_policy": "Create child commit of current checked base; recheck private repository and main; non-force ref update with expected head; private branch and PR if main is denied"
+  },
+  "original_file_git_blob_shas": {
+    "README.md": "4b1020d38c40d04bbed37deaeeb250644c3dd558",
+    "GOAL.md": "db9ae1f151cfe152b74046eeab708466fa69cb29",
+    "STATE.md": "b19babf763e1fb1002ee0ed739d4139d5d113741",
+    "AGENTS.md": "60867705cf8bf88123acf9efd775438bd5e2ef11",
+    "evidence/p0-probe.json": "90ba85454ee82f0dc93233400ad8c376020b8ca6",
+    "evidence/p1-tail.json": "c32a74dd880a8caf09659fda6ac633a02470b049",
+    ".gitignore": "2d03a546c4d9830408b9800123f6b0ab8d0658e6"
+  },
+  "adopted_boundary": {
+    "source_file": "evidence/p1-tail.json",
+    "process_id": "NG-0lVX882MG5nhARrSzyprEK6ejonHpdUmaaMPsHE8",
+    "epoch": "0",
+    "nonce": "2075923",
+    "assignment_id": "MZa2GSyyT6V1i_hIZYDumeJFAYPUdvgzGo19RJCIcWs",
+    "message_id": "wEP24VhCVebi9GrE1bsUn0DCiJ0uKBuju1qBm4VYqNQ",
+    "timestamp_utc": "2026-07-04T06:19:55.380Z",
+    "inclusion_block": 1951869,
+    "supersedes_tail_evidence": false,
+    "prefix_continuity_proven": false
+  },
+  "this_session": {
+    "scope": "Write executable-stage specifications and handoff; actual implementation remains in future P2-P10 sessions",
+    "chain_queries_performed": 0,
+    "module_bytes_acquired": false,
+    "module_executed": false,
+    "replay_performed": false,
+    "drive_inventoried": false,
+    "balances_generated": false,
+    "claims_published": false,
+    "collateral_moved": false,
+    "next_phase": "P2",
+    "original_evidence_edit_allowed": false
+  },
+  "limits": [
+    "Final-checkpoint absence is adopted from README and STATE; no original conversation attachment was newly obtained.",
+    "P0/P1 contain probe summaries, not full per-request GraphQL bodies and raw responses; none were fabricated or rewritten.",
+    "The base tree contains no evaluator, module bytes, local trading configs or holder ledger.",
+    "Official loader README and CU loadMessages.js were read as implementation references, not as verification of the historical runtime or a qAR snapshot."
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "commit_subject": "public gateway tail reproduction",
+  "node": "v22.22.0",
+  "evaluator": "@permaweb/ao-loader@0.0.44",
+  "checkpoint_gzip_bytes": 145634952,
+  "checkpoint_gzip_sha256": "31f5e4811756ff22a98546144075dd238da76eeb05470a126df43eb2fe92e095",
+  "checkpoint_uncompressed_bytes": 428146688,
+  "checkpoint_uncompressed_sha256": "fbb8172e8879c5d27b3bc4b00de5a150a027d575a9faf511f3cd0747b949ce26",
+  "module_bytes": 557297,
+  "module_sha256": "164c0859e796d30f682944be8bdd544a1292e9140f6f2998ce5ef93e2184a8c8",
+  "assignments": 1406,
+  "hash_chain_links": 1405,
+  "messages": 1405,
+  "gap_messages": [
+    {
+      "nonce": 2075899,
+      "id": "VsMhQeocKCWuqgZk1DB0gzOaDyqJhQb25ELdJ_NSPwA",
+      "bundle": "MguGot_xwUfDFlazB62Vcq7QRlrR_anfyXK8HeEx3eA",
+      "height": 1924100
+    },
+    {
+      "nonce": 2075900,
+      "id": "iiEldOzPeB91Mvt1H7McJq2yP9z0QDkKVSb_DMQgpgw",
+      "bundle": "MguGot_xwUfDFlazB62Vcq7QRlrR_anfyXK8HeEx3eA",
+      "height": 1924100
+    }
+  ],
+  "blocks": 88431,
+  "block_height_min": 1863436,
+  "block_height_max": 1951866,
+  "timestamp_dips": 7,
+  "largest_dip_seconds": 31,
+  "http_responses": 2537,
+  "stream_items": 39065,
+  "replay_ms": 601869,
+  "elapsed_ms_with_cached_inputs": 618282,
+  "block_pages_approx_seconds": 1475,
+  "work_dir_one_replay": "0.6GB",
+  "work_dir_three_replays": "1.4GB",
+  "memory_sha256": "25e629fd58413416511208b7fd5886b17ab971c705fd4f06430b1745814a018a",
+  "canonical_balances_sha256": "0c9fb668c34002db79e4f8a008bfafb2e34103fa4df34220a51f837c6110acca",
+  "canonical_address_count": 2239,
+  "raw_address_count": 7615,
+  "total_supply": "189487568412204611",
+  "reference_nonzero_match": true,
+  "reference_zeros_omitted": 5376,
+  "offset_plus_3_memory_sha256": "d0dd22f387150aa3e894106cb5d8dde08783ea30974cfd78ea632e9a1c46bc20",
+  "offset_minus_3_memory_sha256": "6b11be84807469cebb5201867800cdbfcb21266ca14ae65322cff772be126c92",
+  "offset_canonical_matches_primary": true,
+  "handler_errors": 0,
+  "full_safe_mode_ran": false
+}

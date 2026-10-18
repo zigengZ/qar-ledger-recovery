@@ -1,0 +1,22 @@
+{
+  "run_id": "20261017T0745Z-p7-tail-progress",
+  "process": "still running; do not start a second replay",
+  "pid_seen": 3393681,
+  "cursor_path": "recovery/p7/data/raw/p7/tail-2074518/cursor.json",
+  "next_index": 2000,
+  "applied": 2000,
+  "handler_errors": 0,
+  "memory_bytes": 428146688,
+  "memory_sha256": "29e9a5bf7273251a35d6bb0a177cb7601290318ab0546f2becfb1a699cbccb43",
+  "last_assignment": {
+    "index": 1979,
+    "nonce": 2074614,
+    "sha256": "748884480add7617d185786919c05b99b62b072f7a68f4d7f30733a8b382545a",
+    "applied": true
+  },
+  "stream_total": 39065,
+  "tail_nonce": 2075923,
+  "height_source": "gateway block timestamps",
+  "balances_written": false,
+  "goal_complete": false
+}

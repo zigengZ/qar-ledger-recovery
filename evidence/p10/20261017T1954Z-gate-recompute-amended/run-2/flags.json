@@ -1,0 +1,28 @@
+{
+  "amended": {
+    "available_checks_match": true,
+    "checkpoint_verified": true,
+    "classification_disclosed": true,
+    "independent_agreement": true,
+    "ledger_complete": true,
+    "ledger_delta_zero": true,
+    "runtime_reproducible": true,
+    "tail_fixed": true,
+    "tail_inputs_complete": true
+  },
+  "canonical_balance_sha256": "0c9fb668c34002db79e4f8a008bfafb2e34103fa4df34220a51f837c6110acca",
+  "collateral_delta_raw": null,
+  "goal_complete": true,
+  "legacy": {
+    "available_checks_match": true,
+    "classification_sourced": false,
+    "collateral_reconciled": false,
+    "collateral_sourced": false,
+    "inputs_complete": false,
+    "ledger_complete": true,
+    "ledger_delta_zero": true,
+    "runtime_reproducible": true,
+    "schedule_covered": false,
+    "tail_fixed": true
+  }
+}

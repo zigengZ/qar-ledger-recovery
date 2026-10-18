@@ -1,0 +1,86 @@
+{
+  "run_id": "20261017T0914Z-w-fast",
+  "process_id": "NG-0lVX882MG5nhARrSzyprEK6ejonHpdUmaaMPsHE8",
+  "question": "Does the live 0.16.0 Cron handler change Balances, and are deposits and withdrawals already closed at checkpoint 2074518?",
+  "source": {
+    "message_id": "eFbNdlgikglktPipxZy8E6fCujVbtx3sdUHZPTFK_HA",
+    "nonce": 1977055,
+    "bytes": 83536,
+    "sha256": "9529bc2252ee45f255c6e286129ab0cbc6e638cb34935bf1e6b702997565a903",
+    "app_version": "0.16.0",
+    "path": "data/raw/src/20261017T051439Z-w-src/messages/eFbNdlgikglktPipxZy8E6fCujVbtx3sdUHZPTFK_HA.body",
+    "why_live": "Last Eval that registers the action names. aos handlers.add replaces an existing name in place. Recorded by w-src and re-read here."
+  },
+  "cron_handler": {
+    "lines": "2392-2517",
+    "writes_balances": false,
+    "writes_rewards": false,
+    "writes": [
+      "LatestBlockHeight, only when the cron Block-Height is greater",
+      "Inbox entries that are missing Block-Height or Tags, are 55 blocks old, or whose Action is in the eviction list",
+      "Deposits with status minted_war, moved into DepositsCompleted",
+      "Unwraps that are cancelled, funds-sent, or completed, moved into UnwrapsCompleted"
+    ],
+    "sends": "ao_rewards_tracker:ask_for_rewards sends Action=Balance to AO_TOKEN_PROCESS_ID for each AR_WALLETS key. It does not credit REWARDS.",
+    "rewards_write_site": "BalanceResponse (Ticker AO), lines 1453-1462, calls balance_update_from_ao. That reads token balances and adds positive AO deltas to REWARDS and AR_WALLETS. It does not write Balances."
+  },
+  "balance_writers_in_0160": [
+    "burn, line 821",
+    "transfer, lines 850-851",
+    "mint, line 870"
+  ],
+  "flags": {
+    "catalog_evals": 278,
+    "later_flag_writes_after_1977063": [],
+    "rows": [
+      {
+        "nonce": 1977061,
+        "message_id": "xkyG1_Gexl06pnLQ-2j5Du6MC4rAb6CaUrslgs_omVw",
+        "body": "DEPOSITS_ENABLED = false",
+        "bytes": 24,
+        "sha256": "0b78deaadbb8502499aa56c0045163cabef7a2a858215ebd97ae254d290657e3"
+      },
+      {
+        "nonce": 1977062,
+        "message_id": "m1n3dJfy5iZ0ZYO2PWQi9JCuQH_Kr-VXfmR1NmSm69Q",
+        "body": "WITHDRAWALS_ENABLED = false",
+        "bytes": 27,
+        "sha256": "b4db67ae90b24885bb3c4d21f82e1ba3256fd4da2b95aa83bc12c7fb5606a5f7"
+      },
+      {
+        "nonce": 1977063,
+        "message_id": "gaBFkKOA7cKc5cF3LxoygCkgu90z7tGVAG_nJreDgO8",
+        "body": "TRANSFERS_ENABLED = true",
+        "bytes": 24,
+        "sha256": "4b79dd7b85719dd0b2efbbf96455e017205442e2a2663e3094332ab11366d450"
+      }
+    ],
+    "effect": "Deposit and Mint-Tokens error while DEPOSITS_ENABLED is false. Unwrap, Withdraw, Cancel-Withdrawals, and Unwrap-Funds-Sent error while WITHDRAWALS_ENABLED is false. Transfer stays enabled. No later Eval in the 278-message catalog assigns these three names."
+  },
+  "tail_assignment_actions_2074519_2075923": {
+    "count": 1405,
+    "Transfer": 703,
+    "Event": 701,
+    "Eval": 1,
+    "Deposit": 0,
+    "Mint-Tokens": 0,
+    "Unwrap": 0,
+    "Withdraw": 0,
+    "BalanceResponse": 0,
+    "Stop-Process": 0
+  },
+  "empirical": {
+    "source": "evidence/p7-fast/20261017T0914Z-w-fast/loader-probe.json",
+    "checkpoint_sha256": "fbb8172e8879c5d27b3bc4b00de5a150a027d575a9faf511f3cd0747b949ce26",
+    "one_cron_balance_changed": 0,
+    "one_cron_addresses": 7614,
+    "one_cron_sum": "189487568412204611",
+    "prefix_with_crons_vs_two_assignments": {
+      "through_index": 42,
+      "nonces": [2074519, 2074520],
+      "actions": ["Transfer", "Event"],
+      "balance_changed": 0
+    }
+  },
+  "conclusion": "Cron does not change Balances. The reward credit is a separate BalanceResponse assignment, and none of those assignments are in 2074519..2075923. Deposits and withdrawals are closed by the three Eval messages above, which are inside the checkpoint. The first Transfer/Event pair produces the same balance map with or without the crons in front of it. Assignment-only output is still marked as a fast estimate, not the P7 memory."
+}

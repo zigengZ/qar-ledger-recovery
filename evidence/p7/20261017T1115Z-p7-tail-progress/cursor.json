@@ -1,0 +1,24 @@
+{
+  "run_id": "20261017T1115Z-p7-tail-progress",
+  "process": "still running; do not start a second replay",
+  "pid_seen": 3393681,
+  "next_index": 16000,
+  "applied": 16000,
+  "handler_errors": 0,
+  "memory_bytes": 428146688,
+  "memory_sha256": "e276a58aff9f8bb5cff9660faaf5caeda0a21c4a7cb42279aeb5b7210673e768",
+  "memory_file_matches_hash": true,
+  "last_assignment_inside_save": {
+    "index": 15833,
+    "nonce": 2075315,
+    "sha256": "9c019ee2d53e35457cfafc5b28c0a5b650052eebd4b69742867c43128b0c7cc2",
+    "applied": true,
+    "error": null
+  },
+  "stream_total": 39065,
+  "tail_nonce": 2075923,
+  "fast_tail_memory_sha256": "25e629fd58413416511208b7fd5886b17ab971c705fd4f06430b1745814a018a",
+  "fast_tail_sha_crosscheck": "not done",
+  "balances_written": false,
+  "goal_complete": false
+}

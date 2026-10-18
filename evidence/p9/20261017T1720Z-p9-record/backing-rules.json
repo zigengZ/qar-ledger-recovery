@@ -1,0 +1,16 @@
+{
+  "mint_rule": "Handler mints data.quantity one-for-one into qAR. The handler does not name the asset id.",
+  "burn_rule": "Unwrap burns Tags.Quantity for a new X-Request-Id when the caller has balance. A later Withdraw or Unwrap-Funds-Sent is the evidence the row existed.",
+  "ratio_for_gap": null,
+  "ratio_reason": "Fifteen deposit groups have no agreed quantity, and the forwarded AR is mixed with other wallet balances. A 1:1 ratio is not applied to the whole supply.",
+  "eligible_held_raw": null,
+  "required_backing_raw": null,
+  "collateral_delta_raw": null,
+  "delta_is_not_zero": true,
+  "sources": [
+    "evidence/p9-prep/20261017T051439Z-w-src/handlers.md",
+    "evidence/p9/20261017T090508Z-w-collat/SUMMARY.md",
+    "evidence/p9/20261017T090508Z-w-collat/reconciliation.json",
+    "evidence/p9-unwrap/20261017T105845Z-w-unwrap/SUMMARY.md"
+  ]
+}

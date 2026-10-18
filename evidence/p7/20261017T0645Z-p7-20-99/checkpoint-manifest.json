@@ -1,0 +1,14 @@
+{
+  "run_id": "20261017T0645Z-p7-20-99",
+  "position": "after nonce 99 Query, before nonce 100",
+  "memory_path": "data/raw/p7/20261017T0645Z-p7-20-99/memory.bin",
+  "memory_bytes": 172032000,
+  "memory_sha256": "657735b4fec49198f706747c3bce346e20e559ffdbebf6a30503079e9d07e14e",
+  "committed_in_git": false,
+  "restores_to_nonce": 100,
+  "left_boundary_for_next": {
+    "height": 1507978,
+    "timestamp": 1726503012144
+  },
+  "external_memory_oracle": "unavailable at nonce 99"
+}

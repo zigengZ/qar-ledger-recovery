@@ -1,0 +1,90 @@
+{
+  "engine": "ClamAV 1.5.4/28156/Sat Oct 17 06:25:46 2026",
+  "databases": {
+    "daily": {
+      "version": 28156,
+      "signatures": 355765,
+      "build_time": "17 Oct 2026 06:25 +0000",
+      "file": "/var/lib/clamav/daily.cvd"
+    },
+    "main": {
+      "version": 63,
+      "signatures": 3287027,
+      "build_time": "16 Dec 2025 23:18 +0000",
+      "file": "/var/lib/clamav/main.cvd"
+    },
+    "bytecode": {
+      "version": 339,
+      "signatures": 80,
+      "build_time": "11 Sep 2025 08:29 -0400",
+      "file": "/var/lib/clamav/bytecode.cvd"
+    }
+  },
+  "freshclam": "Databases were already present. A second freshclam was not started. An earlier manual freshclam in this worker failed to lock /var/log/clamav/freshclam.log because a daemon already held it.",
+  "scans": [
+    {
+      "command": "nice -n 19 ionice -c3 clamscan -r --infected data/raw/drive-cu/tree data/raw/drive-cu/checkpoints",
+      "log": "<repo>/data/raw/drive-cu/clamscan.txt",
+      "exit_code": 0,
+      "known_viruses": 3628169,
+      "engine_version": "1.5.4",
+      "scanned_directories": 18,
+      "scanned_files": 101,
+      "infected_files": 0,
+      "data_scanned": "51.05 MiB",
+      "start": "2026:10:17 09:00:08",
+      "end": "2026:10:17 09:00:27",
+      "note": "static/.gitkeep was saved after this scan."
+    },
+    {
+      "command": "nice -n 19 ionice -c3 clamscan --infected data/raw/drive-cu/tree/static/.gitkeep",
+      "exit_code": 0,
+      "scanned_files": 0,
+      "infected_files": 0,
+      "start": "2026:10:17 09:12:48",
+      "end": "2026:10:17 09:13:01",
+      "note": "The file is 0 bytes. clamscan reported scanned files 0. sha256 of the empty file is e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855."
+    }
+  ],
+  "npm_audit": {
+    "command": "npm audit --package-lock-only",
+    "node": "/opt/node-v22.22.0/bin/node",
+    "exit_code": 1,
+    "installed": false,
+    "vulnerabilities": {
+      "info": 0,
+      "low": 0,
+      "moderate": 2,
+      "high": 15,
+      "critical": 1,
+      "total": 18
+    },
+    "direct": [
+      {
+        "name": "@fastify/middie",
+        "severity": "critical",
+        "range": "<=9.3.1"
+      },
+      {
+        "name": "fast-glob",
+        "severity": "high",
+        "range": "*"
+      },
+      {
+        "name": "fastify",
+        "severity": "high",
+        "range": "<=5.12.4"
+      },
+      {
+        "name": "nodemon",
+        "severity": "high",
+        "range": "0.0.0-development || >=1.14.11"
+      },
+      {
+        "name": "undici",
+        "severity": "high",
+        "range": "<=6.28.0 || 7.0.0 - 7.29.0"
+      }
+    ]
+  }
+}

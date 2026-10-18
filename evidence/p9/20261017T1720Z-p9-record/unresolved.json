@@ -1,0 +1,14 @@
+{
+  "eligible_held_raw": null,
+  "minted_qar_raw": null,
+  "burned_qar_raw": null,
+  "collateral_delta_raw": null,
+  "missing": [
+    "single holder of AR that belongs only to qAR",
+    "separable raw winston at nonce 2075923",
+    "agreed quantity for 15 deposit groups",
+    "102 Withdraw or Unwrap-Funds-Sent bodies",
+    "finished Mint-Tokens and Confirm-Deposits pagination"
+  ],
+  "not_zero": true
+}

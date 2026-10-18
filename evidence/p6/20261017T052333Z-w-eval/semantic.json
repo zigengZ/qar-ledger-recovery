@@ -1,0 +1,113 @@
+{
+  "run": "20261017T052333Z-w-eval",
+  "byteGate": "未通过",
+  "semanticGate": "passed",
+  "checkpoint2074518ValidReplayStart": true,
+  "readPath": "Balances and Total-Supply are read from Messages[].Data on a copy of each memory. The Balances Output is \"[]\" and is not the balance table. Memories are not written back.",
+  "mainSession": {
+    "commit": "c058c5c",
+    "evidence": "<repo>/evidence/p6/20261017T054635Z-p6-gate/",
+    "note": "That byte gate also failed. Its Balances_match compared Output, which is []. This run does not use that comparison."
+  },
+  "replay": {
+    "env": "REPLAY_GATEWAY_HEIGHTS=1 REPLAY_TAG=-gateway REPLAY_SAVE_MEMORY=1",
+    "heightOverrides": 0,
+    "loader": "@permaweb/ao-loader@0.0.44",
+    "node": "v22.22.0"
+  },
+  "supply": "189487568412204611",
+  "gates": [
+    {
+      "name": "A",
+      "fromNonce": 2074508,
+      "toNonce": 2074510,
+      "messages": 115,
+      "crons": 113,
+      "assignments": 2,
+      "errors": 0,
+      "gotSha256": "6ea2c0646d295040de6045475faa1b947fa3de09ecf8d6c5a810e038af75a890",
+      "expectedSha256": "b4805ec77e3b53d0362a1e3b3932ec86b94a6fdbaacdcccf32b74ab29ff829a1",
+      "byteMatch": false,
+      "addresses": 7614,
+      "addressDiffs": 0,
+      "onlyReplay": 0,
+      "onlyCheckpoint": 0,
+      "balanceDataSha256": "24f7b1e2f5a8bb6961c24630bb915cf1cb4804911e5803a8c5459d35b715f400",
+      "totalSupplyMatch": true,
+      "sumEqualsSupply": { "replay": true, "checkpoint": true },
+      "semanticPass": true
+    },
+    {
+      "name": "B",
+      "fromNonce": 2074510,
+      "toNonce": 2074518,
+      "messages": 108,
+      "crons": 100,
+      "assignments": 8,
+      "errors": 0,
+      "gotSha256": "08b33bd914ffd015fff0e0349ab279ed064eaa44dd79a35e3cfb26a7abd32baa",
+      "expectedSha256": "fbb8172e8879c5d27b3bc4b00de5a150a027d575a9faf511f3cd0747b949ce26",
+      "byteMatch": false,
+      "addresses": 7614,
+      "addressDiffs": 0,
+      "onlyReplay": 0,
+      "onlyCheckpoint": 0,
+      "balanceDataSha256": "e8637b0e4af3fae0837fdde365c17997bbd6a715c76750d31783b201b2bc0967",
+      "totalSupplyMatch": true,
+      "sumEqualsSupply": { "replay": true, "checkpoint": true },
+      "semanticPass": true
+    }
+  ],
+  "regions": {
+    "method": "Exact differing runs, no gap merge. classify_regions.py. semantic.mjs also folded equal gaps shorter than 24 bytes; those larger counts are not the exact diff size.",
+    "A": {
+      "exactDiffBytes": 1822229,
+      "runs": 174208,
+      "firstDiff": 328036,
+      "lastDiff": 236624412,
+      "occupiedMegabyteBuckets": 44,
+      "classBytes": {
+        "other-text": 635969,
+        "cron-log": 574973,
+        "binary": 477229,
+        "inbox-or-event": 108905,
+        "block-height": 25153
+      },
+      "mergedGapDiffBytes": 2298374
+    },
+    "B": {
+      "exactDiffBytes": 332736,
+      "runs": 30004,
+      "firstDiff": 328068,
+      "lastDiff": 236575800,
+      "occupiedMegabyteBuckets": 40,
+      "classBytes": {
+        "other-text": 107509,
+        "cron-log": 98164,
+        "binary": 85835,
+        "inbox-or-event": 36629,
+        "block-height": 4599
+      },
+      "mergedGapDiffBytes": 411540
+    },
+    "supplyStringOffset": 212117480,
+    "supplyStringSameOffsetBothMemories": true
+  },
+  "stringMultisets": {
+    "B": {
+      "cronRequestIds": "9 strings only in the replay and 9 only in the checkpoint. Each pair is the same timestamp with the gateway Block-Height 1 to 3 higher. They are the nine known cron height gaps.",
+      "anchors": "identical",
+      "eventBalanceAmounts": "identical",
+      "transferredQuantities": "identical",
+      "storedAddressAmountPairsDisagreeingWithTable": 0
+    },
+    "A": {
+      "cronRequestIds": "The same nine height substitutions, plus a few older cron log lines kept on only one side: replay 1862417-1771718983630, 1862431-1771720483630, 1862476-1771726483630; checkpoint 1862196-1771690483630, 1862656-1771748383630, 1862671-1771749583630, 1862677-1771750183630.",
+      "anchors": "Replay has extra copies of anchors 1890100, 1890101, 1890110, 1890111, 1890150, 1890151. Checkpoint has extra copies of 1898910 and 1898911.",
+      "eventBalanceAmounts": "identical",
+      "transferredQuantities": "identical",
+      "storedAddressAmountPairsDisagreeingWithTable": 0
+    }
+  },
+  "byteDifferenceVerdict": "The byte difference is not unstructured noise, and it is not a balance change. On 2074518 the readable difference is the nine cron Block-Heights, repeated in cron logs, plus lua heap bytes around those relocated strings. On 2074510 the same nine heights appear, and the 55-block inbox eviction also kept a handful of older cron logs and anchors on only one side. Balances JSON, Total-Supply, transfer quantities, and event balance snapshots match. For the ledger, the mismatch is non-semantic."
+}

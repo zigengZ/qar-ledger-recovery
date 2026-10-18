@@ -1,0 +1,124 @@
+{
+  "complete": false,
+  "gap_attempts": {
+    "epoch_probe": {
+      "nonce_5769_without_epoch_filter": "present epoch 0",
+      "nonce_5770_and_5793_without_epoch_filter": "absent",
+      "nonce_5770_epoch_1": "absent"
+    },
+    "exact_found": 0,
+    "exact_nonce_batches": [
+      {
+        "closed": true,
+        "error": null,
+        "http": [
+          200
+        ],
+        "ms": [
+          5639
+        ],
+        "nonces": [
+          5770,
+          5771,
+          5772,
+          5773,
+          5774
+        ],
+        "rows": 0
+      },
+      {
+        "closed": true,
+        "error": null,
+        "http": [
+          200
+        ],
+        "ms": [
+          9711
+        ],
+        "nonces": [
+          5775,
+          5776,
+          5777,
+          5778,
+          5779
+        ],
+        "rows": 0
+      },
+      {
+        "closed": true,
+        "error": null,
+        "http": [
+          200
+        ],
+        "ms": [
+          7883
+        ],
+        "nonces": [
+          5780,
+          5781,
+          5782,
+          5783,
+          5784
+        ],
+        "rows": 0
+      },
+      {
+        "closed": true,
+        "error": null,
+        "http": [
+          200
+        ],
+        "ms": [
+          7150
+        ],
+        "nonces": [
+          5785,
+          5786,
+          5787,
+          5788,
+          5789
+        ],
+        "rows": 0
+      },
+      {
+        "closed": true,
+        "error": null,
+        "http": [
+          200
+        ],
+        "ms": [
+          7671
+        ],
+        "nonces": [
+          5790,
+          5791,
+          5792,
+          5793
+        ],
+        "rows": 0
+      }
+    ],
+    "tight_block_window_1543160_1543170": {
+      "closed": true,
+      "error": null,
+      "gap_nonces": [],
+      "max_nonce": 5841,
+      "min_nonce": 5698,
+      "rows": 120
+    }
+  },
+  "last_good_point": {
+    "contiguous_from_nonce_0_through": 5769,
+    "cursor_next_height": 1547630,
+    "range_end_seen": true
+  },
+  "missing_ranges": [
+    [
+      5770,
+      5793
+    ]
+  ],
+  "phase": "P4",
+  "recovery_condition": "Obtain assignment bytes for epoch 0 nonces 5770..5793 for this process from a source other than the arweave.net GraphQL index, then rerun the set difference and the hash-chain link across 5769..5794. Do not start nonce 50000 replay while this hole is open.",
+  "run_id": "20261016T175757Z-p4-0-49999"
+}

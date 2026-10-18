@@ -1,0 +1,10 @@
+{
+  "run_id": "20261016T193251Z-p4-50000-99999",
+  "missing_before": 261,
+  "batch_size": 5,
+  "closed_batches": 53,
+  "failed_batches": 0,
+  "rows_returned": 0,
+  "status": "unresolved",
+  "note": "Every exact Nonce query for the 25 holes closed with zero rows. This is the same GraphQL miss as 5770..5793. Those bytes have to be read from bundle payloads. A scan of the largest bundle in each neighbor block is in progress and is not a closed search of every bundle."
+}

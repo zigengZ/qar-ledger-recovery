@@ -1,0 +1,19 @@
+{
+  "run_id": "20261017T1726Z-p4-hole-87659",
+  "status": "blocked",
+  "goal_complete": false,
+  "last_good_point": {
+    "range": "50000..99999",
+    "unique_nonces_in_range": 49868,
+    "source": "evidence/p4/20261017T043721Z-p4-50000-gaps-blocked/finding.json"
+  },
+  "missing_range": [
+    87659,
+    87659
+  ],
+  "assignment_id": null,
+  "raw_amount": null,
+  "actual_delta": null,
+  "reproducible_failure": "load_range_account on the blocked finding returns nonce 87659 as the first missing nonce. Bundle iCo0fdk5dSFNKQzcfDDWmmzV5_Xey19YdpEuM_7x7uA in block 1551416 is not closed. The gap-chunk probe recorded HTTP 404 for every probed offset and no readable chunk.",
+  "recovery_condition": "A readable byte range that pairs nonce 87659 with process NG-0lVX882MG5nhARrSzyprEK6ejonHpdUmaaMPsHE8, then a hash-chain link to its neighbors. An HTTP 404 or a fully read bundle with no wanted tag does not prove the nonce was never published."
+}

@@ -1,0 +1,74 @@
+{
+  "run_id": "20261017T1726Z-p4-hole-87659",
+  "gate": "schedule_covered",
+  "schedule_covered": false,
+  "inputs_complete": false,
+  "goal_complete": false,
+  "module_executed": false,
+  "proven_absent": false,
+  "publish_claims": false,
+  "hole": {
+    "nonce_start": 87659,
+    "nonce_end": 87659,
+    "assignment_id": null,
+    "message_id": null,
+    "raw_amount": null,
+    "reason": "The blocked range file lists this nonce as its first missing range. No assignment id was recovered. The raw amount is null."
+  },
+  "range_still_missing": 132,
+  "range_unique_nonces": 49868,
+  "range_inclusive": [
+    50000,
+    99999
+  ],
+  "neighbor_blocks": [
+    1551411,
+    1551416
+  ],
+  "non_ao_window": {
+    "source": "evidence/p4/20261017T033409Z-p4-50000-non-ao/finding.json",
+    "window": "87659-cluster",
+    "non_ao_bundles": 29,
+    "fully_read_without_wanted_nonce": 29,
+    "unclosed": 0
+  },
+  "largest_bundles_without_process_hits": [
+    {
+      "source": "evidence/p4/20261016T203902Z-p4-50000-largest-false/finding.json",
+      "block": 1551411,
+      "id": "6XjLxdHfvwQwSXS88cH9I1A9tMKLxztidxzEWYGUhsY",
+      "process_hits": 0
+    },
+    {
+      "source": "evidence/p4/20261016T203902Z-p4-50000-largest-false/finding.json",
+      "block": 1551416,
+      "id": "wd2FUQKmI0InHr4j0KE1bKWp8rGlTu8kri9shynpw7E",
+      "process_hits": 0
+    }
+  ],
+  "unclosed_bundle": {
+    "source": "evidence/p4/20261017T034025Z-p4-50000-nonbinary/finding.json",
+    "block": 1551416,
+    "id": "iCo0fdk5dSFNKQzcfDDWmmzV5_Xey19YdpEuM_7x7uA",
+    "bundle_closed": false,
+    "bundle_size": 50816322,
+    "bytes_read": 43476290,
+    "gap_count": 25,
+    "paired_wanted_nonces_in_readable_bytes": 0,
+    "first_gap": [
+      786432,
+      1048576
+    ],
+    "chunk_probe_source": "evidence/p4/20261017T043721Z-p4-50000-gaps-blocked/finding.json",
+    "chunk_offsets_probed": 28,
+    "readable_chunks_in_that_probe": 0,
+    "http_404_in_that_probe": 8158
+  },
+  "sources": [
+    "evidence/p4/20261017T043721Z-p4-50000-gaps-blocked/finding.json",
+    "evidence/p4/20261017T033409Z-p4-50000-non-ao/finding.json",
+    "evidence/p4/20261016T203902Z-p4-50000-largest-false/finding.json",
+    "evidence/p4/20261017T034025Z-p4-50000-nonbinary/finding.json"
+  ],
+  "recovery_condition": "A readable byte range that pairs nonce 87659 with process NG-0lVX882MG5nhARrSzyprEK6ejonHpdUmaaMPsHE8, then a hash-chain link to its neighbors. An HTTP 404 or a fully read bundle with no wanted tag does not prove the nonce was never published."
+}

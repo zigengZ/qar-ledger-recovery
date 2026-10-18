@@ -1,0 +1,14 @@
+{
+  "run_id": "20261017T0615Z-p7-genesis-0-19",
+  "position": "after nonce 19 Eval, before nonce 20",
+  "memory_path": "data/raw/p7/0-19/20261017T0615Z-p7-genesis-0-19/memory.bin",
+  "memory_bytes": 11010048,
+  "memory_sha256": "d36a4f98636128efc68f04c92a45e650940e1b77fe3792df2906d58e6eba8538",
+  "committed_in_git": false,
+  "restores_to_nonce": 20,
+  "left_boundary": {
+    "height": 1505818,
+    "timestamp_ms": 1726231800507
+  },
+  "external_memory_oracle": "unavailable at nonce 19"
+}

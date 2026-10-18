@@ -1,0 +1,26 @@
+{
+  "run_id": "20261017T0812Z-p7-tail-progress",
+  "process": "still running; do not start a second replay",
+  "pid_seen": 3393681,
+  "cursor_path": "recovery/p7/data/raw/p7/tail-2074518/cursor.json",
+  "next_index": 4000,
+  "applied": 4000,
+  "handler_errors": 0,
+  "memory_bytes": 428146688,
+  "memory_sha256": "fcd1b5dd04e98c6002e9b9820e9dae3813a1301d25a2b87a0edb2aabf1009cbf",
+  "memory_file_matches_hash": true,
+  "height_source": "gateway block timestamps, cronsBetween from recovery/p6/replay.mjs",
+  "last_assignment_inside_save": {
+    "index": 3812,
+    "nonce": 2074638,
+    "sha256": "78e7e36e6ed66bc1f2b892897e43a556773dfe3ffe626542f407b35c1bb1a763",
+    "applied": true,
+    "error": null
+  },
+  "stream_total": 39065,
+  "tail_nonce": 2075923,
+  "supersedes_progress": "evidence/p7/20261017T0805Z-p7-tail-progress/cursor.json",
+  "balances_written": false,
+  "goal_complete": false,
+  "note": "Resume uses this cursor file. steps.jsonl may contain assignment lines past next_index; those are not in the saved memory."
+}

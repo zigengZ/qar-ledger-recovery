@@ -1,0 +1,1413 @@
+{
+  "supply_raw_at_nonce_2074518": "189487568412204611",
+  "tail_supply_raw": null,
+  "tail_supply_note": "Pending P7. This comparison uses the checkpoint supply only.",
+  "minted_qar": {
+    "raw": null,
+    "partial_raw": "461853766879179571",
+    "rows": 4315,
+    "used": 4300,
+    "missing_or_conflict": 15,
+    "rule": "One group per underlying layer-1 id. Proposal messages contribute the id, not the quantity. The mint is the agreed data.quantity or X-Quantity. Those two fields matched on every message that had both. A missing group keeps the total unknown.",
+    "quantity_vs_tx": {
+      "equal": 2942,
+      "message_plus_network_fee": 1358,
+      "not_compared": 15
+    },
+    "network_fee_note": "Where quantity_vs_tx is message_plus_network_fee, data.quantity plus the integer X-Network-Fee equals the layer-1 quantity. The fee is not added back into the mint."
+  },
+  "burned_qar": {
+    "raw": null,
+    "partial_raw": "262319318419623672",
+    "rows": 2125,
+    "used": 2125,
+    "missing_or_conflict": 0,
+    "requested_raw": "557668573393342456",
+    "requested_partial_raw": "557668573393342456",
+    "requested_groups": 2685,
+    "linked_groups": 2125,
+    "follow_up_complete": false,
+    "rule": "Unwrap burns Tags.Quantity once for a new X-Request-Id when the caller has balance. A later Withdraw or Unwrap-Funds-Sent that names that request id is the evidence the row existed. Unlinked unwraps stay out of the sum."
+  },
+  "message_gap_raw": null,
+  "message_gap_definition": "(minted qAR \u2212 burned qAR) \u2212 checkpoint supply. Null when either side is unknown.",
+  "bridge_fee_on_unwrap_messages": {
+    "quantity_equals_original_plus_fee": 2166,
+    "fee_not_an_integer": 519,
+    "other": 0,
+    "note": "On some Unwrap messages Quantity equals X-Original-Quantity plus an integer X-Bridge-Fee. X-Bridge-Fee 0.00 is not winston and is not counted. The fee is retained AR in the sending wallet. It is not a second custody wallet and it is not added to a qAR balance."
+  },
+  "held_ar": {
+    "cited_confirmed_all": {
+      "raw_winston": "198027336096337133",
+      "received_winston": "461910680000000000",
+      "sent_quantity_winston": "263879058419623672",
+      "sent_fee_winston": "4285484039195",
+      "counted_txs": 6470,
+      "skipped_zero": 0,
+      "skipped_unconfirmed": 1,
+      "skipped_after": 0
+    },
+    "cited_at_tail_block": {
+      "raw_winston": "198027336096337133",
+      "received_winston": "461910680000000000",
+      "sent_quantity_winston": "263879058419623672",
+      "sent_fee_winston": "4285484039195",
+      "counted_txs": 6470,
+      "skipped_zero": 0,
+      "skipped_unconfirmed": 1,
+      "skipped_after": 0
+    },
+    "cited_at_checkpoint_block": {
+      "raw_winston": "198027336096337133",
+      "received_winston": "461910680000000000",
+      "sent_quantity_winston": "263879058419623672",
+      "sent_fee_winston": "4285484039195",
+      "counted_txs": 6470,
+      "skipped_zero": 0,
+      "skipped_unconfirmed": 1,
+      "skipped_after": 0
+    },
+    "gateway_now": {
+      "raw_winston": "978114007970",
+      "height": 2023096,
+      "blocks": 2023097,
+      "balance_path": "<repo>/data/raw/collat/20261017T090508Z/wallet/nLVp9CqNi3JQjtQuZidQdUFd-RGULF8WtI0s50WV94c/balance.body",
+      "info_path": "<repo>/data/raw/collat/20261017T090508Z/wallet/nLVp9CqNi3JQjtQuZidQdUFd-RGULF8WtI0s50WV94c/info.body"
+    },
+    "index_gap": {
+      "address": "nLVp9CqNi3JQjtQuZidQdUFd-RGULF8WtI0s50WV94c",
+      "pagination": {
+        "owners": {
+          "address": "nLVp9CqNi3JQjtQuZidQdUFd-RGULF8WtI0s50WV94c",
+          "direction": "owners",
+          "edges": 12226,
+          "pages": 123
+        },
+        "recipients": {
+          "address": "nLVp9CqNi3JQjtQuZidQdUFd-RGULF8WtI0s50WV94c",
+          "direction": "recipients",
+          "edges": 139,
+          "pages": 2
+        }
+      },
+      "unique_rows_in_pages": 12348,
+      "positive_rows_in_pages": 0,
+      "cited_positive_txs": 6471,
+      "cited_positive_present_in_pages": 0,
+      "note": "GraphQL owners and recipients walks finished with hasNextPage false and returned only zero-quantity AO messages. Known layer-1 transfers for this wallet are absent from those pages. The walks are not the wallet history."
+    },
+    "fee_rule": "A sender's balance falls by quantity plus reward. GraphQL calls the reward fee. The recipient is credited quantity only.",
+    "transfers_complete": false,
+    "confirmed_cited_matches_gateway": false,
+    "cited_note": "The message-cited ledger omits untagged layer-1 spends. It is not the wallet balance. arweave.net owner and recipient pages also omit those spends. The ar-io.dev walks are the reconstruction."
+  },
+  "wallets": [
+    {
+      "address": "nLVp9CqNi3JQjtQuZidQdUFd-RGULF8WtI0s50WV94c",
+      "role": "original_custody",
+      "index": {
+        "complete": true,
+        "unique": 6893,
+        "directions": {
+          "ario-owners": {
+            "pages": 25,
+            "edges": 2489,
+            "summary": {
+              "address": "nLVp9CqNi3JQjtQuZidQdUFd-RGULF8WtI0s50WV94c",
+              "direction": "owners",
+              "endpoint": "https://ar-io.dev/graphql",
+              "edges": 2489,
+              "pages": 25
+            },
+            "last_has_next": false
+          },
+          "ario-recipients": {
+            "pages": 45,
+            "edges": 4404,
+            "summary": {
+              "address": "nLVp9CqNi3JQjtQuZidQdUFd-RGULF8WtI0s50WV94c",
+              "direction": "recipients",
+              "endpoint": "https://ar-io.dev/graphql",
+              "edges": 4404,
+              "pages": 45
+            },
+            "last_has_next": false
+          }
+        }
+      },
+      "gateway_now": {
+        "raw_winston": "978114007970",
+        "height": 2023096,
+        "blocks": 2023097,
+        "balance_path": "<repo>/data/raw/collat/20261017T090508Z/wallet/nLVp9CqNi3JQjtQuZidQdUFd-RGULF8WtI0s50WV94c/balance.body",
+        "info_path": "<repo>/data/raw/collat/20261017T090508Z/wallet/nLVp9CqNi3JQjtQuZidQdUFd-RGULF8WtI0s50WV94c/info.body"
+      },
+      "reconstruction_matches_gateway": true,
+      "raw_amount_now": "978114007970",
+      "raw_amount_at_tail": "978114007970",
+      "raw_amount_at_checkpoint": "978114007970",
+      "at_all_heights": {
+        "raw_winston": "978114007970",
+        "received_winston": "544281583837548583",
+        "sent_quantity_winston": "544275878267425460",
+        "sent_fee_winston": "4727456115153",
+        "counted_txs": 6864,
+        "skipped_zero": 29,
+        "skipped_unconfirmed": 0,
+        "skipped_after": 0
+      },
+      "at_tail": {
+        "raw_winston": "978114007970",
+        "received_winston": "544281583837548583",
+        "sent_quantity_winston": "544275878267425460",
+        "sent_fee_winston": "4727456115153",
+        "counted_txs": 6864,
+        "skipped_zero": 29,
+        "skipped_unconfirmed": 0,
+        "skipped_after": 0
+      },
+      "at_checkpoint": {
+        "raw_winston": "978114007970",
+        "received_winston": "544281583837548583",
+        "sent_quantity_winston": "544275878267425460",
+        "sent_fee_winston": "4727456115153",
+        "counted_txs": 6864,
+        "skipped_zero": 29,
+        "skipped_unconfirmed": 0,
+        "skipped_after": 0
+      },
+      "index_difference_winston": null,
+      "positive_height_min": 1505312,
+      "positive_height_max": 1657109,
+      "value_txs_after_tail": 0,
+      "fee_rule": "The sender decreases by quantity plus reward. GraphQL names the reward fee. The recipient increases by quantity only. A zero quantity and zero fee is skipped. A transaction with no block is skipped.",
+      "largest_outflows_through_tail": [
+        {
+          "address": "11c550AqWT74EvGJ6oYBwCYqHDWSZ41tnympN_lYNx0",
+          "txs": 113,
+          "quantity_winston": "271377200000000000",
+          "height_min": 1551227,
+          "height_max": 1657109
+        },
+        {
+          "address": "XBWdpSqu_vCIZI4R0PsxZleSC0JbbR0vkwef0jNVtC4",
+          "txs": 24,
+          "quantity_winston": "31686400000000000",
+          "height_min": 1619538,
+          "height_max": 1649245
+        },
+        {
+          "address": "wUU3PychWiVU1MBbNlnvXJGhJPMn-ZV-eHF0E9PEvVE",
+          "txs": 28,
+          "quantity_winston": "17293500000000000",
+          "height_min": 1576942,
+          "height_max": 1643450
+        },
+        {
+          "address": "D7NdL5sDGU6q3HahHg-9Un2MpjH4Kj6IFp9k2r_LzCM",
+          "txs": 61,
+          "quantity_winston": "16592598419623672",
+          "height_min": 1613717,
+          "height_max": 1655782
+        },
+        {
+          "address": "iwz41iZMbjxZua-GEdNMI9JFq7s6tXBnTWE3d9X2LX8",
+          "txs": 25,
+          "quantity_winston": "16114950000000000",
+          "height_min": 1582628,
+          "height_max": 1629215
+        },
+        {
+          "address": "Kg7C_tLPVxsaMckMC0VkWMl8_AEDj5FqOoydmoBxXgI",
+          "txs": 1,
+          "quantity_winston": "10874900000000000",
+          "height_min": 1636212,
+          "height_max": 1636212
+        },
+        {
+          "address": "CwWJZ5my1eek_DwYZFGnOPXPOZtJ_x_jD-izw3r1wtk",
+          "txs": 18,
+          "quantity_winston": "10480010000000000",
+          "height_min": 1613588,
+          "height_max": 1632476
+        },
+        {
+          "address": "rCJwclCpMJEg2w1E1ETcl0XFFwqiuq2wYzk7oyVq-j4",
+          "txs": 20,
+          "quantity_winston": "9850000000000000",
+          "height_min": 1609141,
+          "height_max": 1617161
+        }
+      ]
+    },
+    {
+      "address": "11c550AqWT74EvGJ6oYBwCYqHDWSZ41tnympN_lYNx0",
+      "role": "untagged_forward",
+      "index": {
+        "complete": true,
+        "unique": 175,
+        "directions": {
+          "ario-owners": {
+            "pages": 1,
+            "edges": 49,
+            "summary": {
+              "address": "11c550AqWT74EvGJ6oYBwCYqHDWSZ41tnympN_lYNx0",
+              "direction": "owners",
+              "endpoint": "https://ar-io.dev/graphql",
+              "edges": 49,
+              "pages": 1
+            },
+            "last_has_next": false
+          },
+          "ario-recipients": {
+            "pages": 2,
+            "edges": 126,
+            "summary": {
+              "address": "11c550AqWT74EvGJ6oYBwCYqHDWSZ41tnympN_lYNx0",
+              "direction": "recipients",
+              "endpoint": "https://ar-io.dev/graphql",
+              "edges": 126,
+              "pages": 2
+            },
+            "last_has_next": false
+          }
+        }
+      },
+      "gateway_now": {
+        "raw_winston": "6000000000000",
+        "height": 2023132,
+        "blocks": 2023133,
+        "balance_path": "<repo>/data/raw/collat/20261017T090508Z/wallet/11c550AqWT74EvGJ6oYBwCYqHDWSZ41tnympN_lYNx0/balance.body",
+        "info_path": "<repo>/data/raw/collat/20261017T090508Z/wallet/11c550AqWT74EvGJ6oYBwCYqHDWSZ41tnympN_lYNx0/info.body"
+      },
+      "reconstruction_matches_gateway": true,
+      "raw_amount_now": "6000000000000",
+      "raw_amount_at_tail": "6000000000000",
+      "raw_amount_at_checkpoint": "6000000000000",
+      "at_all_heights": {
+        "raw_winston": "6000000000000",
+        "received_winston": "271383300289120000",
+        "sent_quantity_winston": "271377298733196000",
+        "sent_fee_winston": "1555924000",
+        "counted_txs": 175,
+        "skipped_zero": 0,
+        "skipped_unconfirmed": 0,
+        "skipped_after": 0
+      },
+      "at_tail": {
+        "raw_winston": "6000000000000",
+        "received_winston": "271383300289120000",
+        "sent_quantity_winston": "271377298733196000",
+        "sent_fee_winston": "1555924000",
+        "counted_txs": 175,
+        "skipped_zero": 0,
+        "skipped_unconfirmed": 0,
+        "skipped_after": 0
+      },
+      "at_checkpoint": {
+        "raw_winston": "6000000000000",
+        "received_winston": "271383300289120000",
+        "sent_quantity_winston": "271377298733196000",
+        "sent_fee_winston": "1555924000",
+        "counted_txs": 175,
+        "skipped_zero": 0,
+        "skipped_unconfirmed": 0,
+        "skipped_after": 0
+      },
+      "index_difference_winston": null,
+      "positive_height_min": 1551227,
+      "positive_height_max": 1775522,
+      "value_txs_after_tail": 0,
+      "fee_rule": "The sender decreases by quantity plus reward. GraphQL names the reward fee. The recipient increases by quantity only. A zero quantity and zero fee is skipped. A transaction with no block is skipped.",
+      "largest_outflows_through_tail": [
+        {
+          "address": "qmg-WUYiCHqhnx_kv4zx2zedssosU1is9Td2UWGfI5g",
+          "txs": 5,
+          "quantity_winston": "189488099940292480",
+          "height_min": 1657051,
+          "height_max": 1661231
+        },
+        {
+          "address": "nLVp9CqNi3JQjtQuZidQdUFd-RGULF8WtI0s50WV94c",
+          "txs": 43,
+          "quantity_winston": "81799999934367810",
+          "height_min": 1551409,
+          "height_max": 1649144
+        },
+        {
+          "address": "K4OPvKxtNUG7tBKXWfDPWSLtvLY1geCXfvfvFUGxvpA",
+          "txs": 1,
+          "quantity_winston": "89198858535710",
+          "height_min": 1774837,
+          "height_max": 1774837
+        }
+      ]
+    },
+    {
+      "address": "qmg-WUYiCHqhnx_kv4zx2zedssosU1is9Td2UWGfI5g",
+      "role": "untagged_forward",
+      "index": {
+        "complete": true,
+        "unique": 210,
+        "directions": {
+          "ario-owners": {
+            "pages": 2,
+            "edges": 165,
+            "summary": {
+              "address": "qmg-WUYiCHqhnx_kv4zx2zedssosU1is9Td2UWGfI5g",
+              "direction": "owners",
+              "endpoint": "https://ar-io.dev/graphql",
+              "edges": 165,
+              "pages": 2
+            },
+            "last_has_next": false
+          },
+          "ario-recipients": {
+            "pages": 1,
+            "edges": 45,
+            "summary": {
+              "address": "qmg-WUYiCHqhnx_kv4zx2zedssosU1is9Td2UWGfI5g",
+              "direction": "recipients",
+              "endpoint": "https://ar-io.dev/graphql",
+              "edges": 45,
+              "pages": 1
+            },
+            "last_has_next": false
+          }
+        }
+      },
+      "gateway_now": {
+        "raw_winston": "1661515914915635",
+        "height": 2023133,
+        "blocks": 2023134,
+        "balance_path": "<repo>/data/raw/collat/20261017T090508Z/wallet/qmg-WUYiCHqhnx_kv4zx2zedssosU1is9Td2UWGfI5g/balance.body",
+        "info_path": "<repo>/data/raw/collat/20261017T090508Z/wallet/qmg-WUYiCHqhnx_kv4zx2zedssosU1is9Td2UWGfI5g/info.body"
+      },
+      "reconstruction_matches_gateway": true,
+      "raw_amount_now": "1661515914915635",
+      "raw_amount_at_tail": "1661515914915635",
+      "raw_amount_at_checkpoint": "1546659611671199",
+      "at_all_heights": {
+        "raw_winston": "1661515914915635",
+        "received_winston": "244424040721373783",
+        "sent_quantity_winston": "242762391261198376",
+        "sent_fee_winston": "133545259772",
+        "counted_txs": 210,
+        "skipped_zero": 0,
+        "skipped_unconfirmed": 0,
+        "skipped_after": 0
+      },
+      "at_tail": {
+        "raw_winston": "1661515914915635",
+        "received_winston": "244424040721373783",
+        "sent_quantity_winston": "242762391261198376",
+        "sent_fee_winston": "133545259772",
+        "counted_txs": 210,
+        "skipped_zero": 0,
+        "skipped_unconfirmed": 0,
+        "skipped_after": 0
+      },
+      "at_checkpoint": {
+        "raw_winston": "1546659611671199",
+        "received_winston": "244309184418129347",
+        "sent_quantity_winston": "242762391261198376",
+        "sent_fee_winston": "133545259772",
+        "counted_txs": 209,
+        "skipped_zero": 0,
+        "skipped_unconfirmed": 0,
+        "skipped_after": 1
+      },
+      "index_difference_winston": null,
+      "positive_height_min": 620415,
+      "positive_height_max": 1884366,
+      "value_txs_after_tail": 0,
+      "fee_rule": "The sender decreases by quantity plus reward. GraphQL names the reward fee. The recipient increases by quantity only. A zero quantity and zero fee is skipped. A transaction with no block is skipped.",
+      "largest_outflows_through_tail": [
+        {
+          "address": "uXBWmzYSA-yjkGm-cYMN_fl1R__USQLFORskGXGxdW0",
+          "txs": 4,
+          "quantity_winston": "219708700000000000",
+          "height_min": 1445445,
+          "height_max": 1662584
+        },
+        {
+          "address": "dH-_dwLlN86fitrFZzi86IVEEQFyYpTzWcqnFh460ys",
+          "txs": 12,
+          "quantity_winston": "21238900000000000",
+          "height_min": 726037,
+          "height_max": 1633897
+        },
+        {
+          "address": "AKQcAkNtnNXmEWBMMxfJ08oeoHP3RLs2jshRGnje1ow",
+          "txs": 2,
+          "quantity_winston": "915000000000000",
+          "height_min": 1625983,
+          "height_max": 1632056
+        },
+        {
+          "address": "8-GZSKB8VisgQltIiBmHiKYlTzVD46rCOlewOSOzbUA",
+          "txs": 4,
+          "quantity_winston": "872121111111111",
+          "height_min": 723858,
+          "height_max": 725925
+        },
+        {
+          "address": "uGx-QfBXSwABKxjha-00dI7vvfyqIYblY6Z5L6cyTFM",
+          "txs": 1,
+          "quantity_winston": "10000000000000",
+          "height_min": 685972,
+          "height_max": 685972
+        },
+        {
+          "address": "cSYOy8-p1QFenktkDBFyRM3cwZSTrQ_J4EsELLho_UE",
+          "txs": 1,
+          "quantity_winston": "9000000000000",
+          "height_min": 665061,
+          "height_max": 665061
+        },
+        {
+          "address": "ecOg7AqtmUofw2Enx5rWXXdZVOcTqSFPDZBeomqHw1M",
+          "txs": 3,
+          "quantity_winston": "4000000000000",
+          "height_min": 724762,
+          "height_max": 747709
+        },
+        {
+          "address": "dTktO9NLnk-6C9XwGv7XcLK-U9USqSJcaqyMe3s8_cg",
+          "txs": 2,
+          "quantity_winston": "2000000000000",
+          "height_min": 723939,
+          "height_max": 723941
+        }
+      ]
+    },
+    {
+      "address": "uXBWmzYSA-yjkGm-cYMN_fl1R__USQLFORskGXGxdW0",
+      "role": "untagged_forward",
+      "index": {
+        "complete": true,
+        "unique": 35,
+        "directions": {
+          "ario-owners": {
+            "pages": 1,
+            "edges": 16,
+            "summary": {
+              "address": "uXBWmzYSA-yjkGm-cYMN_fl1R__USQLFORskGXGxdW0",
+              "direction": "owners",
+              "endpoint": "https://ar-io.dev/graphql",
+              "edges": 16,
+              "pages": 1
+            },
+            "last_has_next": false
+          },
+          "ario-recipients": {
+            "pages": 1,
+            "edges": 19,
+            "summary": {
+              "address": "uXBWmzYSA-yjkGm-cYMN_fl1R__USQLFORskGXGxdW0",
+              "direction": "recipients",
+              "endpoint": "https://ar-io.dev/graphql",
+              "edges": 19,
+              "pages": 1
+            },
+            "last_has_next": false
+          }
+        }
+      },
+      "gateway_now": {
+        "raw_winston": "33212493375455601",
+        "height": 2023133,
+        "blocks": 2023134,
+        "balance_path": "<repo>/data/raw/collat/20261017T090508Z/wallet/uXBWmzYSA-yjkGm-cYMN_fl1R__USQLFORskGXGxdW0/balance.body",
+        "info_path": "<repo>/data/raw/collat/20261017T090508Z/wallet/uXBWmzYSA-yjkGm-cYMN_fl1R__USQLFORskGXGxdW0/info.body"
+      },
+      "reconstruction_matches_gateway": true,
+      "raw_amount_now": "33212493375455601",
+      "raw_amount_at_tail": "33212493375455601",
+      "raw_amount_at_checkpoint": "33212493375455601",
+      "at_all_heights": {
+        "raw_winston": "33212493375455601",
+        "received_winston": "234213333460650000",
+        "sent_quantity_winston": "201000800000000000",
+        "sent_fee_winston": "40085194399",
+        "counted_txs": 35,
+        "skipped_zero": 0,
+        "skipped_unconfirmed": 0,
+        "skipped_after": 0
+      },
+      "at_tail": {
+        "raw_winston": "33212493375455601",
+        "received_winston": "234213333460650000",
+        "sent_quantity_winston": "201000800000000000",
+        "sent_fee_winston": "40085194399",
+        "counted_txs": 35,
+        "skipped_zero": 0,
+        "skipped_unconfirmed": 0,
+        "skipped_after": 0
+      },
+      "at_checkpoint": {
+        "raw_winston": "33212493375455601",
+        "received_winston": "234213333460650000",
+        "sent_quantity_winston": "201000800000000000",
+        "sent_fee_winston": "40085194399",
+        "counted_txs": 35,
+        "skipped_zero": 0,
+        "skipped_unconfirmed": 0,
+        "skipped_after": 0
+      },
+      "index_difference_winston": null,
+      "positive_height_min": 1445445,
+      "positive_height_max": 1804210,
+      "value_txs_after_tail": 0,
+      "fee_rule": "The sender decreases by quantity plus reward. GraphQL names the reward fee. The recipient increases by quantity only. A zero quantity and zero fee is skipped. A transaction with no block is skipped.",
+      "largest_outflows_through_tail": [
+        {
+          "address": "cjp59bXFj6GL8ja200hnjfkGsXQrSG095SlyFH39-U8",
+          "txs": 12,
+          "quantity_winston": "176000100000000000",
+          "height_min": 1664994,
+          "height_max": 1804210
+        },
+        {
+          "address": "mizBOKEIkpih0qAI-giz_kJrcfcQs5eZvqeUZHUD50E",
+          "txs": 1,
+          "quantity_winston": "20000000000000000",
+          "height_min": 1729945,
+          "height_max": 1729945
+        },
+        {
+          "address": "AKQcAkNtnNXmEWBMMxfJ08oeoHP3RLs2jshRGnje1ow",
+          "txs": 1,
+          "quantity_winston": "5000000000000000",
+          "height_min": 1607822,
+          "height_max": 1607822
+        },
+        {
+          "address": "qmg-WUYiCHqhnx_kv4zx2zedssosU1is9Td2UWGfI5g",
+          "txs": 2,
+          "quantity_winston": "700000000000",
+          "height_min": 1445447,
+          "height_max": 1445451
+        }
+      ]
+    },
+    {
+      "address": "cjp59bXFj6GL8ja200hnjfkGsXQrSG095SlyFH39-U8",
+      "role": "untagged_forward",
+      "index": {
+        "complete": true,
+        "unique": 23,
+        "directions": {
+          "ario-owners": {
+            "pages": 1,
+            "edges": 11,
+            "summary": {
+              "address": "cjp59bXFj6GL8ja200hnjfkGsXQrSG095SlyFH39-U8",
+              "direction": "owners",
+              "endpoint": "https://ar-io.dev/graphql",
+              "edges": 11,
+              "pages": 1
+            },
+            "last_has_next": false
+          },
+          "ario-recipients": {
+            "pages": 1,
+            "edges": 12,
+            "summary": {
+              "address": "cjp59bXFj6GL8ja200hnjfkGsXQrSG095SlyFH39-U8",
+              "direction": "recipients",
+              "endpoint": "https://ar-io.dev/graphql",
+              "edges": 12,
+              "pages": 1
+            },
+            "last_has_next": false
+          }
+        }
+      },
+      "gateway_now": {
+        "raw_winston": "99925730950",
+        "height": null,
+        "blocks": null,
+        "balance_path": "<repo>/data/raw/collat/20261017T090508Z/wallet/cjp59bXFj6GL8ja200hnjfkGsXQrSG095SlyFH39-U8/balance.body",
+        "info_path": null
+      },
+      "reconstruction_matches_gateway": true,
+      "raw_amount_now": "99925730950",
+      "raw_amount_at_tail": "99925730950",
+      "raw_amount_at_checkpoint": "99925730950",
+      "at_all_heights": {
+        "raw_winston": "99925730950",
+        "received_winston": "176000100000000000",
+        "sent_quantity_winston": "176000000000000000",
+        "sent_fee_winston": "74269050",
+        "counted_txs": 23,
+        "skipped_zero": 0,
+        "skipped_unconfirmed": 0,
+        "skipped_after": 0
+      },
+      "at_tail": {
+        "raw_winston": "99925730950",
+        "received_winston": "176000100000000000",
+        "sent_quantity_winston": "176000000000000000",
+        "sent_fee_winston": "74269050",
+        "counted_txs": 23,
+        "skipped_zero": 0,
+        "skipped_unconfirmed": 0,
+        "skipped_after": 0
+      },
+      "at_checkpoint": {
+        "raw_winston": "99925730950",
+        "received_winston": "176000100000000000",
+        "sent_quantity_winston": "176000000000000000",
+        "sent_fee_winston": "74269050",
+        "counted_txs": 23,
+        "skipped_zero": 0,
+        "skipped_unconfirmed": 0,
+        "skipped_after": 0
+      },
+      "index_difference_winston": null,
+      "positive_height_min": 1664994,
+      "positive_height_max": 1804219,
+      "value_txs_after_tail": 0,
+      "fee_rule": "The sender decreases by quantity plus reward. GraphQL names the reward fee. The recipient increases by quantity only. A zero quantity and zero fee is skipped. A transaction with no block is skipped.",
+      "largest_outflows_through_tail": [
+        {
+          "address": "AKQcAkNtnNXmEWBMMxfJ08oeoHP3RLs2jshRGnje1ow",
+          "txs": 11,
+          "quantity_winston": "176000000000000000",
+          "height_min": 1665001,
+          "height_max": 1804219
+        }
+      ]
+    },
+    {
+      "address": "AKQcAkNtnNXmEWBMMxfJ08oeoHP3RLs2jshRGnje1ow",
+      "role": "mixed_after_forward",
+      "index": {
+        "complete": true,
+        "unique": 42793,
+        "directions": {
+          "ario-owners": {
+            "pages": 173,
+            "edges": 17297,
+            "summary": {
+              "address": "AKQcAkNtnNXmEWBMMxfJ08oeoHP3RLs2jshRGnje1ow",
+              "direction": "owners",
+              "endpoint": "https://ar-io.dev/graphql",
+              "edges": 17297,
+              "pages": 173
+            },
+            "last_has_next": false
+          },
+          "ario-recipients": {
+            "pages": 255,
+            "edges": 25496,
+            "summary": {
+              "address": "AKQcAkNtnNXmEWBMMxfJ08oeoHP3RLs2jshRGnje1ow",
+              "direction": "recipients",
+              "endpoint": "https://ar-io.dev/graphql",
+              "edges": 25496,
+              "pages": 255
+            },
+            "last_has_next": false
+          }
+        }
+      },
+      "gateway_now": {
+        "raw_winston": "123454235289151276",
+        "height": 2023136,
+        "blocks": 2023137,
+        "balance_path": "<repo>/data/raw/collat/20261017T090508Z/wallet/AKQcAkNtnNXmEWBMMxfJ08oeoHP3RLs2jshRGnje1ow/balance.body",
+        "info_path": "<repo>/data/raw/collat/20261017T090508Z/wallet/AKQcAkNtnNXmEWBMMxfJ08oeoHP3RLs2jshRGnje1ow/info.body"
+      },
+      "reconstruction_matches_gateway": true,
+      "raw_amount_now": "123454235289151276",
+      "raw_amount_at_tail": "123199764772062513",
+      "raw_amount_at_checkpoint": "138721299168711687",
+      "at_all_heights": {
+        "raw_winston": "123454235289151276",
+        "received_winston": "2469310617578671681",
+        "sent_quantity_winston": "2345832771157688973",
+        "sent_fee_winston": "23611131831432",
+        "counted_txs": 42793,
+        "skipped_zero": 0,
+        "skipped_unconfirmed": 0,
+        "skipped_after": 0
+      },
+      "at_tail": {
+        "raw_winston": "123199764772062513",
+        "received_winston": "2469056147061582918",
+        "sent_quantity_winston": "2345832771157688973",
+        "sent_fee_winston": "23611131831432",
+        "counted_txs": 42785,
+        "skipped_zero": 0,
+        "skipped_unconfirmed": 0,
+        "skipped_after": 8
+      },
+      "at_checkpoint": {
+        "raw_winston": "138721299168711687",
+        "received_winston": "2459152194722582970",
+        "sent_quantity_winston": "2320407857822624064",
+        "sent_fee_winston": "23037731247219",
+        "counted_txs": 42598,
+        "skipped_zero": 0,
+        "skipped_unconfirmed": 0,
+        "skipped_after": 195
+      },
+      "index_difference_winston": null,
+      "positive_height_min": 1460803,
+      "positive_height_max": 1982003,
+      "value_txs_after_tail": 8,
+      "fee_rule": "The sender decreases by quantity plus reward. GraphQL names the reward fee. The recipient increases by quantity only. A zero quantity and zero fee is skipped. A transaction with no block is skipped.",
+      "largest_outflows_through_tail": [
+        {
+          "address": "D0zVSDzB5LPAjbUg6oz40Oc3_0o-sUGVVNxOajbT7KE",
+          "txs": 495,
+          "quantity_winston": "317380975079179222",
+          "height_min": 1612461,
+          "height_max": 1807046
+        },
+        {
+          "address": "M9sQruUg4jlkKdB-isAWmAmCCLI27Gas0Mxj9RkziBY",
+          "txs": 25,
+          "quantity_winston": "267517442139587721",
+          "height_min": 1613924,
+          "height_max": 1640675
+        },
+        {
+          "address": "c00yvCAsHaJsd8tvEqRMKcp5FZGQhNeYRV9fn5P2KKE",
+          "txs": 121,
+          "quantity_winston": "190010838067282106",
+          "height_min": 1610791,
+          "height_max": 1667855
+        },
+        {
+          "address": "Y2Xi-vug9g69TGqM4g5yz1Mxb2UZswdlyt6PaoIHP1c",
+          "txs": 185,
+          "quantity_winston": "147636650000000000",
+          "height_min": 1582095,
+          "height_max": 1813267
+        },
+        {
+          "address": "lXA-GI--oey6v1wwh_7-tjL-MCaOhTkSedB0La85tak",
+          "txs": 23,
+          "quantity_winston": "105071415801783264",
+          "height_min": 1731934,
+          "height_max": 1741321
+        },
+        {
+          "address": "BduiZBeEGtXAhEvS4Lp5zMKt0mLewNm37KwOrlNUB8o",
+          "txs": 49,
+          "quantity_winston": "63299800411940132",
+          "height_min": 1613326,
+          "height_max": 1635934
+        },
+        {
+          "address": "TmOT0NkZxjrinQ4qLicxt14984g98BUe3Zn__ME054U",
+          "txs": 30,
+          "quantity_winston": "31722392970637821",
+          "height_min": 1662007,
+          "height_max": 1907009
+        },
+        {
+          "address": "zr72VIx-TLmXD9eXAHvaIe8DU2k6aJXa7H84no7xj6g",
+          "txs": 6,
+          "quantity_winston": "29758200000000000",
+          "height_min": 1773336,
+          "height_max": 1777529
+        }
+      ]
+    },
+    {
+      "address": "mizBOKEIkpih0qAI-giz_kJrcfcQs5eZvqeUZHUD50E",
+      "role": "side_branch",
+      "index": {
+        "complete": true,
+        "unique": 17,
+        "directions": {
+          "ario-owners": {
+            "pages": 1,
+            "edges": 7,
+            "summary": {
+              "address": "mizBOKEIkpih0qAI-giz_kJrcfcQs5eZvqeUZHUD50E",
+              "direction": "owners",
+              "endpoint": "https://ar-io.dev/graphql",
+              "edges": 7,
+              "pages": 1
+            },
+            "last_has_next": false
+          },
+          "ario-recipients": {
+            "pages": 1,
+            "edges": 10,
+            "summary": {
+              "address": "mizBOKEIkpih0qAI-giz_kJrcfcQs5eZvqeUZHUD50E",
+              "direction": "recipients",
+              "endpoint": "https://ar-io.dev/graphql",
+              "edges": 10,
+              "pages": 1
+            },
+            "last_has_next": false
+          }
+        }
+      },
+      "gateway_now": {
+        "raw_winston": "0",
+        "height": null,
+        "blocks": null,
+        "balance_path": "<repo>/data/raw/collat/20261017T090508Z/wallet/mizBOKEIkpih0qAI-giz_kJrcfcQs5eZvqeUZHUD50E/balance.body",
+        "info_path": null
+      },
+      "reconstruction_matches_gateway": true,
+      "raw_amount_now": "0",
+      "raw_amount_at_tail": "0",
+      "raw_amount_at_checkpoint": "0",
+      "at_all_heights": {
+        "raw_winston": "0",
+        "received_winston": "33045897496458883",
+        "sent_quantity_winston": "33045897464913300",
+        "sent_fee_winston": "31545583",
+        "counted_txs": 17,
+        "skipped_zero": 0,
+        "skipped_unconfirmed": 0,
+        "skipped_after": 0
+      },
+      "at_tail": {
+        "raw_winston": "0",
+        "received_winston": "33045897496458883",
+        "sent_quantity_winston": "33045897464913300",
+        "sent_fee_winston": "31545583",
+        "counted_txs": 17,
+        "skipped_zero": 0,
+        "skipped_unconfirmed": 0,
+        "skipped_after": 0
+      },
+      "at_checkpoint": {
+        "raw_winston": "0",
+        "received_winston": "33045897496458883",
+        "sent_quantity_winston": "33045897464913300",
+        "sent_fee_winston": "31545583",
+        "counted_txs": 17,
+        "skipped_zero": 0,
+        "skipped_unconfirmed": 0,
+        "skipped_after": 0
+      },
+      "index_difference_winston": null,
+      "positive_height_min": 1418528,
+      "positive_height_max": 1788703,
+      "value_txs_after_tail": 0,
+      "fee_rule": "The sender decreases by quantity plus reward. GraphQL names the reward fee. The recipient increases by quantity only. A zero quantity and zero fee is skipped. A transaction with no block is skipped.",
+      "largest_outflows_through_tail": [
+        {
+          "address": "4JOmaT9fFe2ojFJEls3Zow5UKO2CBOk7lOirbPTtX1o",
+          "txs": 5,
+          "quantity_winston": "22058187854906413",
+          "height_min": 1418576,
+          "height_max": 1729976
+        },
+        {
+          "address": "rq2ow0JlGPBtKcWMDcaVmgkmE5fzrTkZSzYnBkFflPE",
+          "txs": 2,
+          "quantity_winston": "10987709610006887",
+          "height_min": 1782531,
+          "height_max": 1788703
+        }
+      ]
+    },
+    {
+      "address": "4JOmaT9fFe2ojFJEls3Zow5UKO2CBOk7lOirbPTtX1o",
+      "role": "side_branch",
+      "index": {
+        "complete": true,
+        "unique": 175851,
+        "directions": {
+          "ario-owners": {
+            "pages": 1126,
+            "edges": 112516,
+            "summary": {
+              "address": "4JOmaT9fFe2ojFJEls3Zow5UKO2CBOk7lOirbPTtX1o",
+              "direction": "owners",
+              "endpoint": "https://ar-io.dev/graphql",
+              "edges": 112516,
+              "pages": 1126
+            },
+            "last_has_next": false
+          },
+          "ario-recipients": {
+            "pages": 634,
+            "edges": 63335,
+            "summary": {
+              "address": "4JOmaT9fFe2ojFJEls3Zow5UKO2CBOk7lOirbPTtX1o",
+              "direction": "recipients",
+              "endpoint": "https://ar-io.dev/graphql",
+              "edges": 63335,
+              "pages": 634
+            },
+            "last_has_next": false
+          }
+        }
+      },
+      "gateway_now": {
+        "raw_winston": "147717442407",
+        "height": 2023142,
+        "blocks": 2023143,
+        "balance_path": "<repo>/data/raw/collat/20261017T090508Z/wallet/4JOmaT9fFe2ojFJEls3Zow5UKO2CBOk7lOirbPTtX1o/balance.body",
+        "info_path": "<repo>/data/raw/collat/20261017T090508Z/wallet/4JOmaT9fFe2ojFJEls3Zow5UKO2CBOk7lOirbPTtX1o/info.body"
+      },
+      "reconstruction_matches_gateway": true,
+      "raw_amount_now": "147717442407",
+      "raw_amount_at_tail": "147717442407",
+      "raw_amount_at_checkpoint": "47717442407",
+      "at_all_heights": {
+        "raw_winston": "147717442407",
+        "received_winston": "108013028889050670200",
+        "sent_quantity_winston": "108012341177600000000",
+        "sent_fee_winston": "687563733227793",
+        "counted_txs": 175851,
+        "skipped_zero": 0,
+        "skipped_unconfirmed": 0,
+        "skipped_after": 0
+      },
+      "at_tail": {
+        "raw_winston": "147717442407",
+        "received_winston": "108013028889050670200",
+        "sent_quantity_winston": "108012341177600000000",
+        "sent_fee_winston": "687563733227793",
+        "counted_txs": 175851,
+        "skipped_zero": 0,
+        "skipped_unconfirmed": 0,
+        "skipped_after": 0
+      },
+      "at_checkpoint": {
+        "raw_winston": "47717442407",
+        "received_winston": "108013028789050670200",
+        "sent_quantity_winston": "108012341177600000000",
+        "sent_fee_winston": "687563733227793",
+        "counted_txs": 175850,
+        "skipped_zero": 0,
+        "skipped_unconfirmed": 0,
+        "skipped_after": 1
+      },
+      "index_difference_winston": null,
+      "positive_height_min": 676704,
+      "positive_height_max": 1949069,
+      "value_txs_after_tail": 0,
+      "fee_rule": "The sender decreases by quantity plus reward. GraphQL names the reward fee. The recipient increases by quantity only. A zero quantity and zero fee is skipped. A transaction with no block is skipped.",
+      "largest_outflows_through_tail": [
+        {
+          "address": "rq2ow0JlGPBtKcWMDcaVmgkmE5fzrTkZSzYnBkFflPE",
+          "txs": 9,
+          "quantity_winston": "16166183800000000000",
+          "height_min": 1735112,
+          "height_max": 1735903
+        },
+        {
+          "address": "bAb_4yQFVOcmz3Ev8wYdzCc5IhMNkdk_oJWktpUJV7M",
+          "txs": 54,
+          "quantity_winston": "2850723853370000000",
+          "height_min": 1444108,
+          "height_max": 1549800
+        },
+        {
+          "address": "4zThRft676mgIYYMchAJ0RdDU9Ip4G8Wm8p5buTCVFw",
+          "txs": 1045,
+          "quantity_winston": "2154732402000000000",
+          "height_min": 846084,
+          "height_max": 1493585
+        },
+        {
+          "address": "DlenN74WvlK8hz4ha-VRnAARQIG6jrhkB9RPDfxAs14",
+          "txs": 184,
+          "quantity_winston": "2046858931010000000",
+          "height_min": 1307309,
+          "height_max": 1730541
+        },
+        {
+          "address": "u4u_8O7iLekvEdBm7m_BHT-csn4DQ1L5swlIlHYbg2U",
+          "txs": 561,
+          "quantity_winston": "1753198134530000000",
+          "height_min": 984214,
+          "height_max": 1697137
+        },
+        {
+          "address": "F0fyQxrejUueVbrvprz8TqlWAG-keUqDZ1OW4VK0jKQ",
+          "txs": 116,
+          "quantity_winston": "1701398596000000000",
+          "height_min": 839562,
+          "height_max": 1678621
+        },
+        {
+          "address": "rDYgHVynCqUevb1YWTlt2bXSJOLDcWZLdtRxGkaG630",
+          "txs": 10,
+          "quantity_winston": "1638450249930000000",
+          "height_min": 747170,
+          "height_max": 1246627
+        },
+        {
+          "address": "I0jaQ__-DXPvdPR3aYsqR9QHaqoFGS0MAHFdC-EbolY",
+          "txs": 18,
+          "quantity_winston": "1481654901460000000",
+          "height_min": 855391,
+          "height_max": 1146915
+        }
+      ]
+    }
+  ],
+  "forwarding": [
+    {
+      "name": "nLVp9_to_11c550",
+      "from": "nLVp9CqNi3JQjtQuZidQdUFd-RGULF8WtI0s50WV94c",
+      "to": "11c550AqWT74EvGJ6oYBwCYqHDWSZ41tnympN_lYNx0",
+      "count": 113,
+      "quantity_winston": "271377200000000000",
+      "fee_winston": "14288624053",
+      "height_min": 1551227,
+      "height_max": 1657109,
+      "actions": [
+        ""
+      ]
+    },
+    {
+      "name": "11c550_to_qmg",
+      "from": "11c550AqWT74EvGJ6oYBwCYqHDWSZ41tnympN_lYNx0",
+      "to": "qmg-WUYiCHqhnx_kv4zx2zedssosU1is9Td2UWGfI5g",
+      "count": 5,
+      "quantity_winston": "189488099940292480",
+      "fee_winston": "200438218",
+      "height_min": 1657051,
+      "height_max": 1661231,
+      "actions": [
+        ""
+      ]
+    },
+    {
+      "name": "11c550_back_to_nLVp9",
+      "from": "11c550AqWT74EvGJ6oYBwCYqHDWSZ41tnympN_lYNx0",
+      "to": "nLVp9CqNi3JQjtQuZidQdUFd-RGULF8WtI0s50WV94c",
+      "count": 43,
+      "quantity_winston": "81799999934367810",
+      "fee_winston": "1280439942",
+      "height_min": 1551409,
+      "height_max": 1649144,
+      "actions": [
+        ""
+      ]
+    },
+    {
+      "name": "11c550_to_k4op",
+      "from": "11c550AqWT74EvGJ6oYBwCYqHDWSZ41tnympN_lYNx0",
+      "to": "K4OPvKxtNUG7tBKXWfDPWSLtvLY1geCXfvfvFUGxvpA",
+      "count": 1,
+      "quantity_winston": "89198858535710",
+      "fee_winston": "75045840",
+      "height_min": 1774837,
+      "height_max": 1774837,
+      "actions": [
+        ""
+      ]
+    },
+    {
+      "name": "qmg_to_uxbw",
+      "from": "qmg-WUYiCHqhnx_kv4zx2zedssosU1is9Td2UWGfI5g",
+      "to": "uXBWmzYSA-yjkGm-cYMN_fl1R__USQLFORskGXGxdW0",
+      "count": 4,
+      "quantity_winston": "219708700000000000",
+      "fee_winston": "13961931095",
+      "height_min": 1445445,
+      "height_max": 1662584,
+      "actions": [
+        ""
+      ]
+    },
+    {
+      "name": "qmg_back_to_11c550",
+      "from": "qmg-WUYiCHqhnx_kv4zx2zedssosU1is9Td2UWGfI5g",
+      "to": "11c550AqWT74EvGJ6oYBwCYqHDWSZ41tnympN_lYNx0",
+      "count": 1,
+      "quantity_winston": "100000000000",
+      "fee_winston": "5707434",
+      "height_min": 1656864,
+      "height_max": 1656864,
+      "actions": [
+        ""
+      ]
+    },
+    {
+      "name": "uxbw_to_cjp59",
+      "from": "uXBWmzYSA-yjkGm-cYMN_fl1R__USQLFORskGXGxdW0",
+      "to": "cjp59bXFj6GL8ja200hnjfkGsXQrSG095SlyFH39-U8",
+      "count": 12,
+      "quantity_winston": "176000100000000000",
+      "fee_winston": "40070797448",
+      "height_min": 1664994,
+      "height_max": 1804210,
+      "actions": [
+        ""
+      ]
+    },
+    {
+      "name": "uxbw_to_miz",
+      "from": "uXBWmzYSA-yjkGm-cYMN_fl1R__USQLFORskGXGxdW0",
+      "to": "mizBOKEIkpih0qAI-giz_kJrcfcQs5eZvqeUZHUD50E",
+      "count": 1,
+      "quantity_winston": "20000000000000000",
+      "fee_winston": "6582968",
+      "height_min": 1729945,
+      "height_max": 1729945,
+      "actions": [
+        ""
+      ]
+    },
+    {
+      "name": "miz_to_4joma",
+      "from": "mizBOKEIkpih0qAI-giz_kJrcfcQs5eZvqeUZHUD50E",
+      "to": "4JOmaT9fFe2ojFJEls3Zow5UKO2CBOk7lOirbPTtX1o",
+      "count": 5,
+      "quantity_winston": "22058187854906413",
+      "fee_winston": "15542387",
+      "height_min": 1418576,
+      "height_max": 1729976,
+      "actions": [
+        ""
+      ]
+    },
+    {
+      "name": "uxbw_to_akqc",
+      "from": "uXBWmzYSA-yjkGm-cYMN_fl1R__USQLFORskGXGxdW0",
+      "to": "AKQcAkNtnNXmEWBMMxfJ08oeoHP3RLs2jshRGnje1ow",
+      "count": 1,
+      "quantity_winston": "5000000000000000",
+      "fee_winston": "3337565",
+      "height_min": 1607822,
+      "height_max": 1607822,
+      "actions": [
+        ""
+      ]
+    },
+    {
+      "name": "cjp59_to_akqc",
+      "from": "cjp59bXFj6GL8ja200hnjfkGsXQrSG095SlyFH39-U8",
+      "to": "AKQcAkNtnNXmEWBMMxfJ08oeoHP3RLs2jshRGnje1ow",
+      "count": 11,
+      "quantity_winston": "176000000000000000",
+      "fee_winston": "74269050",
+      "height_min": 1665001,
+      "height_max": 1804219,
+      "actions": [
+        ""
+      ]
+    }
+  ],
+  "akqc_after_cjp59_arrival": {
+    "arrival_height": 1665001,
+    "balance_before_arrival_winston": "265960818776783497",
+    "outbound_txs_until_tail": 1650,
+    "outbound_quantity_until_tail": "775325416858205480",
+    "outbound_recipients_until_tail": 803,
+    "other_inbound_txs_until_tail": 1542,
+    "other_inbound_quantity_until_tail": "456566789598512572",
+    "largest_recipients": [
+      {
+        "address": "D0zVSDzB5LPAjbUg6oz40Oc3_0o-sUGVVNxOajbT7KE",
+        "txs": 291,
+        "quantity_winston": "223236297868744960"
+      },
+      {
+        "address": "lXA-GI--oey6v1wwh_7-tjL-MCaOhTkSedB0La85tak",
+        "txs": 23,
+        "quantity_winston": "105071415801783264"
+      },
+      {
+        "address": "TmOT0NkZxjrinQ4qLicxt14984g98BUe3Zn__ME054U",
+        "txs": 29,
+        "quantity_winston": "31122492970637821"
+      },
+      {
+        "address": "zr72VIx-TLmXD9eXAHvaIe8DU2k6aJXa7H84no7xj6g",
+        "txs": 6,
+        "quantity_winston": "29758200000000000"
+      },
+      {
+        "address": "Y2Xi-vug9g69TGqM4g5yz1Mxb2UZswdlyt6PaoIHP1c",
+        "txs": 17,
+        "quantity_winston": "25743200000000000"
+      },
+      {
+        "address": "q90hgBEysL82Py2ANLuWx022tMXTnpNcGLrBHZ7XsOI",
+        "txs": 5,
+        "quantity_winston": "22478683366549653"
+      },
+      {
+        "address": "L1X19Duejd2DTaRAmZWUiaqx9zJHVXllx51_43vwEWE",
+        "txs": 4,
+        "quantity_winston": "18898800000000000"
+      },
+      {
+        "address": "53DvMbLq7-Bre5MqERoXPV1P14UGpj_ldEpMLIzSv3c",
+        "txs": 4,
+        "quantity_winston": "17852713935131646"
+      }
+    ],
+    "note": "After the forwarded AR arrived, this wallet already held other AR and kept exchanging with many addresses. A recipient total is not a separated qAR balance."
+  },
+  "joma_after_miz_arrival": {
+    "arrival_height": 1729976,
+    "balance_before_arrival_winston": "15943698658192003474",
+    "outbound_txs_until_tail": 246,
+    "outbound_quantity_until_tail": "16369665321330000000",
+    "outbound_recipients_until_tail": 147,
+    "other_inbound_txs_until_tail": 283,
+    "other_inbound_quantity_until_tail": "405969712550185789",
+    "largest_recipients": [
+      {
+        "address": "rq2ow0JlGPBtKcWMDcaVmgkmE5fzrTkZSzYnBkFflPE",
+        "txs": 9,
+        "quantity_winston": "16166183800000000000"
+      },
+      {
+        "address": "hq91NEvb7JbtnuzBuM_Dw9d199GbA8dSnWYHb7-Q7II",
+        "txs": 5,
+        "quantity_winston": "52999950000000000"
+      },
+      {
+        "address": "A6Vfi0foJY36sp7TsvK_Ky18NDFUiA0J-dChJIhMR7w",
+        "txs": 33,
+        "quantity_winston": "18999670000000000"
+      },
+      {
+        "address": "fGPsv2_-ueOvwFQF5zvYCRmawBGgc9FiDOXkbfurQtI",
+        "txs": 4,
+        "quantity_winston": "17266960000000000"
+      },
+      {
+        "address": "WvXXI5ZNn-MTXY27dV_EUD8MEvQlTeIqtOz16utQh78",
+        "txs": 1,
+        "quantity_winston": "8780026000000000"
+      },
+      {
+        "address": "VupEIC85iQD1wlg8fLNO1V6QSdsTemKf8zA2V5sF7yM",
+        "txs": 6,
+        "quantity_winston": "8410940000000000"
+      },
+      {
+        "address": "yuFoJW1LBrpQZExJpO8MFYPQxswl4jifL2R6Cfrg-OQ",
+        "txs": 2,
+        "quantity_winston": "8022980000000000"
+      },
+      {
+        "address": "D7NdL5sDGU6q3HahHg-9Un2MpjH4Kj6IFp9k2r_LzCM",
+        "txs": 9,
+        "quantity_winston": "7760900000000000"
+      }
+    ],
+    "note": "After the forwarded AR arrived, this wallet already held other AR and kept exchanging with many addresses. A recipient total is not a separated qAR balance."
+  },
+  "qmg_inflow_from_11c550_minus_supply": "531528087869",
+  "qmg_inflow_note": "This is one hop's winston minus checkpoint supply. It is not used to fill or replace either number.",
+  "original_custody_minus_supply": {
+    "at_checkpoint": "-189486590298196641",
+    "at_tail": "-189486590298196641",
+    "now": "-189486590298196641",
+    "definition": "That one wallet's reconstructed winston minus checkpoint supply. Positive would be a surplus. This is not the gap for the holder set."
+  },
+  "collateral_gap_at_checkpoint_raw": null,
+  "collateral_gap_at_tail_raw": null,
+  "collateral_gap_now_raw": null,
+  "collateral_gap_definition": "eligible held winston minus checkpoint supply. Null because the forwarded AR is mixed with other balances, so eligible held is not identified. The null is not zero.",
+  "deposit_transfer_ids_not_found": [],
+  "deposit_transfer_ids_without_block": [
+    "EoKk_EAcosZnZVicY6Oglmd9RK2bizvnW73nDHSkgtI"
+  ],
+  "deposit_transfer_ids_without_agreed_quantity": [
+    "sgHIibIPVSNQ_vQCQOWNcuuNjXOcWgU8ytc-zexphSc",
+    "jhGepsM0fS57QxjjXRYxniOKdCn_0HHeqQT0rqbCrrQ",
+    "zx6ldrC8l-cKYjOTvO6nFGo_3Jnp1VUVJUh6vvCbjs8",
+    "bUyBgZyo2p4hs6n0nJre9LDf3z_Oudk-FSHPckOsdGA",
+    "inkBL0F0HaJdG_aajwODtBVy7wUS8oWb476l6V3AJgs",
+    "B3AuiELlDK1IJ-vjAbdF3UqHc7omhR-pu6dqCpBnKT8",
+    "Fz4ifNl3fD3OuOwyjv65m4HR8FsmJmxGtalmSIQsU7A",
+    "OFqPXrMAkm-BGd6xrfJfGAGon7BqV-hQ0xi20vDAos4",
+    "HcS1X7skd-ixhJKjS5pssGN1eV1BTemHZmBDR6yAS7I",
+    "em2JVocnIgmXf77w1P1HGKBLJlf_k2B2snwy0W2LEXo",
+    "U34DdIaVF95xQTOcZvRq2uF6UxlXU23ObWo3NZZpAH8",
+    "5-SOeaBceRol_6emUhYn1YhJQ5LDjv1rTamcsR8mKhw",
+    "97lOMs5OLSkBXy4zQDW81ROzOHGB69wddcQ1kSFr57A",
+    "x8OgU2eTjfoX8QDFq-Uob0SwMvhLvq3X4vscblqAouA",
+    "iSgLM-pztcIht749RDh3QKX8GVr-SBkp83CrFGygOuc"
+  ],
+  "outbound_transfer_ids_not_found": [
+    "5UtuLQRACikJvgxeusQheT4NAOkwxcSEDlHKMwthfEM",
+    "lPfj3Hx5z0Aw4jQhYgbz5pZqp3XShJsWS8vKvEjrgGk",
+    "dLWlR1ENw6GwRCCczkTd0OJrze9jtQ10xDGIHHVA4mw",
+    "MsAKJdbKRv7oLaR0MjBUeN275vFlPLF0rX39nrjLbwQ",
+    "RoeQ08SSkoYj5L3VvTmJCukH9r92LXOtBkOJKVSGl6k",
+    "wjtoB-Sfj_IKUuQq27RtcLLPcCV7U-vNAEYGa3fC3qU"
+  ],
+  "outbound_transfer_ids_without_block": [],
+  "deposit_tx_to": {
+    "nLVp9CqNi3JQjtQuZidQdUFd-RGULF8WtI0s50WV94c": 4315
+  },
+  "outbound_tx_from": {
+    "nLVp9CqNi3JQjtQuZidQdUFd-RGULF8WtI0s50WV94c": 2156
+  },
+  "deposit_recipient_exceptions": [],
+  "outbound_sender_exceptions": [],
+  "outbound_coverage": {
+    "messages": 2368,
+    "with_request_id": 2283,
+    "with_transfer_id": 2285,
+    "body_missing": 102
+  },
+  "proposal_inner_ids": 37,
+  "nonce_coverage": {
+    "messages": 14459,
+    "with_nonce_in_p4_sqlite": 4911,
+    "assignment_rows_scanned": 150331,
+    "sqlite_note": "P4 assignment files stop at nonce 150227. Later collateral messages are absent there, not unassigned."
+  },
+  "cron": {
+    "Mint-Tokens": {
+      "action": "Mint-Tokens",
+      "complete": false,
+      "pages_saved": 1323,
+      "last_page_height_min": 1604596,
+      "last_page_height_max": 1604637,
+      "last_page_has_next": true,
+      "last_page_tag_names": [
+        "Action",
+        "App-Environment",
+        "App-Name",
+        "App-Version",
+        "Data-Protocol",
+        "From-Module",
+        "From-Process",
+        "Reference",
+        "Type",
+        "Variant",
+        "X-Cron-Request-Id"
+      ]
+    },
+    "Confirm-Deposits": {
+      "action": "Confirm-Deposits",
+      "complete": false,
+      "pages_saved": 132,
+      "last_page_height_min": 1549218,
+      "last_page_height_max": 1549269,
+      "last_page_has_next": true,
+      "last_page_tag_names": [
+        "Action",
+        "App-Environment",
+        "App-Name",
+        "App-Version",
+        "Data-Protocol",
+        "From-Module",
+        "From-Process",
+        "Reference",
+        "Type",
+        "Variant",
+        "X-Cron-Request-Id"
+      ]
+    }
+  }
+}

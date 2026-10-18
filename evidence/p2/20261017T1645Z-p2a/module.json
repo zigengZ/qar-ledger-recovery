@@ -1,0 +1,55 @@
+{
+  "run_id": "20261017T1645Z-p2a",
+  "probed_at": "2026-10-17T17:15:00Z",
+  "executed": false,
+  "module_id": "1PdCJiXhNafpJbvC-sjxWTeNzbf9Q_RfUNs84GYoPm0",
+  "note": "SHA-256 is the content hash of the downloaded bytes. It is not the Arweave transaction id.",
+  "owner": "vh-NTHVvlKZqRxc8LyyTNok65yQ55a_PJ1zWLb9G2JI",
+  "block_height": 1402874,
+  "block_timestamp_utc": "2024-04-12T20:06:05+00:00",
+  "data_size_from_graphql": "557297",
+  "data_type_from_graphql": "application/wasm",
+  "file_length": 557297,
+  "sha256": "164c0859e796d30f682944be8bdd544a1292e9140f6f2998ce5ef93e2184a8c8",
+  "wasm_magic": "0061736d",
+  "wasm_version_le": 1,
+  "tags": {
+    "Memory-Limit": "500-mb",
+    "Compute-Limit": "9000000000000",
+    "Data-Protocol": "ao",
+    "Type": "Module",
+    "Module-Format": "wasm32-unknown-emscripten",
+    "Input-Encoding": "JSON-1",
+    "Output-Encoding": "JSON-1",
+    "Variant": "ao.TN.1",
+    "Content-Type": "application/wasm"
+  },
+  "missing_tags": [
+    "Extensions",
+    "Memory-Format",
+    "Scheduler",
+    "no other undeclared defaults were assumed"
+  ],
+  "identity_checks": {
+    "graphql_id_equals_requested_id": true,
+    "file_length_equals_graphql_data_size": true,
+    "both_gateways_same_bytes": true,
+    "content_starts_with_wasm_magic": true,
+    "rsa_signature_verified": false,
+    "rsa_signature_note": "Signature, owner key, and anchor are stored in data/raw tx.json. This phase did not run an RSA-PSS verifier."
+  },
+  "sources": [
+    {
+      "gateway": "https://arweave.net/1PdCJiXhNafpJbvC-sjxWTeNzbf9Q_RfUNs84GYoPm0",
+      "http": 200,
+      "bytes": 557297,
+      "headers": "data/raw/p2/20261017T1645Z-p2a/arweave-headers.txt"
+    },
+    {
+      "gateway": "https://turbo-gateway.com/1PdCJiXhNafpJbvC-sjxWTeNzbf9Q_RfUNs84GYoPm0",
+      "http": 200,
+      "bytes": 557297,
+      "body": "data/raw/p2/20261017T1645Z-p2a/turbo-gateway.wasm"
+    }
+  ]
+}

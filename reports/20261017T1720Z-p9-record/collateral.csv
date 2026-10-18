@@ -1,0 +1,3 @@
+network,asset_id,decimals,holder,time_point,raw_amount,eligible,source_id
+arweave,AR,12,,block 1951869 nonce 2075923,unknown,false,p9-collat-json
+arweave,AR,12,nLVp9CqNi3JQjtQuZidQdUFd-RGULF8WtI0s50WV94c,block 1951869 whole wallet,978114007970,false,p9-collat-json

@@ -1,0 +1,19 @@
+{
+  "run_id": "20261017T0605Z-p7-genesis-0-19",
+  "segment_replay_complete": true,
+  "segment_inclusive": [
+    0,
+    19
+  ],
+  "nonce_0_eval_applied": false,
+  "nonce_0_memory_equals_boot": true,
+  "later_assignments_applied": 19,
+  "cron_applied": 226,
+  "cron_handler_errors": 0,
+  "oracle": "no checkpoint is known at nonce 19; nonce 2074518 remains rejected",
+  "total_supply_read_after_nonce_19": "{\"data\":\"10000000000\",\"prompt\":\"aos> \",\"print\":true}",
+  "total_supply_is_shutdown_balance": false,
+  "balances_written": false,
+  "note": "No balance rows were written. The nonce 19 Total-Supply string is a handler output at this cursor, not the shutdown ledger. A handler error is not a zero balance.",
+  "goal_complete": false
+}

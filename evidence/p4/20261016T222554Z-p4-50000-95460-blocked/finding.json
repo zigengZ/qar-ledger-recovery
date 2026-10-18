@@ -1,0 +1,26 @@
+{
+  "run_id": "20261016T222554Z-p4-50000-95460-blocked",
+  "range_inclusive": [50000, 99999],
+  "complete": false,
+  "goal_complete": false,
+  "module_executed": false,
+  "hole_inclusive": [95460, 95486],
+  "inserted": 0,
+  "bundle_id": "heiqNVDCZihkPzpjdZhru_Cdyl-9hCuE60C2pXpAJ08",
+  "inclusion_block": 1552178,
+  "bundle_closed": false,
+  "bytes_read": 1462875722,
+  "bundle_size": 1505343050,
+  "gap_count": 93,
+  "paired_nonce_tags": [
+    {"nonce": 95463, "offset": 11099183},
+    {"nonce": 95465, "offset": 1881656},
+    {"nonce": 95469, "offset": 11212785},
+    {"nonce": 95473, "offset": 11123516},
+    {"nonce": 95481, "offset": 11078882},
+    {"nonce": 95485, "offset": 11253349}
+  ],
+  "parsed": false,
+  "reason": "A later read of the bundle header failed. File bytes 0..262144 returned HTTP 404 from https://arweave.net/chunk/234433829970167, so the item table could not be read. The nonce tag offsets were not turned into assignment ids and were not inserted.",
+  "note": "Unread gap bytes were not filled. These six tags are inside hole 95460..95486 and are not adjacent to a present neighbor, so they would stay unanchored even after a later parse. The hole stays open. 187 nonces in 50000..99999 remain missing. Nonce tags 97965 and 97970 also stay unparsed."
+}

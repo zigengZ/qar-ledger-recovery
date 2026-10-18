@@ -1,0 +1,98 @@
+{
+  "holders": 7614,
+  "later_balances_json": [],
+  "learned_botega_modules": [
+    "G991Xp6Kh28k8_AZcnwaqJ6LZcHlsZcMkrH1mJoAy84",
+    "gX3nbh_cCkxuZAhCwA2XiAMRrjQMHYFInPN5YVQhnfk"
+  ],
+  "learned_permaswap_modules": [
+    "Do_Uc2Sju_ffp6Ev0AnLVdPtot15rvMjP-a9VVaA5fM"
+  ],
+  "pool_providers": [
+    {
+      "addresses": 53,
+      "human_balance": "1742.171823546173",
+      "provider": "botega",
+      "raw_balance": "1742171823546173",
+      "supply_share": "0.009194122010982343"
+    },
+    {
+      "addresses": 19,
+      "human_balance": "685.419979115380",
+      "provider": "permaswap",
+      "raw_balance": "685419979115380",
+      "supply_share": "0.003617229271866222"
+    }
+  ],
+  "roles": [
+    {
+      "addresses": 5273,
+      "human_balance": "186296.155097251128",
+      "raw_balance": "186296155097251128",
+      "role": "wallet",
+      "supply_share": "0.983157663894810268"
+    },
+    {
+      "addresses": 72,
+      "human_balance": "2427.591802661553",
+      "raw_balance": "2427591802661553",
+      "role": "pool",
+      "supply_share": "0.012811351282848566"
+    },
+    {
+      "addresses": 369,
+      "human_balance": "402.625751820531",
+      "raw_balance": "402625751820531",
+      "role": "unknown_process",
+      "supply_share": "0.002124813544203982"
+    },
+    {
+      "addresses": 2,
+      "human_balance": "250.346157301342",
+      "raw_balance": "250346157301342",
+      "role": "lock",
+      "supply_share": "0.001321174573082006"
+    },
+    {
+      "addresses": 1889,
+      "human_balance": "100.080610148413",
+      "raw_balance": "100080610148413",
+      "role": "agent",
+      "supply_share": "0.000528164517530253"
+    },
+    {
+      "addresses": 1,
+      "human_balance": "7.725686192460",
+      "raw_balance": "7725686192460",
+      "role": "lending",
+      "supply_share": "0.000040771467264036"
+    },
+    {
+      "addresses": 1,
+      "human_balance": "1.880007389099",
+      "raw_balance": "1880007389099",
+      "role": "token_process",
+      "supply_share": "0.00000992153419273"
+    },
+    {
+      "addresses": 2,
+      "human_balance": "0.862198877788",
+      "raw_balance": "862198877788",
+      "role": "pool_candidate",
+      "supply_share": "0.000004550160651765"
+    },
+    {
+      "addresses": 5,
+      "human_balance": "0.301100562297",
+      "raw_balance": "301100562297",
+      "role": "invalid_id",
+      "supply_share": "0.00000158902541639"
+    }
+  ],
+  "sum_matches_supply": true,
+  "top_500_covered": 500,
+  "top_500_unqueried": 0,
+  "total_supply_human": "189487.568412204611",
+  "total_supply_raw": "189487568412204611",
+  "unique_addresses": true
+}

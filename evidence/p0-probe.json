@@ -1,0 +1,36 @@
+{
+  "probed_at": "2026-10-17",
+  "gateway": "https://arweave-search.goldsky.com/graphql",
+  "assignment_gateway": "https://arweave.net/graphql",
+  "process_id": "NG-0lVX882MG5nhARrSzyprEK6ejonHpdUmaaMPsHE8",
+  "process": {
+    "owner": "6I6ePxxK19g00lsgihn9T84URrBdNbBaRtSGw_qq9es",
+    "block_height": 1505290,
+    "block_timestamp_utc": "2024-09-12T18:00:08Z",
+    "tags": {
+      "App-Name": "aos",
+      "Name": "local-t-w-001",
+      "aos-Version": "2.0.0",
+      "Cron-Interval": "5-minutes",
+      "Cron-Tag-Action": "Cron",
+      "Data-Protocol": "ao",
+      "Variant": "ao.TN.1",
+      "Type": "Process",
+      "Module": "1PdCJiXhNafpJbvC-sjxWTeNzbf9Q_RfUNs84GYoPm0",
+      "Scheduler": "_GQ33BkPtZrqxA84vM8Zk-N2aO0toNNu_C-l-rawrBA",
+      "SDK": "aoconnect"
+    }
+  },
+  "one_assignment_by_height_desc": {
+    "note": "One row from first:1, sort HEIGHT_DESC. Not proof of the maximum nonce.",
+    "id": "MZa2GSyyT6V1i_hIZYDumeJFAYPUdvgzGo19RJCIcWs",
+    "block_height": 1951869,
+    "epoch": "0",
+    "nonce": "2075923",
+    "hash_chain": "mfxRfK81zmLlDRBkrXmmHN96hkjcWKNJT82n2pHAsvE",
+    "assignment_block_height_tag": "000001951866",
+    "timestamp_unix_ms": "1783145995380",
+    "timestamp_utc": "2026-07-04T06:19:55.380Z",
+    "message": "wEP24VhCVebi9GrE1bsUn0DCiJ0uKBuju1qBm4VYqNQ"
+  }
+}

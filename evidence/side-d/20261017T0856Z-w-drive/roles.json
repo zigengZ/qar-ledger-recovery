@@ -1,0 +1,138 @@
+{
+  "method": "Python regex over the file bytes. The checkpoint was not executed and was not loaded as a WASM memory image.",
+  "checkpoints_read": [
+    {
+      "filename": "fzRGvSW2oSop9xGLxs5mcaRtCbrbug8imI_uRZHKdiU_ts-1719201552641_ord-2856_bh-1451201.bin",
+      "drive_file_id": "1VaWQ9rzKcVwSedme2LGeIz9avuocbVsJ",
+      "path": "<repo>/data/raw/drive-cu/checkpoints/fzRGvSW2oSop9xGLxs5mcaRtCbrbug8imI_uRZHKdiU_ts-1719201552641_ord-2856_bh-1451201.bin",
+      "bytes": 23003136,
+      "sha256": "19a5f5eff09357078fc5f7c2ce0435b2eda58356971da0222b548539d7c48b13",
+      "report_sha256": "19a5f5eff09357078fc5f7c2ce0435b2eda58356971da0222b548539d7c48b13",
+      "sha256_matches_report": true,
+      "why_downloaded": "Size sample. Report size is 23003136, the smallest band at or under 40 MB. No checkpoint in the report is near 10 MB.",
+      "in_balance_intersection": false,
+      "in_local_pool_list": false,
+      "name_tags": [
+        {
+          "value": "ucm-0.3",
+          "first_offset": 4346143,
+          "count": 21
+        }
+      ],
+      "name_tag_context": {
+        "first_offset": 4346143,
+        "window_contains_App-Name": true,
+        "window_contains_aos": true,
+        "window_contains_process_id": true
+      },
+      "ticker_tags": [
+        {
+          "value": "AR",
+          "first_offset": 4611268,
+          "count": 1
+        }
+      ],
+      "handlers_add": [
+        {
+          "name": "_eval",
+          "first_offset": 95856,
+          "count": 2
+        },
+        {
+          "name": "Info",
+          "first_offset": 5265745,
+          "count": 440
+        },
+        {
+          "name": "Credit-Notice",
+          "first_offset": 5266119,
+          "count": 438
+        },
+        {
+          "name": "Create-Order",
+          "first_offset": 5268229,
+          "count": 2
+        },
+        {
+          "name": "Cancel-Order",
+          "first_offset": 5282473,
+          "count": 443
+        },
+        {
+          "name": "Get-Sales-By-Address",
+          "first_offset": 5336636,
+          "count": 40
+        },
+        {
+          "name": "Debit-Notice",
+          "first_offset": 5336907,
+          "count": 8
+        }
+      ],
+      "x_swap_token_occurrences": 750,
+      "x_swap_token_first_offset": 5332738,
+      "role": "order-book",
+      "role_basis": "Handlers.add names are _eval, Info, Credit-Notice, Create-Order, Cancel-Order, Get-Sales-By-Address, Debit-Notice. Name tag value ucm-0.3 sits next to App-Name aos and this process id.",
+      "amm_pool": false,
+      "lock": false,
+      "bridge": false,
+      "stake": false,
+      "other_side_token": null,
+      "process_tags": {
+        "App-Name": {
+          "value": "aos",
+          "first_offset": 4346109,
+          "count": 21
+        },
+        "Name": {
+          "value": "ucm-0.3",
+          "first_offset": 4346143,
+          "count": 21
+        },
+        "aos-Version": {
+          "value": "1.10.21",
+          "first_offset": 4346177,
+          "count": 21
+        },
+        "Variant_first": {
+          "value": "ao.TN.1",
+          "first_offset": 4346256,
+          "count": 249,
+          "note": "249 hits. Only the first sits in the same tag group as App-Name and Name."
+        }
+      }
+    }
+  ],
+  "not_read": [
+    {
+      "address": "_laMMu5weQgrtDhKjd4dIOZDej7XKwXcaHJmgOcPvK4",
+      "filename": "_laMMu5weQgrtDhKjd4dIOZDej7XKwXcaHJmgOcPvK4_ts-1783146116188_ord-247049_bh-1951866.bin",
+      "reason": "GET returned Quota exceeded HTML. The bin was not saved. No memory offsets.",
+      "report_sha256": "d142fbaf334646dcca6e1818534a0dcbefc9d825e0e0ce61a5b8dc6c73a1f94a",
+      "sha256_checked": false,
+      "config_role_source": {
+        "file": "private-config/pools",
+        "line": 897,
+        "config_name": "redacted",
+        "dex": "permaswap",
+        "token0": "qAR",
+        "token1": "wAR",
+        "fee_ratio": "redacted"
+      },
+      "config_is_not_a_memory_finding": true,
+      "sqlite_checkpoint_files": {
+        "table": "checkpoint_files",
+        "moduleId": "Do_Uc2Sju_ffp6Ev0AnLVdPtot15rvMjP-a9VVaA5fM",
+        "epoch": 0,
+        "nonce": 247049,
+        "blockHeight": 1951866,
+        "ordinate": "247049",
+        "timestamp": 1783146116188,
+        "hashChain": "GEad0d_8WunWzX1dxQIbZRf_66Vc64sgEdsNIQodRD4",
+        "note": "CU cache metadata for this checkpoint. Not a memory offset. This nonce is the pool process nonce, not qAR nonce 2075923."
+      }
+    }
+  ],
+  "intersection_roles_read": 0,
+  "note": "The other 53 balance-map checkpoints and the other three local-config pools on Drive were not downloaded. They have no memory offsets."
+}

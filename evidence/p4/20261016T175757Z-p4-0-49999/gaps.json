@@ -1,0 +1,17 @@
+{
+  "classification": "not_indexed_by_gateway_after_exact_and_block_window",
+  "missing_count": 24,
+  "missing_ranges": [
+    [
+      5770,
+      5793
+    ]
+  ],
+  "note": "A closed empty gateway response is not proof the nonce was never published.",
+  "range_inclusive": [
+    0,
+    49999
+  ],
+  "run_id": "20261016T175757Z-p4-0-49999",
+  "status": "unresolved"
+}

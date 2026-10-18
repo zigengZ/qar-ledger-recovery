@@ -1,0 +1,170 @@
+{
+  "run_id": "20261017T052224Z-p4-100000-scan-stopped",
+  "range_inclusive": [
+    100000,
+    149999
+  ],
+  "complete": false,
+  "goal_complete": false,
+  "module_executed": false,
+  "inserted": 0,
+  "still_missing": 627,
+  "ao_bundles_listed": 91,
+  "ao_bundles_finished": 15,
+  "finished": [
+    {
+      "block": 1553472,
+      "id": "FQ_WM-JDlgeifhXNtGdN0hmGhPuvUNN1nbfniFw-PyQ",
+      "closed": true,
+      "bytes": 51650520,
+      "size": 51650520,
+      "gap_count": 0,
+      "process_hit_count": 40,
+      "paired": 0
+    },
+    {
+      "block": 1553689,
+      "id": "k_Gq2Svo3jTYMpG1oY5YbKbSbWSpdAXGVPOEL4CLaHA",
+      "closed": true,
+      "bytes": 45810581,
+      "size": 45810581,
+      "gap_count": 0,
+      "process_hit_count": 31,
+      "paired": 0
+    },
+    {
+      "block": 1553693,
+      "id": "HiFDczwiaA6A-iJtx1UEgWS5Vs9oXWPjwnwgzX955Pc",
+      "closed": true,
+      "bytes": 43349379,
+      "size": 43349379,
+      "gap_count": 0,
+      "process_hit_count": 30,
+      "paired": 0
+    },
+    {
+      "block": 1553695,
+      "id": "SZqXV1_ce3bU7Z5kY_pcj3ikGBXPB-oQaABrfJuZ-50",
+      "closed": true,
+      "bytes": 50222457,
+      "size": 50222457,
+      "gap_count": 0,
+      "process_hit_count": 31,
+      "paired": 0
+    },
+    {
+      "block": 1555065,
+      "id": "zpyobdn_1nwa7I49plPdiNcCUBj8Wqb477KEWHAOWm0",
+      "closed": true,
+      "bytes": 48991364,
+      "size": 48991364,
+      "gap_count": 0,
+      "process_hit_count": 150,
+      "paired": 0
+    },
+    {
+      "block": 1555395,
+      "id": "crEj9OMPc7jiv1Rw362Aeu0lHB_35ANsSwiFBPXFTMQ",
+      "closed": true,
+      "bytes": 41126570,
+      "size": 41126570,
+      "gap_count": 0,
+      "process_hit_count": 30,
+      "paired": 0
+    },
+    {
+      "block": 1555399,
+      "id": "QT2TK39xgLTdFIT8wfC3U1v2foZfq5OB3eWNy9jMuqA",
+      "closed": true,
+      "bytes": 49430350,
+      "size": 49430350,
+      "gap_count": 0,
+      "process_hit_count": 31,
+      "paired": 0
+    },
+    {
+      "block": 1555423,
+      "id": "E1zap4g2JVqYdSCBZcTguM_CxF81DYFn9EQQPjftgGc",
+      "closed": true,
+      "bytes": 50687826,
+      "size": 50687826,
+      "gap_count": 0,
+      "process_hit_count": 31,
+      "paired": 0
+    },
+    {
+      "block": 1555424,
+      "id": "Db-B52UvGTRBd6ILarlBJZGllJDykwvp7JgSVoQdC5M",
+      "closed": true,
+      "bytes": 35818455,
+      "size": 35818455,
+      "gap_count": 0,
+      "process_hit_count": 52,
+      "paired": 0
+    },
+    {
+      "block": 1555424,
+      "id": "RXRo2tYyscOEIXG_6z3NQUMsLac1j2fHz7pKOs6AHUc",
+      "closed": true,
+      "bytes": 40953405,
+      "size": 40953405,
+      "gap_count": 0,
+      "process_hit_count": 39,
+      "paired": 0
+    },
+    {
+      "block": 1555424,
+      "id": "_TrcuOLHxZZdB9yHWz1LJ5MHFB5nvOxMZ8H6jYQL7EM",
+      "closed": true,
+      "bytes": 51955816,
+      "size": 51955816,
+      "gap_count": 0,
+      "process_hit_count": 34,
+      "paired": 0
+    },
+    {
+      "block": 1555424,
+      "id": "uASi0I3CzXhgRBh8JShbz-HRjmcOUip-NztIcWI9i4c",
+      "closed": true,
+      "bytes": 46750805,
+      "size": 46750805,
+      "gap_count": 0,
+      "process_hit_count": 32,
+      "paired": 0
+    },
+    {
+      "block": 1555435,
+      "id": "9Y3lcvbpTpahaGzKSsMCET5PjeUwjkp6V_1s74IGSPU",
+      "closed": true,
+      "bytes": 53565131,
+      "size": 53565131,
+      "gap_count": 0,
+      "process_hit_count": 32,
+      "paired": 0
+    },
+    {
+      "block": 1555717,
+      "id": "E8ln1ZTLDvwTsFpRgZmvoVEqtJ2smWM1QDxLCnWeQnE",
+      "closed": true,
+      "bytes": 43219138,
+      "size": 43219138,
+      "gap_count": 0,
+      "process_hit_count": 30,
+      "paired": 0
+    },
+    {
+      "block": 1555743,
+      "id": "sa-VIrCx5Mzn7_SB8n6Aa7DCj647c0n0F3b9qkEIDqI",
+      "closed": true,
+      "bytes": 52643221,
+      "size": 52643221,
+      "gap_count": 0,
+      "process_hit_count": 53,
+      "paired": 0
+    }
+  ],
+  "paired_wanted_nonces": 0,
+  "queue_finished": false,
+  "reason": "The AO bundle scan of the 627 holes was stopped before ALL DONE. P4 ranges after 149999 will not be opened. The 627 holes stay unresolved and are not treated as absent.",
+  "note": "These 15 bundles were fully read and held no wanted nonce of this process. The other listed AO bundles were not scanned. Empty exact queries from the earlier pass are also not proof of absence."
+}

@@ -1,0 +1,31 @@
+{
+  "name": "qar-ledger-web",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "data": "node scripts/build-data.mjs",
+    "test": "node --test scripts/format.test.mjs scripts/methodology.test.mjs scripts/canonical.test.mjs scripts/pages.test.mjs",
+    "build": "npm run data && npm run test && tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4789 --strictPort"
+  },
+  "dependencies": {
+    "@tanstack/react-table": "^8.21.2",
+    "@tanstack/react-virtual": "^3.13.6",
+    "dompurify": "3.4.17",
+    "echarts": "^5.6.0",
+    "marked": "^15.0.12",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.7"
+  }
+}

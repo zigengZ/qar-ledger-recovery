@@ -1,0 +1,26 @@
+{
+  "run_id": "20261016T220113Z-p4-50000-97965-blocked",
+  "range_inclusive": [50000, 99999],
+  "complete": false,
+  "goal_complete": false,
+  "module_executed": false,
+  "hole_inclusive": [97950, 97975],
+  "inserted": 0,
+  "bundle_id": "QCanjfosATSuFwJTEczxk4s_dfyr_xjlaHjv8owoIxM",
+  "inclusion_block": 1552451,
+  "bundle_closed": false,
+  "bytes_read": 40632320,
+  "bundle_size": 198234558,
+  "gap_count": 127,
+  "paired_nonce_tags": [
+    {"nonce": 97965, "offset": 4807749},
+    {"nonce": 97970, "offset": 10624665}
+  ],
+  "parsed": false,
+  "reason": "A later read of the bundle header failed. File bytes 0..524288 returned HTTP 404 from the chunk API, so the item table could not be read. The nonce tag offsets were not turned into assignment ids and were not inserted.",
+  "chunk_probe": {
+    "weave_start": 234559633924343,
+    "file_gap_on_reread": [0, 524288]
+  },
+  "note": "Unread gap bytes were not filled. Seeing two nonce tags does not close hole 97950..97975. Neighbors 97964, 97966, 97969, and 97971 were still absent, so these tags were also unanchored. 213 nonces in 50000..99999 remain missing."
+}

@@ -1,0 +1,78 @@
+{
+  "conflict_count": 0,
+  "conflicts": {},
+  "hash_chain_mismatch_count": 24,
+  "hash_chain_mismatch_sample": [
+    {
+      "actual_hash_chain": "gB0mrIU7v_kF2QPyUQgBWm1eOhKZfE3GEVjPcCEYthY",
+      "assignment_id": "aJpE1blPX0BU1ASd9q4qtzeob0QPfeYxwQMTUAq6cKo",
+      "nonce": 5771,
+      "predicted_hash_chain": "54_5fnEqcl4Ejtl9PMLgahaEcF1jdQUENDkEmt132Fg",
+      "previous_nonce": 5770
+    },
+    {
+      "actual_hash_chain": "DI56CdpIgjx-LITuOp470DisFCuebvJbjWTAnJYslrc",
+      "assignment_id": "l_n_LIJVZaqU8r1dqg1xfXmOZ76NhwsCB8t9etwzGXI",
+      "nonce": 5772,
+      "predicted_hash_chain": "Du-JArbzV2_AKxYsMAYDUI--M5fBs1QdraSmCKTR8wQ",
+      "previous_nonce": 5771
+    },
+    {
+      "actual_hash_chain": "gvwwjJOxqDZn97PZelkatLpIJccA6hP4H3Y3IQ7rvKI",
+      "assignment_id": "pGdOiWkFaNgXoVqebjVh1o3r0qZKuLvUHDcKjlqpcFI",
+      "nonce": 5773,
+      "predicted_hash_chain": "A5gY0qnDd6fNV6j_gR3mbSJlqb7qOAUEjpaOkQTqA2k",
+      "previous_nonce": 5772
+    },
+    {
+      "actual_hash_chain": "VorG3LSHJAiPhJPr_gMj9w5z8h6tS0-Wdz64nOPIeIk",
+      "assignment_id": "q_5_lEl8Z2BI3E2DMkvIVx0tgZ-Ll9PnUhRirSgkVKc",
+      "nonce": 5774,
+      "predicted_hash_chain": "R24Gw8u1zNxurbNn1vrG9xb2rnxS9SIZD_37H7maHvo",
+      "previous_nonce": 5773
+    },
+    {
+      "actual_hash_chain": "cCzyMKVEaxImnon_pueAoy7UWSrKfMYwGLgGvKhO8oc",
+      "assignment_id": "J0Z0G-piAoHlufbPGwaOvJ248qfuQV_Qv3FmNBS_DZw",
+      "nonce": 5775,
+      "predicted_hash_chain": "sU3omEMcgcoq7bB8l8b_HEFFhHZ-WsKEa2evHTeATYg",
+      "previous_nonce": 5774
+    },
+    {
+      "actual_hash_chain": "8CQ68YFkO3nXX6ja8zNXJ7XWxqA4cSC6RSc0aRDfYGs",
+      "assignment_id": "phk72fdlUsvfRvszH2Z4PchxLalX4A_TCDsh2zDoFUM",
+      "nonce": 5776,
+      "predicted_hash_chain": "ifWtdS_WP7aCxNhQSofctIM8VFshsQNcCSB7o-OQ33E",
+      "previous_nonce": 5775
+    },
+    {
+      "actual_hash_chain": "0AY7-5ygi6QetgMDu_e6jf78jE-eR2NjMA3E1DL-C84",
+      "assignment_id": "LYavrYr_23qMj7AFwT5A2SgCHxYI1sJFuRi_wuNap18",
+      "nonce": 5777,
+      "predicted_hash_chain": "6gEN-N0ICIwpKRGHFZLqKr84Ae25CYyMS17Mn-eSpLM",
+      "previous_nonce": 5776
+    },
+    {
+      "actual_hash_chain": "ErTyu371NPo2V3ObhtMbKC5D6mfqVO2-Fl8wurXM02M",
+      "assignment_id": "0m4mE50GZmpmxylEDzTZuzeJMaNUVsAO1VZmfH3OciQ",
+      "nonce": 5778,
+      "predicted_hash_chain": "Hma-x-fmVb_bbs_CdC-EfDNlrbFwZfzFRja0fFiq_W4",
+      "previous_nonce": 5777
+    },
+    {
+      "actual_hash_chain": "U2Ig1ZEh3dMr0x-3rQCx0kK1FDETVMp80aQvFf3ky_8",
+      "assignment_id": "qHb4YWuH8qWHeWFmHrclBgQgmbapakOFSwxhCb1sbQA",
+      "nonce": 5779,
+      "predicted_hash_chain": "DC9EKg-LOHIo6-MR_fKw9oNXlE-maPaQ-WznGRueqjQ",
+      "previous_nonce": 5778
+    },
+    {
+      "actual_hash_chain": "oCAPJD_4FM0JPOjw7_lNl9T-sMC8QOKAQ-fEc58qf4s",
+      "assignment_id": "Sk5zk14E6_1M5Ql7ViBjgsL0k-df20MoeNMEANwUl5o",
+      "nonce": 5780,
+      "predicted_hash_chain": "ReF5wPJKKGFqmYvhtcKLx-uOTmDpet7DRmqiBdYF4to",
+      "previous_nonce": 5779
+    }
+  ],
+  "run_id": "20261016T192515Z-p4-gapfill"
+}

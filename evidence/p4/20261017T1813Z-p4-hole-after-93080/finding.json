@@ -1,0 +1,36 @@
+{
+  "assignment_id": null,
+  "closed": true,
+  "conflicts": {},
+  "fetch_error": null,
+  "gate": "schedule_covered",
+  "goal_complete": false,
+  "inputs_complete": false,
+  "message_id": null,
+  "method": "recovery.assignments.fetch_exact_nonces for one nonce",
+  "module_executed": false,
+  "nonce": 93081,
+  "pages": [
+    {
+      "attempt": 1,
+      "body": "page-1.json",
+      "body_bytes": 71,
+      "body_sha256": "b91f35d20b8ff7d3f5f88d0c74e633eb516d83216315def288d04ad78bef0459",
+      "edge_count": 0,
+      "elapsed_ms": 2480,
+      "error": null,
+      "has_next_page": false,
+      "http_status": 200,
+      "ok": true
+    }
+  ],
+  "prior_hole": 93080,
+  "proven_absent": false,
+  "publish_claims": false,
+  "raw_amount": null,
+  "result": "The exact query closed with an empty edge list. That is not proof the nonce was never published. Nothing was inserted.",
+  "row_count": 0,
+  "run_id": "20261017T1813Z-p4-hole-after-93080",
+  "schedule_covered": false,
+  "source_missing_list": "evidence/p4/20261017T043721Z-p4-50000-gaps-blocked/finding.json"
+}

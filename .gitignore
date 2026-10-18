@@ -1,0 +1,14 @@
+.DS_Store
+*.Identifier
+.venv/
+__pycache__/
+node_modules/
+recovery/p6/node_modules
+data/raw/
+repro/work/
+recovery/p7/data/
+*.sqlite
+*.sqlite3
+.env
+*.pem
+*.key

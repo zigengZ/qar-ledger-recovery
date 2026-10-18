@@ -1,0 +1,62 @@
+{
+  "probed_at": "2026-10-17",
+  "process_id": "NG-0lVX882MG5nhARrSzyprEK6ejonHpdUmaaMPsHE8",
+  "verdict": "Tail candidate stands. Highest nonce found is 2075923, epoch 0.",
+  "tail": {
+    "id": "MZa2GSyyT6V1i_hIZYDumeJFAYPUdvgzGo19RJCIcWs",
+    "epoch": "0",
+    "nonce": "2075923",
+    "message": "wEP24VhCVebi9GrE1bsUn0DCiJ0uKBuju1qBm4VYqNQ",
+    "hash_chain": "mfxRfK81zmLlDRBkrXmmHN96hkjcWKNJT82n2pHAsvE",
+    "timestamp_unix_ms": "1783145995380",
+    "timestamp_utc": "2026-07-04T06:19:55.380Z",
+    "block_height": 1951869,
+    "block_timestamp_utc": "2026-07-04T06:20:37Z"
+  },
+  "network_height_arweave_net_info": 2022620,
+  "no_assignment_at_block_height_gte": 1951870,
+  "no_assignment_query_gateway": "https://arweave.net/graphql",
+  "nonce_query_gateway": "https://arweave-search.goldsky.com/graphql",
+  "present_nonces": [
+    {
+      "nonce": 2075920,
+      "id": "RWqN5oiVdw2KPxKKw2NsvJwGdgUjDpWvwEg9Y73Egow",
+      "block_height": 1950745,
+      "timestamp_unix_ms": "1783001291217",
+      "message": "MbhvdcksYvxYprkIEso9yhedcHc9daIleu6bEx_Jbv0",
+      "hash_chain": "W6Gzci9Ct1HykKvSNghmxp-j8fjjXQ7znKaNaadozQU"
+    },
+    {
+      "nonce": 2075921,
+      "id": "mqb3_fdrWoCC6qO-r0qofRqJqKht-wWHC7wBCUhLKIA",
+      "block_height": 1950745,
+      "timestamp_unix_ms": "1783001319616",
+      "message": "BcdiVkSk8EEcIhcjGYWwsJqIBeOW7DBNvqVYJ2DLS_w",
+      "hash_chain": "zl6XaylhEMjXoP8njYkEZrL1f2QYl7_ClHBHVOgkpzU"
+    },
+    {
+      "nonce": 2075922,
+      "id": "33OYeknNDTfNj0f7EyUTX0t-qOe_PW45TCJYHZSfkcM",
+      "block_height": 1950745,
+      "timestamp_unix_ms": "1783001328186",
+      "message": "CmbnA1NGvC_XhTCVezl5ScSK6vlmcsN16vtcv9peHTI",
+      "hash_chain": "FeI_sXq8qYZa7Zb750QFO88PK6LOWc52jAYPixPfMe0"
+    },
+    {
+      "nonce": 2075923,
+      "id": "MZa2GSyyT6V1i_hIZYDumeJFAYPUdvgzGo19RJCIcWs",
+      "block_height": 1951869,
+      "timestamp_unix_ms": "1783145995380",
+      "message": "wEP24VhCVebi9GrE1bsUn0DCiJ0uKBuju1qBm4VYqNQ",
+      "hash_chain": "mfxRfK81zmLlDRBkrXmmHN96hkjcWKNJT82n2pHAsvE"
+    }
+  ],
+  "absent_nonces": [2075924, 2075925, 2075926, 2075927, 2075928, 2075929, 2075930, 2075931, 2075932, 2075933, 2075934, 2075935, 2075936, 2076000, 2077000, 2080000, 2090000, 2200000, 3000000, 4000000],
+  "also_checked": {
+    "epoch_1_assignments_on_arweave_net": 0,
+    "epoch_2_assignments_on_arweave_net": 0,
+    "nonce_2_present_id": "vjIZKJmbEt903EgiW1u7boJcTkyKWRLqhNaHqZgS3ZI",
+    "height_desc_first_20_max_nonce": 2075923
+  },
+  "limit": "Every nonce above 2075923 was not queried. The next 13 nonces and the listed sentinels are absent, and no assignment for this process is indexed in a block at or above 1951870. A later nonce that the sentinels skipped would still show up as a gap during the continuity sample."
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "20261016T203902Z-p4-50000-largest-false",
+  "range_inclusive": [50000, 99999],
+  "complete": false,
+  "inserted": 0,
+  "goal_complete": false,
+  "module_executed": false,
+  "method": "Chunk-scan the single largest transaction of each hole-neighbor block and search for the wanted nonce tag bytes.",
+  "pairing_rule": "A nonce tag belongs to process NG-0lVX882MG5nhARrSzyprEK6ejonHpdUmaaMPsHE8 only when that process id occurs within 80 bytes before the tag. The observed tag order is Process, Epoch, Nonce.",
+  "result": "None of the 261 missing nonces were recovered. No assignment row was inserted.",
+  "false_positive": {
+    "bundle_id": "2G1iolRXciLjzFuG8rOJBtzJW_rSgO4J3Q6AbATXtOI",
+    "block": 1552573,
+    "nonce": 88429,
+    "file_offset": 5200651,
+    "item_id": "ovOHrEXDbD7j05ld_8uwOcKSZtnTofKMslQpJJNpXCI",
+    "signature_matches_item_id": true,
+    "process": "1J-YEAF_j0DieqA7Jy_SoH4ZsC2sIF4nxol0YvoPoW0",
+    "our_process_within_80_bytes": false
+  },
+  "closed_bundles_without_wanted_nonce_bytes": [
+    {"block": 1551411, "id": "6XjLxdHfvwQwSXS88cH9I1A9tMKLxztidxzEWYGUhsY", "process_hits": 0},
+    {"block": 1551416, "id": "wd2FUQKmI0InHr4j0KE1bKWp8rGlTu8kri9shynpw7E", "process_hits": 0},
+    {"block": 1551482, "id": "WeSC1whd6qI8aQR4iQeXfxB2YI6x0NPl7sie-9i-NNQ", "process_hits": 31},
+    {"block": 1551486, "id": "vj2E19Y1OXQLg0eLUgAo7XEwLtZg8CCBpl1BebhkRkE", "process_hits": 58},
+    {"block": 1551514, "id": "LmbOoWnhKMW-BEsw3_pUg93oc4dKuXqV10VUOXV3Bu0", "process_hits": 40},
+    {"block": 1551519, "id": "YwMtSYtI_nezVTNJM9QQxB1m0xHaqOlR_ucnr-2pyg0", "process_hits": 47},
+    {"block": 1551525, "id": "NgT-jakbBYwCCYjBjW1XaG1SwPxQYRvM9bDXhcYBfRk", "process_hits": 46},
+    {"block": 1551734, "id": "x7G5TEUe4xfD6M5hQYDCkBdRrej7JjjrZj6azanvFEY", "process_hits": 86},
+    {"block": 1551954, "id": "zhFxdy9B-GqDaUl4Ve4isZcNXorpi8w1AbaXhFMnznU", "process_hits": 866},
+    {"block": 1552177, "id": "qKUjb6fxotyf0vp42CFAGCm0CaBZi71Btw3xrHGOMcw", "process_hits": 91},
+    {"block": 1552449, "id": "yGinDMuw8REoAhbzJ6U7uA54zRXN7BSP9B0BHZ_BzDw", "process_hits": 64},
+    {"block": 1552455, "id": "JiQhZAJhMvw_hmF_HC6fDUzwmGBDbBU4JmxsCT5rzT4", "process_hits": 31}
+  ],
+  "closed_bundles_with_foreign_nonce_bytes": [
+    {
+      "block": 1552573,
+      "id": "2G1iolRXciLjzFuG8rOJBtzJW_rSgO4J3Q6AbATXtOI",
+      "process_hits": 30,
+      "wanted_nonce_tags": 6,
+      "paired_with_our_process": 0,
+      "nonces_after_stored_process_offsets": [99053, 99057, 99061, 99069, 99073, 99065, 99052, 99068, 99059, 99055, 99072, 99064, 99050, 99051]
+    },
+    {
+      "block": 1552577,
+      "id": "Xhnj-IZ6zyM_6D_a7taxUZ0YcL8zu83jvuxu2bAUO-4",
+      "process_hits": 70,
+      "wanted_nonce_tags": 33,
+      "paired_with_our_process": 0,
+      "nonces_after_stored_process_offsets_sample": [99109, 99101, 99117, 99105, 99113, 99122, 99108, 99100, 99116, 99104]
+    }
+  ],
+  "not_closed_chunk_404": [
+    {"block": 1551522, "id": "bIsbbJGjA_-_sHgFoA-9X3SyU_8O54wjVMofOKA679M"},
+    {"block": 1551961, "id": "glr7pOXTBRwk6luSIXPYzoKuKNF3PviP0cBot8P_uQs"},
+    {"block": 1552178, "id": "heiqNVDCZihkPzpjdZhru_Cdyl-9hCuE60C2pXpAJ08"}
+  ],
+  "not_saved_when_this_note_was_written": [
+    {"block": 1551509, "id": "9dn5LRSUTWeYHh4lOaJpvhQvcEeOd_bfp8kbXyEGlfQ"},
+    {"block": 1551728, "id": "wGjivAio5RJZoNgYKvkAm7axMwiL4CiDkCU8h3ZPSEQ"}
+  ],
+  "indexed_nonces_already_in_sqlite": [99050, 99053, 99073, 99100, 99122],
+  "tag_index_note": "GraphQL tags filters for Bundle-Format, Bundler-App-Name, and the turbo contract returned a closed empty page on block 1552573. The same transactions carry those tags when fetched by id. An empty tag-index page is not an empty block.",
+  "recovery_condition": "Page every transaction in the inclusion blocks around each hole, keep Bundle-Format=binary, and scan those payloads with the process/nonce pairing rule. Retry the three chunk-404 bundles and the two bundles that were still downloading. Do not insert an assignment whose process tag is not this process. Do not open nonce 100000 or start P5. Do not execute the module."
+}

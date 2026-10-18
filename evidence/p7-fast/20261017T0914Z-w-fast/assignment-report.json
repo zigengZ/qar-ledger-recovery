@@ -1,0 +1,102 @@
+{
+  "label": "快速估计，非 P7 正式结果",
+  "fast_estimate": true,
+  "official_p7": false,
+  "height_source": "assignments only; crons skipped",
+  "from_nonce": 2074518,
+  "to_nonce": 2075923,
+  "checkpoint_sha256": "fbb8172e8879c5d27b3bc4b00de5a150a027d575a9faf511f3cd0747b949ce26",
+  "mode": "safe",
+  "assignments": 1405,
+  "actions": {
+    "Transfer": 703,
+    "Event": 701,
+    "Eval": 1
+  },
+  "applied": 1405,
+  "handler_errors": 0,
+  "errors": [],
+  "memory_sha256": "c328ab18354b7325050285a8b09e9de5e83a42d048653670cbc990d80fc7d3a7",
+  "memory_bytes": 428146688,
+  "memory_file": "<repo>/data/raw/fast/assignments-only/memory.bin",
+  "memory_file_sha256": "c328ab18354b7325050285a8b09e9de5e83a42d048653670cbc990d80fc7d3a7",
+  "total_supply_data": "189487568412204611",
+  "total_supply_error": null,
+  "total_supply_output": "{\"data\":\"189487568412204611\",\"prompt\":\"aos> \",\"print\":true}",
+  "balance_error": null,
+  "balance_output": "[]",
+  "balance_sum": "189487568412204611",
+  "sum_equals_supply": true,
+  "opening_addresses": 7614,
+  "opening_sum": "189487568412204611",
+  "diff_from_checkpoint": {
+    "left_addresses": 7614,
+    "right_addresses": 7615,
+    "changed": 11,
+    "sample": [
+      {
+        "address": "3biQvRjIp_9Qz1L9D3SJ9laK4akCkP-8bvAo3pQ6jVI",
+        "left": "3003053338103",
+        "right": "2602630141925"
+      },
+      {
+        "address": "AxpxHZmHQhF25FkVSVX0T877PP2WUi7I46nmQaECUHI",
+        "left": "0",
+        "right": "31129166766473"
+      },
+      {
+        "address": "Bv5mfnx5Ln2BU60inXPnMOGMwecJXadV4oqw7iwjzSk",
+        "left": "320089670049015",
+        "right": "312546942799043"
+      },
+      {
+        "address": "BzZ5t7E0BxYXzKDJoy8DBUDyseK84ODWgk0z9Ra-948",
+        "left": "56636111316938",
+        "right": "123291631310116"
+      },
+      {
+        "address": "cjp59bXFj6GL8ja200hnjfkGsXQrSG095SlyFH39-U8",
+        "left": "180243716191492791",
+        "right": "180398401009414645"
+      },
+      {
+        "address": "F9dWqoqSMzC3oyigfhezyT0fzc5BjhIYVSqcQWOgDq8",
+        "left": "561743870384",
+        "right": "0"
+      },
+      {
+        "address": "MmhScGp35v-9veB1ufbXRDoaDleTi_z3V_vZTjA8bnU",
+        "left": "4725068954918",
+        "right": "0"
+      },
+      {
+        "address": "wjoJOfqq-JpsBLU196R4K-Fhj1ZQSnNkBqhTWc4ADl4",
+        "left": null,
+        "right": "561743870384"
+      },
+      {
+        "address": "wTIpisZKMtG5WsLFqQBdoJEObyyeoJQmwWFm1h462D4",
+        "left": "381553671374914",
+        "right": "291712135061413"
+      },
+      {
+        "address": "wWq05ZZX6Jj2p9wW59oZ6lMF_KdW754zywqLa9n8INA",
+        "left": "149454420015180",
+        "right": "0"
+      },
+      {
+        "address": "yEGUy_Dl229kp8cDtJ8wxekm0cqe2t68PhLrHPoHWQY",
+        "left": "505328951756",
+        "right": "0"
+      }
+    ]
+  },
+  "balances_json": "<repo>/data/raw/fast/assignments-only/balances.json",
+  "balances_csv": "<repo>/data/raw/fast/assignments-only/balances.csv",
+  "balances_json_sha256": "c1f5493442ce03708d7e9833940f80bc6274880cf9332f6e7ea4223c4a7f5d15",
+  "balances_csv_sha256": "a667a9218b43a348dfc1c6f4a9374866ae39b54404ca69847926d91e336c41c4",
+  "addresses": 7615,
+  "elapsed_ms": 509753.3,
+  "items_per_min": 165.37,
+  "goal_complete": false
+}

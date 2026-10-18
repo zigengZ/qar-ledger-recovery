@@ -1,0 +1,26 @@
+{
+  "run_id": "20261017T1037Z-w-doc",
+  "what": "Byte copies of four small JSON files from the fast replay worker, so this note can cite them. The fast worker has not committed these files and has no status file. This is not a merge of that branch.",
+  "final_memory_crosscheck": "not done",
+  "copies": [
+    {
+      "path": "evidence/doc/20261017T1037Z-w-doc/fast-excerpt/exact-ledger.json",
+      "sha256": "20d7dcd5b846947bb285ab92e7e1bc77ec933d9dfbf90ae58fee31983ec843e7"
+    },
+    {
+      "path": "evidence/doc/20261017T1037Z-w-doc/fast-excerpt/verify-480.json",
+      "sha256": "cf43891c0468f5cedffec3041d1989b240545dfc3b1d488819f616720125e3ad"
+    },
+    {
+      "path": "evidence/doc/20261017T1037Z-w-doc/fast-excerpt/assignment-ledger.json",
+      "sha256": "924823316b126d02fa905ae3578430f08498363f0f2f1eeea8556635bcb2c91a"
+    },
+    {
+      "path": "evidence/doc/20261017T1037Z-w-doc/fast-excerpt/cron-handler.json",
+      "sha256": "db99727fd8e8df4d2e3dc9e3f803d3cbc00a29be20b14fd36e57492be2293364"
+    }
+  ],
+  "balances_sha256_both_replays": "c1f5493442ce03708d7e9833940f80bc6274880cf9332f6e7ea4223c4a7f5d15",
+  "balances_files_byte_identical": true,
+  "note": "The two balance JSON files were hashed during this documentation pass and matched the sha256 already recorded in evidence/p10/20261017T0954Z-fast-tail/manifest.json. Those JSON files are gitignored bulk bytes and are not copied here."
+}

@@ -1,0 +1,47 @@
+procedure: python3 -m recovery.p10.build_report
+module: recovery.p10.build_report
+supply_source: evidence/p10/20261017T1047Z-fast-tail-inputs/supply.json
+note: section-6 names are comparisons against this run. They are not copied from crosscheck.json.
+builder_goal_complete: False
+goal_complete: False
+ledger_delta_raw: 0
+ledger_delta_raw_from_csv: 0
+sum_raw: 189487568412204611
+supply_raw: 189487568412204611
+csv_row_count: 7615
+collateral_delta_raw: None
+collateral_status: unknown
+continuity_met: False
+unindexed: [[150000, 2074399]]
+missing_count: 759
+unknown_process_count: 369
+wallet_count: 5274
+class_count: 7615
+class_raw_sum: 189487568412204611
+flags:
+  tail_fixed: true
+  schedule_covered: false
+  inputs_complete: false
+  runtime_reproducible: false
+  available_checks_match: false
+  ledger_complete: true
+  ledger_delta_zero: true
+  classification_sourced: false
+  collateral_sourced: false
+  collateral_reconciled: false
+done_means:
+  1. met=true status=满足
+  2. met=false status=不满足
+  3. met=true status=满足
+  4. met=false status=不满足
+  5. met=true status=满足
+  6. met=true status=满足
+  7. met=true status=满足
+  8. met=false status=不满足
+replay_as_loaded: {"balances_written": true, "byte_gate": "未通过", "compared_with_pushed_result": true, "last_nonce": null, "semantic_through_nonce": 2074518}
+holder_roles: {"agent": 1889, "invalid_id": 5, "lending": 1, "lock": 2, "pool": 72, "pool_candidate": 2, "token_process": 1, "unknown_process": 369, "wallet": 5274}
+class_totals: {"bridge": {"count": 0, "raw": "0", "status": "present"}, "lock": {"count": 2, "raw": "250346157301342", "status": "present"}, "pool": {"count": 74, "raw": "2330669314779690", "status": "present"}, "process_unknown": {"count": 2260, "raw": "512312055550503", "status": "present"}, "user": {"count": 5279, "raw": "186394240884573076", "status": "present"}}
+publish_claims: false
+move_collateral: false
+label: P10 reconciliation
+pass_all_ten: false

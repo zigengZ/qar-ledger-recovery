@@ -1,0 +1,24 @@
+{
+  "run_id": "20261017T050640Z-p4-100000-exact",
+  "range_inclusive": [
+    100000,
+    149999
+  ],
+  "complete": false,
+  "goal_complete": false,
+  "module_executed": false,
+  "inserted": 0,
+  "index_run": "20261017T043811Z-p4-100000-149999",
+  "unique_after_block_walk": 49373,
+  "still_missing": 627,
+  "method": "recovery.assignments.fetch_exact_nonces, at most 10 nonce values per request, tags Data-Protocol=ao, Type=Assignment, Process=NG-0lVX882MG5nhARrSzyprEK6ejonHpdUmaaMPsHE8, Epoch=0.",
+  "endpoint": "https://arweave.net/graphql",
+  "batches": 63,
+  "pages": 63,
+  "http_200": 63,
+  "closed_empty_pages": 63,
+  "rows": 0,
+  "failed_batches": 0,
+  "raw_pages": "data/raw/p4/100000-149999/20261017T043811Z-p4-100000-149999/exact/pages.json",
+  "result": "Every exact query closed with an empty edge list. Nothing was inserted. A closed empty page is not proof those nonces were never published. The block walk's 627 holes stay unresolved and the range stays incomplete."
+}

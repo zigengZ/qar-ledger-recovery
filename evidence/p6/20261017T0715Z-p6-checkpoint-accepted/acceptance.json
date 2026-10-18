@@ -1,0 +1,26 @@
+{
+  "run_id": "20261017T0715Z-p6-checkpoint-accepted",
+  "checkpoint_id": "ffGXsmlki22rK3C5Waxie6Ux3IpVFaxgFYZeuMpjnMk",
+  "nonce": 2074518,
+  "replay_start_accepted": true,
+  "independent_byte_gate": false,
+  "semantic_gate": "passed",
+  "why": "The byte mismatch does not reject the checkpoint. w-eval compared full balance maps from Messages[].Data. Output [] is not the balance table. With gateway Block-Heights the memory sha differs. The same replay matches 7614 addresses and Total-Supply. Copying the 9 cron Block-Heights stored in the checkpoint makes the memory sha match, and that copy is not an independent byte gate.",
+  "sources": {
+    "byte_and_signature": "evidence/p5/20261017T053304Z-p5-checkpoints/",
+    "prior_byte_rejection_kept": "evidence/p6/20261017T054635Z-p6-gate/",
+    "semantic_gate": "evidence/p6/20261017T052333Z-w-eval/semantic.json",
+    "schedule_bind": "evidence/p4-tail/20261017T052614Z-w-tail/SUMMARY.md"
+  },
+  "semantic": {
+    "addresses": 7614,
+    "address_diffs_gate_a": 0,
+    "address_diffs_gate_b": 0,
+    "total_supply": "189487568412204611",
+    "sum_equals_supply": true
+  },
+  "genesis_replay": "stopped. Segments 0..19 and 20..99 stay as evidence of that attempt. The 100..179 run was stopped before it finished and is not a cursor.",
+  "next": "Replay nonce 2074519 through 2075923 from this checkpoint. Cron Block-Height uses gateway block timestamps. Do not redo the w-eval gate.",
+  "balances_written": false,
+  "goal_complete": false
+}

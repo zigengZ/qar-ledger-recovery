@@ -1,0 +1,17 @@
+{
+  "run_id": "20261017T0805Z-p7-tail-progress",
+  "process": "still running; do not start a second replay",
+  "cursor_path": "recovery/p7/data/raw/p7/tail-2074518/cursor.json",
+  "next_index": 3600,
+  "applied": 3600,
+  "handler_errors": 0,
+  "memory_bytes": 428146688,
+  "memory_sha256": "d350dfd92c22fae5b3daef6fccb0f04762ab5e52708f365e4d0752afc04a8305",
+  "memory_file_matches_hash": true,
+  "last_logged_assignment_nonce": 2074638,
+  "stream_total": 39065,
+  "tail_nonce": 2075923,
+  "supersedes_progress": "evidence/p7/20261017T0745Z-p7-tail-progress/cursor.json",
+  "balances_written": false,
+  "goal_complete": false
+}

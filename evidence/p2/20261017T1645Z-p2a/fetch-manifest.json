@@ -1,0 +1,38 @@
+{
+  "run_id": "20261017T1645Z-p2a",
+  "phase": "P2",
+  "executed": false,
+  "files": [
+    {
+      "path": "data/raw/modules/1PdCJiXhNafpJbvC-sjxWTeNzbf9Q_RfUNs84GYoPm0.wasm",
+      "bytes": 557297,
+      "sha256": "164c0859e796d30f682944be8bdd544a1292e9140f6f2998ce5ef93e2184a8c8",
+      "source": "https://arweave.net/1PdCJiXhNafpJbvC-sjxWTeNzbf9Q_RfUNs84GYoPm0",
+      "method": "GET follow redirects",
+      "range": "full data item",
+      "records": 1,
+      "status": "verified_against_second_gateway_and_graphql_size"
+    },
+    {
+      "path": "data/raw/p2/20261017T1645Z-p2a/turbo-gateway.wasm",
+      "bytes": 557297,
+      "sha256": "164c0859e796d30f682944be8bdd544a1292e9140f6f2998ce5ef93e2184a8c8",
+      "source": "https://turbo-gateway.com/1PdCJiXhNafpJbvC-sjxWTeNzbf9Q_RfUNs84GYoPm0",
+      "method": "GET follow redirects",
+      "range": "full data item",
+      "records": 1,
+      "status": "matches_primary"
+    },
+    {
+      "path": "data/raw/p2/20261017T1645Z-p2a/tx.json",
+      "bytes": 2381,
+      "sha256": "e11870f4cf1739808a6f4d0b54b632ee32eeb686474cd19bba785b807ce77d08",
+      "source": "https://arweave-search.goldsky.com/graphql",
+      "method": "POST transaction(id)",
+      "range": "metadata only",
+      "records": 1,
+      "status": "parsed_from_graphql_body"
+    }
+  ],
+  "rebuild": "GET the module id from arweave.net. Expect 557297 bytes and sha256 164c0859e796d30f682944be8bdd544a1292e9140f6f2998ce5ef93e2184a8c8. Do not execute."
+}

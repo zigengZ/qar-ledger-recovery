@@ -1,0 +1,44 @@
+{
+  "complete": true,
+  "coverage": {
+    "complete": true,
+    "conflict_count": 0,
+    "end": 49999,
+    "expected_count": 50000,
+    "missing_count": 0,
+    "missing_ranges": [],
+    "start": 0,
+    "unique_count": 50000
+  },
+  "executed_module": false,
+  "hash_chain": {
+    "links_checked": 49999,
+    "links_matched": 49999,
+    "links_mismatched": 0,
+    "skipped_because_previous_nonce_absent": [],
+    "verified": true
+  },
+  "identity": {
+    "nonce_0": "o6ia7Yi1ijVV0lXM75qK1DM2Alhk4JcdFOd6jnq2pTY",
+    "nonce_5769_graphql": "JG9L1ph0xWCoW86UhYxzXixV0vTY7RvN96n0FCtxyWI",
+    "nonce_5770_inner": "j3T5nFX5TMPoa-G-dIV4m9vat-5Q0Xazf72jBMquY0g"
+  },
+  "phase": "P4",
+  "prior_runs": [
+    "20261016T175757Z-p4-0-49999",
+    "20261016T192515Z-p4-gapfill"
+  ],
+  "process_id": "NG-0lVX882MG5nhARrSzyprEK6ejonHpdUmaaMPsHE8",
+  "range_inclusive": [
+    0,
+    49999
+  ],
+  "reason": "Top-level bundle entries are two-item bundles. The assignment id is the inner data item, sha256 of its signature. With those ids, every consecutive hash-chain link in 0..49999 matches.",
+  "run_id": "20261016T193039Z-p4-0-49999-closed",
+  "sqlite": {
+    "bytes": 15101952,
+    "committed": false,
+    "path": "data/raw/p4/0-49999/20261016T175757Z-p4-0-49999/assignments.sqlite",
+    "sha256": "7bad2da88664bd6f4d36a4447c1c7d329ffaa0e087c81f0de1e147e3f9997fc1"
+  }
+}

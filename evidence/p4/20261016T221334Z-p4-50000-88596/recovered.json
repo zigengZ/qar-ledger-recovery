@@ -1,0 +1,433 @@
+{
+  "run_id": "20261016T221334Z-p4-50000-88596",
+  "range_inclusive": [
+    50000,
+    99999
+  ],
+  "complete": false,
+  "goal_complete": false,
+  "module_executed": false,
+  "hole_inclusive": [
+    88596,
+    88621
+  ],
+  "inserted": 26,
+  "anchored": true,
+  "unique_nonces_in_range": 49813,
+  "still_missing": 187,
+  "bundle_id": "RhFfcByszIpBXizYKwKeMI9S0HkwXD5VgiixRKCUqTc",
+  "inclusion_block": 1551510,
+  "bundle_closed": false,
+  "bytes_read": 447479808,
+  "bundle_size": 1139637106,
+  "gap_count": 16,
+  "gaps": [
+    [
+      427556864,
+      427819008
+    ],
+    [
+      439353344,
+      439615488
+    ],
+    [
+      441712640,
+      442236928
+    ],
+    [
+      444858368,
+      445120512
+    ],
+    [
+      445644800,
+      446169088
+    ],
+    [
+      446693376,
+      446955520
+    ],
+    [
+      447217664,
+      447479808
+    ],
+    [
+      447741952,
+      449052672
+    ],
+    [
+      449314816,
+      449576960
+    ],
+    [
+      449839104,
+      450101248
+    ],
+    [
+      450363392,
+      451411968
+    ],
+    [
+      451674112,
+      454557696
+    ],
+    [
+      454819840,
+      455081984
+    ],
+    [
+      455344128,
+      455606272
+    ],
+    [
+      455868416,
+      458489856
+    ],
+    [
+      458752000,
+      1139637106
+    ]
+  ],
+  "first_gap": [
+    427556864,
+    427819008
+  ],
+  "sqlite_path": "data/raw/p4/50000-99999/20261016T193251Z-p4-50000-99999/assignments.sqlite",
+  "sqlite_sha256": "f06a326eb4def449aea7703c8ce4da4dc057d6abf6ca28aaf24fbd09b07d6b0e",
+  "sqlite_committed": false,
+  "source_file": "inner-assignment-of:RhFfcByszIpBXizYKwKeMI9S0HkwXD5VgiixRKCUqTc",
+  "note": "The bundle scan is not closed. Unread gap bytes were not treated as empty and were not filled. These 26 nonces were parsed from readable items whose process id sits within 80 bytes before the nonce tag. Neighbor links 88595 and 88622 match. Other holes in 50000..99999 remain unresolved. Nonce tags 97965 and 97970 stay unparsed.",
+  "chain": [
+    {
+      "nonce": 88595,
+      "epoch": "0",
+      "assignment_id": "nOEZEmkfUqXdiVk4hAJIf6NLUE88p4hulsHcyh0fmVk",
+      "message_id": "-QGPbgb8zJyqp35JhLct989_ey9_CkFWCZ7nlFmJByg",
+      "timestamp_ms": "1732080482755",
+      "hash_chain": "29oRRLdIH5WL2yATtGC2RiUT0RmONOpnZvwmNwZC-mM",
+      "assignment_block_height": "000001551496",
+      "inclusion_height": 1551509
+    },
+    {
+      "nonce": 88596,
+      "epoch": "0",
+      "assignment_id": "TvzMuZfV-5IhNnq9_LeIqDvyVIKzT-HU_EIiyZmeL2Q",
+      "message_id": "OZXjnmYexeQxCmkToZNJS2CWyDyMipyXfgeGXDhZEa4",
+      "timestamp_ms": "1732080514833",
+      "hash_chain": "fmEG5WUfJT0BGTr9BtXcSybFjUkcILSLrKG0snArSf4",
+      "assignment_block_height": "000001551496",
+      "inclusion_height": 1551510,
+      "wrapper_id": "Mip4o-QxFRb1EfTnM9edMRTUraN_3Jxc1cMwMMhnGg0",
+      "bundle_id": "RhFfcByszIpBXizYKwKeMI9S0HkwXD5VgiixRKCUqTc"
+    },
+    {
+      "nonce": 88597,
+      "epoch": "0",
+      "assignment_id": "FxwKzPWv0xlzLw7PzgFqtK91gMUq0MqOG1aP2RFb0PM",
+      "message_id": "Ak4HtULWdIM5kRsCzi7z6DHfTRsuahn81cnBHvNDMJs",
+      "timestamp_ms": "1732080515959",
+      "hash_chain": "RHVV81r39MEb65qFgV6BAxzFgGd8ySsFyvkjoZruMq8",
+      "assignment_block_height": "000001551496",
+      "inclusion_height": 1551510,
+      "wrapper_id": "ELg65wjQJa-3XYDCzRCSISqS9YnRKc2HoEvK8dcaxNU",
+      "bundle_id": "RhFfcByszIpBXizYKwKeMI9S0HkwXD5VgiixRKCUqTc"
+    },
+    {
+      "nonce": 88598,
+      "epoch": "0",
+      "assignment_id": "BH_AtRdWofYlTCtnH26X4TgqnrRsaON66VefRk2IKz4",
+      "message_id": "lOqztOV5-sgbkKGrT8SV8Zpv7LXEiUYA4jRPE6k23_s",
+      "timestamp_ms": "1732080540831",
+      "hash_chain": "ZE9euMSfk-R-VvxfN664lMGY9xcp_j9RmJB1HABZ_8s",
+      "assignment_block_height": "000001551496",
+      "inclusion_height": 1551510,
+      "wrapper_id": "crVmyEcW-7CYFCidbWoY7nExz4zm2PHBuW5nc0ZFsbA",
+      "bundle_id": "RhFfcByszIpBXizYKwKeMI9S0HkwXD5VgiixRKCUqTc"
+    },
+    {
+      "nonce": 88599,
+      "epoch": "0",
+      "assignment_id": "eVl4ijncVdJrD7Aqed0GHc4ZyW0EyVeVQjPJ5FRMKRc",
+      "message_id": "sP3RwqnfkAlUwkjNq1e0XRcvj4lInVbaj0MyfOpOltA",
+      "timestamp_ms": "1732080540874",
+      "hash_chain": "-wiUtdrJF3G9U9hIQDLaUf6F0n6xXpFtvkG9iCkEIis",
+      "assignment_block_height": "000001551496",
+      "inclusion_height": 1551510,
+      "wrapper_id": "JVohXtxFKuLHJk0t5KHNm2c_w8KfHH6qx9c92bS2pEI",
+      "bundle_id": "RhFfcByszIpBXizYKwKeMI9S0HkwXD5VgiixRKCUqTc"
+    },
+    {
+      "nonce": 88600,
+      "epoch": "0",
+      "assignment_id": "jpab8tjrLo2peUKBZEVPMSudewXJjACu0InBi_a3dYc",
+      "message_id": "AK4rf9bWAa0wkdwSkVzIrOmYoHbczgXQjOiPPOjtNt4",
+      "timestamp_ms": "1732080540924",
+      "hash_chain": "O5V5D5V3tH4P8CSlFGH6ZivAdmTj1w-lIvM91tBCwgk",
+      "assignment_block_height": "000001551496",
+      "inclusion_height": 1551510,
+      "wrapper_id": "FkwFFCuN0Euur8wIGQxhr5goAcFxKGtRrgYcRjlrTHQ",
+      "bundle_id": "RhFfcByszIpBXizYKwKeMI9S0HkwXD5VgiixRKCUqTc"
+    },
+    {
+      "nonce": 88601,
+      "epoch": "0",
+      "assignment_id": "sFRsdPZgQuZH8BijHquS_uhs9ychN_Loygyo7FXb7UU",
+      "message_id": "GthAvRz9qngNP9suea5Qisr0-pbOZjCAercFtuNqmyg",
+      "timestamp_ms": "1732080542257",
+      "hash_chain": "5iPgjOIaG6HAc8kc5K2fWRjkzNOflAHCe9krkf3mNhI",
+      "assignment_block_height": "000001551496",
+      "inclusion_height": 1551510,
+      "wrapper_id": "bjazQbN6Co_wN9iiUbyajYhjhin7gjImWiaTgw74Mk8",
+      "bundle_id": "RhFfcByszIpBXizYKwKeMI9S0HkwXD5VgiixRKCUqTc"
+    },
+    {
+      "nonce": 88602,
+      "epoch": "0",
+      "assignment_id": "4et8mTRTH1ROTa6SRPm9lFeu9yufG0bfGbH9L0g3rug",
+      "message_id": "T4WrKjcl7eEE6HrtOKRlobGoMnoQAdEJH14AYT2wEDQ",
+      "timestamp_ms": "1732080601378",
+      "hash_chain": "vHy4A9_v0PAFEN7PrkBkRxqUIRJmOVUzp-Z0Vda1kp8",
+      "assignment_block_height": "000001551500",
+      "inclusion_height": 1551510,
+      "wrapper_id": "zXv0_G8cyAIJYPTDW_FIjt7AebvZsZUH2AP1OZvx27k",
+      "bundle_id": "RhFfcByszIpBXizYKwKeMI9S0HkwXD5VgiixRKCUqTc"
+    },
+    {
+      "nonce": 88603,
+      "epoch": "0",
+      "assignment_id": "EPA5z0XPD8lurewAHKsfeJTZGdFpDn0LNcCl58nZwww",
+      "message_id": "oWxfLYuMoJH5QNWw8o2gXOSqUSdaj6rikEh9OGqXSy4",
+      "timestamp_ms": "1732080602159",
+      "hash_chain": "2SzYtvbmz3sfssEHL-D_Wk7HDS32n_TXTAta8Hw_29A",
+      "assignment_block_height": "000001551500",
+      "inclusion_height": 1551510,
+      "wrapper_id": "TBVxn-bKPZ0HiX8IUa6ZDhtjRWEMHFBimXicdTb6LGY",
+      "bundle_id": "RhFfcByszIpBXizYKwKeMI9S0HkwXD5VgiixRKCUqTc"
+    },
+    {
+      "nonce": 88604,
+      "epoch": "0",
+      "assignment_id": "_LNmxyAOvYC1mDI8r5f30Rb4d1qWfnYIu-Rqw4VA-10",
+      "message_id": "eroQx2YxxZE55koZTtdEFZ2DSnSvMF69vMoHqpUuuZQ",
+      "timestamp_ms": "1732080602216",
+      "hash_chain": "3s_btNzJRHtih-ouhPoG4rdlpc6TftI-5NtKfVWGAds",
+      "assignment_block_height": "000001551500",
+      "inclusion_height": 1551510,
+      "wrapper_id": "oGzLnus_LnBWPTPK9s9qyUFNBjY22DNPoJ2gRXspVXQ",
+      "bundle_id": "RhFfcByszIpBXizYKwKeMI9S0HkwXD5VgiixRKCUqTc"
+    },
+    {
+      "nonce": 88605,
+      "epoch": "0",
+      "assignment_id": "vl4WOKLIMfQaSWdjG2_-_4LygMhbrHYYYsrpSdUDYCs",
+      "message_id": "3K6PTbjQCYVL_MlDBGTHiqw5sRS5s78YJyiQvJJGxEc",
+      "timestamp_ms": "1732080602633",
+      "hash_chain": "YjKtafblKBxZQiE2AvncbSU7VYWq7fPC8lbvF9gPA2s",
+      "assignment_block_height": "000001551500",
+      "inclusion_height": 1551510,
+      "wrapper_id": "TIZ9poSZldSXq7RaZRXcIuiIo7AVJC4VgETDJ2xJGiQ",
+      "bundle_id": "RhFfcByszIpBXizYKwKeMI9S0HkwXD5VgiixRKCUqTc"
+    },
+    {
+      "nonce": 88606,
+      "epoch": "0",
+      "assignment_id": "f8crFQeV7h3SKyExxKZmxi0VFu_JkuN_NZ4qRezeFpM",
+      "message_id": "24anhnfAe_Nw-5_fkcIcwZpTKpb5_SLrvX0aJCpXgTU",
+      "timestamp_ms": "1732080660948",
+      "hash_chain": "dP2UwKHySxUN6RIv_ElhSICTAFPY1eztbMB9gP73MbE",
+      "assignment_block_height": "000001551500",
+      "inclusion_height": 1551510,
+      "wrapper_id": "GoF1_fO01f2fjX574sMGNiuIj6VDgyX1pug6-A6yFTw",
+      "bundle_id": "RhFfcByszIpBXizYKwKeMI9S0HkwXD5VgiixRKCUqTc"
+    },
+    {
+      "nonce": 88607,
+      "epoch": "0",
+      "assignment_id": "nAjAG244J2bDLj9anf7jcNppTMvZ8_2DR8SG9rCatbs",
+      "message_id": "MkwIJ9t8KNF9iwBxIA1fh6k6-vjqLOkRgQKplSkI3FY",
+      "timestamp_ms": "1732080660998",
+      "hash_chain": "0XzCrOBYccVJnpx53c2rN9Dfnj-a244qxqG0exO2RSM",
+      "assignment_block_height": "000001551500",
+      "inclusion_height": 1551510,
+      "wrapper_id": "3Yea9uWBRHNhWn8XqbfnVf3gTSpZzLj7HD_JmFVTYnU",
+      "bundle_id": "RhFfcByszIpBXizYKwKeMI9S0HkwXD5VgiixRKCUqTc"
+    },
+    {
+      "nonce": 88608,
+      "epoch": "0",
+      "assignment_id": "mn1wGJnc6W1ycvJ5nQZQuYMZTbiBB0e8_F1bN31FrKI",
+      "message_id": "mFzVkK_MNgDuwzXbhpWCwWBQvTlX9AZ55pgoYndrHTc",
+      "timestamp_ms": "1732080661050",
+      "hash_chain": "ju9oGULRSykSC_xgJDLgaPL8PPILteSMAI1xvvnNUjk",
+      "assignment_block_height": "000001551500",
+      "inclusion_height": 1551510,
+      "wrapper_id": "Chd9JU66tBp-TnlmA0HnU_XbZ1rkEylR_-4XZQsVIz0",
+      "bundle_id": "RhFfcByszIpBXizYKwKeMI9S0HkwXD5VgiixRKCUqTc"
+    },
+    {
+      "nonce": 88609,
+      "epoch": "0",
+      "assignment_id": "-qqdQVLPmTdtxLpw4TksGLsyxInaV8Rpz-6jXX2WiRc",
+      "message_id": "uYWkWrfaMWYjeGgVueA6OD2-RSyX8xkM2cO4-6pCNu4",
+      "timestamp_ms": "1732080662573",
+      "hash_chain": "YLIaB6eJEfVJhhgSy_x2HSIVb-e6h3l9gGq5fHFAG3I",
+      "assignment_block_height": "000001551500",
+      "inclusion_height": 1551510,
+      "wrapper_id": "qjrv-c5Yggm0er6SLlg2QLT1fn2Pfr3CHfee1xkcRDo",
+      "bundle_id": "RhFfcByszIpBXizYKwKeMI9S0HkwXD5VgiixRKCUqTc"
+    },
+    {
+      "nonce": 88610,
+      "epoch": "0",
+      "assignment_id": "beFD8unoS2tvL6L533svMHAuyGIUyJ4h1rAsXY5gYyU",
+      "message_id": "WuNXOPHAyBebIgNPLIRrTR6kSZjjKFXWKvs9goJFZ-k",
+      "timestamp_ms": "1732080720959",
+      "hash_chain": "DPOnqVeRTSMtMYyYj267H9-4K1iSZ6CEUX7g-9rwhxo",
+      "assignment_block_height": "000001551504",
+      "inclusion_height": 1551510,
+      "wrapper_id": "uom1UJqXfNj2vlhoqZp0P4qL_hQvvl3zuyFTl8X19Ok",
+      "bundle_id": "RhFfcByszIpBXizYKwKeMI9S0HkwXD5VgiixRKCUqTc"
+    },
+    {
+      "nonce": 88611,
+      "epoch": "0",
+      "assignment_id": "0DFsC6s9UX-4CwL5OfKUQwnBIU0hXliipDG24ryp13E",
+      "message_id": "Ly39ZahMJRQBcEmaTaIoSO_uk8mjE08Ti5De1D1buog",
+      "timestamp_ms": "1732080721021",
+      "hash_chain": "bU6SgQ6lPj41vR3HQlEY4Gc-476ncx-zxYvps3YsRGc",
+      "assignment_block_height": "000001551504",
+      "inclusion_height": 1551510,
+      "wrapper_id": "iR7X3NWVhTG4k7bofjvXc5k4oXGE09RFkcu2gwCQeyU",
+      "bundle_id": "RhFfcByszIpBXizYKwKeMI9S0HkwXD5VgiixRKCUqTc"
+    },
+    {
+      "nonce": 88612,
+      "epoch": "0",
+      "assignment_id": "CqoQkBY5gtpXv19Q7MaQq78Ssp3i8KsZhHM_XEddjbs",
+      "message_id": "LUL1bx29SUMdJveh3LJtR9xK_NzUBEI3LDp6YW8eRsI",
+      "timestamp_ms": "1732080721060",
+      "hash_chain": "yYMrRTSGVejfjpRX53K1ZvDmAs3KigH6sWz9PD6wzxQ",
+      "assignment_block_height": "000001551504",
+      "inclusion_height": 1551510,
+      "wrapper_id": "yLcl1dl2ESKflJWWHwKdUylreZqFOVP2pkCDTB5vQJ8",
+      "bundle_id": "RhFfcByszIpBXizYKwKeMI9S0HkwXD5VgiixRKCUqTc"
+    },
+    {
+      "nonce": 88613,
+      "epoch": "0",
+      "assignment_id": "1r1WEggPzkmeXEae2gLl1ITj9Atk1dEZqau45dY1-mk",
+      "message_id": "qBuM6X8aeKIQS8TC6xRRJC7XaUvNhB-yjY0tj6pTqcs",
+      "timestamp_ms": "1732080722383",
+      "hash_chain": "ZFObbPSnFrsFP3BJ2tVWq5MpCw9cZUKXdrbMGMFERx8",
+      "assignment_block_height": "000001551504",
+      "inclusion_height": 1551510,
+      "wrapper_id": "cwN6q1jJy1fPLbtnFIGafcH98GhoIQR0Nqh0fPI79IY",
+      "bundle_id": "RhFfcByszIpBXizYKwKeMI9S0HkwXD5VgiixRKCUqTc"
+    },
+    {
+      "nonce": 88614,
+      "epoch": "0",
+      "assignment_id": "avtXr9vgckzd5_9iuwulFhCxxUfqG1pGG159AOlUQ1k",
+      "message_id": "ms-Uodu0nDxDw_g4wN8-Mbf25nQSAMhsFO83rsZtHnU",
+      "timestamp_ms": "1732080780869",
+      "hash_chain": "grjNI1sbb9eRpYvZCJUDS-tQBmcEhte9IRogAg8hXsw",
+      "assignment_block_height": "000001551504",
+      "inclusion_height": 1551510,
+      "wrapper_id": "4uQ1yrfaixc4A2FJAKIDKsZkRGEMs3rKfE-AFVAcCe0",
+      "bundle_id": "RhFfcByszIpBXizYKwKeMI9S0HkwXD5VgiixRKCUqTc"
+    },
+    {
+      "nonce": 88615,
+      "epoch": "0",
+      "assignment_id": "NHGCH1cOp4E3-YtTw8zcRJdZVPbGfcRuclu4Vt6sHGs",
+      "message_id": "Xsi_Og6Z-rpFqiHOMi3rbmHEdE6wMzKHf2w3fVARpEU",
+      "timestamp_ms": "1732080780913",
+      "hash_chain": "b_6aP26nxifAm_IYDS0owja1xh6S8xEWMxMivUR8h4w",
+      "assignment_block_height": "000001551504",
+      "inclusion_height": 1551510,
+      "wrapper_id": "M2zZI80vV_k2h0Mh24pXb3lhTMtmwr6GOmkye82DogI",
+      "bundle_id": "RhFfcByszIpBXizYKwKeMI9S0HkwXD5VgiixRKCUqTc"
+    },
+    {
+      "nonce": 88616,
+      "epoch": "0",
+      "assignment_id": "5L2SNhytzbFDGhPbyP-bsiTi-Bl0ENn2FjSzv9247f0",
+      "message_id": "eIZ6kcLYEkm0FVdGdkVzZxOiu1_giIUdGmekEZzphIM",
+      "timestamp_ms": "1732080780966",
+      "hash_chain": "yofr1_Qvi95_Q_y6d_7GrjTGzuUsi4dBfLGymV_qy4M",
+      "assignment_block_height": "000001551504",
+      "inclusion_height": 1551510,
+      "wrapper_id": "jeO5PhBj5H1HcHS1RmIlo2ozKvXfX5upgp3ZOSW8Adw",
+      "bundle_id": "RhFfcByszIpBXizYKwKeMI9S0HkwXD5VgiixRKCUqTc"
+    },
+    {
+      "nonce": 88617,
+      "epoch": "0",
+      "assignment_id": "jP32tqwBfijRbwGL0X9Lp8dtLeDzf4AV21ecUPXOb0c",
+      "message_id": "U0fc7F3uHPBROPhPZo0s11iIGwmZtkvwFdaWLezNjZw",
+      "timestamp_ms": "1732080782892",
+      "hash_chain": "ftDBP0pcBYXioKnEYFGsAXreoBFaXAQdV6ffqBZLgI4",
+      "assignment_block_height": "000001551504",
+      "inclusion_height": 1551510,
+      "wrapper_id": "qECWIJY2jJ_jqjvZ5yf21x8nYiWn7vp3CQRcx0QhOZI",
+      "bundle_id": "RhFfcByszIpBXizYKwKeMI9S0HkwXD5VgiixRKCUqTc"
+    },
+    {
+      "nonce": 88618,
+      "epoch": "0",
+      "assignment_id": "5dtwkQ6VhFMkrOoS1cz9AJO5VD_dRr9oEBwDrdlSPbw",
+      "message_id": "R1BxAn_bqh7RF81t3A922C9B3WrjHLpFKhVWGWKS3qs",
+      "timestamp_ms": "1732080840877",
+      "hash_chain": "OR5Pf6IzYUHm-DaQQAXjOwJNjGGondJqiq5F6lBIjLk",
+      "assignment_block_height": "000001551507",
+      "inclusion_height": 1551510,
+      "wrapper_id": "J_mVL8WpeVbFYFBmzIyZkObUiggvyDQ9TSvkok4kw8c",
+      "bundle_id": "RhFfcByszIpBXizYKwKeMI9S0HkwXD5VgiixRKCUqTc"
+    },
+    {
+      "nonce": 88619,
+      "epoch": "0",
+      "assignment_id": "ji4FR1r5K8kOfx631s7v9WMZ8vRgiIV0hiU23BXdPDg",
+      "message_id": "EYtBr9TYk5ZscKfbG4SugVA09DpjRk9K4k7bB5VgYXQ",
+      "timestamp_ms": "1732080840926",
+      "hash_chain": "bCeTJ3vp_Ux6nUiF8Nq4BrXt0BXjktjkeEB4xkNquv0",
+      "assignment_block_height": "000001551507",
+      "inclusion_height": 1551510,
+      "wrapper_id": "gCQTTlPj3x5bvuAPcN3j8XzGhSpsXsX81NjtAG7rbwU",
+      "bundle_id": "RhFfcByszIpBXizYKwKeMI9S0HkwXD5VgiixRKCUqTc"
+    },
+    {
+      "nonce": 88620,
+      "epoch": "0",
+      "assignment_id": "Ny_G_Jb0PqaB0Rws0yDTKxo--nKeGoSnEQA4OFquOfg",
+      "message_id": "snV2b5n8dPi06HmEn_XS2gabR7SR0dZhGH_es7Xyjh4",
+      "timestamp_ms": "1732080840996",
+      "hash_chain": "yA9bvJS05TWchs1VljaTLiFwvx62ozJY3baOjF0m6yU",
+      "assignment_block_height": "000001551507",
+      "inclusion_height": 1551510,
+      "wrapper_id": "OSExRK53W_r_SNfKSHlotQWBg7By7PHvA8uUXCii0_M",
+      "bundle_id": "RhFfcByszIpBXizYKwKeMI9S0HkwXD5VgiixRKCUqTc"
+    },
+    {
+      "nonce": 88621,
+      "epoch": "0",
+      "assignment_id": "gYh_c1qnf-l8iT_9N8hdCDBk-kWpQf1vE4eiEgUBBcQ",
+      "message_id": "mwV61nH6tgUF2AfxaXFBEr1O79c13OMw6QaUKCEszBM",
+      "timestamp_ms": "1732080842903",
+      "hash_chain": "ks8XYOpGMJ_z5m1IxlBwMSpp79O85C-wmB5BsBmSWfc",
+      "assignment_block_height": "000001551507",
+      "inclusion_height": 1551510,
+      "wrapper_id": "wspE8Gx57rIzK_0OL_acBdBFZkbg-q69kA4VoEqaUOw",
+      "bundle_id": "RhFfcByszIpBXizYKwKeMI9S0HkwXD5VgiixRKCUqTc"
+    },
+    {
+      "nonce": 88622,
+      "epoch": "0",
+      "assignment_id": "olT7s85EK8dOxOq4R261ZMkCrGzNHOh2ouQdRgTROyQ",
+      "message_id": "OAiNVVKbhDUKjGV628wTXnSs_Lnb7jQ1tVDhXkWaUcI",
+      "timestamp_ms": "1732080900878",
+      "hash_chain": "_hyEc9gJvc3skO-bXEZM_97frhFC8eveJI9DsaeUS0I",
+      "assignment_block_height": "000001551507",
+      "inclusion_height": 1551514
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "run_id": "20261017T0635Z-p7-20-99-inputs",
+  "phase": "P7",
+  "segment_inclusive": [20, 99],
+  "segment_replay_started": false,
+  "index_nonces": 80,
+  "graphql_transactions_ids_resolved": 73,
+  "graphql_transactions_ids_missing": 7,
+  "missing": [
+    {"nonce": 21, "message_id": "7L4y3VJlF_Y9PskM2RQ-LBlrHCc_L_7BtAp_6PcYy9Q", "assignment_id": "Lr9kdAVG78lqU-uEmybfT-ibXUmlfTugydNT0Oe4XNE", "inclusion_height": 1505824},
+    {"nonce": 22, "message_id": "hDHZZRtMNA3yQ0kI8-4Hkr7kd00nxoEIyDFDCfjCbyE", "assignment_id": "Qr9cfRgs7K4D0Wwyl5D9WuS_RWWGU-PIEpIMPFpJczA", "inclusion_height": 1505824},
+    {"nonce": 23, "message_id": "nn-olI2CU_MCFThAPCL7iPkSejie1XN3Fevtj6rAoHI", "assignment_id": "zonc72f0zXddUtQ6753S2Lwyi-cUqeCGL6ZmRP8l15E", "inclusion_height": 1505824},
+    {"nonce": 24, "message_id": "dafRRlq3OIPi3phDPcSzuOFko2FY-KWF78XTixWhvPA", "assignment_id": "YIQRxxmFej88co2L9qvIRRtzIm0Ctq30ieI25YwGvvU", "inclusion_height": 1505824},
+    {"nonce": 25, "message_id": "c23LXQ_LmRV8ZPlTp10wwBCkPt3xa2-hhEIwqrhMABM", "assignment_id": "c53wqTZ0MCbpJJvks_aTfebfpGKd7XvA34WZX39TIEk", "inclusion_height": 1505824},
+    {"nonce": 26, "message_id": "JnktbqngSHdRIK-k3_R9FVKLCHYnVlHOTLJsG0Fq_RQ", "assignment_id": "7Sx-iJfn7gyi-gOHTUkiXI84pQJKe0-WX5V2NKBMlhs", "inclusion_height": 1505824},
+    {"nonce": 27, "message_id": "WRQeBShb8KbVxW7ETtef7vmpeMO86ubj3y2AXYKvdLI", "assignment_id": "8Pht5seNXUAPkIiXwFoM18KbHkIIYv6r-btAiX5_RAo", "inclusion_height": 1505824}
+  ],
+  "gateway_get_message_21": {"url": "https://arweave.net/7L4y3VJlF_Y9PskM2RQ-LBlrHCc_L_7BtAp_6PcYy9Q", "http": 404},
+  "turbo_get_message_21": {"url": "https://turbo-gateway.com/7L4y3VJlF_Y9PskM2RQ-LBlrHCc_L_7BtAp_6PcYy9Q", "http": 503},
+  "assignment_still_in_block_tag_index": {"height": 1505824, "nonce": 21, "id": "Lr9kdAVG78lqU-uEmybfT-ibXUmlfTugydNT0Oe4XNE"},
+  "block_1505824_binary_bundles": {"closed": true, "pages": 2, "count": 49, "total_bytes": 1688225062, "scanned": false},
+  "bundle_range_get": {"id": "dc_ROS2cwFwwjxV7cxirpGZ26llD66o2d4tdNdUx7A4", "result": "timeout"},
+  "replay": "not started. The seven bodies were not filled with empty data.",
+  "cursor_nonce": 20,
+  "resume_memory_sha256": "d36a4f98636128efc68f04c92a45e650940e1b77fe3792df2906d58e6eba8538",
+  "balances_written": false,
+  "goal_complete": false
+}

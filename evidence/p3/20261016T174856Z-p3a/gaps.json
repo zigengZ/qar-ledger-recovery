@@ -1,0 +1,28 @@
+{
+  "full_history_gaps": "unknown",
+  "run_id": "20261016T174856Z-p3a",
+  "scope": "sample windows only",
+  "windows": [
+    {
+      "conflicts": {},
+      "missing_nonces": [],
+      "p1_id_conflicts": [],
+      "status": "no_sample_gap",
+      "window": "0..19"
+    },
+    {
+      "conflicts": {},
+      "missing_nonces": [],
+      "p1_id_conflicts": [],
+      "status": "no_sample_gap",
+      "window": "1037960..1037979"
+    },
+    {
+      "conflicts": {},
+      "missing_nonces": [],
+      "p1_id_conflicts": [],
+      "status": "no_sample_gap",
+      "window": "2075904..2075923"
+    }
+  ]
+}
